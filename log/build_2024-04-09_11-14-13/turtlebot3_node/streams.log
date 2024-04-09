@@ -1,0 +1,101 @@
+[0.076s] Invoking command in '/home/terranova/uav_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/turtlebot3/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/turtlebot3_node
+[0.392s] -- The C compiler identification is GNU 9.4.0
+[0.630s] -- The CXX compiler identification is GNU 9.4.0
+[0.769s] -- Detecting C compiler ABI info
+[1.103s] -- Detecting C compiler ABI info - done
+[1.138s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.140s] -- Detecting C compile features
+[1.141s] -- Detecting C compile features - done
+[1.172s] -- Detecting CXX compiler ABI info
+[1.474s] -- Detecting CXX compiler ABI info - done
+[1.534s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.535s] -- Detecting CXX compile features
+[1.536s] -- Detecting CXX compile features - done
+[1.554s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.584s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.585s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.586s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.586s]   the cmake_policy command to set the policy and suppress this warning.
+[1.586s] 
+[1.587s] Call Stack (most recent call first):
+[1.587s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.587s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.587s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.587s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.588s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.588s]   CMakeLists.txt:18 (find_package)
+[1.588s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.588s] [0m
+[1.689s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.689s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.764s] -- Found dynamixel_sdk: 3.7.40 (/home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[2.774s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.891s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.925s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.435s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.601s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.045s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.546s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[4.575s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.954s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.101s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.105s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.107s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.285s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.286s] -- Looking for pthread_create in pthreads
+[5.416s] -- Looking for pthread_create in pthreads - not found
+[5.417s] -- Looking for pthread_create in pthread
+[5.638s] -- Looking for pthread_create in pthread - found
+[5.641s] -- Found Threads: TRUE  
+[6.074s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.322s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[6.370s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[6.413s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[7.523s] -- Found turtlebot3_msgs: 2.2.1 (/home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[8.003s] -- Configuring done (7.8s)
+[8.079s] -- Generating done (0.0s)
+[8.086s] -- Build files have been written to: /home/terranova/uav_ws/build/turtlebot3_node
+[8.127s] Invoked command in '/home/terranova/uav_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/turtlebot3/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/turtlebot3_node
+[8.129s] Invoking command in '/home/terranova/uav_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/turtlebot3_node -- -j4 -l4
+[8.250s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[15.546s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[21.364s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[22.851s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[51.047s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[73.889s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[82.529s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[93.126s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[102.955s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[111.593s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[120.548s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[129.629s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[131.194s] [ 85%] Built target turtlebot3_node_lib
+[131.290s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[140.052s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[142.800s] [100%] Built target turtlebot3_ros
+[142.834s] Invoked command in '/home/terranova/uav_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/turtlebot3_node -- -j4 -l4
+[143.023s] Invoking command in '/home/terranova/uav_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/turtlebot3_node
+[143.093s] -- Install configuration: ""
+[143.094s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/param
+[143.096s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[143.099s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[143.102s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[143.106s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[143.149s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[143.149s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[143.151s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[143.152s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[143.153s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[143.154s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[143.155s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[143.158s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[143.159s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[143.160s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[143.161s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[143.162s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[143.163s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[143.163s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[143.165s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[143.168s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[143.169s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[143.180s] Invoked command in '/home/terranova/uav_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/turtlebot3_node

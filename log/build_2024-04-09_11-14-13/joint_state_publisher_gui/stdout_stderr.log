@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info
+writing ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/PKG-INFO
+writing dependency_links to ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/dependency_links.txt
+writing requirements to ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/requires.txt
+writing top-level names to ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/top_level.txt
+writing manifest file '../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'
+reading manifest file '../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'
+writing manifest file '../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/terranova/uav_ws/build/joint_state_publisher_gui/build
+creating /home/terranova/uav_ws/build/joint_state_publisher_gui/build/lib
+creating /home/terranova/uav_ws/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui
+copying joint_state_publisher_gui/__init__.py -> /home/terranova/uav_ws/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui
+running install
+running install_lib
+creating /home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui
+copying /home/terranova/uav_ws/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui/__init__.py -> /home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui
+byte-compiling /home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/terranova/uav_ws/install/joint_state_publisher_gui/share/ament_index
+creating /home/terranova/uav_ws/install/joint_state_publisher_gui/share/ament_index/resource_index
+creating /home/terranova/uav_ws/install/joint_state_publisher_gui/share/ament_index/resource_index/packages
+copying resource/joint_state_publisher_gui -> /home/terranova/uav_ws/install/joint_state_publisher_gui/share/ament_index/resource_index/packages
+copying package.xml -> /home/terranova/uav_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui
+running install_egg_info
+Copying ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info to /home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/terranova/uav_ws/build/joint_state_publisher_gui/install.log'

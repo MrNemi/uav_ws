@@ -1,0 +1,55 @@
+[0.042s] Invoking command in '/home/terranova/uav_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/gazebo_ros_pkgs/gazebo_dev -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/gazebo_dev
+[0.332s] -- The C compiler identification is GNU 9.4.0
+[0.521s] -- The CXX compiler identification is GNU 9.4.0
+[0.578s] -- Detecting C compiler ABI info
+[0.765s] -- Detecting C compiler ABI info - done
+[0.807s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.565s] -- Detecting C compile features
+[1.566s] -- Detecting C compile features - done
+[1.606s] -- Detecting CXX compiler ABI info
+[1.845s] -- Detecting CXX compiler ABI info - done
+[1.880s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.881s] -- Detecting CXX compile features
+[1.882s] -- Detecting CXX compile features - done
+[1.889s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.905s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.905s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.905s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.906s]   the cmake_policy command to set the policy and suppress this warning.
+[1.906s] 
+[1.906s] Call Stack (most recent call first):
+[1.906s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.906s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.906s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.907s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.907s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.907s]   CMakeLists.txt:4 (find_package)
+[1.907s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.907s] [0m
+[1.987s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.987s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.825s] -- Configuring done (2.7s)
+[2.833s] -- Generating done (0.0s)
+[2.833s] -- Build files have been written to: /home/terranova/uav_ws/build/gazebo_dev
+[2.854s] Invoked command in '/home/terranova/uav_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/gazebo_ros_pkgs/gazebo_dev -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/gazebo_dev
+[2.856s] Invoking command in '/home/terranova/uav_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/gazebo_dev -- -j4 -l4
+[2.971s] Invoked command in '/home/terranova/uav_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/gazebo_dev -- -j4 -l4
+[3.171s] Invoking command in '/home/terranova/uav_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/gazebo_dev
+[3.251s] -- Install configuration: ""
+[3.252s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[3.252s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[3.252s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[3.252s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv
+[3.253s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[3.253s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/environment/path.dsv
+[3.254s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[3.254s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[3.254s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[3.254s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/local_setup.dsv
+[3.254s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/package.dsv
+[3.255s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[3.255s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[3.255s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[3.255s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[3.255s] -- Installing: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/package.xml
+[3.269s] Invoked command in '/home/terranova/uav_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/gazebo_dev

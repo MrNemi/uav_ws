@@ -1,0 +1,41 @@
+[1.012s] Invoking command in '/home/terranova/uav_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/image_geometry -- -j4 -l4
+[2.369s] [ 27%] Built target image_geometry
+[2.688s] [ 45%] Built target gtest
+[2.907s] [ 63%] Built target gtest_main
+[3.880s] [ 81%] Built target image_geometry-utest
+[4.719s] [100%] Built target image_geometry-utest-equi
+[5.297s] Invoked command in '/home/terranova/uav_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/image_geometry -- -j4 -l4
+[6.428s] Invoking command in '/home/terranova/uav_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/image_geometry
+[6.753s] -- Install configuration: ""
+[6.758s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[6.758s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[6.759s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry
+[6.759s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py
+[6.759s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py
+[7.694s] Listing '/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry'...
+[7.756s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/include/image_geometry
+[7.756s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/include/image_geometry/stereo_camera_model.h
+[7.756s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/include/image_geometry/visibility_control.hpp
+[7.756s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/include/image_geometry/pinhole_camera_model.h
+[7.770s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/lib/libimage_geometry.so
+[7.771s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/environment/library_path.sh
+[7.771s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/environment/library_path.dsv
+[7.771s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[7.772s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[7.772s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[7.773s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[7.782s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[7.784s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[7.784s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[7.785s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[7.785s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[7.785s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[7.829s] -- Installing: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/package.dsv
+[7.830s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[7.830s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+[7.830s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.831s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.831s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[7.831s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[7.831s] -- Up-to-date: /home/terranova/uav_ws/install/image_geometry/share/image_geometry/package.xml
+[7.983s] Invoked command in '/home/terranova/uav_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/image_geometry

@@ -1,0 +1,21 @@
+[0.169s] Invoking command in '/home/terranova/uav_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/gazebo_dev -- -j4 -l4
+[0.736s] Invoked command in '/home/terranova/uav_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/gazebo_dev -- -j4 -l4
+[1.752s] Invoking command in '/home/terranova/uav_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/gazebo_dev
+[2.081s] -- Install configuration: ""
+[2.081s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[2.081s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[2.082s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[2.082s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv
+[2.082s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[2.083s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/environment/path.dsv
+[2.083s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[2.083s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[2.084s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[2.084s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/local_setup.dsv
+[2.084s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/package.dsv
+[2.093s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[2.093s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[2.094s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[2.094s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[2.094s] -- Up-to-date: /home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/package.xml
+[2.167s] Invoked command in '/home/terranova/uav_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/gazebo_dev

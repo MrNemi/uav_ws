@@ -1,0 +1,41 @@
+[16.237s] Invoking command in '/home/terranova/uav_ws/src/turtlebot3/turtlebot3/turtlebot3_example': AMENT_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/build/turtlebot3_example/prefix_override:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_example build --build-base /home/terranova/uav_ws/build/turtlebot3_example/build install --record /home/terranova/uav_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[20.584s] running egg_info
+[20.824s] writing ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[20.833s] writing dependency_links to ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[20.836s] writing entry points to ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[20.839s] writing requirements to ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[20.840s] writing top-level names to ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[23.649s] reading manifest file '../../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[23.677s] writing manifest file '../../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[23.684s] running build
+[23.685s] running build_py
+[23.691s] copying turtlebot3_example/__init__.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example
+[23.703s] copying turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[23.709s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[23.709s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[23.711s] copying turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[23.713s] copying turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[23.713s] copying turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[23.724s] copying turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[23.733s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[23.734s] copying turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[23.737s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[23.739s] copying turtlebot3_example/turtlebot3_position_control/main.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[23.740s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[23.748s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[23.752s] copying turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/terranova/uav_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[23.762s] running install
+[23.875s] running install_lib
+[24.145s] running install_data
+[24.150s] copying resource/turtlebot3_example -> /home/terranova/uav_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[24.159s] copying package.xml -> /home/terranova/uav_ws/install/turtlebot3_example/share/turtlebot3_example
+[24.160s] running install_egg_info
+[24.389s] removing '/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info' (and everything under it)
+[24.392s] Copying ../../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info
+[24.416s] running install_scripts
+[25.201s] Installing turtlebot3_obstacle_detection script to /home/terranova/uav_ws/install/turtlebot3_example/lib/turtlebot3_example
+[25.202s] Installing turtlebot3_patrol_client script to /home/terranova/uav_ws/install/turtlebot3_example/lib/turtlebot3_example
+[25.211s] Installing turtlebot3_patrol_server script to /home/terranova/uav_ws/install/turtlebot3_example/lib/turtlebot3_example
+[25.215s] Installing turtlebot3_position_control script to /home/terranova/uav_ws/install/turtlebot3_example/lib/turtlebot3_example
+[25.218s] writing list of installed files to '/home/terranova/uav_ws/build/turtlebot3_example/install.log'
+[26.400s] Invoked command in '/home/terranova/uav_ws/src/turtlebot3/turtlebot3/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/build/turtlebot3_example/prefix_override:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_example build --build-base /home/terranova/uav_ws/build/turtlebot3_example/build install --record /home/terranova/uav_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data

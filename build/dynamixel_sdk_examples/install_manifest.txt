@@ -1,0 +1,16 @@
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+/home/terranova/uav_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml

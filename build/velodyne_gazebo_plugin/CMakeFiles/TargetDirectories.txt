@@ -1,0 +1,10 @@
+/home/terranova/uav_ws/build/velodyne_gazebo_plugin/CMakeFiles/uninstall.dir
+/home/terranova/uav_ws/build/velodyne_gazebo_plugin/CMakeFiles/velodyne_gazebo_plugin_uninstall.dir
+/home/terranova/uav_ws/build/velodyne_gazebo_plugin/CMakeFiles/gazebo_ros_velodyne_laser.dir
+/home/terranova/uav_ws/build/velodyne_gazebo_plugin/CMakeFiles/test.dir
+/home/terranova/uav_ws/build/velodyne_gazebo_plugin/CMakeFiles/edit_cache.dir
+/home/terranova/uav_ws/build/velodyne_gazebo_plugin/CMakeFiles/rebuild_cache.dir
+/home/terranova/uav_ws/build/velodyne_gazebo_plugin/CMakeFiles/list_install_components.dir
+/home/terranova/uav_ws/build/velodyne_gazebo_plugin/CMakeFiles/install.dir
+/home/terranova/uav_ws/build/velodyne_gazebo_plugin/CMakeFiles/install/local.dir
+/home/terranova/uav_ws/build/velodyne_gazebo_plugin/CMakeFiles/install/strip.dir

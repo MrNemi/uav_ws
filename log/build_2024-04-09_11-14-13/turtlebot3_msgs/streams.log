@@ -1,0 +1,434 @@
+[0.051s] Invoking command in '/home/terranova/uav_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/turtlebot3/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/turtlebot3_msgs
+[0.327s] -- The C compiler identification is GNU 9.4.0
+[0.502s] -- The CXX compiler identification is GNU 9.4.0
+[0.552s] -- Detecting C compiler ABI info
+[0.697s] -- Detecting C compiler ABI info - done
+[0.765s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.529s] -- Detecting C compile features
+[1.530s] -- Detecting C compile features - done
+[1.573s] -- Detecting CXX compiler ABI info
+[1.878s] -- Detecting CXX compiler ABI info - done
+[1.914s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.914s] -- Detecting CXX compile features
+[1.915s] -- Detecting CXX compile features - done
+[1.925s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[1.937s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.937s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.937s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.938s]   the cmake_policy command to set the policy and suppress this warning.
+[1.938s] 
+[1.938s] Call Stack (most recent call first):
+[1.938s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.938s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.939s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.939s]   /opt/ros/foxy/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.939s]   /opt/ros/foxy/share/action_msgs/cmake/action_msgsConfig.cmake:41 (include)
+[1.939s]   CMakeLists.txt:18 (find_package)
+[1.939s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.940s] [0m
+[2.008s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.009s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.756s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.997s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.089s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.335s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.560s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.595s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[3.666s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[3.666s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.666s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.667s]   the cmake_policy command to set the policy and suppress this warning.
+[3.667s] 
+[3.667s] Call Stack (most recent call first):
+[3.667s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.668s]   CMakeLists.txt:45 (rosidl_generate_interfaces)
+[3.668s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.668s] [0m
+[3.726s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.442s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[4.448s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[4.454s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[4.462s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.553s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[5.553s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.553s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.553s]   the cmake_policy command to set the policy and suppress this warning.
+[5.553s] 
+[5.554s] Call Stack (most recent call first):
+[5.554s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.554s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.554s]   CMakeLists.txt:45 (rosidl_generate_interfaces)
+[5.554s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.555s] [0m
+[5.643s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.648s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.650s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[5.651s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.651s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.651s]   the cmake_policy command to set the policy and suppress this warning.
+[5.652s] 
+[5.652s] Call Stack (most recent call first):
+[5.652s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[5.652s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.653s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.653s]   CMakeLists.txt:45 (rosidl_generate_interfaces)
+[5.653s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.653s] [0m
+[5.723s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[5.723s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.723s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.723s]   the cmake_policy command to set the policy and suppress this warning.
+[5.724s] 
+[5.724s] Call Stack (most recent call first):
+[5.724s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[5.724s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.724s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.724s]   CMakeLists.txt:45 (rosidl_generate_interfaces)
+[5.725s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.725s] [0m
+[5.741s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[5.742s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.742s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.742s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.815s] -- Found PythonExtra: .so  
+[6.323s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[6.329s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[6.390s] -- Configuring done (6.2s)
+[6.601s] -- Generating done (0.2s)
+[6.619s] -- Build files have been written to: /home/terranova/uav_ws/build/turtlebot3_msgs
+[6.653s] Invoked command in '/home/terranova/uav_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/turtlebot3/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/turtlebot3_msgs
+[6.655s] Invoking command in '/home/terranova/uav_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/turtlebot3_msgs -- -j4 -l4
+[6.792s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.824s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[10.819s] [  2%] Built target turtlebot3_msgs__cpp
+[11.070s] [  4%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sensor_state__functions.c.o[0m
+[11.082s] [  5%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sound__functions.c.o[0m
+[11.094s] [  7%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/version_info__functions.c.o[0m
+[11.106s] [  8%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/sound__functions.c.o[0m
+[11.129s] [  9%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/dqn__functions.c.o[0m
+[11.141s] [ 11%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/action/detail/patrol__functions.c.o[0m
+[11.154s] [ 12%] [32m[1mLinking C shared library libturtlebot3_msgs__rosidl_generator_c.so[0m
+[11.236s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[11.246s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.636s] [ 15%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp.o[0m
+[13.659s] [ 16%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sound__type_support.cpp.o[0m
+[13.712s] [ 18%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/version_info__type_support.cpp.o[0m
+[13.757s] [ 19%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/sound__type_support.cpp.o[0m
+[13.807s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/dqn__type_support.cpp.o[0m
+[13.854s] [ 22%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/action/detail/patrol__type_support.cpp.o[0m
+[13.873s] [ 23%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[14.061s] [ 23%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[14.072s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.969s] [ 26%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sensor_state__type_support.c.o[0m
+[17.012s] [ 28%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sound__type_support.c.o[0m
+[17.063s] [ 29%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/version_info__type_support.c.o[0m
+[17.104s] [ 30%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/sound__type_support.c.o[0m
+[17.156s] [ 32%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/dqn__type_support.c.o[0m
+[17.203s] [ 33%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/action/detail/patrol__type_support.c.o[0m
+[17.244s] [ 35%] [32m[1mLinking C shared library libturtlebot3_msgs__rosidl_typesupport_introspection_c.so[0m
+[17.425s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[17.484s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.979s] [ 38%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o[0m
+[20.024s] [ 39%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sound__type_support.cpp.o[0m
+[20.072s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/version_info__type_support.cpp.o[0m
+[20.127s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/sound__type_support.cpp.o[0m
+[20.173s] [ 43%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/dqn__type_support.cpp.o[0m
+[20.226s] [ 45%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/action/patrol__type_support.cpp.o[0m
+[20.277s] [ 46%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_c.so[0m
+[20.440s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[20.451s] [ 47%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[23.330s] [ 49%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/sensor_state__type_support.cpp.o[0m
+[23.376s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/version_info__type_support.cpp.o[0m
+[23.434s] [ 52%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/sound__type_support.cpp.o[0m
+[23.463s] [ 53%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/dqn__type_support.cpp.o[0m
+[23.487s] [ 54%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/action/detail/dds_fastrtps/patrol__type_support.cpp.o[0m
+[23.515s] [ 56%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/sound__type_support.cpp.o[0m
+[23.537s] [ 57%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.848s] [ 57%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[23.892s] [ 59%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[26.305s] [ 60%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o[0m
+[26.374s] [ 61%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/version_info__type_support.cpp.o[0m
+[26.416s] [ 63%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/sound__type_support.cpp.o[0m
+[26.485s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/dqn__type_support.cpp.o[0m
+[26.558s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/action/patrol__type_support.cpp.o[0m
+[26.626s] [ 67%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sound__type_support.cpp.o[0m
+[26.692s] [ 69%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_cpp.so[0m
+[26.901s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[26.947s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[29.904s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/sensor_state__type_support_c.cpp.o[0m
+[29.930s] [ 73%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/sound__type_support_c.cpp.o[0m
+[29.964s] [ 74%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/dqn__type_support_c.cpp.o[0m
+[29.987s] [ 76%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/action/detail/patrol__type_support_c.cpp.o[0m
+[30.029s] [ 77%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/version_info__type_support_c.cpp.o[0m
+[30.052s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/sound__type_support_c.cpp.o[0m
+[30.280s] [ 80%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[30.492s] [ 80%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[30.509s] [ 80%] Built target turtlebot3_msgs
+[30.529s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[36.055s] [ 81%] Built target turtlebot3_msgs__py
+[36.077s] [ 83%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sensor_state_s.c.o[0m
+[36.095s] [ 84%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/srv/_sound_s.c.o[0m
+[36.113s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/srv/_dqn_s.c.o[0m
+[36.130s] [ 87%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/action/_patrol_s.c.o[0m
+[36.148s] [ 88%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_version_info_s.c.o[0m
+[36.183s] [ 90%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sound_s.c.o[0m
+[36.259s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/libturtlebot3_msgs__python.so[0m
+[36.424s] [ 91%] Built target turtlebot3_msgs__python
+[36.451s] [ 92%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[36.469s] [ 94%] [32m[1mLinking CXX shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[36.654s] [ 94%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[36.673s] [ 95%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[36.691s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[36.770s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[36.791s] [ 98%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[36.810s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[36.893s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[36.956s] Invoked command in '/home/terranova/uav_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/turtlebot3_msgs -- -j4 -l4
+[37.365s] Invoking command in '/home/terranova/uav_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/turtlebot3_msgs
+[37.442s] -- Install configuration: ""
+[37.444s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_msgs
+[37.445s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[37.445s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[37.446s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info.h
+[37.446s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_generator_c__visibility_control.h
+[37.448s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound.h
+[37.448s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state.h
+[37.449s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[37.449s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__functions.c
+[37.450s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.h
+[37.451s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.h
+[37.451s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__struct.h
+[37.452s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__functions.h
+[37.453s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__struct.h
+[37.453s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.h
+[37.454s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__functions.h
+[37.455s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__functions.h
+[37.456s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__functions.c
+[37.457s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__struct.h
+[37.457s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__functions.c
+[37.458s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[37.459s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/dqn.h
+[37.459s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound.h
+[37.460s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[37.460s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__functions.c
+[37.461s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.h
+[37.462s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__struct.h
+[37.462s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__functions.c
+[37.464s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__functions.h
+[37.465s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__struct.h
+[37.466s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__functions.h
+[37.466s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__type_support.h
+[37.467s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[37.468s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/patrol.h
+[37.468s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[37.469s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.h
+[37.469s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__functions.h
+[37.470s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__struct.h
+[37.470s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__functions.c
+[37.471s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.sh
+[37.472s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.dsv
+[37.478s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so
+[37.479s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so" to ""
+[37.479s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[37.480s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[37.481s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[37.481s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[37.481s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_c.h
+[37.481s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_c.h
+[37.482s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_c.h
+[37.482s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[37.484s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[37.484s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_c.h
+[37.485s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_c.h
+[37.485s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[37.486s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[37.486s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[37.491s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so
+[37.491s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[37.491s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[37.492s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[37.492s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[37.492s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[37.492s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/dds_fastrtps
+[37.492s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[37.493s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[37.493s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_cpp.hpp
+[37.493s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[37.493s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[37.493s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dds_fastrtps
+[37.494s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_cpp.hpp
+[37.494s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[37.495s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[37.496s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[37.496s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/dds_fastrtps
+[37.497s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[37.498s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so
+[37.501s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[37.502s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[37.502s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[37.502s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[37.502s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.c
+[37.503s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_c.h
+[37.503s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h
+[37.503s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.c
+[37.503s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_c.h
+[37.504s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.c
+[37.505s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[37.505s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[37.506s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[37.506s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__type_support.c
+[37.507s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_c.h
+[37.508s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_c.h
+[37.508s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.c
+[37.509s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[37.509s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[37.510s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_c.h
+[37.510s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.c
+[37.519s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so
+[37.519s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so" to ""
+[37.521s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so
+[37.521s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so" to ""
+[37.521s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[37.522s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[37.522s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state.hpp
+[37.522s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound.hpp
+[37.522s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info.hpp
+[37.522s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[37.522s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[37.523s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__builder.hpp
+[37.523s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__builder.hpp
+[37.523s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__traits.hpp
+[37.523s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.hpp
+[37.524s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__traits.hpp
+[37.524s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__struct.hpp
+[37.524s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.hpp
+[37.524s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__struct.hpp
+[37.525s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__struct.hpp
+[37.525s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__traits.hpp
+[37.526s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__builder.hpp
+[37.526s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.hpp
+[37.527s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[37.527s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/dqn.hpp
+[37.528s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound.hpp
+[37.529s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[37.529s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__builder.hpp
+[37.530s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.hpp
+[37.531s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__type_support.hpp
+[37.531s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__builder.hpp
+[37.532s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__struct.hpp
+[37.533s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__traits.hpp
+[37.533s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__struct.hpp
+[37.534s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__traits.hpp
+[37.534s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[37.535s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/patrol.hpp
+[37.536s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[37.536s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__struct.hpp
+[37.537s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.hpp
+[37.537s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__traits.hpp
+[37.538s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__builder.hpp
+[37.539s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[37.539s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[37.540s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[37.540s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[37.541s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_cpp.hpp
+[37.541s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.cpp
+[37.542s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[37.542s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp
+[37.545s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.cpp
+[37.545s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[37.546s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[37.546s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_cpp.hpp
+[37.546s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[37.547s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__type_support.cpp
+[37.548s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.cpp
+[37.548s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[37.549s] -- Up-to-date: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[37.550s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.cpp
+[37.551s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[37.559s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so
+[37.559s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[37.559s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so
+[37.559s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so" to ""
+[37.560s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.sh
+[37.560s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.dsv
+[37.560s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/__init__.py
+[37.656s] Compiling '/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/__init__.py'...
+[37.669s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg
+[37.669s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sensor_state_s.c
+[37.669s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_version_info.py
+[37.670s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sound.py
+[37.670s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/__init__.py
+[37.670s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sound_s.c
+[37.670s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sensor_state.py
+[37.671s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_version_info_s.c
+[37.671s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv
+[37.671s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_dqn_s.c
+[37.671s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_dqn.py
+[37.672s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_sound.py
+[37.672s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/__init__.py
+[37.672s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_sound_s.c
+[37.672s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action
+[37.672s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/_patrol.py
+[37.673s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/__init__.py
+[37.674s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/_patrol_s.c
+[37.674s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[37.674s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[37.675s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[37.676s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[37.676s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[37.677s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[37.677s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__python.so
+[37.678s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__python.so" to ""
+[37.679s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.idl
+[37.679s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.idl
+[37.679s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.idl
+[37.680s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.idl
+[37.680s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.idl
+[37.681s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.idl
+[37.681s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.msg
+[37.682s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.msg
+[37.682s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.msg
+[37.682s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.srv
+[37.683s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Request.msg
+[37.683s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Response.msg
+[37.684s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.srv
+[37.684s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Request.msg
+[37.685s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Response.msg
+[37.685s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.action
+[37.686s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot3_msgs
+[37.686s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot3_msgs
+[37.686s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.sh
+[37.687s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.dsv
+[37.687s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.sh
+[37.688s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.dsv
+[37.688s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.bash
+[37.688s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.sh
+[37.689s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.zsh
+[37.689s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.dsv
+[37.690s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv
+[37.690s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/ament_index/resource_index/packages/turtlebot3_msgs
+[37.691s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cExport.cmake
+[37.691s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cExport-noconfig.cmake
+[37.692s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport.cmake
+[37.692s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[37.692s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport.cmake
+[37.693s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[37.693s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cppExport.cmake
+[37.694s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[37.694s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[37.695s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport.cmake
+[37.695s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[37.696s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake-extras.cmake
+[37.696s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.697s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[37.697s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[37.697s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.698s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[37.698s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[37.699s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig.cmake
+[37.699s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig-version.cmake
+[37.699s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.xml
+[37.720s] Invoked command in '/home/terranova/uav_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/turtlebot3_msgs
