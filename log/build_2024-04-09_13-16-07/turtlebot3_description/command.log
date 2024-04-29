@@ -1,4 +1,0 @@
-Invoking command in '/home/terranova/uav_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/turtlebot3_description -- -j4 -l4
-Invoked command in '/home/terranova/uav_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/turtlebot3_description -- -j4 -l4
-Invoking command in '/home/terranova/uav_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/turtlebot3_description
-Invoked command in '/home/terranova/uav_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/turtlebot3_description

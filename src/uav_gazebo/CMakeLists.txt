@@ -66,7 +66,7 @@ install(TARGETS ${EXEC_NAME}
   DESTINATION lib/${PROJECT_NAME}
 )
 
-install(DIRECTORY launch models rviz worlds urdf scripts uav_cartographer
+install(DIRECTORY launch models rviz worlds urdf scripts
   DESTINATION share/${PROJECT_NAME}/
 )
 

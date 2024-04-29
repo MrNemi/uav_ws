@@ -1,0 +1,822 @@
+[0.048s] Invoking command in '/home/terranova/uav_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/cartographer_ros_msgs
+[0.614s] -- The C compiler identification is GNU 9.4.0
+[1.000s] -- The CXX compiler identification is GNU 9.4.0
+[1.089s] -- Detecting C compiler ABI info
+[1.268s] -- Detecting C compiler ABI info - done
+[1.308s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.310s] -- Detecting C compile features
+[1.314s] -- Detecting C compile features - done
+[1.368s] -- Detecting CXX compiler ABI info
+[1.591s] -- Detecting CXX compiler ABI info - done
+[1.628s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.629s] -- Detecting CXX compile features
+[1.632s] -- Detecting CXX compile features - done
+[1.647s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.674s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.674s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.675s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.675s]   the cmake_policy command to set the policy and suppress this warning.
+[1.676s] 
+[1.676s] Call Stack (most recent call first):
+[1.676s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.676s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.676s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.676s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.677s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.677s]   CMakeLists.txt:30 (find_package)
+[1.677s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.677s] [0m
+[1.764s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.764s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.600s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.680s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.236s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.361s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.659s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.729s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[3.767s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.904s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[3.904s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.904s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.904s]   the cmake_policy command to set the policy and suppress this warning.
+[3.905s] 
+[3.905s] Call Stack (most recent call first):
+[3.905s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.905s]   CMakeLists.txt:63 (rosidl_generate_interfaces)
+[3.905s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.906s] [0m
+[3.957s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.815s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[4.850s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[4.875s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[4.902s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[6.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.031s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.067s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[7.067s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.067s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.067s]   the cmake_policy command to set the policy and suppress this warning.
+[7.067s] 
+[7.067s] Call Stack (most recent call first):
+[7.068s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.068s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.068s]   CMakeLists.txt:63 (rosidl_generate_interfaces)
+[7.068s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.068s] [0m
+[7.142s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[7.151s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[7.153s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[7.153s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.154s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.154s]   the cmake_policy command to set the policy and suppress this warning.
+[7.154s] 
+[7.154s] Call Stack (most recent call first):
+[7.154s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[7.154s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.155s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.155s]   CMakeLists.txt:63 (rosidl_generate_interfaces)
+[7.155s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.155s] [0m
+[7.282s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[7.282s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.283s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.283s]   the cmake_policy command to set the policy and suppress this warning.
+[7.283s] 
+[7.284s] Call Stack (most recent call first):
+[7.284s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[7.284s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.284s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.285s]   CMakeLists.txt:63 (rosidl_generate_interfaces)
+[7.285s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.285s] [0m
+[7.344s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[7.345s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.345s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[7.346s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[7.449s] -- Found PythonExtra: .so  
+[8.304s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[8.326s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[8.391s] -- Configuring done (8.2s)
+[8.883s] -- Generating done (0.4s)
+[8.893s] -- Build files have been written to: /home/terranova/uav_ws/build/cartographer_ros_msgs
+[8.943s] Invoked command in '/home/terranova/uav_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/cartographer_ros_msgs
+[8.945s] Invoking command in '/home/terranova/uav_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/cartographer_ros_msgs -- -j4 -l4
+[9.285s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.364s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.416s] [  1%] Built target cartographer_ros_msgs__cpp
+[18.440s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.440s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[18.440s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[20.437s] [  4%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/bagfile_progress__functions.c.o[0m
+[21.024s] [  5%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/histogram_bucket__functions.c.o[0m
+[21.567s] [  5%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/landmark_entry__functions.c.o[0m
+[21.929s] [  6%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/landmark_list__functions.c.o[0m
+[22.397s] [  6%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/metric_family__functions.c.o[0m
+[22.663s] [  7%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/metric_label__functions.c.o[0m
+[23.075s] [  7%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/metric__functions.c.o[0m
+[23.594s] [  8%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/status_code__functions.c.o[0m
+[24.092s] [  9%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/status_response__functions.c.o[0m
+[24.537s] [  9%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/submap_entry__functions.c.o[0m
+[24.917s] [ 10%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/submap_list__functions.c.o[0m
+[25.406s] [ 10%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/submap_texture__functions.c.o[0m
+[25.854s] [ 11%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/msg/detail/trajectory_states__functions.c.o[0m
+[26.351s] [ 11%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/srv/detail/finish_trajectory__functions.c.o[0m
+[26.962s] [ 12%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/srv/detail/get_trajectory_states__functions.c.o[0m
+[26.963s] [ 12%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/bagfile_progress__type_support.cpp.o[0m
+[27.548s] [ 12%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/srv/detail/read_metrics__functions.c.o[0m
+[28.084s] [ 13%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/srv/detail/start_trajectory__functions.c.o[0m
+[28.382s] [ 13%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/srv/detail/trajectory_query__functions.c.o[0m
+[28.564s] [ 13%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/bagfile_progress__type_support.cpp.o[0m
+[28.811s] [ 14%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/srv/detail/submap_query__functions.c.o[0m
+[28.989s] [ 15%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/bagfile_progress__type_support.cpp.o[0m
+[29.182s] [ 16%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/cartographer_ros_msgs/srv/detail/write_state__functions.c.o[0m
+[29.328s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/histogram_bucket__type_support.cpp.o[0m
+[29.618s] [ 17%] [32m[1mLinking C shared library libcartographer_ros_msgs__rosidl_generator_c.so[0m
+[30.033s] [ 17%] Built target cartographer_ros_msgs__rosidl_generator_c
+[30.886s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/histogram_bucket__type_support.cpp.o[0m
+[31.300s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/landmark_entry__type_support.cpp.o[0m
+[32.426s] [ 18%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/landmark_entry__type_support.cpp.o[0m
+[32.655s] [ 19%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/histogram_bucket__type_support.cpp.o[0m
+[34.115s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/landmark_list__type_support.cpp.o[0m
+[34.209s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/landmark_list__type_support.cpp.o[0m
+[34.792s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/landmark_entry__type_support.cpp.o[0m
+[35.373s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/metric_family__type_support.cpp.o[0m
+[35.714s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/metric_family__type_support.cpp.o[0m
+[36.511s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/landmark_list__type_support.cpp.o[0m
+[36.619s] [ 23%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/metric_label__type_support.cpp.o[0m
+[37.226s] [ 23%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/metric_label__type_support.cpp.o[0m
+[37.620s] [ 24%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/metric__type_support.cpp.o[0m
+[38.304s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/metric_family__type_support.cpp.o[0m
+[38.371s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/metric__type_support.cpp.o[0m
+[38.992s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/status_code__type_support.cpp.o[0m
+[40.008s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/status_code__type_support.cpp.o[0m
+[40.114s] [ 27%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/status_response__type_support.cpp.o[0m
+[40.271s] [ 27%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/metric_label__type_support.cpp.o[0m
+[41.142s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/status_response__type_support.cpp.o[0m
+[41.206s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/submap_entry__type_support.cpp.o[0m
+[41.846s] [ 29%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/metric__type_support.cpp.o[0m
+[42.040s] [ 30%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/submap_list__type_support.cpp.o[0m
+[42.107s] [ 30%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/submap_entry__type_support.cpp.o[0m
+[42.733s] [ 30%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/submap_texture__type_support.cpp.o[0m
+[43.003s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/submap_list__type_support.cpp.o[0m
+[43.199s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/status_code__type_support.cpp.o[0m
+[43.450s] [ 32%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/msg/trajectory_states__type_support.cpp.o[0m
+[43.896s] [ 33%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/submap_texture__type_support.cpp.o[0m
+[44.259s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/status_response__type_support.cpp.o[0m
+[44.286s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/srv/finish_trajectory__type_support.cpp.o[0m
+[44.867s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/msg/detail/trajectory_states__type_support.cpp.o[0m
+[45.226s] [ 35%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/srv/get_trajectory_states__type_support.cpp.o[0m
+[45.530s] [ 35%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/submap_entry__type_support.cpp.o[0m
+[45.707s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/srv/detail/finish_trajectory__type_support.cpp.o[0m
+[46.124s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/srv/read_metrics__type_support.cpp.o[0m
+[46.532s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/submap_list__type_support.cpp.o[0m
+[46.664s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/srv/detail/get_trajectory_states__type_support.cpp.o[0m
+[46.961s] [ 38%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/srv/start_trajectory__type_support.cpp.o[0m
+[47.569s] [ 39%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/srv/trajectory_query__type_support.cpp.o[0m
+[47.645s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/srv/detail/read_metrics__type_support.cpp.o[0m
+[47.769s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/submap_texture__type_support.cpp.o[0m
+[48.506s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/srv/submap_query__type_support.cpp.o[0m
+[48.762s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/srv/detail/start_trajectory__type_support.cpp.o[0m
+[49.232s] [ 41%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/msg/detail/dds_fastrtps/trajectory_states__type_support.cpp.o[0m
+[49.538s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cartographer_ros_msgs/srv/write_state__type_support.cpp.o[0m
+[49.802s] [ 43%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/srv/detail/trajectory_query__type_support.cpp.o[0m
+[50.440s] [ 43%] [32m[1mLinking CXX shared library libcartographer_ros_msgs__rosidl_typesupport_cpp.so[0m
+[50.532s] [ 44%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/srv/detail/dds_fastrtps/finish_trajectory__type_support.cpp.o[0m
+[50.536s] [ 44%] Built target cartographer_ros_msgs__rosidl_typesupport_cpp
+[50.811s] [ 44%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/srv/detail/submap_query__type_support.cpp.o[0m
+[51.510s] [ 44%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/srv/detail/dds_fastrtps/get_trajectory_states__type_support.cpp.o[0m
+[51.533s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cartographer_ros_msgs/srv/detail/write_state__type_support.cpp.o[0m
+[52.265s] [ 46%] [32m[1mLinking CXX shared library libcartographer_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[52.428s] [ 46%] Built target cartographer_ros_msgs__rosidl_typesupport_introspection_cpp
+[52.492s] [ 47%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/srv/detail/dds_fastrtps/read_metrics__type_support.cpp.o[0m
+[53.349s] [ 47%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/srv/detail/dds_fastrtps/start_trajectory__type_support.cpp.o[0m
+[54.075s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/srv/detail/dds_fastrtps/trajectory_query__type_support.cpp.o[0m
+[54.865s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/srv/detail/dds_fastrtps/submap_query__type_support.cpp.o[0m
+[55.647s] [ 49%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cartographer_ros_msgs/srv/detail/dds_fastrtps/write_state__type_support.cpp.o[0m
+[56.374s] [ 49%] [32m[1mLinking CXX shared library libcartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[56.545s] [ 49%] Built target cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[56.555s] [ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[58.287s] [ 50%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/bagfile_progress__type_support.cpp.o[0m
+[58.353s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/histogram_bucket__type_support.cpp.o[0m
+[58.406s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/landmark_entry__type_support.cpp.o[0m
+[58.466s] [ 52%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/landmark_list__type_support.cpp.o[0m
+[58.523s] [ 52%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/metric_family__type_support.cpp.o[0m
+[58.587s] [ 53%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/metric_label__type_support.cpp.o[0m
+[58.651s] [ 53%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/metric__type_support.cpp.o[0m
+[58.707s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/status_code__type_support.cpp.o[0m
+[58.761s] [ 55%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/status_response__type_support.cpp.o[0m
+[58.816s] [ 55%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/submap_entry__type_support.cpp.o[0m
+[58.872s] [ 56%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/submap_list__type_support.cpp.o[0m
+[58.934s] [ 56%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/submap_texture__type_support.cpp.o[0m
+[58.988s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/msg/trajectory_states__type_support.cpp.o[0m
+[59.043s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/srv/finish_trajectory__type_support.cpp.o[0m
+[59.105s] [ 58%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/srv/get_trajectory_states__type_support.cpp.o[0m
+[59.167s] [ 58%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/srv/read_metrics__type_support.cpp.o[0m
+[59.230s] [ 59%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/srv/start_trajectory__type_support.cpp.o[0m
+[59.292s] [ 59%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/srv/trajectory_query__type_support.cpp.o[0m
+[59.356s] [ 60%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/srv/submap_query__type_support.cpp.o[0m
+[59.415s] [ 61%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cartographer_ros_msgs/srv/write_state__type_support.cpp.o[0m
+[59.474s] [ 61%] [32m[1mLinking CXX shared library libcartographer_ros_msgs__rosidl_typesupport_c.so[0m
+[59.528s] [ 61%] Built target cartographer_ros_msgs__rosidl_typesupport_c
+[59.536s] [ 62%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[62.002s] [ 62%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/bagfile_progress__type_support_c.cpp.o[0m
+[62.607s] [ 62%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/landmark_entry__type_support_c.cpp.o[0m
+[63.205s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/landmark_list__type_support_c.cpp.o[0m
+[63.797s] [ 64%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/metric_family__type_support_c.cpp.o[0m
+[65.352s] [ 64%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/metric_label__type_support_c.cpp.o[0m
+[66.267s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/metric__type_support_c.cpp.o[0m
+[67.070s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/status_code__type_support_c.cpp.o[0m
+[67.863s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/status_response__type_support_c.cpp.o[0m
+[68.481s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/submap_entry__type_support_c.cpp.o[0m
+[69.060s] [ 67%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/submap_list__type_support_c.cpp.o[0m
+[69.640s] [ 67%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/submap_texture__type_support_c.cpp.o[0m
+[70.239s] [ 68%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/trajectory_states__type_support_c.cpp.o[0m
+[70.848s] [ 68%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/srv/detail/finish_trajectory__type_support_c.cpp.o[0m
+[71.451s] [ 69%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/srv/detail/get_trajectory_states__type_support_c.cpp.o[0m
+[72.047s] [ 70%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/srv/detail/read_metrics__type_support_c.cpp.o[0m
+[73.483s] [ 70%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/srv/detail/start_trajectory__type_support_c.cpp.o[0m
+[74.118s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/srv/detail/trajectory_query__type_support_c.cpp.o[0m
+[74.727s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/srv/detail/submap_query__type_support_c.cpp.o[0m
+[75.409s] [ 72%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/srv/detail/write_state__type_support_c.cpp.o[0m
+[76.815s] [ 73%] [32mBuilding CXX object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cartographer_ros_msgs/msg/detail/histogram_bucket__type_support_c.cpp.o[0m
+[77.391s] [ 73%] [32m[1mLinking CXX shared library libcartographer_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[77.526s] [ 73%] Built target cartographer_ros_msgs__rosidl_typesupport_fastrtps_c
+[77.535s] [ 74%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[79.749s] [ 74%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/bagfile_progress__type_support.c.o[0m
+[79.749s] [ 75%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/histogram_bucket__type_support.c.o[0m
+[79.819s] [ 75%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/landmark_list__type_support.c.o[0m
+[79.824s] [ 76%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/metric_family__type_support.c.o[0m
+[79.891s] [ 77%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/metric__type_support.c.o[0m
+[79.893s] [ 77%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/metric_label__type_support.c.o[0m
+[79.956s] [ 77%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/status_code__type_support.c.o[0m
+[79.962s] [ 78%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/status_response__type_support.c.o[0m
+[80.019s] [ 78%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/submap_entry__type_support.c.o[0m
+[80.028s] [ 79%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/submap_list__type_support.c.o[0m
+[80.085s] [ 79%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/submap_texture__type_support.c.o[0m
+[80.101s] [ 80%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/trajectory_states__type_support.c.o[0m
+[80.153s] [ 81%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/srv/detail/finish_trajectory__type_support.c.o[0m
+[80.170s] [ 81%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/srv/detail/get_trajectory_states__type_support.c.o[0m
+[80.226s] [ 82%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/srv/detail/read_metrics__type_support.c.o[0m
+[80.244s] [ 82%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/srv/detail/start_trajectory__type_support.c.o[0m
+[80.307s] [ 83%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/srv/detail/trajectory_query__type_support.c.o[0m
+[80.320s] [ 83%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/srv/detail/submap_query__type_support.c.o[0m
+[80.388s] [ 84%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/srv/detail/write_state__type_support.c.o[0m
+[80.396s] [ 85%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cartographer_ros_msgs/msg/detail/landmark_entry__type_support.c.o[0m
+[80.463s] [ 85%] [32m[1mLinking C shared library libcartographer_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[80.509s] [ 85%] Built target cartographer_ros_msgs__rosidl_typesupport_introspection_c
+[80.523s] [ 85%] Built target cartographer_ros_msgs
+[80.539s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[85.630s] [ 86%] Built target cartographer_ros_msgs__py
+[85.648s] [ 87%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_histogram_bucket_s.c.o[0m
+[85.648s] [ 87%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_bagfile_progress_s.c.o[0m
+[85.649s] [ 87%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_landmark_entry_s.c.o[0m
+[85.919s] [ 88%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_metric_family_s.c.o[0m
+[85.920s] [ 88%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_landmark_list_s.c.o[0m
+[86.017s] [ 89%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_metric_label_s.c.o[0m
+[86.019s] [ 89%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_metric_s.c.o[0m
+[86.318s] [ 90%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_status_response_s.c.o[0m
+[86.319s] [ 91%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_status_code_s.c.o[0m
+[86.401s] [ 91%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_submap_entry_s.c.o[0m
+[86.440s] [ 92%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_submap_list_s.c.o[0m
+[87.369s] [ 93%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_submap_texture_s.c.o[0m
+[87.370s] [ 93%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/msg/_trajectory_states_s.c.o[0m
+[87.572s] [ 93%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/srv/_finish_trajectory_s.c.o[0m
+[87.576s] [ 94%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/srv/_get_trajectory_states_s.c.o[0m
+[87.765s] [ 94%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/srv/_read_metrics_s.c.o[0m
+[87.796s] [ 95%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/srv/_start_trajectory_s.c.o[0m
+[87.956s] [ 95%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/srv/_trajectory_query_s.c.o[0m
+[87.962s] [ 96%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/srv/_submap_query_s.c.o[0m
+[88.179s] [ 97%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__python.dir/rosidl_generator_py/cartographer_ros_msgs/srv/_write_state_s.c.o[0m
+[88.456s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/cartographer_ros_msgs/libcartographer_ros_msgs__python.so[0m
+[88.533s] [ 97%] Built target cartographer_ros_msgs__python
+[88.549s] [ 99%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cartographer_ros_msgs/_cartographer_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[88.549s] [ 99%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cartographer_ros_msgs/_cartographer_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[88.908s] [ 99%] [32m[1mLinking CXX shared library rosidl_generator_py/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[88.911s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[88.965s] [ 99%] Built target cartographer_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[88.980s] [100%] [32mBuilding C object CMakeFiles/cartographer_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cartographer_ros_msgs/_cartographer_ros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[89.018s] [100%] Built target cartographer_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[89.309s] [100%] [32m[1mLinking C shared library rosidl_generator_py/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[89.357s] [100%] Built target cartographer_ros_msgs__rosidl_typesupport_c__pyext
+[89.372s] Invoked command in '/home/terranova/uav_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/cartographer_ros_msgs -- -j4 -l4
+[90.014s] Invoking command in '/home/terranova/uav_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/cartographer_ros_msgs
+[90.063s] -- Install configuration: ""
+[90.064s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/cartographer_ros_msgs
+[90.064s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs
+[90.064s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg
+[90.064s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/submap_entry.h
+[90.065s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/bagfile_progress.h
+[90.065s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/trajectory_states.h
+[90.065s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/status_code.h
+[90.065s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[90.065s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/submap_texture.h
+[90.066s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/metric_label.h
+[90.066s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/status_response.h
+[90.066s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/landmark_entry.h
+[90.066s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/metric_family.h
+[90.066s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/histogram_bucket.h
+[90.066s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/submap_list.h
+[90.066s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/metric.h
+[90.067s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail
+[90.067s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__type_support.h
+[90.067s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__functions.h
+[90.068s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__type_support.h
+[90.068s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__functions.h
+[90.068s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__struct.h
+[90.068s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__functions.c
+[90.068s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__functions.h
+[90.069s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__functions.h
+[90.069s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__functions.h
+[90.069s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__functions.h
+[90.069s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__functions.h
+[90.069s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__functions.c
+[90.069s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__type_support.h
+[90.069s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__type_support.h
+[90.070s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__struct.h
+[90.070s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__functions.c
+[90.070s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__type_support.h
+[90.070s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__functions.h
+[90.070s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__struct.h
+[90.070s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__functions.c
+[90.070s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__struct.h
+[90.071s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__type_support.h
+[90.071s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__functions.c
+[90.071s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__type_support.h
+[90.071s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__struct.h
+[90.071s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__struct.h
+[90.071s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__type_support.h
+[90.071s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__struct.h
+[90.072s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__struct.h
+[90.072s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__type_support.h
+[90.072s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__functions.h
+[90.072s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__functions.c
+[90.072s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__functions.c
+[90.072s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__functions.c
+[90.073s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__type_support.h
+[90.073s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__type_support.h
+[90.073s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__type_support.h
+[90.073s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__struct.h
+[90.073s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__functions.h
+[90.074s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__functions.h
+[90.074s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__functions.c
+[90.074s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__struct.h
+[90.074s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__type_support.h
+[90.074s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__functions.h
+[90.075s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__functions.h
+[90.075s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__functions.c
+[90.075s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__functions.c
+[90.075s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__struct.h
+[90.075s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__functions.c
+[90.076s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__functions.c
+[90.076s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__struct.h
+[90.076s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__struct.h
+[90.076s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/landmark_list.h
+[90.077s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv
+[90.077s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/write_state.h
+[90.077s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/submap_query.h
+[90.077s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/read_metrics.h
+[90.077s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/start_trajectory.h
+[90.078s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/trajectory_query.h
+[90.078s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail
+[90.078s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__functions.h
+[90.078s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__type_support.h
+[90.078s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__functions.c
+[90.078s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__struct.h
+[90.078s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__functions.c
+[90.079s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__struct.h
+[90.079s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__functions.c
+[90.079s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__functions.h
+[90.079s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__type_support.h
+[90.079s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__struct.h
+[90.080s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__functions.h
+[90.080s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__functions.c
+[90.080s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__type_support.h
+[90.081s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__type_support.h
+[90.081s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__functions.c
+[90.081s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__struct.h
+[90.081s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__type_support.h
+[90.081s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__struct.h
+[90.082s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__functions.c
+[90.082s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__functions.h
+[90.082s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__functions.h
+[90.082s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__struct.h
+[90.083s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__type_support.h
+[90.083s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__struct.h
+[90.083s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__functions.h
+[90.083s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__functions.h
+[90.083s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__type_support.h
+[90.084s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__functions.c
+[90.084s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/get_trajectory_states.h
+[90.084s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/finish_trajectory.h
+[90.084s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/library_path.sh
+[90.085s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/library_path.dsv
+[90.085s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_generator_c.so
+[90.086s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_generator_c.so" to ""
+[90.086s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs
+[90.086s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg
+[90.087s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[90.087s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail
+[90.087s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__rosidl_typesupport_fastrtps_c.h
+[90.088s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__rosidl_typesupport_fastrtps_c.h
+[90.088s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__rosidl_typesupport_fastrtps_c.h
+[90.088s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__rosidl_typesupport_fastrtps_c.h
+[90.088s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__rosidl_typesupport_fastrtps_c.h
+[90.088s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__rosidl_typesupport_fastrtps_c.h
+[90.089s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__rosidl_typesupport_fastrtps_c.h
+[90.089s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__rosidl_typesupport_fastrtps_c.h
+[90.089s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__rosidl_typesupport_fastrtps_c.h
+[90.089s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__rosidl_typesupport_fastrtps_c.h
+[90.089s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__rosidl_typesupport_fastrtps_c.h
+[90.090s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__rosidl_typesupport_fastrtps_c.h
+[90.090s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__rosidl_typesupport_fastrtps_c.h
+[90.092s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv
+[90.092s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail
+[90.092s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__rosidl_typesupport_fastrtps_c.h
+[90.092s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__rosidl_typesupport_fastrtps_c.h
+[90.093s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__rosidl_typesupport_fastrtps_c.h
+[90.093s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__rosidl_typesupport_fastrtps_c.h
+[90.093s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__rosidl_typesupport_fastrtps_c.h
+[90.093s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__rosidl_typesupport_fastrtps_c.h
+[90.093s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__rosidl_typesupport_fastrtps_c.h
+[90.094s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[90.094s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[90.094s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs
+[90.094s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg
+[90.094s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[90.095s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail
+[90.095s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__rosidl_typesupport_fastrtps_cpp.hpp
+[90.095s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/dds_fastrtps
+[90.095s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__rosidl_typesupport_fastrtps_cpp.hpp
+[90.095s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__rosidl_typesupport_fastrtps_cpp.hpp
+[90.095s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__rosidl_typesupport_fastrtps_cpp.hpp
+[90.096s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__rosidl_typesupport_fastrtps_cpp.hpp
+[90.096s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__rosidl_typesupport_fastrtps_cpp.hpp
+[90.096s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__rosidl_typesupport_fastrtps_cpp.hpp
+[90.096s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__rosidl_typesupport_fastrtps_cpp.hpp
+[90.096s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__rosidl_typesupport_fastrtps_cpp.hpp
+[90.097s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__rosidl_typesupport_fastrtps_cpp.hpp
+[90.097s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__rosidl_typesupport_fastrtps_cpp.hpp
+[90.097s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__rosidl_typesupport_fastrtps_cpp.hpp
+[90.097s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__rosidl_typesupport_fastrtps_cpp.hpp
+[90.097s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv
+[90.098s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail
+[90.098s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__rosidl_typesupport_fastrtps_cpp.hpp
+[90.098s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__rosidl_typesupport_fastrtps_cpp.hpp
+[90.098s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[90.098s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/dds_fastrtps
+[90.099s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__rosidl_typesupport_fastrtps_cpp.hpp
+[90.099s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__rosidl_typesupport_fastrtps_cpp.hpp
+[90.099s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[90.099s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__rosidl_typesupport_fastrtps_cpp.hpp
+[90.100s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[90.100s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[90.100s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs
+[90.100s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg
+[90.100s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail
+[90.101s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__type_support.c
+[90.101s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__rosidl_typesupport_introspection_c.h
+[90.101s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__type_support.c
+[90.101s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__rosidl_typesupport_introspection_c.h
+[90.101s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__type_support.c
+[90.102s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__type_support.c
+[90.102s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__type_support.c
+[90.102s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__type_support.c
+[90.102s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__rosidl_typesupport_introspection_c.h
+[90.103s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__rosidl_typesupport_introspection_c.h
+[90.103s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__rosidl_typesupport_introspection_c.h
+[90.103s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__rosidl_typesupport_introspection_c.h
+[90.104s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__rosidl_typesupport_introspection_c.h
+[90.104s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__type_support.c
+[90.104s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__rosidl_typesupport_introspection_c.h
+[90.104s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__rosidl_typesupport_introspection_c.h
+[90.104s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__type_support.c
+[90.104s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__rosidl_typesupport_introspection_c.h
+[90.104s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__rosidl_typesupport_introspection_c.h
+[90.104s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__type_support.c
+[90.104s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__type_support.c
+[90.105s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__type_support.c
+[90.105s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__type_support.c
+[90.105s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__rosidl_typesupport_introspection_c.h
+[90.105s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__rosidl_typesupport_introspection_c.h
+[90.105s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__type_support.c
+[90.105s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[90.105s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv
+[90.105s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail
+[90.106s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__rosidl_typesupport_introspection_c.h
+[90.106s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__rosidl_typesupport_introspection_c.h
+[90.106s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__rosidl_typesupport_introspection_c.h
+[90.106s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__type_support.c
+[90.106s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__rosidl_typesupport_introspection_c.h
+[90.106s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__rosidl_typesupport_introspection_c.h
+[90.106s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__rosidl_typesupport_introspection_c.h
+[90.106s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__type_support.c
+[90.107s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__type_support.c
+[90.107s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__type_support.c
+[90.107s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__type_support.c
+[90.107s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__type_support.c
+[90.107s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__type_support.c
+[90.107s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__rosidl_typesupport_introspection_c.h
+[90.107s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_introspection_c.so
+[90.108s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[90.108s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_c.so
+[90.108s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_c.so" to ""
+[90.108s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs
+[90.108s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg
+[90.108s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/status_response.hpp
+[90.108s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/submap_list.hpp
+[90.108s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/landmark_list.hpp
+[90.109s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/bagfile_progress.hpp
+[90.109s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/trajectory_states.hpp
+[90.109s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/histogram_bucket.hpp
+[90.109s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/landmark_entry.hpp
+[90.109s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/metric.hpp
+[90.109s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/metric_label.hpp
+[90.109s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/submap_entry.hpp
+[90.110s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[90.110s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail
+[90.110s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__builder.hpp
+[90.110s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__type_support.hpp
+[90.110s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__type_support.hpp
+[90.110s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__struct.hpp
+[90.110s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__type_support.hpp
+[90.111s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__traits.hpp
+[90.111s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__type_support.hpp
+[90.111s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__struct.hpp
+[90.111s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__traits.hpp
+[90.111s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__builder.hpp
+[90.111s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__traits.hpp
+[90.111s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__type_support.hpp
+[90.112s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__struct.hpp
+[90.112s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__builder.hpp
+[90.112s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__builder.hpp
+[90.112s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__type_support.hpp
+[90.112s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__struct.hpp
+[90.113s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__traits.hpp
+[90.113s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__traits.hpp
+[90.113s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__traits.hpp
+[90.113s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__struct.hpp
+[90.114s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__traits.hpp
+[90.114s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__type_support.hpp
+[90.114s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__builder.hpp
+[90.114s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__builder.hpp
+[90.114s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__type_support.hpp
+[90.114s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__builder.hpp
+[90.115s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__builder.hpp
+[90.115s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__type_support.hpp
+[90.115s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__traits.hpp
+[90.115s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__builder.hpp
+[90.115s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__struct.hpp
+[90.116s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__struct.hpp
+[90.116s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__builder.hpp
+[90.116s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__struct.hpp
+[90.116s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__traits.hpp
+[90.117s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__type_support.hpp
+[90.117s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__builder.hpp
+[90.117s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__traits.hpp
+[90.117s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__struct.hpp
+[90.117s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__traits.hpp
+[90.118s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__struct.hpp
+[90.118s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__struct.hpp
+[90.118s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__type_support.hpp
+[90.118s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__struct.hpp
+[90.118s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__struct.hpp
+[90.119s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__traits.hpp
+[90.119s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__type_support.hpp
+[90.119s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__traits.hpp
+[90.119s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__type_support.hpp
+[90.119s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__builder.hpp
+[90.120s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__builder.hpp
+[90.120s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/metric_family.hpp
+[90.120s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/status_code.hpp
+[90.120s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/submap_texture.hpp
+[90.120s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv
+[90.121s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/finish_trajectory.hpp
+[90.121s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/trajectory_query.hpp
+[90.121s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/write_state.hpp
+[90.121s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/start_trajectory.hpp
+[90.121s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/get_trajectory_states.hpp
+[90.122s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/read_metrics.hpp
+[90.122s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/submap_query.hpp
+[90.122s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail
+[90.122s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__builder.hpp
+[90.122s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__struct.hpp
+[90.123s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__type_support.hpp
+[90.123s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__struct.hpp
+[90.123s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__traits.hpp
+[90.123s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__traits.hpp
+[90.123s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__type_support.hpp
+[90.123s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__traits.hpp
+[90.124s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__builder.hpp
+[90.124s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__traits.hpp
+[90.124s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__type_support.hpp
+[90.124s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__type_support.hpp
+[90.124s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__builder.hpp
+[90.125s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__traits.hpp
+[90.125s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__struct.hpp
+[90.125s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__type_support.hpp
+[90.125s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__struct.hpp
+[90.126s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__struct.hpp
+[90.126s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__traits.hpp
+[90.126s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__builder.hpp
+[90.126s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__traits.hpp
+[90.126s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__builder.hpp
+[90.127s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__type_support.hpp
+[90.127s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__struct.hpp
+[90.127s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__builder.hpp
+[90.127s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__builder.hpp
+[90.127s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__type_support.hpp
+[90.128s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__struct.hpp
+[90.128s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs
+[90.128s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg
+[90.128s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail
+[90.128s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__type_support.cpp
+[90.129s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__rosidl_typesupport_introspection_cpp.hpp
+[90.130s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__type_support.cpp
+[90.130s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__type_support.cpp
+[90.130s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_texture__rosidl_typesupport_introspection_cpp.hpp
+[90.130s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/trajectory_states__rosidl_typesupport_introspection_cpp.hpp
+[90.131s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__rosidl_typesupport_introspection_cpp.hpp
+[90.131s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__type_support.cpp
+[90.131s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_entry__rosidl_typesupport_introspection_cpp.hpp
+[90.131s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_response__type_support.cpp
+[90.132s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__type_support.cpp
+[90.132s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__type_support.cpp
+[90.132s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_label__type_support.cpp
+[90.132s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__type_support.cpp
+[90.132s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/status_code__rosidl_typesupport_introspection_cpp.hpp
+[90.133s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/bagfile_progress__rosidl_typesupport_introspection_cpp.hpp
+[90.133s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__rosidl_typesupport_introspection_cpp.hpp
+[90.133s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric__rosidl_typesupport_introspection_cpp.hpp
+[90.133s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_list__type_support.cpp
+[90.133s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__type_support.cpp
+[90.134s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__type_support.cpp
+[90.134s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__rosidl_typesupport_introspection_cpp.hpp
+[90.134s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/histogram_bucket__rosidl_typesupport_introspection_cpp.hpp
+[90.134s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/metric_family__rosidl_typesupport_introspection_cpp.hpp
+[90.134s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/submap_list__rosidl_typesupport_introspection_cpp.hpp
+[90.134s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/msg/detail/landmark_entry__type_support.cpp
+[90.134s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv
+[90.134s] -- Up-to-date: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail
+[90.134s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__type_support.cpp
+[90.134s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__type_support.cpp
+[90.135s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__rosidl_typesupport_introspection_cpp.hpp
+[90.135s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__rosidl_typesupport_introspection_cpp.hpp
+[90.135s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/submap_query__rosidl_typesupport_introspection_cpp.hpp
+[90.135s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/get_trajectory_states__type_support.cpp
+[90.135s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/finish_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[90.136s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[90.136s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__rosidl_typesupport_introspection_cpp.hpp
+[90.136s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/read_metrics__type_support.cpp
+[90.136s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/write_state__type_support.cpp
+[90.136s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__rosidl_typesupport_introspection_cpp.hpp
+[90.136s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/start_trajectory__type_support.cpp
+[90.137s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/srv/detail/trajectory_query__type_support.cpp
+[90.137s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[90.138s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[90.139s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_cpp.so
+[90.139s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[90.140s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/pythonpath.sh
+[90.140s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/pythonpath.dsv
+[90.140s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/__init__.py
+[90.193s] Compiling '/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/__init__.py'...
+[90.199s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg
+[90.199s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_landmark_entry.py
+[90.199s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_histogram_bucket.py
+[90.200s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_bagfile_progress.py
+[90.200s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_submap_texture_s.c
+[90.200s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_metric_label_s.c
+[90.200s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_landmark_list_s.c
+[90.200s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_submap_texture.py
+[90.200s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_metric_family_s.c
+[90.201s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_landmark_list.py
+[90.201s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_submap_entry_s.c
+[90.201s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_submap_list.py
+[90.201s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_trajectory_states_s.c
+[90.201s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_histogram_bucket_s.c
+[90.201s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_trajectory_states.py
+[90.202s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_metric_label.py
+[90.202s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_status_code_s.c
+[90.202s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/__init__.py
+[90.202s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_bagfile_progress_s.c
+[90.202s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_status_response.py
+[90.203s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_submap_entry.py
+[90.203s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_status_code.py
+[90.203s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_submap_list_s.c
+[90.203s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_metric_family.py
+[90.203s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_metric.py
+[90.204s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_metric_s.c
+[90.204s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_status_response_s.c
+[90.204s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/msg/_landmark_entry_s.c
+[90.204s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv
+[90.205s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_finish_trajectory.py
+[90.205s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_start_trajectory.py
+[90.205s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_read_metrics.py
+[90.205s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_write_state_s.c
+[90.205s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_trajectory_query_s.c
+[90.206s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_write_state.py
+[90.206s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_submap_query.py
+[90.206s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_start_trajectory_s.c
+[90.206s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/__init__.py
+[90.207s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_get_trajectory_states_s.c
+[90.207s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_submap_query_s.c
+[90.207s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_trajectory_query.py
+[90.207s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_read_metrics_s.c
+[90.208s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_finish_trajectory_s.c
+[90.208s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/srv/_get_trajectory_states.py
+[90.208s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[90.209s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[90.209s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[90.210s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[90.210s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[90.211s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[90.211s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__python.so
+[90.212s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__python.so" to ""
+[90.212s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/BagfileProgress.idl
+[90.212s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/HistogramBucket.idl
+[90.213s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/LandmarkEntry.idl
+[90.213s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/LandmarkList.idl
+[90.214s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/MetricFamily.idl
+[90.214s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/MetricLabel.idl
+[90.214s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/Metric.idl
+[90.214s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/StatusCode.idl
+[90.215s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/StatusResponse.idl
+[90.215s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapEntry.idl
+[90.215s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapList.idl
+[90.215s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapTexture.idl
+[90.216s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/TrajectoryStates.idl
+[90.216s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/FinishTrajectory.idl
+[90.216s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/GetTrajectoryStates.idl
+[90.217s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/ReadMetrics.idl
+[90.217s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/StartTrajectory.idl
+[90.217s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/TrajectoryQuery.idl
+[90.218s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/SubmapQuery.idl
+[90.218s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/WriteState.idl
+[90.218s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/BagfileProgress.msg
+[90.218s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/HistogramBucket.msg
+[90.219s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/LandmarkEntry.msg
+[90.219s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/LandmarkList.msg
+[90.219s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/MetricFamily.msg
+[90.220s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/MetricLabel.msg
+[90.220s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/Metric.msg
+[90.220s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/StatusCode.msg
+[90.221s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/StatusResponse.msg
+[90.221s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapEntry.msg
+[90.221s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapList.msg
+[90.222s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapTexture.msg
+[90.222s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/TrajectoryStates.msg
+[90.222s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/FinishTrajectory.srv
+[90.222s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/FinishTrajectory_Request.msg
+[90.223s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/FinishTrajectory_Response.msg
+[90.223s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/GetTrajectoryStates.srv
+[90.223s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/GetTrajectoryStates_Request.msg
+[90.224s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/GetTrajectoryStates_Response.msg
+[90.224s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/ReadMetrics.srv
+[90.224s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/ReadMetrics_Request.msg
+[90.224s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/ReadMetrics_Response.msg
+[90.225s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/StartTrajectory.srv
+[90.225s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/StartTrajectory_Request.msg
+[90.225s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/StartTrajectory_Response.msg
+[90.226s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/TrajectoryQuery.srv
+[90.226s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/TrajectoryQuery_Request.msg
+[90.226s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/TrajectoryQuery_Response.msg
+[90.226s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/SubmapQuery.srv
+[90.227s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/SubmapQuery_Request.msg
+[90.227s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/SubmapQuery_Response.msg
+[90.227s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/WriteState.srv
+[90.228s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/WriteState_Request.msg
+[90.228s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/WriteState_Response.msg
+[90.230s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/ament_index/resource_index/package_run_dependencies/cartographer_ros_msgs
+[90.230s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/ament_index/resource_index/parent_prefix_path/cartographer_ros_msgs
+[90.230s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/ament_prefix_path.sh
+[90.230s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/ament_prefix_path.dsv
+[90.231s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/path.sh
+[90.231s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/path.dsv
+[90.232s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/local_setup.bash
+[90.232s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/local_setup.sh
+[90.233s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/local_setup.zsh
+[90.233s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/local_setup.dsv
+[90.234s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv
+[90.234s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/ament_index/resource_index/packages/cartographer_ros_msgs
+[90.234s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_generator_cExport.cmake
+[90.235s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[90.235s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[90.235s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[90.235s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_cExport.cmake
+[90.236s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[90.236s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_generator_cppExport.cmake
+[90.237s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[90.237s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[90.238s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_cppExport.cmake
+[90.238s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[90.238s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[90.239s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[90.240s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[90.240s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[90.241s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[90.242s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[90.242s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[90.242s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgsConfig.cmake
+[90.243s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgsConfig-version.cmake
+[90.243s] -- Installing: /home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.xml
+[90.251s] Invoked command in '/home/terranova/uav_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/cartographer_ros_msgs

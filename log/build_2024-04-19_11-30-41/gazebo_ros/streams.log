@@ -1,0 +1,360 @@
+[0.028s] Invoking command in '/home/terranova/uav_ws/build/gazebo_ros': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/velodyne_gazebo_plugin:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/velodyne_gazebo_plugin/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/gazebo_ros_pkgs/gazebo_ros -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/gazebo_ros
+[0.153s] -- The C compiler identification is GNU 9.4.0
+[0.244s] -- The CXX compiler identification is GNU 9.4.0
+[0.276s] -- Detecting C compiler ABI info
+[0.355s] -- Detecting C compiler ABI info - done
+[0.372s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.372s] -- Detecting C compile features
+[0.373s] -- Detecting C compile features - done
+[0.393s] -- Detecting CXX compiler ABI info
+[0.491s] -- Detecting CXX compiler ABI info - done
+[0.510s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.511s] -- Detecting CXX compile features
+[0.511s] -- Detecting CXX compile features - done
+[0.518s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.530s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.530s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.530s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.530s]   the cmake_policy command to set the policy and suppress this warning.
+[0.530s] 
+[0.530s] Call Stack (most recent call first):
+[0.530s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.530s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.530s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.530s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.531s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.531s]   CMakeLists.txt:24 (find_package)
+[0.531s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.531s] [0m
+[0.570s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.570s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.930s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.997s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.017s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.181s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.239s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.436s] -- Found gazebo_dev: 3.5.3 (/home/terranova/uav_ws/install/gazebo_dev/share/gazebo_dev/cmake)
+[1.456s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.461s] -- Checking for module 'bullet>=2.82'
+[1.495s] --   Found bullet, version 2.88
+[1.751s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.868s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[2.007s] -- Found assimp: /usr/include (found version "5.0.0") 
+[2.065s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.444s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.519s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[2.536s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.557s] -- Searching for dependencies of ignition-math6
+[2.563s] -- Looking for OGRE...
+[2.563s] -- OGRE_PREFIX_WATCH changed.
+[2.571s] -- Checking for module 'OGRE'
+[2.605s] --   Found OGRE, version 1.9.0
+[2.686s] -- Found Ogre Ghadamon (1.9.0)
+[2.716s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.734s] -- Looking for OGRE_Paging...
+[2.760s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.760s] -- Looking for OGRE_Terrain...
+[2.783s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.783s] -- Looking for OGRE_Property...
+[2.807s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.807s] -- Looking for OGRE_RTShaderSystem...
+[2.833s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.834s] -- Looking for OGRE_Volume...
+[2.857s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.857s] -- Looking for OGRE_Overlay...
+[2.880s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.401s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.413s] -- Looking for ignition-transport8 -- found version 8.5.0
+[3.414s] -- Searching for dependencies of ignition-transport8
+[3.466s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.473s] -- Checking for module 'libzmq >= 4'
+[3.508s] --   Found libzmq, version 4.3.2
+[3.592s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.602s] -- Checking for module 'uuid'
+[3.635s] --   Found uuid, version 2.34.0
+[3.709s] -- Found UUID: TRUE  
+[3.720s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[3.721s] -- Searching for dependencies of ignition-msgs5
+[3.751s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[3.753s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.761s] -- Checking for module 'tinyxml2'
+[3.795s] --   Found tinyxml2, version 6.2.0
+[3.897s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[3.906s] -- Looking for ignition-common3 -- found version 3.17.0
+[3.906s] -- Searching for dependencies of ignition-common3
+[3.908s] -- Looking for dlfcn.h - found
+[3.911s] -- Looking for libdl - found
+[3.914s] -- Found DL: TRUE  
+[3.933s] -- Searching for <ignition-common3> component [graphics]
+[3.940s] -- Looking for ignition-common3-graphics -- found version 3.17.0
+[3.940s] -- Searching for dependencies of ignition-common3-graphics
+[3.941s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.950s] -- Looking for ignition-fuel_tools4 -- found version 4.9.1
+[3.951s] -- Searching for dependencies of ignition-fuel_tools4
+[4.133s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[4.150s] -- Checking for module 'jsoncpp'
+[4.183s] --   Found jsoncpp, version 1.7.4
+[4.258s] -- Found JSONCPP: TRUE  
+[4.275s] -- Checking for module 'libzip'
+[4.309s] --   Found libzip, version 1.5.1
+[4.387s] -- Found ZIP: TRUE  
+[4.388s] -- Looking for ignition-common3 -- found version 3.17.0
+[4.388s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.389s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[4.396s] -- Gazebo version: 11.14
+[4.397s] -- Found gazebo_msgs: 3.5.3 (/home/terranova/uav_ws/install/gazebo_msgs/share/gazebo_msgs/cmake)
+[4.835s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[4.901s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.905s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.908s] -- Found Threads: TRUE  
+[4.955s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.175s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[5.195s] -- Found tinyxml_vendor: 0.8.2 (/opt/ros/foxy/share/tinyxml_vendor/cmake)
+[5.609s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.616s] -- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+[5.623s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.624s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[5.624s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.624s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.625s]   the cmake_policy command to set the policy and suppress this warning.
+[5.625s] 
+[5.625s] Call Stack (most recent call first):
+[5.625s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)
+[5.625s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)
+[5.625s]   test/CMakeLists.txt:5 (find_package)
+[5.625s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.626s] [0m
+[5.663s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.663s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[5.664s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.664s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.664s]   the cmake_policy command to set the policy and suppress this warning.
+[5.664s] 
+[5.664s] Call Stack (most recent call first):
+[5.664s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)
+[5.665s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)
+[5.665s]   test/CMakeLists.txt:5 (find_package)
+[5.665s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.665s] [0m
+[5.680s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[5.680s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.681s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.681s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.723s] -- Found PythonExtra: .so  
+[5.733s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.990s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.994s] [0mCMake Deprecation Warning at /opt/ros/foxy/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[5.994s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[5.994s]   CMake.
+[5.994s] 
+[5.994s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[5.994s]   CMake that the project does not need compatibility with older versions.
+[5.994s] 
+[5.994s] [0m
+[5.996s] -- Check if compiler accepts -pthread
+[6.113s] -- Check if compiler accepts -pthread - yes
+[6.515s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.664s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.665s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[6.665s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[6.666s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[6.666s]   the cmake_policy command to set the policy and suppress this warning.
+[6.666s] 
+[6.666s] Call Stack (most recent call first):
+[6.666s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)
+[6.666s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)
+[6.666s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:36 (find_package)
+[6.667s]   CMakeLists.txt:164 (ament_lint_auto_find_test_dependencies)
+[6.667s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.667s] [0m
+[6.704s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[6.705s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[6.705s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[6.705s]   the cmake_policy command to set the policy and suppress this warning.
+[6.705s] 
+[6.705s] Call Stack (most recent call first):
+[6.705s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)
+[6.705s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)
+[6.705s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:36 (find_package)
+[6.705s]   CMakeLists.txt:164 (ament_lint_auto_find_test_dependencies)
+[6.705s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.706s] [0m
+[6.708s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.708s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.708s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[6.853s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.859s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.861s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/terranova/uav_ws/src/gazebo_ros_pkgs/gazebo_ros/include>
+[6.861s] -- Configured cppcheck exclude dirs and/or files: 
+[6.866s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.866s] -- Configured cpplint exclude dirs and/or files: 
+[6.868s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.871s] -- Added test 'lint_cmake' to check CMake code style
+[6.873s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.880s] -- Added test 'uncrustify' to check C / C++ code style
+[6.880s] -- Configured uncrustify additional arguments: 
+[6.882s] -- Added test 'xmllint' to check XML markup files
+[6.887s] -- Configuring done (6.8s)
+[7.377s] -- Generating done (0.4s)
+[7.387s] -- Build files have been written to: /home/terranova/uav_ws/build/gazebo_ros
+[7.424s] Invoked command in '/home/terranova/uav_ws/build/gazebo_ros' returned '0': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/velodyne_gazebo_plugin:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/velodyne_gazebo_plugin/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/gazebo_ros_pkgs/gazebo_ros -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/gazebo_ros
+[7.430s] Invoking command in '/home/terranova/uav_ws/build/gazebo_ros': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/velodyne_gazebo_plugin:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/velodyne_gazebo_plugin/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/gazebo_ros -- -j4 -l4
+[7.512s] [  5%] [32mBuilding CXX object CMakeFiles/gazebo_ros_node.dir/src/executor.cpp.o[0m
+[7.512s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[7.513s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.513s] [  5%] [32mBuilding CXX object CMakeFiles/gazebo_ros_utils.dir/src/utils.cpp.o[0m
+[7.539s] [  8%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.562s] [  8%] Built target gtest_main
+[7.569s] [ 10%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.579s] [ 12%] [32mBuilding CXX object test/CMakeFiles/mock_robot_state_publisher.dir/mock_robot_state_publisher/robot_state_publisher.cpp.o[0m
+[7.639s] [ 12%] Built target gtest
+[7.643s] [ 14%] [32mBuilding CXX object CMakeFiles/gazebo_ros_node.dir/src/node.cpp.o[0m
+[7.670s] [ 16%] [32m[1mLinking CXX executable mock_robot_state_publisher[0m
+[7.848s] [ 17%] [32mBuilding CXX object CMakeFiles/gazebo_ros_node.dir/src/qos.cpp.o[0m
+[7.906s] [ 19%] [32m[1mLinking CXX shared library libgazebo_ros_node.so[0m
+[7.920s] [ 19%] Built target mock_robot_state_publisher
+[7.935s] [ 21%] [32m[1mLinking CXX shared library libgazebo_ros_utils.so[0m
+[8.479s] [ 21%] Built target gazebo_ros_utils
+[8.688s] [ 21%] Built target gazebo_ros_node
+[8.710s] [ 23%] [32mBuilding CXX object CMakeFiles/gazebo_ros_factory.dir/src/gazebo_ros_factory.cpp.o[0m
+[8.710s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros_state.dir/src/gazebo_ros_state.cpp.o[0m
+[8.712s] [ 26%] [32mBuilding CXX object CMakeFiles/gazebo_ros_properties.dir/src/gazebo_ros_properties.cpp.o[0m
+[8.713s] [ 28%] [32mBuilding CXX object CMakeFiles/gazebo_ros_init.dir/src/gazebo_ros_init.cpp.o[0m
+[8.973s] [ 30%] [32m[1mLinking CXX shared library libgazebo_ros_factory.so[0m
+[8.974s] [ 32%] [32m[1mLinking CXX shared library libgazebo_ros_state.so[0m
+[8.978s] [ 33%] [32m[1mLinking CXX shared library libgazebo_ros_init.so[0m
+[8.980s] [ 35%] [32m[1mLinking CXX shared library libgazebo_ros_properties.so[0m
+[11.187s] [ 35%] Built target gazebo_ros_state
+[11.209s] [ 37%] [32mBuilding CXX object CMakeFiles/gazebo_ros_force_system.dir/src/gazebo_ros_force_system.cpp.o[0m
+[11.345s] [ 39%] [32m[1mLinking CXX shared library libgazebo_ros_force_system.so[0m
+[11.496s] [ 39%] Built target gazebo_ros_properties
+[11.520s] [ 41%] [32mBuilding CXX object test/CMakeFiles/args_init.dir/plugins/args_init.cpp.o[0m
+[11.535s] [ 41%] Built target gazebo_ros_factory
+[11.565s] [ 42%] [32mBuilding CXX object test/CMakeFiles/create_node_without_init.dir/plugins/create_node_without_init.cpp.o[0m
+[11.628s] [ 44%] [32m[1mLinking CXX shared library libargs_init.so[0m
+[11.676s] [ 46%] [32m[1mLinking CXX shared library libcreate_node_without_init.so[0m
+[11.677s] [ 46%] Built target gazebo_ros_init
+[11.700s] [ 48%] [32mBuilding CXX object test/CMakeFiles/multiple_nodes.dir/plugins/multiple_nodes.cpp.o[0m
+[11.819s] [ 50%] [32m[1mLinking CXX shared library libmultiple_nodes.so[0m
+[12.817s] [ 50%] Built target args_init
+[12.839s] [ 51%] [32mBuilding CXX object test/CMakeFiles/ros_world_plugin.dir/plugins/ros_world_plugin.cpp.o[0m
+[12.917s] [ 51%] Built target create_node_without_init
+[12.943s] [ 53%] [32mBuilding CXX object test/CMakeFiles/sdf_node.dir/plugins/sdf_node.cpp.o[0m
+[12.944s] [ 55%] [32m[1mLinking CXX shared library libros_world_plugin.so[0m
+[12.985s] [ 55%] Built target multiple_nodes
+[13.008s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_conversions.dir/test_conversions.cpp.o[0m
+[13.041s] [ 57%] Built target gazebo_ros_force_system
+[13.052s] [ 58%] [32m[1mLinking CXX shared library libsdf_node.so[0m
+[13.063s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_factory.dir/test_gazebo_ros_factory.cpp.o[0m
+[13.068s] [ 62%] [32m[1mLinking CXX executable test_conversions[0m
+[13.410s] [ 64%] [32m[1mLinking CXX executable test_gazebo_ros_factory[0m
+[14.039s] [ 64%] Built target ros_world_plugin
+[14.070s] [ 66%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_init.dir/test_gazebo_ros_init.cpp.o[0m
+[14.209s] [ 66%] Built target sdf_node
+[14.241s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_joint_effort.dir/test_gazebo_ros_joint_effort.cpp.o[0m
+[14.277s] [ 69%] [32m[1mLinking CXX executable test_gazebo_ros_init[0m
+[14.425s] [ 71%] [32m[1mLinking CXX executable test_gazebo_ros_joint_effort[0m
+[15.910s] [ 71%] Built target test_conversions
+[15.941s] [ 73%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_link_wrench.dir/test_gazebo_ros_link_wrench.cpp.o[0m
+[16.129s] [ 75%] [32m[1mLinking CXX executable test_gazebo_ros_link_wrench[0m
+[17.404s] [ 75%] Built target test_gazebo_ros_factory
+[17.426s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_properties.dir/test_gazebo_ros_properties.cpp.o[0m
+[17.621s] [ 78%] [32m[1mLinking CXX executable test_gazebo_ros_properties[0m
+[18.052s] [ 78%] Built target test_gazebo_ros_init
+[18.079s] [ 80%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_state.dir/test_gazebo_ros_state.cpp.o[0m
+[18.175s] [ 80%] Built target test_gazebo_ros_joint_effort
+[18.199s] [ 82%] [32mBuilding CXX object test/CMakeFiles/test_node.dir/test_node.cpp.o[0m
+[18.305s] [ 83%] [32m[1mLinking CXX executable test_node[0m
+[18.306s] [ 85%] [32m[1mLinking CXX executable test_gazebo_ros_state[0m
+[19.874s] [ 85%] Built target test_gazebo_ros_link_wrench
+[19.898s] [ 87%] [32mBuilding CXX object test/CMakeFiles/test_plugins.dir/test_plugins.cpp.o[0m
+[19.979s] [ 89%] [32m[1mLinking CXX executable test_plugins[0m
+[20.801s] [ 89%] Built target test_node
+[20.829s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_qos.dir/test_qos.cpp.o[0m
+[20.892s] [ 92%] [32m[1mLinking CXX executable test_qos[0m
+[21.475s] [ 92%] Built target test_plugins
+[21.498s] [ 94%] [32mBuilding CXX object test/CMakeFiles/test_sim_time.dir/test_sim_time.cpp.o[0m
+[21.577s] [ 96%] [32m[1mLinking CXX executable test_sim_time[0m
+[21.617s] [ 96%] Built target test_gazebo_ros_properties
+[21.642s] [ 98%] [32mBuilding CXX object test/CMakeFiles/test_utils.dir/test_utils.cpp.o[0m
+[21.766s] [100%] [32m[1mLinking CXX executable test_utils[0m
+[22.901s] [100%] Built target test_gazebo_ros_state
+[22.944s] [100%] Built target test_sim_time
+[23.043s] [100%] Built target test_qos
+[23.609s] [100%] Built target test_utils
+[23.622s] Invoked command in '/home/terranova/uav_ws/build/gazebo_ros' returned '0': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/velodyne_gazebo_plugin:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/velodyne_gazebo_plugin/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/gazebo_ros -- -j4 -l4
+[23.752s] Invoking command in '/home/terranova/uav_ws/build/gazebo_ros': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/velodyne_gazebo_plugin:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/velodyne_gazebo_plugin/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/gazebo_ros
+[23.794s] -- Install configuration: ""
+[23.794s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/environment/pythonpath.sh
+[23.794s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/environment/pythonpath.dsv
+[23.795s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages/scripts/
+[23.795s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages/scripts//gazebo_ros_paths.py
+[23.795s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages/scripts//spawn_entity.py
+[23.795s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages/scripts//__init__.py
+[23.851s] Listing '/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages/scripts/'...
+[23.851s] Compiling '/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages/scripts/__init__.py'...
+[23.851s] Compiling '/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages/scripts/gazebo_ros_paths.py'...
+[23.851s] Compiling '/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages/scripts/spawn_entity.py'...
+[23.857s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/environment/library_path.sh
+[23.857s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/environment/library_path.dsv
+[23.857s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/ament_index/resource_index/package_run_dependencies/gazebo_ros
+[23.857s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/ament_index/resource_index/parent_prefix_path/gazebo_ros
+[23.858s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/environment/ament_prefix_path.sh
+[23.858s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/environment/ament_prefix_path.dsv
+[23.858s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/environment/path.sh
+[23.858s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/environment/path.dsv
+[23.858s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/local_setup.bash
+[23.859s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/local_setup.sh
+[23.859s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/local_setup.zsh
+[23.859s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/local_setup.dsv
+[23.859s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/package.dsv
+[23.859s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/ament_index/resource_index/packages/gazebo_ros
+[23.860s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[23.860s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.860s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.860s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/cmake/gazebo_rosConfig.cmake
+[23.860s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/cmake/gazebo_rosConfig-version.cmake
+[23.861s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros/package.xml
+[23.861s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include
+[23.861s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros
+[23.861s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/node_visibility_control.h
+[23.861s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_properties.hpp
+[23.861s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/testing_utils.hpp
+[23.862s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_force_system.hpp
+[23.862s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_factory.hpp
+[23.862s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/executor.hpp
+[23.862s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/conversions
+[23.862s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/conversions/sensor_msgs.hpp
+[23.866s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/conversions/gazebo_msgs.hpp
+[23.866s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/conversions/builtin_interfaces.hpp
+[23.867s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/conversions/geometry_msgs.hpp
+[23.867s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/conversions/generic.hpp
+[23.867s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/utils_visibility_control.h
+[23.867s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_init.hpp
+[23.868s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/qos.hpp
+[23.868s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/node.hpp
+[23.868s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_state.hpp
+[23.868s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/include/gazebo_ros/utils.hpp
+[23.868s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/gazebo_ros/gazebo_ros_paths.py
+[23.869s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_factory.so
+[23.873s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_factory.so" to ""
+[23.873s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_force_system.so
+[23.876s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_force_system.so" to ""
+[23.877s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_init.so
+[23.881s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_init.so" to ""
+[23.881s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_node.so
+[23.884s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_node.so" to ""
+[23.885s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_properties.so
+[23.889s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_properties.so" to ""
+[23.889s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_state.so
+[23.894s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_state.so" to ""
+[23.894s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_utils.so
+[23.896s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/gazebo_ros/lib/libgazebo_ros_utils.so" to ""
+[23.896s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/lib/gazebo_ros/spawn_entity.py
+[23.896s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros//launch
+[23.896s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros//launch/spawn_entity_demo.launch.py
+[23.897s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros//launch/gzclient.launch.py
+[23.897s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros//launch/gzserver.launch.py
+[23.897s] -- Installing: /home/terranova/uav_ws/install/gazebo_ros/share/gazebo_ros//launch/gazebo.launch.py
+[23.905s] Invoked command in '/home/terranova/uav_ws/build/gazebo_ros' returned '0': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/velodyne_gazebo_plugin:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/velodyne_gazebo_plugin/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/gazebo_ros

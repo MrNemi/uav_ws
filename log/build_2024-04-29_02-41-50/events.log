@@ -1,0 +1,1164 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (-) JobUnselected: {'identifier': 'absl'}
+[0.000424] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.000504] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.000573] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000638] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000705] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000768] (-) JobUnselected: {'identifier': 'gazebo_dev'}
+[0.000827] (-) JobUnselected: {'identifier': 'gazebo_msgs'}
+[0.000891] (-) JobUnselected: {'identifier': 'gazebo_plugins'}
+[0.000954] (-) JobUnselected: {'identifier': 'gazebo_ros'}
+[0.001019] (-) JobUnselected: {'identifier': 'gazebo_ros_pkgs'}
+[0.001080] (-) JobUnselected: {'identifier': 'hls_lfcd_lds_driver'}
+[0.001138] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.001197] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.001258] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.001321] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.001385] (-) JobUnselected: {'identifier': 'pcl_conversions'}
+[0.001448] (-) JobUnselected: {'identifier': 'pcl_msgs'}
+[0.001510] (-) JobUnselected: {'identifier': 'pcl_ros'}
+[0.001576] (-) JobUnselected: {'identifier': 'perception_pcl'}
+[0.001628] (-) JobUnselected: {'identifier': 'realsense_gazebo_plugin'}
+[0.001681] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001733] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001784] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001837] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001898] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001952] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.002006] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.002062] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.002121] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.002177] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.002232] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.002286] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.002341] (-) JobUnselected: {'identifier': 'uav_cartographer'}
+[0.002397] (-) JobUnselected: {'identifier': 'uav_gazebo'}
+[0.002452] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.002515] (cartographer) JobQueued: {'identifier': 'cartographer', 'dependencies': OrderedDict()}
+[0.002608] (cartographer_ros) JobQueued: {'identifier': 'cartographer_ros', 'dependencies': OrderedDict([('cartographer', '/home/terranova/uav_ws/install/cartographer'), ('cartographer_ros_msgs', '/home/terranova/uav_ws/install/cartographer_ros_msgs'), ('pcl_msgs', '/home/terranova/uav_ws/install/pcl_msgs'), ('pcl_conversions', '/home/terranova/uav_ws/install/pcl_conversions')])}
+[0.002690] (cartographer_rviz) JobQueued: {'identifier': 'cartographer_rviz', 'dependencies': OrderedDict([('cartographer', '/home/terranova/uav_ws/install/cartographer'), ('cartographer_ros_msgs', '/home/terranova/uav_ws/install/cartographer_ros_msgs'), ('pcl_msgs', '/home/terranova/uav_ws/install/pcl_msgs'), ('pcl_conversions', '/home/terranova/uav_ws/install/pcl_conversions'), ('cartographer_ros', '/home/terranova/uav_ws/install/cartographer_ros')])}
+[0.004869] (cartographer) JobStarted: {'identifier': 'cartographer'}
+[0.043249] (cartographer) JobProgress: {'identifier': 'cartographer', 'progress': 'cmake'}
+[0.044076] (cartographer) Command: {'cmd': ['/home/terranova/.local/bin/cmake', '/home/terranova/uav_ws/src/cartographer', '-DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/cartographer'], 'cwd': '/home/terranova/uav_ws/build/cartographer', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:setup.py install is deprecated::setuptools.command.install'), ('LANGUAGE', 'en_GB:en'), ('USER', 'terranova'), ('SSH_AGENT_PID', '1516'), ('ROS_PACKAGE_PATH', '/home/terranova/uav_ws/install/realsense_gazebo_plugin/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/terranova/uav_ws/install/cartographer_ros_msgs/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/terranova'), ('OLDPWD', '/home/terranova/uav_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/terranova/uav_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'terranova'), ('JOURNAL_STREAM', '8:44246'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'terranova'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/terranova/uav_ws/src/uav_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/lib/ccache:/usr/lib/ccache:/home/terranova/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/terranova/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/terranova/uav_ws/src/uav_gazebo/scripts:/home/terranova/ardupilot/Tools/autotest:/home/terranova/.local/bin'), ('SESSION_MANAGER', 'local/terranova-HP-EliteBook-Folio-1040-G1:@/tmp/.ICE-unix/1553,unix/terranova-HP-EliteBook-Folio-1040-G1:/tmp/.ICE-unix/1553'), ('INVOCATION_ID', 'f0eb78989c9e437c956666db9cd2de24'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a92a33b4_4cfe_48c7_a494_107960e00b0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.86'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/terranova/uav_ws/build/cartographer'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/home/terranova/.local/bin'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl')]), 'shell': False}
+[0.099187] (-) TimerEvent: {}
+[0.199805] (-) TimerEvent: {}
+[0.219929] (cartographer) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.302673] (-) TimerEvent: {}
+[0.327182] (cartographer) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.363173] (cartographer) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.402808] (-) TimerEvent: {}
+[0.456022] (cartographer) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.477409] (cartographer) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.478033] (cartographer) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.479301] (cartographer) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.502942] (-) TimerEvent: {}
+[0.505582] (cartographer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.603094] (-) TimerEvent: {}
+[0.662042] (cartographer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.696460] (cartographer) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.697349] (cartographer) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.699524] (cartographer) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.703221] (-) TimerEvent: {}
+[0.705839] (cartographer) StdoutLine: {'line': b'-- Build type: Release\n'}
+[0.732426] (cartographer) StdoutLine: {'line': b'Files /home/terranova/uav_ws/build/cartographer/AllFiles.cmake and - differ\n'}
+[0.789361] (cartographer) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/src/googletest/googlemock/CMakeLists.txt:43 (project):\n'}
+[0.789758] (cartographer) StderrLine: {'line': b'  VERSION keyword not followed by a value or was followed by a value that\n'}
+[0.789989] (cartographer) StderrLine: {'line': b'  expanded to nothing.\n'}
+[0.790188] (cartographer) StderrLine: {'line': b'\n'}
+[0.790371] (cartographer) StderrLine: {'line': b'\x1b[0m\n'}
+[0.790620] (cartographer) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:45 (cmake_minimum_required):\n'}
+[0.790834] (cartographer) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.791038] (cartographer) StderrLine: {'line': b'  CMake.\n'}
+[0.791228] (cartographer) StderrLine: {'line': b'\n'}
+[0.791404] (cartographer) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.791591] (cartographer) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.791760] (cartographer) StderrLine: {'line': b'\n'}
+[0.791925] (cartographer) StderrLine: {'line': b'\x1b[0m\n'}
+[0.792315] (cartographer) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/src/googletest/googletest/CMakeLists.txt:54 (project):\n'}
+[0.792561] (cartographer) StderrLine: {'line': b'  VERSION keyword not followed by a value or was followed by a value that\n'}
+[0.792738] (cartographer) StderrLine: {'line': b'  expanded to nothing.\n'}
+[0.792905] (cartographer) StderrLine: {'line': b'\n'}
+[0.793069] (cartographer) StderrLine: {'line': b'\x1b[0m\n'}
+[0.793231] (cartographer) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (cmake_minimum_required):\n'}
+[0.793416] (cartographer) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.793728] (cartographer) StderrLine: {'line': b'  CMake.\n'}
+[0.793893] (cartographer) StderrLine: {'line': b'\n'}
+[0.794053] (cartographer) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.794212] (cartographer) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.794369] (cartographer) StderrLine: {'line': b'\n'}
+[0.794606] (cartographer) StderrLine: {'line': b'\x1b[0m\n'}
+[0.794776] (cartographer) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/src/googletest/googletest/cmake/internal_utils.cmake:249 (find_package):\n'}
+[0.794951] (cartographer) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.795110] (cartographer) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.795268] (cartographer) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.795425] (cartographer) StderrLine: {'line': b'\n'}
+[0.795581] (cartographer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.795735] (cartographer) StderrLine: {'line': b'  /usr/src/googletest/googletest/CMakeLists.txt:91 (include)\n'}
+[0.795983] (cartographer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.796143] (cartographer) StderrLine: {'line': b'\x1b[0m\n'}
+[0.803343] (-) TimerEvent: {}
+[0.874029] (cartographer) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python (found version "3.8.10") \n'}
+[0.876144] (cartographer) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.903791] (-) TimerEvent: {}
+[1.004256] (-) TimerEvent: {}
+[1.007804] (cartographer) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.008240] (cartographer) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.104686] (-) TimerEvent: {}
+[1.109556] (cartographer) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.110112] (cartographer) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.204517] (-) TimerEvent: {}
+[1.235766] (cartographer) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.238474] (cartographer) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.253657] (cartographer) StdoutLine: {'line': b'-- Found GMock: gmock_main;-lpthread  \n'}
+[1.304616] (-) TimerEvent: {}
+[1.340116] (cartographer) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: iostreams \n'}
+[1.359571] (cartographer) StdoutLine: {'line': b'-- Found installed version of Eigen: /usr/lib/cmake/eigen3\n'}
+[1.362515] (cartographer) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3\n'}
+[1.379405] (cartographer) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[1.386267] (cartographer) StdoutLine: {'line': b'-- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags\n'}
+[1.386683] (cartographer) StdoutLine: {'line': b'-- Detected gflags version: 2.2.2\n'}
+[1.389114] (cartographer) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[1.391187] (cartographer) StdoutLine: {'line': b'-- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]\n'}
+[1.404765] (-) TimerEvent: {}
+[1.458054] (cartographer) StdoutLine: {'line': b'-- Found Lua: /usr/lib/x86_64-linux-gnu/liblua5.2.so;/usr/lib/x86_64-linux-gnu/libm.so (found version "5.2.4") \n'}
+[1.504879] (-) TimerEvent: {}
+[1.560823] (cartographer) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3.0.0") \n'}
+[1.572565] (cartographer) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.573871] (cartographer) StdoutLine: {'line': b"-- Checking for one of the modules 'cairo>=1.12.16'\n"}
+[1.605443] (-) TimerEvent: {}
+[1.705894] (-) TimerEvent: {}
+[1.720464] (cartographer) StdoutLine: {'line': b'-- Found Sphinx: /usr/bin/sphinx-build  \n'}
+[1.806025] (-) TimerEvent: {}
+[1.813570] (cartographer) StdoutLine: {'line': b'-- Configuring done (1.7s)\n'}
+[1.906152] (-) TimerEvent: {}
+[2.006590] (-) TimerEvent: {}
+[2.107015] (-) TimerEvent: {}
+[2.207456] (-) TimerEvent: {}
+[2.307883] (-) TimerEvent: {}
+[2.408322] (-) TimerEvent: {}
+[2.508760] (-) TimerEvent: {}
+[2.609171] (-) TimerEvent: {}
+[2.667766] (cartographer) StdoutLine: {'line': b'-- Generating done (0.8s)\n'}
+[2.686570] (cartographer) StdoutLine: {'line': b'-- Build files have been written to: /home/terranova/uav_ws/build/cartographer\n'}
+[2.709304] (-) TimerEvent: {}
+[2.725237] (cartographer) CommandEnded: {'returncode': 0}
+[2.729086] (cartographer) JobProgress: {'identifier': 'cartographer', 'progress': 'build'}
+[2.729185] (cartographer) Command: {'cmd': ['/home/terranova/.local/bin/cmake', '--build', '/home/terranova/uav_ws/build/cartographer', '--', '-j4', '-l4'], 'cwd': '/home/terranova/uav_ws/build/cartographer', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:setup.py install is deprecated::setuptools.command.install'), ('LANGUAGE', 'en_GB:en'), ('USER', 'terranova'), ('SSH_AGENT_PID', '1516'), ('ROS_PACKAGE_PATH', '/home/terranova/uav_ws/install/realsense_gazebo_plugin/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/terranova/uav_ws/install/cartographer_ros_msgs/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/terranova'), ('OLDPWD', '/home/terranova/uav_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/terranova/uav_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'terranova'), ('JOURNAL_STREAM', '8:44246'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'terranova'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/terranova/uav_ws/src/uav_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/lib/ccache:/usr/lib/ccache:/home/terranova/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/terranova/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/terranova/uav_ws/src/uav_gazebo/scripts:/home/terranova/ardupilot/Tools/autotest:/home/terranova/.local/bin'), ('SESSION_MANAGER', 'local/terranova-HP-EliteBook-Folio-1040-G1:@/tmp/.ICE-unix/1553,unix/terranova-HP-EliteBook-Folio-1040-G1:/tmp/.ICE-unix/1553'), ('INVOCATION_ID', 'f0eb78989c9e437c956666db9cd2de24'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a92a33b4_4cfe_48c7_a494_107960e00b0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.86'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/terranova/uav_ws/build/cartographer'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/home/terranova/.local/bin'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl')]), 'shell': False}
+[2.813742] (-) TimerEvent: {}
+[2.916893] (-) TimerEvent: {}
+[2.928696] (cartographer) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/transform/proto/transform.proto\x1b[0m\n'}
+[2.945737] (cartographer) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.947682] (cartographer) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mBuilding documentation.\x1b[0m\n'}
+[2.952198] (cartographer) StdoutLine: {'line': b'[  1%] Built target cartographer_detect_changes\n'}
+[2.962758] (cartographer) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/common/proto/ceres_solver_options.proto\x1b[0m\n'}
+[2.976231] (cartographer) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/ground_truth/proto/relations.proto\x1b[0m\n'}
+[2.985220] (cartographer) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/cell_limits_2d.proto\x1b[0m\n'}
+[2.998330] (cartographer) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/connected_components.proto\x1b[0m\n'}
+[3.022114] (-) TimerEvent: {}
+[3.022572] (cartographer) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/grid_2d.proto\x1b[0m\n'}
+[3.041019] (cartographer) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/grid_2d_options.proto\x1b[0m\n'}
+[3.077761] (cartographer) StdoutLine: {'line': b'[  3%] \x1b[32m\x1b[1mLinking CXX static library ../lib/libgtest.a\x1b[0m\n'}
+[3.078169] (cartographer) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/local_trajectory_builder_options_2d.proto\x1b[0m\n'}
+[3.082689] (cartographer) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/hybrid_grid.proto\x1b[0m\n'}
+[3.122249] (cartographer) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/local_trajectory_builder_options_3d.proto\x1b[0m\n'}
+[3.122675] (-) TimerEvent: {}
+[3.129875] (cartographer) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/map_builder_options.proto\x1b[0m\n'}
+[3.155146] (cartographer) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/map_limits.proto\x1b[0m\n'}
+[3.169873] (cartographer) StdoutLine: {'line': b'[  4%] Built target gtest\n'}
+[3.182644] (cartographer) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/motion_filter_options.proto\x1b[0m\n'}
+[3.194485] (cartographer) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\x1b[0m\n'}
+[3.209108] (cartographer) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/normal_estimation_options_2d.proto\x1b[0m\n'}
+[3.222796] (-) TimerEvent: {}
+[3.228614] (cartographer) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/pose_graph.proto\x1b[0m\n'}
+[3.236778] (cartographer) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/pose_extrapolator_options.proto\x1b[0m\n'}
+[3.253262] (cartographer) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/pose_graph/constraint_builder_options.proto\x1b[0m\n'}
+[3.261949] (cartographer) StdoutLine: {'line': b'[  6%] \x1b[32m\x1b[1mLinking CXX static library ../lib/libgmock.a\x1b[0m\n'}
+[3.273602] (cartographer) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/pose_graph/optimization_problem_options.proto\x1b[0m\n'}
+[3.279443] (cartographer) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/pose_graph_options.proto\x1b[0m\n'}
+[3.285816] (cartographer) StderrLine: {'line': b'/usr/bin/sphinx-build:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html\n'}
+[3.287277] (cartographer) StderrLine: {'line': b'  from pkg_resources import load_entry_point\n'}
+[3.324498] (cartographer) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/probability_grid.proto\x1b[0m\n'}
+[3.324950] (-) TimerEvent: {}
+[3.325196] (cartographer) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.proto\x1b[0m\n'}
+[3.340787] (cartographer) StdoutLine: {'line': b'[  7%] Built target gmock\n'}
+[3.353154] (cartographer) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/range_data_inserter_options.proto\x1b[0m\n'}
+[3.360733] (cartographer) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/range_data_inserter_options_3d.proto\x1b[0m\n'}
+[3.374618] (cartographer) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.proto\x1b[0m\n'}
+[3.387980] (cartographer) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.proto\x1b[0m\n'}
+[3.391395] (cartographer) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\x1b[0m\n'}
+[3.394759] (cartographer) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.proto\x1b[0m\n'}
+[3.410700] (cartographer) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.proto\x1b[0m\n'}
+[3.422003] (cartographer) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.proto\x1b[0m\n'}
+[3.425082] (-) TimerEvent: {}
+[3.444978] (cartographer) StdoutLine: {'line': b'[  9%] \x1b[32m\x1b[1mLinking CXX static library ../lib/libgmock_main.a\x1b[0m\n'}
+[3.451246] (cartographer) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/submap.proto\x1b[0m\n'}
+[3.456573] (cartographer) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/serialization.proto\x1b[0m\n'}
+[3.496101] (cartographer) StdoutLine: {'line': b'[  9%] Built target gmock_main\n'}
+[3.496468] (cartographer) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/submap_visualization.proto\x1b[0m\n'}
+[3.501402] (cartographer) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/submaps_options_2d.proto\x1b[0m\n'}
+[3.507517] (cartographer) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/submaps_options_3d.proto\x1b[0m\n'}
+[3.525356] (-) TimerEvent: {}
+[3.529856] (cartographer) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/trajectory.proto\x1b[0m\n'}
+[3.531563] (cartographer) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/trajectory_builder_options.proto\x1b[0m\n'}
+[3.537669] (cartographer) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/trajectory_node_data.proto\x1b[0m\n'}
+[3.564948] (cartographer) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/tsdf_2d.proto\x1b[0m\n'}
+[3.570449] (cartographer) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.proto\x1b[0m\n'}
+[3.572730] (cartographer) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/sensor/proto/adaptive_voxel_filter_options.proto\x1b[0m\n'}
+[3.604635] (cartographer) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/transform/proto/timestamped_transform.proto\x1b[0m\n'}
+[3.606784] (cartographer) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mRunning C++ protocol buffer compiler on /home/terranova/uav_ws/src/cartographer/cartographer/sensor/proto/sensor.proto\x1b[0m\n'}
+[3.625475] (-) TimerEvent: {}
+[3.726621] (-) TimerEvent: {}
+[3.783146] (cartographer) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/configuration_file_resolver.cc.o\x1b[0m\n'}
+[3.784359] (cartographer) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/histogram.cc.o\x1b[0m\n'}
+[3.790166] (cartographer) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/fixed_ratio_sampler.cc.o\x1b[0m\n'}
+[3.826729] (-) TimerEvent: {}
+[3.927412] (-) TimerEvent: {}
+[4.028246] (-) TimerEvent: {}
+[4.129029] (-) TimerEvent: {}
+[4.229866] (-) TimerEvent: {}
+[4.330753] (-) TimerEvent: {}
+[4.385038] (cartographer) StdoutLine: {'line': b'\x1b[01mRunning Sphinx v1.8.5\x1b[39;49;00m\n'}
+[4.430883] (-) TimerEvent: {}
+[4.532021] (-) TimerEvent: {}
+[4.632964] (-) TimerEvent: {}
+[4.733810] (-) TimerEvent: {}
+[4.834606] (-) TimerEvent: {}
+[4.935400] (-) TimerEvent: {}
+[4.992864] (cartographer) StderrLine: {'line': b'\n'}
+[4.994497] (cartographer) StderrLine: {'line': b'\x1b[31;01mExtension error:\x1b[39;49;00m\n'}
+[4.995342] (cartographer) StderrLine: {'line': b"Could not import extension sphinx.builders.latex (exception: cannot import name 'contextfunction' from 'jinja2' (/home/terranova/.local/lib/python3.8/site-packages/jinja2/__init__.py))\n"}
+[5.035537] (-) TimerEvent: {}
+[5.136368] (-) TimerEvent: {}
+[5.199306] (cartographer) StderrLine: {'line': b'make[2]: *** [docs/CMakeFiles/build_doc.dir/build.make:71: docs/CMakeFiles/build_doc] Error 2\n'}
+[5.201107] (cartographer) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:3028: docs/CMakeFiles/build_doc.dir/all] Error 2\n'}
+[5.202405] (cartographer) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[5.227566] (cartographer) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/ceres_solver_options.cc.o\x1b[0m\n'}
+[5.236486] (-) TimerEvent: {}
+[5.337341] (-) TimerEvent: {}
+[5.438169] (-) TimerEvent: {}
+[5.538885] (-) TimerEvent: {}
+[5.639576] (-) TimerEvent: {}
+[5.740268] (-) TimerEvent: {}
+[5.840953] (-) TimerEvent: {}
+[5.941637] (-) TimerEvent: {}
+[6.042323] (-) TimerEvent: {}
+[6.143058] (-) TimerEvent: {}
+[6.246524] (-) TimerEvent: {}
+[6.347406] (-) TimerEvent: {}
+[6.448402] (-) TimerEvent: {}
+[6.549660] (-) TimerEvent: {}
+[6.650673] (-) TimerEvent: {}
+[6.751640] (-) TimerEvent: {}
+[6.852485] (-) TimerEvent: {}
+[6.953313] (-) TimerEvent: {}
+[7.054152] (-) TimerEvent: {}
+[7.155039] (-) TimerEvent: {}
+[7.255890] (-) TimerEvent: {}
+[7.356703] (-) TimerEvent: {}
+[7.457776] (-) TimerEvent: {}
+[7.558647] (-) TimerEvent: {}
+[7.659899] (-) TimerEvent: {}
+[7.760669] (-) TimerEvent: {}
+[7.861482] (-) TimerEvent: {}
+[7.964335] (-) TimerEvent: {}
+[8.070650] (-) TimerEvent: {}
+[8.174650] (-) TimerEvent: {}
+[8.278656] (-) TimerEvent: {}
+[8.381838] (-) TimerEvent: {}
+[8.483411] (-) TimerEvent: {}
+[8.584858] (-) TimerEvent: {}
+[8.690659] (-) TimerEvent: {}
+[8.792617] (-) TimerEvent: {}
+[8.898631] (-) TimerEvent: {}
+[9.002636] (-) TimerEvent: {}
+[9.103942] (-) TimerEvent: {}
+[9.204426] (-) TimerEvent: {}
+[9.306666] (-) TimerEvent: {}
+[9.410056] (-) TimerEvent: {}
+[9.511816] (-) TimerEvent: {}
+[9.618634] (-) TimerEvent: {}
+[9.722638] (-) TimerEvent: {}
+[9.823165] (-) TimerEvent: {}
+[9.933067] (-) TimerEvent: {}
+[10.034427] (-) TimerEvent: {}
+[10.135980] (-) TimerEvent: {}
+[10.236521] (-) TimerEvent: {}
+[10.342629] (-) TimerEvent: {}
+[10.445515] (-) TimerEvent: {}
+[10.546150] (-) TimerEvent: {}
+[10.646654] (-) TimerEvent: {}
+[10.749861] (cartographer) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/testing/thread_pool_for_testing.cc.o\x1b[0m\n'}
+[10.751375] (-) TimerEvent: {}
+[10.852027] (-) TimerEvent: {}
+[10.952943] (-) TimerEvent: {}
+[11.053442] (-) TimerEvent: {}
+[11.153978] (-) TimerEvent: {}
+[11.254658] (-) TimerEvent: {}
+[11.266061] (cartographer) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/lua_parameter_dictionary.cc.o\x1b[0m\n'}
+[11.354784] (-) TimerEvent: {}
+[11.447096] (cartographer) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/task.cc.o\x1b[0m\n'}
+[11.454917] (-) TimerEvent: {}
+[11.555607] (-) TimerEvent: {}
+[11.656332] (-) TimerEvent: {}
+[11.757042] (-) TimerEvent: {}
+[11.857912] (-) TimerEvent: {}
+[11.962932] (-) TimerEvent: {}
+[12.070705] (-) TimerEvent: {}
+[12.172075] (-) TimerEvent: {}
+[12.273089] (-) TimerEvent: {}
+[12.374109] (-) TimerEvent: {}
+[12.482632] (-) TimerEvent: {}
+[12.584503] (-) TimerEvent: {}
+[12.684969] (-) TimerEvent: {}
+[12.785515] (-) TimerEvent: {}
+[12.885998] (-) TimerEvent: {}
+[12.986455] (-) TimerEvent: {}
+[13.087388] (-) TimerEvent: {}
+[13.188362] (-) TimerEvent: {}
+[13.289187] (-) TimerEvent: {}
+[13.389989] (-) TimerEvent: {}
+[13.490883] (-) TimerEvent: {}
+[13.591684] (-) TimerEvent: {}
+[13.692482] (-) TimerEvent: {}
+[13.793301] (-) TimerEvent: {}
+[13.894026] (-) TimerEvent: {}
+[13.994762] (-) TimerEvent: {}
+[14.095447] (-) TimerEvent: {}
+[14.196153] (-) TimerEvent: {}
+[14.296861] (-) TimerEvent: {}
+[14.397696] (-) TimerEvent: {}
+[14.498499] (-) TimerEvent: {}
+[14.599196] (-) TimerEvent: {}
+[14.699958] (-) TimerEvent: {}
+[14.800794] (-) TimerEvent: {}
+[14.901556] (-) TimerEvent: {}
+[15.002354] (-) TimerEvent: {}
+[15.103290] (-) TimerEvent: {}
+[15.204199] (-) TimerEvent: {}
+[15.309485] (-) TimerEvent: {}
+[15.413573] (-) TimerEvent: {}
+[15.514618] (-) TimerEvent: {}
+[15.615536] (-) TimerEvent: {}
+[15.716418] (-) TimerEvent: {}
+[15.817121] (-) TimerEvent: {}
+[15.917617] (-) TimerEvent: {}
+[16.018388] (-) TimerEvent: {}
+[16.119485] (-) TimerEvent: {}
+[16.222853] (-) TimerEvent: {}
+[16.330853] (-) TimerEvent: {}
+[16.432027] (-) TimerEvent: {}
+[16.532958] (-) TimerEvent: {}
+[16.634043] (-) TimerEvent: {}
+[16.734673] (-) TimerEvent: {}
+[16.771206] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:24,\n'}
+[16.771700] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/task.cc:17:\n'}
+[16.772031] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:67:58: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.772266] (cartographer) StderrLine: {'line': b'   67 |   std::weak_ptr<Task> Schedule(std::unique_ptr<Task> task)\n'}
+[16.772506] (cartographer) StderrLine: {'line': b'      |                                                          ^\n'}
+[16.772721] (cartographer) StderrLine: {'line': b'      |                                                           ;\n'}
+[16.772915] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:22: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[16.773098] (cartographer) StderrLine: {'line': b'   68 |       LOCKS_EXCLUDED(mutex_) override;\n'}
+[16.773287] (cartographer) StderrLine: {'line': b'      |                      ^~~~~~\n'}
+[16.773474] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:30: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.773673] (cartographer) StderrLine: {'line': b'   68 |       LOCKS_EXCLUDED(mutex_) override;\n'}
+[16.773859] (cartographer) StderrLine: {'line': b'      |                              ^~~~~~~~\n'}
+[16.774060] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:46: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.774268] (cartographer) StderrLine: {'line': b'   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;\n'}
+[16.774479] (cartographer) StderrLine: {'line': b'      |                                              ^\n'}
+[16.780259] (cartographer) StderrLine: {'line': b'      |                                               ;\n'}
+[16.780567] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:63: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[16.780839] (cartographer) StderrLine: {'line': b'   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;\n'}
+[16.781079] (cartographer) StderrLine: {'line': b'      |                                                               ^~~~~~\n'}
+[16.781320] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:71: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.781571] (cartographer) StderrLine: {'line': b'   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;\n'}
+[16.781817] (cartographer) StderrLine: {'line': b'      |                                                                       ^~~~~~~~\n'}
+[16.782066] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:48: error: \xe2\x80\x98int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[16.782309] (cartographer) StderrLine: {'line': b'   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;\n'}
+[16.782576] (cartographer) StderrLine: {'line': b'      |                                                ^~~~~~~~~~~~~~\n'}
+[16.790193] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:7: note: previous declaration \xe2\x80\x98int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[16.790464] (cartographer) StderrLine: {'line': b'   68 |       LOCKS_EXCLUDED(mutex_) override;\n'}
+[16.790723] (cartographer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[16.790955] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:8: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.791182] (cartographer) StderrLine: {'line': b'   76 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[16.791398] (cartographer) StderrLine: {'line': b'      |        ^~~~~~~~\n'}
+[16.791607] (cartographer) StderrLine: {'line': b'      |                ;\n'}
+[16.791808] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:28: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[16.792007] (cartographer) StderrLine: {'line': b'   76 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[16.792205] (cartographer) StderrLine: {'line': b'      |                            ^~~~~~\n'}
+[16.792403] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:42: error: invalid pure specifier (only \xe2\x80\x98= 0\xe2\x80\x99 is allowed) before \xe2\x80\x98;\xe2\x80\x99 token\n'}
+[16.792605] (cartographer) StderrLine: {'line': b'   76 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[16.792799] (cartographer) StderrLine: {'line': b'      |                                          ^\n'}
+[16.792995] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:42: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.793195] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:28: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.793395] (cartographer) StderrLine: {'line': b'   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);\n'}
+[16.798769] (cartographer) StderrLine: {'line': b'      |                            ^~~~~\n'}
+[16.799099] (cartographer) StderrLine: {'line': b'      |                                 ;\n'}
+[16.799350] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:45: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[16.799586] (cartographer) StderrLine: {'line': b'   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);\n'}
+[16.799806] (cartographer) StderrLine: {'line': b'      |                                             ^~~~~~\n'}
+[16.800022] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:51: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.800250] (cartographer) StderrLine: {'line': b'   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);\n'}
+[16.800459] (cartographer) StderrLine: {'line': b'      |                                                   ^\n'}
+[16.800668] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:34: error: \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.800879] (cartographer) StderrLine: {'line': b'   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);\n'}
+[16.801098] (cartographer) StderrLine: {'line': b'      |                                  ^~~~~~~~~~\n'}
+[16.801295] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.801496] (cartographer) StderrLine: {'line': b'   76 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[16.801694] (cartographer) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[16.801888] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:37: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.802084] (cartographer) StderrLine: {'line': b'   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);\n'}
+[16.802280] (cartographer) StderrLine: {'line': b'      |                                     ^~~~~~~~~~~\n'}
+[16.802489] (cartographer) StderrLine: {'line': b'      |                                                ;\n'}
+[16.813783] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:60: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[16.814265] (cartographer) StderrLine: {'line': b'   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);\n'}
+[16.814482] (cartographer) StderrLine: {'line': b'      |                                                            ^~~~~~\n'}
+[16.814755] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:66: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.815068] (cartographer) StderrLine: {'line': b'   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);\n'}
+[16.815309] (cartographer) StderrLine: {'line': b'      |                                                                  ^\n'}
+[16.815541] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:49: error: \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.815793] (cartographer) StderrLine: {'line': b'   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);\n'}
+[16.816016] (cartographer) StderrLine: {'line': b'      |                                                 ^~~~~~~~~~\n'}
+[16.816240] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.816465] (cartographer) StderrLine: {'line': b'   76 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[16.816688] (cartographer) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[16.816907] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:79:53: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.817127] (cartographer) StderrLine: {'line': b'   79 |   absl::flat_hash_map<Task*, std::shared_ptr<Task>> tasks_not_ready_\n'}
+[16.817332] (cartographer) StderrLine: {'line': b'      |                                                     ^~~~~~~~~~~~~~~~\n'}
+[16.817514] (cartographer) StderrLine: {'line': b'      |                                                                     ;\n'}
+[16.817693] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:18: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[16.817898] (cartographer) StderrLine: {'line': b'   80 |       GUARDED_BY(mutex_);\n'}
+[16.818111] (cartographer) StderrLine: {'line': b'      |                  ^~~~~~\n'}
+[16.818321] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:24: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.826667] (cartographer) StderrLine: {'line': b'   80 |       GUARDED_BY(mutex_);\n'}
+[16.827083] (cartographer) StderrLine: {'line': b'      |                        ^\n'}
+[16.827366] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:7: error: \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.827629] (cartographer) StderrLine: {'line': b'   80 |       GUARDED_BY(mutex_);\n'}
+[16.827875] (cartographer) StderrLine: {'line': b'      |       ^~~~~~~~~~\n'}
+[16.828114] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.828343] (cartographer) StderrLine: {'line': b'   76 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[16.828561] (cartographer) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[16.828774] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:7: error: \xe2\x80\x98int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)\xe2\x80\x99 marked \xe2\x80\x98override\xe2\x80\x99, but does not override\n'}
+[16.828990] (cartographer) StderrLine: {'line': b'   68 |       LOCKS_EXCLUDED(mutex_) override;\n'}
+[16.829423] (cartographer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[16.829760] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/task.cc:17:\n'}
+[16.829995] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:18: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.830234] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[16.830472] (cartographer) StderrLine: {'line': b'      |                  ^\n'}
+[16.834870] (-) TimerEvent: {}
+[16.835285] (cartographer) StderrLine: {'line': b'      |                   ;\n'}
+[16.835534] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:35: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[16.835741] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[16.835944] (cartographer) StderrLine: {'line': b'      |                                   ^~~~~~\n'}
+[16.836145] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:41: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.836349] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[16.836549] (cartographer) StderrLine: {'line': b'      |                                         ^\n'}
+[16.836734] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:45: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.836918] (cartographer) StderrLine: {'line': b'   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);\n'}
+[16.837094] (cartographer) StderrLine: {'line': b'      |                                             ^\n'}
+[16.837566] (cartographer) StderrLine: {'line': b'      |                                              ;\n'}
+[16.837793] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:62: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[16.838001] (cartographer) StderrLine: {'line': b'   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);\n'}
+[16.838208] (cartographer) StderrLine: {'line': b'      |                                                              ^~~~~~\n'}
+[16.838430] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:68: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.838663] (cartographer) StderrLine: {'line': b'   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);\n'}
+[16.838864] (cartographer) StderrLine: {'line': b'      |                                                                    ^\n'}
+[16.839053] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:47: error: \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[16.839246] (cartographer) StderrLine: {'line': b'   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);\n'}
+[16.839439] (cartographer) StderrLine: {'line': b'      |                                               ^~~~~~~~~~~~~~\n'}
+[16.839635] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[16.839856] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[16.840053] (cartographer) StderrLine: {'line': b'      |                    ^~~~~~~~~~~~~~\n'}
+[16.845761] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:52: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.846174] (cartographer) StderrLine: {'line': b'   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);\n'}
+[16.846441] (cartographer) StderrLine: {'line': b'      |                                                    ^\n'}
+[16.846714] (cartographer) StderrLine: {'line': b'      |                                                     ;\n'}
+[16.846941] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:69: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[16.847418] (cartographer) StderrLine: {'line': b'   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);\n'}
+[16.847669] (cartographer) StderrLine: {'line': b'      |                                                                     ^~~~~~\n'}
+[16.847883] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:75: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.848089] (cartographer) StderrLine: {'line': b'   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);\n'}
+[16.848314] (cartographer) StderrLine: {'line': b'      |                                                                           ^\n'}
+[16.848543] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:54: error: \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[16.848754] (cartographer) StderrLine: {'line': b'   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);\n'}
+[16.848973] (cartographer) StderrLine: {'line': b'      |                                                      ^~~~~~~~~~~~~~\n'}
+[16.849191] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[16.849411] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[16.849626] (cartographer) StderrLine: {'line': b'      |                    ^~~~~~~~~~~~~~\n'}
+[16.849857] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:16: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.850068] (cartographer) StderrLine: {'line': b'   55 |   void Execute() LOCKS_EXCLUDED(mutex_);\n'}
+[16.850272] (cartographer) StderrLine: {'line': b'      |                ^\n'}
+[16.857144] (cartographer) StderrLine: {'line': b'      |                 ;\n'}
+[16.857523] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:33: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[16.857820] (cartographer) StderrLine: {'line': b'   55 |   void Execute() LOCKS_EXCLUDED(mutex_);\n'}
+[16.858068] (cartographer) StderrLine: {'line': b'      |                                 ^~~~~~\n'}
+[16.858278] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:39: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.858495] (cartographer) StderrLine: {'line': b'   55 |   void Execute() LOCKS_EXCLUDED(mutex_);\n'}
+[16.858727] (cartographer) StderrLine: {'line': b'      |                                       ^\n'}
+[16.858946] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:18: error: \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[16.859165] (cartographer) StderrLine: {'line': b'   55 |   void Execute() LOCKS_EXCLUDED(mutex_);\n'}
+[16.859375] (cartographer) StderrLine: {'line': b'      |                  ^~~~~~~~~~~~~~\n'}
+[16.859584] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[16.859797] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[16.860006] (cartographer) StderrLine: {'line': b'      |                    ^~~~~~~~~~~~~~\n'}
+[16.860208] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:54: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.860417] (cartographer) StderrLine: {'line': b'   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);\n'}
+[16.868068] (cartographer) StderrLine: {'line': b'      |                                                      ^\n'}
+[16.868496] (cartographer) StderrLine: {'line': b'      |                                                       ;\n'}
+[16.868782] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:71: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[16.870666] (cartographer) StderrLine: {'line': b'   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);\n'}
+[16.871657] (cartographer) StderrLine: {'line': b'      |                                                                       ^~~~~~\n'}
+[16.871998] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:77: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.872270] (cartographer) StderrLine: {'line': b'   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);\n'}
+[16.872534] (cartographer) StderrLine: {'line': b'      |                                                                             ^\n'}
+[16.872792] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:56: error: \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[16.873078] (cartographer) StderrLine: {'line': b'   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);\n'}
+[16.873316] (cartographer) StderrLine: {'line': b'      |                                                        ^~~~~~~~~~~~~~\n'}
+[16.873531] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[16.873747] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[16.873954] (cartographer) StderrLine: {'line': b'      |                    ^~~~~~~~~~~~~~\n'}
+[16.874152] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:12: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.874359] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[16.879531] (cartographer) StderrLine: {'line': b'      |            ^~~~~~~~~~\n'}
+[16.879881] (cartographer) StderrLine: {'line': b'      |                      ;\n'}
+[16.880093] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:34: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[16.880301] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[16.880510] (cartographer) StderrLine: {'line': b'      |                                  ^~~~~~\n'}
+[16.880710] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:40: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.884390] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[16.884770] (cartographer) StderrLine: {'line': b'      |                                        ^\n'}
+[16.884991] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:24: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.885216] (cartographer) StderrLine: {'line': b'   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;\n'}
+[16.885419] (cartographer) StderrLine: {'line': b'      |                        ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[16.885623] (cartographer) StderrLine: {'line': b'      |                                              ;\n'}
+[16.885822] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:58: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[16.886032] (cartographer) StderrLine: {'line': b'   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;\n'}
+[16.886238] (cartographer) StderrLine: {'line': b'      |                                                          ^~~~~~\n'}
+[16.886444] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:75: error: invalid pure specifier (only \xe2\x80\x98= 0\xe2\x80\x99 is allowed) before \xe2\x80\x98;\xe2\x80\x99 token\n'}
+[16.886678] (cartographer) StderrLine: {'line': b'   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;\n'}
+[16.886884] (cartographer) StderrLine: {'line': b'      |                                                                           ^\n'}
+[16.887087] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:75: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.890845] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:47: error: \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.894707] (cartographer) StderrLine: {'line': b'   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;\n'}
+[16.895078] (cartographer) StderrLine: {'line': b'      |                                               ^~~~~~~~~~\n'}
+[16.895453] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.895671] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[16.895888] (cartographer) StderrLine: {'line': b'      |                       ^~~~~~~~~~\n'}
+[16.896100] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:9: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.896308] (cartographer) StderrLine: {'line': b'   66 |   State state_ GUARDED_BY(mutex_) = NEW;\n'}
+[16.896503] (cartographer) StderrLine: {'line': b'      |         ^~~~~~\n'}
+[16.896704] (cartographer) StderrLine: {'line': b'      |               ;\n'}
+[16.896902] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:27: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[16.897106] (cartographer) StderrLine: {'line': b'   66 |   State state_ GUARDED_BY(mutex_) = NEW;\n'}
+[16.897302] (cartographer) StderrLine: {'line': b'      |                           ^~~~~~\n'}
+[16.897501] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:40: error: invalid pure specifier (only \xe2\x80\x98= 0\xe2\x80\x99 is allowed) before \xe2\x80\x98;\xe2\x80\x99 token\n'}
+[16.897706] (cartographer) StderrLine: {'line': b'   66 |   State state_ GUARDED_BY(mutex_) = NEW;\n'}
+[16.897907] (cartographer) StderrLine: {'line': b'      |                                        ^\n'}
+[16.898106] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:40: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.898311] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:16: error: \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.898521] (cartographer) StderrLine: {'line': b'   66 |   State state_ GUARDED_BY(mutex_) = NEW;\n'}
+[16.901850] (cartographer) StderrLine: {'line': b'      |                ^~~~~~~~~~\n'}
+[16.902094] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.902305] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[16.902509] (cartographer) StderrLine: {'line': b'      |                       ^~~~~~~~~~\n'}
+[16.902735] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:16: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.902941] (cartographer) StderrLine: {'line': b'   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;\n'}
+[16.903129] (cartographer) StderrLine: {'line': b'      |                ^~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[16.907028] (cartographer) StderrLine: {'line': b'      |                                         ;\n'}
+[16.907305] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:53: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[16.907547] (cartographer) StderrLine: {'line': b'   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;\n'}
+[16.907776] (cartographer) StderrLine: {'line': b'      |                                                     ^~~~~~\n'}
+[16.908018] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:63: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.908236] (cartographer) StderrLine: {'line': b'   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;\n'}
+[16.908461] (cartographer) StderrLine: {'line': b'      |                                                               ^\n'}
+[16.908677] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:42: error: \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.908894] (cartographer) StderrLine: {'line': b'   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;\n'}
+[16.909105] (cartographer) StderrLine: {'line': b'      |                                          ^~~~~~~~~~\n'}
+[16.909323] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.909540] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[16.909733] (cartographer) StderrLine: {'line': b'      |                       ^~~~~~~~~~\n'}
+[16.909942] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:19: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[16.910147] (cartographer) StderrLine: {'line': b'   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);\n'}
+[16.910351] (cartographer) StderrLine: {'line': b'      |                   ^~~~~~~~~~~~~~~~\n'}
+[16.918349] (cartographer) StderrLine: {'line': b'      |                                   ;\n'}
+[16.918717] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:47: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[16.918938] (cartographer) StderrLine: {'line': b'   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);\n'}
+[16.919170] (cartographer) StderrLine: {'line': b'      |                                               ^~~~~~\n'}
+[16.919384] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:53: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[16.919594] (cartographer) StderrLine: {'line': b'   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);\n'}
+[16.919796] (cartographer) StderrLine: {'line': b'      |                                                     ^\n'}
+[16.919998] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:36: error: \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.920206] (cartographer) StderrLine: {'line': b'   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);\n'}
+[16.920409] (cartographer) StderrLine: {'line': b'      |                                    ^~~~~~~~~~\n'}
+[16.920615] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[16.920801] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[16.921002] (cartographer) StderrLine: {'line': b'      |                       ^~~~~~~~~~\n'}
+[16.921206] (cartographer) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cartographer.dir/build.make:447: CMakeFiles/cartographer.dir/cartographer/common/task.cc.o] Error 1\n'}
+[16.923571] (cartographer) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[16.938627] (-) TimerEvent: {}
+[17.039103] (-) TimerEvent: {}
+[17.139803] (-) TimerEvent: {}
+[17.240485] (-) TimerEvent: {}
+[17.341854] (-) TimerEvent: {}
+[17.442782] (-) TimerEvent: {}
+[17.543701] (-) TimerEvent: {}
+[17.644672] (-) TimerEvent: {}
+[17.745623] (-) TimerEvent: {}
+[17.846518] (-) TimerEvent: {}
+[17.947416] (-) TimerEvent: {}
+[18.048637] (-) TimerEvent: {}
+[18.149893] (-) TimerEvent: {}
+[18.250386] (-) TimerEvent: {}
+[18.350885] (-) TimerEvent: {}
+[18.451387] (-) TimerEvent: {}
+[18.551880] (-) TimerEvent: {}
+[18.652376] (-) TimerEvent: {}
+[18.754673] (-) TimerEvent: {}
+[18.855542] (-) TimerEvent: {}
+[18.956277] (-) TimerEvent: {}
+[19.056891] (-) TimerEvent: {}
+[19.157647] (-) TimerEvent: {}
+[19.258114] (-) TimerEvent: {}
+[19.358625] (-) TimerEvent: {}
+[19.459265] (-) TimerEvent: {}
+[19.559889] (-) TimerEvent: {}
+[19.660530] (-) TimerEvent: {}
+[19.760978] (-) TimerEvent: {}
+[19.796361] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:28,\n'}
+[19.798895] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:26,\n'}
+[19.799211] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.799414] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:18: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.799616] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[19.799815] (cartographer) StderrLine: {'line': b'      |                  ^\n'}
+[19.800007] (cartographer) StderrLine: {'line': b'      |                   ;\n'}
+[19.800193] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:35: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.800384] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[19.800591] (cartographer) StderrLine: {'line': b'      |                                   ^~~~~~\n'}
+[19.800784] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:41: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.800995] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[19.801189] (cartographer) StderrLine: {'line': b'      |                                         ^\n'}
+[19.801383] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:45: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.801577] (cartographer) StderrLine: {'line': b'   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);\n'}
+[19.801763] (cartographer) StderrLine: {'line': b'      |                                             ^\n'}
+[19.801955] (cartographer) StderrLine: {'line': b'      |                                              ;\n'}
+[19.802147] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:62: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.802406] (cartographer) StderrLine: {'line': b'   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);\n'}
+[19.802625] (cartographer) StderrLine: {'line': b'      |                                                              ^~~~~~\n'}
+[19.802823] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:68: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.803017] (cartographer) StderrLine: {'line': b'   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);\n'}
+[19.803222] (cartographer) StderrLine: {'line': b'      |                                                                    ^\n'}
+[19.803405] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:47: error: \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[19.803606] (cartographer) StderrLine: {'line': b'   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);\n'}
+[19.803797] (cartographer) StderrLine: {'line': b'      |                                               ^~~~~~~~~~~~~~\n'}
+[19.803971] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[19.804137] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[19.804319] (cartographer) StderrLine: {'line': b'      |                    ^~~~~~~~~~~~~~\n'}
+[19.804510] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:52: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.804702] (cartographer) StderrLine: {'line': b'   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);\n'}
+[19.804884] (cartographer) StderrLine: {'line': b'      |                                                    ^\n'}
+[19.808328] (cartographer) StderrLine: {'line': b'      |                                                     ;\n'}
+[19.808534] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:69: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.809249] (cartographer) StderrLine: {'line': b'   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);\n'}
+[19.809455] (cartographer) StderrLine: {'line': b'      |                                                                     ^~~~~~\n'}
+[19.809650] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:75: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.810243] (cartographer) StderrLine: {'line': b'   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);\n'}
+[19.810449] (cartographer) StderrLine: {'line': b'      |                                                                           ^\n'}
+[19.810682] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:54: error: \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[19.811296] (cartographer) StderrLine: {'line': b'   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);\n'}
+[19.811516] (cartographer) StderrLine: {'line': b'      |                                                      ^~~~~~~~~~~~~~\n'}
+[19.811704] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[19.811900] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[19.812478] (cartographer) StderrLine: {'line': b'      |                    ^~~~~~~~~~~~~~\n'}
+[19.812655] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:16: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.812820] (cartographer) StderrLine: {'line': b'   55 |   void Execute() LOCKS_EXCLUDED(mutex_);\n'}
+[19.813719] (cartographer) StderrLine: {'line': b'      |                ^\n'}
+[19.814403] (cartographer) StderrLine: {'line': b'      |                 ;\n'}
+[19.814778] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:33: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.814954] (cartographer) StderrLine: {'line': b'   55 |   void Execute() LOCKS_EXCLUDED(mutex_);\n'}
+[19.815126] (cartographer) StderrLine: {'line': b'      |                                 ^~~~~~\n'}
+[19.815312] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:39: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.815534] (cartographer) StderrLine: {'line': b'   55 |   void Execute() LOCKS_EXCLUDED(mutex_);\n'}
+[19.815725] (cartographer) StderrLine: {'line': b'      |                                       ^\n'}
+[19.815915] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:18: error: \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[19.816121] (cartographer) StderrLine: {'line': b'   55 |   void Execute() LOCKS_EXCLUDED(mutex_);\n'}
+[19.816326] (cartographer) StderrLine: {'line': b'      |                  ^~~~~~~~~~~~~~\n'}
+[19.816512] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[19.816682] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[19.816868] (cartographer) StderrLine: {'line': b'      |                    ^~~~~~~~~~~~~~\n'}
+[19.817057] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:54: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.817249] (cartographer) StderrLine: {'line': b'   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);\n'}
+[19.818280] (cartographer) StderrLine: {'line': b'      |                                                      ^\n'}
+[19.818458] (cartographer) StderrLine: {'line': b'      |                                                       ;\n'}
+[19.819524] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:71: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.819758] (cartographer) StderrLine: {'line': b'   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);\n'}
+[19.819949] (cartographer) StderrLine: {'line': b'      |                                                                       ^~~~~~\n'}
+[19.820645] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:77: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.820870] (cartographer) StderrLine: {'line': b'   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);\n'}
+[19.821644] (cartographer) StderrLine: {'line': b'      |                                                                             ^\n'}
+[19.822285] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:56: error: \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[19.822545] (cartographer) StderrLine: {'line': b'   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);\n'}
+[19.823420] (cartographer) StderrLine: {'line': b'      |                                                        ^~~~~~~~~~~~~~\n'}
+[19.823951] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration \xe2\x80\x98int cartographer::common::Task::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[19.824175] (cartographer) StderrLine: {'line': b'   41 |   State GetState() LOCKS_EXCLUDED(mutex_);\n'}
+[19.824365] (cartographer) StderrLine: {'line': b'      |                    ^~~~~~~~~~~~~~\n'}
+[19.824532] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:12: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.824739] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[19.824920] (cartographer) StderrLine: {'line': b'      |            ^~~~~~~~~~\n'}
+[19.825092] (cartographer) StderrLine: {'line': b'      |                      ;\n'}
+[19.825255] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:34: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.825415] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[19.825573] (cartographer) StderrLine: {'line': b'      |                                  ^~~~~~\n'}
+[19.825729] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:40: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.825905] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[19.826088] (cartographer) StderrLine: {'line': b'      |                                        ^\n'}
+[19.826271] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:24: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.826445] (cartographer) StderrLine: {'line': b'   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;\n'}
+[19.826662] (cartographer) StderrLine: {'line': b'      |                        ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[19.826846] (cartographer) StderrLine: {'line': b'      |                                              ;\n'}
+[19.827020] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:58: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.827208] (cartographer) StderrLine: {'line': b'   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;\n'}
+[19.827396] (cartographer) StderrLine: {'line': b'      |                                                          ^~~~~~\n'}
+[19.827584] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:75: error: invalid pure specifier (only \xe2\x80\x98= 0\xe2\x80\x99 is allowed) before \xe2\x80\x98;\xe2\x80\x99 token\n'}
+[19.827778] (cartographer) StderrLine: {'line': b'   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;\n'}
+[19.827971] (cartographer) StderrLine: {'line': b'      |                                                                           ^\n'}
+[19.828166] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:75: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.828371] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:47: error: \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.828580] (cartographer) StderrLine: {'line': b'   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;\n'}
+[19.828777] (cartographer) StderrLine: {'line': b'      |                                               ^~~~~~~~~~\n'}
+[19.829477] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.829736] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[19.829940] (cartographer) StderrLine: {'line': b'      |                       ^~~~~~~~~~\n'}
+[19.830135] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:9: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.830326] (cartographer) StderrLine: {'line': b'   66 |   State state_ GUARDED_BY(mutex_) = NEW;\n'}
+[19.830570] (cartographer) StderrLine: {'line': b'      |         ^~~~~~\n'}
+[19.831262] (cartographer) StderrLine: {'line': b'      |               ;\n'}
+[19.831470] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:27: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.831712] (cartographer) StderrLine: {'line': b'   66 |   State state_ GUARDED_BY(mutex_) = NEW;\n'}
+[19.831890] (cartographer) StderrLine: {'line': b'      |                           ^~~~~~\n'}
+[19.832057] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:40: error: invalid pure specifier (only \xe2\x80\x98= 0\xe2\x80\x99 is allowed) before \xe2\x80\x98;\xe2\x80\x99 token\n'}
+[19.832246] (cartographer) StderrLine: {'line': b'   66 |   State state_ GUARDED_BY(mutex_) = NEW;\n'}
+[19.832426] (cartographer) StderrLine: {'line': b'      |                                        ^\n'}
+[19.832588] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:40: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.832768] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:16: error: \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.832960] (cartographer) StderrLine: {'line': b'   66 |   State state_ GUARDED_BY(mutex_) = NEW;\n'}
+[19.833146] (cartographer) StderrLine: {'line': b'      |                ^~~~~~~~~~\n'}
+[19.833310] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.833489] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[19.833679] (cartographer) StderrLine: {'line': b'      |                       ^~~~~~~~~~\n'}
+[19.833918] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:16: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.837616] (cartographer) StderrLine: {'line': b'   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;\n'}
+[19.837832] (cartographer) StderrLine: {'line': b'      |                ^~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[19.838019] (cartographer) StderrLine: {'line': b'      |                                         ;\n'}
+[19.838204] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:53: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.838457] (cartographer) StderrLine: {'line': b'   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;\n'}
+[19.838678] (cartographer) StderrLine: {'line': b'      |                                                     ^~~~~~\n'}
+[19.838860] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:63: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.839044] (cartographer) StderrLine: {'line': b'   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;\n'}
+[19.839210] (cartographer) StderrLine: {'line': b'      |                                                               ^\n'}
+[19.839411] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:42: error: \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.839657] (cartographer) StderrLine: {'line': b'   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;\n'}
+[19.839836] (cartographer) StderrLine: {'line': b'      |                                          ^~~~~~~~~~\n'}
+[19.840026] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.840218] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[19.840419] (cartographer) StderrLine: {'line': b'      |                       ^~~~~~~~~~\n'}
+[19.840606] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:19: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.840802] (cartographer) StderrLine: {'line': b'   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);\n'}
+[19.841006] (cartographer) StderrLine: {'line': b'      |                   ^~~~~~~~~~~~~~~~\n'}
+[19.841215] (cartographer) StderrLine: {'line': b'      |                                   ;\n'}
+[19.841397] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:47: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.841591] (cartographer) StderrLine: {'line': b'   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);\n'}
+[19.841770] (cartographer) StderrLine: {'line': b'      |                                               ^~~~~~\n'}
+[19.841942] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:53: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.842132] (cartographer) StderrLine: {'line': b'   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);\n'}
+[19.842315] (cartographer) StderrLine: {'line': b'      |                                                     ^\n'}
+[19.842507] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:36: error: \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.842748] (cartographer) StderrLine: {'line': b'   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);\n'}
+[19.842943] (cartographer) StderrLine: {'line': b'      |                                    ^~~~~~~~~~\n'}
+[19.843123] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration \xe2\x80\x98int cartographer::common::Task::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.843311] (cartographer) StderrLine: {'line': b'   64 |   WorkItem work_item_ GUARDED_BY(mutex_);\n'}
+[19.843505] (cartographer) StderrLine: {'line': b'      |                       ^~~~~~~~~~\n'}
+[19.843697] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:26,\n'}
+[19.843878] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.844063] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:67:58: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.844242] (cartographer) StderrLine: {'line': b'   67 |   std::weak_ptr<Task> Schedule(std::unique_ptr<Task> task)\n'}
+[19.844470] (cartographer) StderrLine: {'line': b'      |                                                          ^\n'}
+[19.844712] (cartographer) StderrLine: {'line': b'      |                                                           ;\n'}
+[19.844897] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:22: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.845614] (cartographer) StderrLine: {'line': b'   68 |       LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.845825] (cartographer) StderrLine: {'line': b'      |                      ^~~~~~\n'}
+[19.846014] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:30: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.846188] (cartographer) StderrLine: {'line': b'   68 |       LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.846354] (cartographer) StderrLine: {'line': b'      |                              ^~~~~~~~\n'}
+[19.846592] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:46: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.846794] (cartographer) StderrLine: {'line': b'   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.846976] (cartographer) StderrLine: {'line': b'      |                                              ^\n'}
+[19.847143] (cartographer) StderrLine: {'line': b'      |                                               ;\n'}
+[19.847348] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:63: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.847570] (cartographer) StderrLine: {'line': b'   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.847765] (cartographer) StderrLine: {'line': b'      |                                                               ^~~~~~\n'}
+[19.847975] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:71: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.848161] (cartographer) StderrLine: {'line': b'   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.848330] (cartographer) StderrLine: {'line': b'      |                                                                       ^~~~~~~~\n'}
+[19.848511] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:48: error: \xe2\x80\x98int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[19.848694] (cartographer) StderrLine: {'line': b'   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.848872] (cartographer) StderrLine: {'line': b'      |                                                ^~~~~~~~~~~~~~\n'}
+[19.849051] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:7: note: previous declaration \xe2\x80\x98int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[19.849634] (cartographer) StderrLine: {'line': b'   68 |       LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.849827] (cartographer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[19.850001] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:8: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.850187] (cartographer) StderrLine: {'line': b'   76 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.850369] (cartographer) StderrLine: {'line': b'      |        ^~~~~~~~\n'}
+[19.850917] (cartographer) StderrLine: {'line': b'      |                ;\n'}
+[19.851112] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:28: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[19.851296] (cartographer) StderrLine: {'line': b'   76 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.851467] (cartographer) StderrLine: {'line': b'      |                            ^~~~~~\n'}
+[19.851648] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:42: error: invalid pure specifier (only \xe2\x80\x98= 0\xe2\x80\x99 is allowed) before \xe2\x80\x98;\xe2\x80\x99 token\n'}
+[19.851840] (cartographer) StderrLine: {'line': b'   76 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.852033] (cartographer) StderrLine: {'line': b'      |                                          ^\n'}
+[19.852223] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:42: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.852403] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:28: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.852589] (cartographer) StderrLine: {'line': b'   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);\n'}
+[19.852857] (cartographer) StderrLine: {'line': b'      |                            ^~~~~\n'}
+[19.853605] (cartographer) StderrLine: {'line': b'      |                                 ;\n'}
+[19.853820] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:45: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[19.854022] (cartographer) StderrLine: {'line': b'   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);\n'}
+[19.854268] (cartographer) StderrLine: {'line': b'      |                                             ^~~~~~\n'}
+[19.854541] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:51: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.854741] (cartographer) StderrLine: {'line': b'   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);\n'}
+[19.854939] (cartographer) StderrLine: {'line': b'      |                                                   ^\n'}
+[19.855124] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:34: error: \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.855312] (cartographer) StderrLine: {'line': b'   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);\n'}
+[19.855478] (cartographer) StderrLine: {'line': b'      |                                  ^~~~~~~~~~\n'}
+[19.855688] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.855850] (cartographer) StderrLine: {'line': b'   76 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.856009] (cartographer) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[19.856192] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:37: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.856356] (cartographer) StderrLine: {'line': b'   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);\n'}
+[19.856518] (cartographer) StderrLine: {'line': b'      |                                     ^~~~~~~~~~~\n'}
+[19.856702] (cartographer) StderrLine: {'line': b'      |                                                ;\n'}
+[19.856885] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:60: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[19.857090] (cartographer) StderrLine: {'line': b'   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);\n'}
+[19.857263] (cartographer) StderrLine: {'line': b'      |                                                            ^~~~~~\n'}
+[19.857452] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:66: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.857642] (cartographer) StderrLine: {'line': b'   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);\n'}
+[19.857848] (cartographer) StderrLine: {'line': b'      |                                                                  ^\n'}
+[19.858032] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:49: error: \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.858225] (cartographer) StderrLine: {'line': b'   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);\n'}
+[19.858420] (cartographer) StderrLine: {'line': b'      |                                                 ^~~~~~~~~~\n'}
+[19.858654] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.858853] (cartographer) StderrLine: {'line': b'   76 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.859043] (cartographer) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[19.859238] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:79:53: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.859424] (cartographer) StderrLine: {'line': b'   79 |   absl::flat_hash_map<Task*, std::shared_ptr<Task>> tasks_not_ready_\n'}
+[19.859609] (cartographer) StderrLine: {'line': b'      |                                                     ^~~~~~~~~~~~~~~~\n'}
+[19.859775] (cartographer) StderrLine: {'line': b'      |                                                                     ;\n'}
+[19.859956] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:18: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[19.860117] (cartographer) StderrLine: {'line': b'   80 |       GUARDED_BY(mutex_);\n'}
+[19.860291] (cartographer) StderrLine: {'line': b'      |                  ^~~~~~\n'}
+[19.860475] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:24: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.860665] (cartographer) StderrLine: {'line': b'   80 |       GUARDED_BY(mutex_);\n'}
+[19.860852] (cartographer) StderrLine: {'line': b'      |                        ^\n'}
+[19.861033] (-) TimerEvent: {}
+[19.861251] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:7: error: \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.861459] (cartographer) StderrLine: {'line': b'   80 |       GUARDED_BY(mutex_);\n'}
+[19.861648] (cartographer) StderrLine: {'line': b'      |       ^~~~~~~~~~\n'}
+[19.861815] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration \xe2\x80\x98int cartographer::common::ThreadPool::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.862008] (cartographer) StderrLine: {'line': b'   76 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.862208] (cartographer) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[19.862402] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:7: error: \xe2\x80\x98int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)\xe2\x80\x99 marked \xe2\x80\x98override\xe2\x80\x99, but does not override\n'}
+[19.862611] (cartographer) StderrLine: {'line': b'   68 |       LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.862799] (cartographer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[19.862988] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.863176] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:37:58: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.863369] (cartographer) StderrLine: {'line': b'   37 |   std::weak_ptr<Task> Schedule(std::unique_ptr<Task> task)\n'}
+[19.863563] (cartographer) StderrLine: {'line': b'      |                                                          ^\n'}
+[19.863865] (cartographer) StderrLine: {'line': b'      |                                                           ;\n'}
+[19.864109] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:38:22: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.864308] (cartographer) StderrLine: {'line': b'   38 |       LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.864499] (cartographer) StderrLine: {'line': b'      |                      ^~~~~~\n'}
+[19.864688] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:38:30: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.864877] (cartographer) StderrLine: {'line': b'   38 |       LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.865062] (cartographer) StderrLine: {'line': b'      |                              ^~~~~~~~\n'}
+[19.865248] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:47:46: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.865439] (cartographer) StderrLine: {'line': b'   47 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.865636] (cartographer) StderrLine: {'line': b'      |                                              ^\n'}
+[19.865807] (cartographer) StderrLine: {'line': b'      |                                               ;\n'}
+[19.865971] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:47:63: error: \xe2\x80\x98mutex_\xe2\x80\x99 has not been declared\n'}
+[19.866159] (cartographer) StderrLine: {'line': b'   47 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.866339] (cartographer) StderrLine: {'line': b'      |                                                               ^~~~~~\n'}
+[19.866518] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:47:71: error: ISO C++ forbids declaration of \xe2\x80\x98LOCKS_EXCLUDED\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.867123] (cartographer) StderrLine: {'line': b'   47 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.867330] (cartographer) StderrLine: {'line': b'      |                                                                       ^~~~~~~~\n'}
+[19.867753] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:47:48: error: \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::LOCKS_EXCLUDED(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[19.867974] (cartographer) StderrLine: {'line': b'   47 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.868170] (cartographer) StderrLine: {'line': b'      |                                                ^~~~~~~~~~~~~~\n'}
+[19.868365] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:38:7: note: previous declaration \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::LOCKS_EXCLUDED(int)\xe2\x80\x99\n'}
+[19.868561] (cartographer) StderrLine: {'line': b'   38 |       LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.868750] (cartographer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[19.868934] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:8: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.869129] (cartographer) StderrLine: {'line': b'   50 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.869322] (cartographer) StderrLine: {'line': b'      |        ^~~~~~~~\n'}
+[19.869514] (cartographer) StderrLine: {'line': b'      |                ;\n'}
+[19.869707] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:28: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[19.869903] (cartographer) StderrLine: {'line': b'   50 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.870092] (cartographer) StderrLine: {'line': b'      |                            ^~~~~~\n'}
+[19.870286] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:42: error: invalid pure specifier (only \xe2\x80\x98= 0\xe2\x80\x99 is allowed) before \xe2\x80\x98;\xe2\x80\x99 token\n'}
+[19.870479] (cartographer) StderrLine: {'line': b'   50 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.870713] (cartographer) StderrLine: {'line': b'      |                                          ^\n'}
+[19.870910] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:42: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.871119] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:8: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.871311] (cartographer) StderrLine: {'line': b'   51 |   bool idle_ GUARDED_BY(mutex_) = true;\n'}
+[19.871502] (cartographer) StderrLine: {'line': b'      |        ^~~~~\n'}
+[19.871693] (cartographer) StderrLine: {'line': b'      |             ;\n'}
+[19.871883] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:25: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[19.872075] (cartographer) StderrLine: {'line': b'   51 |   bool idle_ GUARDED_BY(mutex_) = true;\n'}
+[19.872267] (cartographer) StderrLine: {'line': b'      |                         ^~~~~~\n'}
+[19.872461] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:39: error: invalid pure specifier (only \xe2\x80\x98= 0\xe2\x80\x99 is allowed) before \xe2\x80\x98;\xe2\x80\x99 token\n'}
+[19.872657] (cartographer) StderrLine: {'line': b'   51 |   bool idle_ GUARDED_BY(mutex_) = true;\n'}
+[19.872848] (cartographer) StderrLine: {'line': b'      |                                       ^\n'}
+[19.873039] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:39: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.873246] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:14: error: \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.873444] (cartographer) StderrLine: {'line': b'   51 |   bool idle_ GUARDED_BY(mutex_) = true;\n'}
+[19.873637] (cartographer) StderrLine: {'line': b'      |              ^~~~~~~~~~\n'}
+[19.873826] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17: note: previous declaration \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.874022] (cartographer) StderrLine: {'line': b'   50 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.874213] (cartographer) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[19.874700] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:52:37: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.874920] (cartographer) StderrLine: {'line': b'   52 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);\n'}
+[19.875117] (cartographer) StderrLine: {'line': b'      |                                     ^~~~~~~~~~~\n'}
+[19.875310] (cartographer) StderrLine: {'line': b'      |                                                ;\n'}
+[19.875502] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:52:60: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[19.875707] (cartographer) StderrLine: {'line': b'   52 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);\n'}
+[19.875902] (cartographer) StderrLine: {'line': b'      |                                                            ^~~~~~\n'}
+[19.876092] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:52:66: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.876285] (cartographer) StderrLine: {'line': b'   52 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);\n'}
+[19.876477] (cartographer) StderrLine: {'line': b'      |                                                                  ^\n'}
+[19.876666] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:52:49: error: \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.876864] (cartographer) StderrLine: {'line': b'   52 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);\n'}
+[19.877050] (cartographer) StderrLine: {'line': b'      |                                                 ^~~~~~~~~~\n'}
+[19.877242] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17: note: previous declaration \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.877434] (cartographer) StderrLine: {'line': b'   50 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.877628] (cartographer) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[19.877817] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:53:42: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.878012] (cartographer) StderrLine: {'line': b'   53 |   std::map<Task*, std::shared_ptr<Task>> tasks_not_ready_ GUARDED_BY(mutex_);\n'}
+[19.878182] (cartographer) StderrLine: {'line': b'      |                                          ^~~~~~~~~~~~~~~~\n'}
+[19.878370] (cartographer) StderrLine: {'line': b'      |                                                          ;\n'}
+[19.878564] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:53:70: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[19.878744] (cartographer) StderrLine: {'line': b'   53 |   std::map<Task*, std::shared_ptr<Task>> tasks_not_ready_ GUARDED_BY(mutex_);\n'}
+[19.878949] (cartographer) StderrLine: {'line': b'      |                                                                      ^~~~~~\n'}
+[19.879129] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:53:76: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.879304] (cartographer) StderrLine: {'line': b'   53 |   std::map<Task*, std::shared_ptr<Task>> tasks_not_ready_ GUARDED_BY(mutex_);\n'}
+[19.879485] (cartographer) StderrLine: {'line': b'      |                                                                            ^\n'}
+[19.879677] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:53:59: error: \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.879863] (cartographer) StderrLine: {'line': b'   53 |   std::map<Task*, std::shared_ptr<Task>> tasks_not_ready_ GUARDED_BY(mutex_);\n'}
+[19.880047] (cartographer) StderrLine: {'line': b'      |                                                           ^~~~~~~~~~\n'}
+[19.880229] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17: note: previous declaration \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.880423] (cartographer) StderrLine: {'line': b'   50 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.880602] (cartographer) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[19.880781] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:54:15: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[19.880969] (cartographer) StderrLine: {'line': b'   54 |   std::thread thread_ GUARDED_BY(mutex_);\n'}
+[19.881161] (cartographer) StderrLine: {'line': b'      |               ^~~~~~~\n'}
+[19.881349] (cartographer) StderrLine: {'line': b'      |                      ;\n'}
+[19.881547] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:54:34: error: \xe2\x80\x98mutex_\xe2\x80\x99 is not a type\n'}
+[19.881734] (cartographer) StderrLine: {'line': b'   54 |   std::thread thread_ GUARDED_BY(mutex_);\n'}
+[19.881919] (cartographer) StderrLine: {'line': b'      |                                  ^~~~~~\n'}
+[19.882101] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:54:40: error: ISO C++ forbids declaration of \xe2\x80\x98GUARDED_BY\xe2\x80\x99 with no type [-fpermissive]\n'}
+[19.882288] (cartographer) StderrLine: {'line': b'   54 |   std::thread thread_ GUARDED_BY(mutex_);\n'}
+[19.882473] (cartographer) StderrLine: {'line': b'      |                                        ^\n'}
+[19.883200] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:54:23: error: \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.883453] (cartographer) StderrLine: {'line': b'   54 |   std::thread thread_ GUARDED_BY(mutex_);\n'}
+[19.883720] (cartographer) StderrLine: {'line': b'      |                       ^~~~~~~~~~\n'}
+[19.883924] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17: note: previous declaration \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)\xe2\x80\x99\n'}
+[19.884201] (cartographer) StderrLine: {'line': b'   50 |   bool running_ GUARDED_BY(mutex_) = true;\n'}
+[19.884407] (cartographer) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[19.884595] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:38:7: error: \xe2\x80\x98int cartographer::common::testing::ThreadPoolForTesting::LOCKS_EXCLUDED(int)\xe2\x80\x99 marked \xe2\x80\x98override\xe2\x80\x99, but does not override\n'}
+[19.884793] (cartographer) StderrLine: {'line': b'   38 |       LOCKS_EXCLUDED(mutex_) override;\n'}
+[19.884981] (cartographer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[19.885168] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc: In lambda function:\n'}
+[19.885359] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:75:30: error: expected \xe2\x80\x98{\xe2\x80\x99 before \xe2\x80\x98EXCLUSIVE_LOCKS_REQUIRED\xe2\x80\x99\n'}
+[19.885550] (cartographer) StderrLine: {'line': b'   75 |                              EXCLUSIVE_LOCKS_REQUIRED(mutex_) { return idle_; };\n'}
+[19.885746] (cartographer) StderrLine: {'line': b'      |                              ^~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[19.885934] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc: In member function \xe2\x80\x98void cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()\xe2\x80\x99:\n'}
+[19.886124] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:75:30: error: expected \xe2\x80\x98,\xe2\x80\x99 or \xe2\x80\x98;\xe2\x80\x99 before \xe2\x80\x98EXCLUSIVE_LOCKS_REQUIRED\xe2\x80\x99\n'}
+[19.886287] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:79:61: error: no matching function for call to \xe2\x80\x98absl::Condition::Condition(const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>*)\xe2\x80\x99\n'}
+[19.886503] (cartographer) StderrLine: {'line': b'   79 |       if (mutex_.AwaitWithTimeout(absl::Condition(&predicate),\n'}
+[19.886729] (cartographer) StderrLine: {'line': b'      |                                                             ^\n'}
+[19.886924] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,\n'}
+[19.887117] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.887307] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:873:13: note: candidate: \xe2\x80\x98constexpr absl::Condition::Condition()\xe2\x80\x99\n'}
+[19.889573] (cartographer) StderrLine: {'line': b'  873 |   constexpr Condition() : eval_(AlwaysTrue), arg_(nullptr) {}\n'}
+[19.889833] (cartographer) StderrLine: {'line': b'      |             ^~~~~~~~~\n'}
+[19.890019] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:873:13: note:   candidate expects 0 arguments, 1 provided\n'}
+[19.890205] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:793:12: note: candidate: \xe2\x80\x98template<class T, class E> absl::Condition::Condition(const T*)\xe2\x80\x99\n'}
+[19.890402] (cartographer) StderrLine: {'line': b'  793 |   explicit Condition(const T* obj)\n'}
+[19.890635] (cartographer) StderrLine: {'line': b'      |            ^~~~~~~~~\n'}
+[19.890820] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:793:12: note:   template argument deduction/substitution failed:\n'}
+[19.891092] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:791:47: error: invalid static_cast from type \xe2\x80\x98void (cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>::*)() const\xe2\x80\x99 to type \xe2\x80\x98bool (cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>::*)() const\xe2\x80\x99\n'}
+[19.891283] (cartographer) StderrLine: {'line': b'  791 |   template <typename T, typename E = decltype(static_cast<bool (T::*)() const>(\n'}
+[19.891449] (cartographer) StderrLine: {'line': b'      |                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[19.891628] (cartographer) StderrLine: {'line': b'  792 |                             &T::operator()))>\n'}
+[19.891816] (cartographer) StderrLine: {'line': b'      |                             ~~~~~~~~~~~~~~~    \n'}
+[19.892010] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:764:12: note: candidate: \xe2\x80\x98absl::Condition::Condition(const bool*)\xe2\x80\x99\n'}
+[19.892207] (cartographer) StderrLine: {'line': b'  764 |   explicit Condition(const bool* cond);\n'}
+[19.892401] (cartographer) StderrLine: {'line': b'      |            ^~~~~~~~~\n'}
+[19.892577] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:764:34: note:   no known conversion for argument 1 from \xe2\x80\x98const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>*\xe2\x80\x99 to \xe2\x80\x98const bool*\xe2\x80\x99\n'}
+[19.892767] (cartographer) StderrLine: {'line': b'  764 |   explicit Condition(const bool* cond);\n'}
+[19.892963] (cartographer) StderrLine: {'line': b'      |                      ~~~~~~~~~~~~^~~~\n'}
+[19.893148] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:760:3: note: candidate: \xe2\x80\x98template<class T> absl::Condition::Condition(const T*, bool (absl::internal::type_identity<T>::type::*)() const)\xe2\x80\x99\n'}
+[19.893326] (cartographer) StderrLine: {'line': b'  760 |   Condition(const T* object,\n'}
+[19.893490] (cartographer) StderrLine: {'line': b'      |   ^~~~~~~~~\n'}
+[19.893671] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:760:3: note:   template argument deduction/substitution failed:\n'}
+[19.893836] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:79:61: note:   candidate expects 2 arguments, 1 provided\n'}
+[19.894014] (cartographer) StderrLine: {'line': b'   79 |       if (mutex_.AwaitWithTimeout(absl::Condition(&predicate),\n'}
+[19.894199] (cartographer) StderrLine: {'line': b'      |                                                             ^\n'}
+[19.894474] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,\n'}
+[19.894695] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.894907] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:755:3: note: candidate: \xe2\x80\x98template<class T> absl::Condition::Condition(T*, bool (absl::internal::type_identity<T>::type::*)())\xe2\x80\x99\n'}
+[19.895089] (cartographer) StderrLine: {'line': b'  755 |   Condition(T* object,\n'}
+[19.895278] (cartographer) StderrLine: {'line': b'      |   ^~~~~~~~~\n'}
+[19.895471] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:755:3: note:   template argument deduction/substitution failed:\n'}
+[19.895664] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:79:61: note:   candidate expects 2 arguments, 1 provided\n'}
+[19.895854] (cartographer) StderrLine: {'line': b'   79 |       if (mutex_.AwaitWithTimeout(absl::Condition(&predicate),\n'}
+[19.896017] (cartographer) StderrLine: {'line': b'      |                                                             ^\n'}
+[19.896167] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,\n'}
+[19.896362] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.896564] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:743:3: note: candidate: \xe2\x80\x98template<class T, class> absl::Condition::Condition(bool (*)(T*), typename absl::internal::type_identity<T>::type*)\xe2\x80\x99\n'}
+[19.896761] (cartographer) StderrLine: {'line': b'  743 |   Condition(bool (*func)(T*),\n'}
+[19.896937] (cartographer) StderrLine: {'line': b'      |   ^~~~~~~~~\n'}
+[19.897129] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:743:3: note:   template argument deduction/substitution failed:\n'}
+[19.897852] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:79:61: note:   mismatched types \xe2\x80\x98bool(T*)\xe2\x80\x99 and \xe2\x80\x98const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>\xe2\x80\x99\n'}
+[19.898091] (cartographer) StderrLine: {'line': b'   79 |       if (mutex_.AwaitWithTimeout(absl::Condition(&predicate),\n'}
+[19.898288] (cartographer) StderrLine: {'line': b'      |                                                             ^\n'}
+[19.898476] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,\n'}
+[19.898759] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.898958] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:729:3: note: candidate: \xe2\x80\x98template<class T> absl::Condition::Condition(bool (*)(T*), T*)\xe2\x80\x99\n'}
+[19.899144] (cartographer) StderrLine: {'line': b'  729 |   Condition(bool (*func)(T*), T* arg);\n'}
+[19.899328] (cartographer) StderrLine: {'line': b'      |   ^~~~~~~~~\n'}
+[19.899509] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:729:3: note:   template argument deduction/substitution failed:\n'}
+[19.899687] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:79:61: note:   mismatched types \xe2\x80\x98bool(T*)\xe2\x80\x99 and \xe2\x80\x98const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>\xe2\x80\x99\n'}
+[19.899881] (cartographer) StderrLine: {'line': b'   79 |       if (mutex_.AwaitWithTimeout(absl::Condition(&predicate),\n'}
+[19.900060] (cartographer) StderrLine: {'line': b'      |                                                             ^\n'}
+[19.900238] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,\n'}
+[19.900434] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.900611] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:717:3: note: candidate: \xe2\x80\x98absl::Condition::Condition(bool (*)(void*), void*)\xe2\x80\x99\n'}
+[19.900789] (cartographer) StderrLine: {'line': b'  717 |   Condition(bool (*func)(void*), void* arg);\n'}
+[19.900976] (cartographer) StderrLine: {'line': b'      |   ^~~~~~~~~\n'}
+[19.901142] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:717:3: note:   candidate expects 2 arguments, 1 provided\n'}
+[19.901316] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note: candidate: \xe2\x80\x98constexpr absl::Condition::Condition(const absl::Condition&)\xe2\x80\x99\n'}
+[19.901494] (cartographer) StderrLine: {'line': b'  714 | class Condition {\n'}
+[19.901667] (cartographer) StderrLine: {'line': b'      |       ^~~~~~~~~\n'}
+[19.901831] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note:   no known conversion for argument 1 from \xe2\x80\x98const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>*\xe2\x80\x99 to \xe2\x80\x98const absl::Condition&\xe2\x80\x99\n'}
+[19.901992] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note: candidate: \xe2\x80\x98constexpr absl::Condition::Condition(absl::Condition&&)\xe2\x80\x99\n'}
+[19.902167] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note:   no known conversion for argument 1 from \xe2\x80\x98const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>*\xe2\x80\x99 to \xe2\x80\x98absl::Condition&&\xe2\x80\x99\n'}
+[19.902344] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc: In lambda function:\n'}
+[19.902523] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:88:35: error: expected \xe2\x80\x98{\xe2\x80\x99 before \xe2\x80\x98EXCLUSIVE_LOCKS_REQUIRED\xe2\x80\x99\n'}
+[19.902739] (cartographer) StderrLine: {'line': b'   88 |   const auto predicate = [this]() EXCLUSIVE_LOCKS_REQUIRED(mutex_) {\n'}
+[19.902896] (cartographer) StderrLine: {'line': b'      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[19.903050] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc: In member function \xe2\x80\x98void cartographer::common::testing::ThreadPoolForTesting::DoWork()\xe2\x80\x99:\n'}
+[19.903222] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:88:35: error: expected \xe2\x80\x98,\xe2\x80\x99 or \xe2\x80\x98;\xe2\x80\x99 before \xe2\x80\x98EXCLUSIVE_LOCKS_REQUIRED\xe2\x80\x99\n'}
+[19.903381] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:95:57: error: no matching function for call to \xe2\x80\x98absl::Condition::Condition(const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>*)\xe2\x80\x99\n'}
+[19.903586] (cartographer) StderrLine: {'line': b'   95 |       mutex_.AwaitWithTimeout(absl::Condition(&predicate),\n'}
+[19.903765] (cartographer) StderrLine: {'line': b'      |                                                         ^\n'}
+[19.903931] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,\n'}
+[19.904606] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.904775] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:873:13: note: candidate: \xe2\x80\x98constexpr absl::Condition::Condition()\xe2\x80\x99\n'}
+[19.904952] (cartographer) StderrLine: {'line': b'  873 |   constexpr Condition() : eval_(AlwaysTrue), arg_(nullptr) {}\n'}
+[19.905132] (cartographer) StderrLine: {'line': b'      |             ^~~~~~~~~\n'}
+[19.905312] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:873:13: note:   candidate expects 0 arguments, 1 provided\n'}
+[19.905496] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:793:12: note: candidate: \xe2\x80\x98template<class T, class E> absl::Condition::Condition(const T*)\xe2\x80\x99\n'}
+[19.905679] (cartographer) StderrLine: {'line': b'  793 |   explicit Condition(const T* obj)\n'}
+[19.905855] (cartographer) StderrLine: {'line': b'      |            ^~~~~~~~~\n'}
+[19.906032] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:793:12: note:   template argument deduction/substitution failed:\n'}
+[19.906217] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:791:47: error: invalid static_cast from type \xe2\x80\x98void (cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>::*)() const\xe2\x80\x99 to type \xe2\x80\x98bool (cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>::*)() const\xe2\x80\x99\n'}
+[19.906402] (cartographer) StderrLine: {'line': b'  791 |   template <typename T, typename E = decltype(static_cast<bool (T::*)() const>(\n'}
+[19.906596] (cartographer) StderrLine: {'line': b'      |                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[19.906804] (cartographer) StderrLine: {'line': b'  792 |                             &T::operator()))>\n'}
+[19.906996] (cartographer) StderrLine: {'line': b'      |                             ~~~~~~~~~~~~~~~    \n'}
+[19.907173] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:764:12: note: candidate: \xe2\x80\x98absl::Condition::Condition(const bool*)\xe2\x80\x99\n'}
+[19.907360] (cartographer) StderrLine: {'line': b'  764 |   explicit Condition(const bool* cond);\n'}
+[19.907537] (cartographer) StderrLine: {'line': b'      |            ^~~~~~~~~\n'}
+[19.907713] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:764:34: note:   no known conversion for argument 1 from \xe2\x80\x98const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>*\xe2\x80\x99 to \xe2\x80\x98const bool*\xe2\x80\x99\n'}
+[19.907905] (cartographer) StderrLine: {'line': b'  764 |   explicit Condition(const bool* cond);\n'}
+[19.908088] (cartographer) StderrLine: {'line': b'      |                      ~~~~~~~~~~~~^~~~\n'}
+[19.908265] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:760:3: note: candidate: \xe2\x80\x98template<class T> absl::Condition::Condition(const T*, bool (absl::internal::type_identity<T>::type::*)() const)\xe2\x80\x99\n'}
+[19.908454] (cartographer) StderrLine: {'line': b'  760 |   Condition(const T* object,\n'}
+[19.908643] (cartographer) StderrLine: {'line': b'      |   ^~~~~~~~~\n'}
+[19.908824] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:760:3: note:   template argument deduction/substitution failed:\n'}
+[19.909009] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:95:57: note:   candidate expects 2 arguments, 1 provided\n'}
+[19.909199] (cartographer) StderrLine: {'line': b'   95 |       mutex_.AwaitWithTimeout(absl::Condition(&predicate),\n'}
+[19.909389] (cartographer) StderrLine: {'line': b'      |                                                         ^\n'}
+[19.909575] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,\n'}
+[19.909760] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.909952] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:755:3: note: candidate: \xe2\x80\x98template<class T> absl::Condition::Condition(T*, bool (absl::internal::type_identity<T>::type::*)())\xe2\x80\x99\n'}
+[19.910144] (cartographer) StderrLine: {'line': b'  755 |   Condition(T* object,\n'}
+[19.910324] (cartographer) StderrLine: {'line': b'      |   ^~~~~~~~~\n'}
+[19.910505] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:755:3: note:   template argument deduction/substitution failed:\n'}
+[19.910722] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:95:57: note:   candidate expects 2 arguments, 1 provided\n'}
+[19.910927] (cartographer) StderrLine: {'line': b'   95 |       mutex_.AwaitWithTimeout(absl::Condition(&predicate),\n'}
+[19.911110] (cartographer) StderrLine: {'line': b'      |                                                         ^\n'}
+[19.911293] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,\n'}
+[19.911477] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.911663] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:743:3: note: candidate: \xe2\x80\x98template<class T, class> absl::Condition::Condition(bool (*)(T*), typename absl::internal::type_identity<T>::type*)\xe2\x80\x99\n'}
+[19.911851] (cartographer) StderrLine: {'line': b'  743 |   Condition(bool (*func)(T*),\n'}
+[19.912035] (cartographer) StderrLine: {'line': b'      |   ^~~~~~~~~\n'}
+[19.912217] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:743:3: note:   template argument deduction/substitution failed:\n'}
+[19.912403] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:95:57: note:   mismatched types \xe2\x80\x98bool(T*)\xe2\x80\x99 and \xe2\x80\x98const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>\xe2\x80\x99\n'}
+[19.912589] (cartographer) StderrLine: {'line': b'   95 |       mutex_.AwaitWithTimeout(absl::Condition(&predicate),\n'}
+[19.912772] (cartographer) StderrLine: {'line': b'      |                                                         ^\n'}
+[19.912943] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,\n'}
+[19.913130] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.913323] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:729:3: note: candidate: \xe2\x80\x98template<class T> absl::Condition::Condition(bool (*)(T*), T*)\xe2\x80\x99\n'}
+[19.913511] (cartographer) StderrLine: {'line': b'  729 |   Condition(bool (*func)(T*), T* arg);\n'}
+[19.913758] (cartographer) StderrLine: {'line': b'      |   ^~~~~~~~~\n'}
+[19.914018] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:729:3: note:   template argument deduction/substitution failed:\n'}
+[19.914211] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:95:57: note:   mismatched types \xe2\x80\x98bool(T*)\xe2\x80\x99 and \xe2\x80\x98const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>\xe2\x80\x99\n'}
+[19.914418] (cartographer) StderrLine: {'line': b'   95 |       mutex_.AwaitWithTimeout(absl::Condition(&predicate),\n'}
+[19.914638] (cartographer) StderrLine: {'line': b'      |                                                         ^\n'}
+[19.914819] (cartographer) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,\n'}
+[19.914997] (cartographer) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:\n'}
+[19.915170] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:717:3: note: candidate: \xe2\x80\x98absl::Condition::Condition(bool (*)(void*), void*)\xe2\x80\x99\n'}
+[19.915333] (cartographer) StderrLine: {'line': b'  717 |   Condition(bool (*func)(void*), void* arg);\n'}
+[19.915488] (cartographer) StderrLine: {'line': b'      |   ^~~~~~~~~\n'}
+[19.915640] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:717:3: note:   candidate expects 2 arguments, 1 provided\n'}
+[19.915795] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note: candidate: \xe2\x80\x98constexpr absl::Condition::Condition(const absl::Condition&)\xe2\x80\x99\n'}
+[19.915957] (cartographer) StderrLine: {'line': b'  714 | class Condition {\n'}
+[19.916132] (cartographer) StderrLine: {'line': b'      |       ^~~~~~~~~\n'}
+[19.916314] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note:   no known conversion for argument 1 from \xe2\x80\x98const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>*\xe2\x80\x99 to \xe2\x80\x98const absl::Condition&\xe2\x80\x99\n'}
+[19.916491] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note: candidate: \xe2\x80\x98constexpr absl::Condition::Condition(absl::Condition&&)\xe2\x80\x99\n'}
+[19.918210] (cartographer) StderrLine: {'line': b'/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note:   no known conversion for argument 1 from \xe2\x80\x98const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>*\xe2\x80\x99 to \xe2\x80\x98absl::Condition&&\xe2\x80\x99\n'}
+[19.918446] (cartographer) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cartographer.dir/build.make:419: CMakeFiles/cartographer.dir/cartographer/common/internal/testing/thread_pool_for_testing.cc.o] Error 1\n'}
+[19.961173] (-) TimerEvent: {}
+[20.061625] (-) TimerEvent: {}
+[20.162038] (-) TimerEvent: {}
+[20.262464] (-) TimerEvent: {}
+[20.362914] (-) TimerEvent: {}
+[20.463334] (-) TimerEvent: {}
+[20.563871] (-) TimerEvent: {}
+[20.664334] (-) TimerEvent: {}
+[20.764765] (-) TimerEvent: {}
+[20.865210] (-) TimerEvent: {}
+[20.965673] (-) TimerEvent: {}
+[21.066128] (-) TimerEvent: {}
+[21.166592] (-) TimerEvent: {}
+[21.267012] (-) TimerEvent: {}
+[21.367484] (-) TimerEvent: {}
+[21.440302] (cartographer) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cartographer.dir/all] Error 2\n'}
+[21.440866] (cartographer) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[21.456511] (cartographer) CommandEnded: {'returncode': 2}
+[21.467781] (-) TimerEvent: {}
+[21.568652] (-) TimerEvent: {}
+[21.669108] (-) TimerEvent: {}
+[21.770003] (-) TimerEvent: {}
+[21.871159] (-) TimerEvent: {}
+[21.971678] (-) TimerEvent: {}
+[22.072218] (-) TimerEvent: {}
+[22.172791] (-) TimerEvent: {}
+[22.273276] (-) TimerEvent: {}
+[22.373657] (-) TimerEvent: {}
+[22.474042] (-) TimerEvent: {}
+[22.574612] (-) TimerEvent: {}
+[22.675271] (-) TimerEvent: {}
+[22.693003] (cartographer) JobEnded: {'identifier': 'cartographer', 'rc': 2}
+[22.710166] (cartographer_ros) JobSkipped: {'identifier': 'cartographer_ros'}
+[22.710266] (cartographer_rviz) JobSkipped: {'identifier': 'cartographer_rviz'}
+[22.710338] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+[  0%] [34m[1mBuilding documentation.[0m
+[  1%] Built target gtest
+[  1%] Built target cartographer_detect_changes
+[  2%] Built target gmock
+[  2%] Built target gmock_main
+[  2%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/thread_pool.cc.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/task.cc.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/testing/thread_pool_for_testing.cc.o[0m
+[01mRunning Sphinx v1.8.5[39;49;00m
+[  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/autogenerate_ground_truth.cc.o[0m

@@ -22,7 +22,7 @@ def generate_launch_description():
     world = os.path.join(
         get_package_share_directory('uav_gazebo'),
         'worlds',
-        'uav_runway.world'
+        'uav_maze.world'
     )
 
     # Start Gazebo server
@@ -39,7 +39,7 @@ def generate_launch_description():
             os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')
         )
     )
-    # Start joint and robot state publisher for UAV
+    # Start robot state publisher for UAV
     uav_state_publisher_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(launch_file_dir, 'uav_state_publisher.launch.py')
@@ -47,11 +47,10 @@ def generate_launch_description():
         launch_arguments={'use_sim_time': use_sim_time}.items()
     )
 
-    # Spawn UAV/ATMP
+    # Spawn UAV
     spawn_uav_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(launch_file_dir, 'spawn_uav.launch.py')
-            #os.path.join(launch_file_dir, 'spawn_atmp.launch.py')
         ),
         launch_arguments={
             'x_pose': x_pose,
@@ -59,13 +58,6 @@ def generate_launch_description():
         }.items()
     )
 
-    # Rviz launch command
-    # start_rviz = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource(
-    #         os.path.join(launch_file_dir, 'rviz2.launch.py')
-    #     )
-    # )
-    
     # Create the launch description and populate
     ld = LaunchDescription()
 
@@ -74,7 +66,5 @@ def generate_launch_description():
     ld.add_action(gzclient_cmd)
     ld.add_action(uav_state_publisher_cmd)
     ld.add_action(spawn_uav_cmd)
-    #ld.add_action(spawn_ATMP)
-    #ld.add_action(start_rviz)
 
     return ld

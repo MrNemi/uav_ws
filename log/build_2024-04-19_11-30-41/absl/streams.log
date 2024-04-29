@@ -1,0 +1,1049 @@
+[0.026s] Invoking command in '/home/terranova/uav_ws/build/absl': /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/abseil-cpp -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/absl
+[0.256s] -- The CXX compiler identification is GNU 9.4.0
+[0.308s] -- Detecting CXX compiler ABI info
+[0.458s] -- Detecting CXX compiler ABI info - done
+[0.493s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.495s] -- Detecting CXX compile features
+[0.497s] -- Detecting CXX compile features - done
+[0.536s] [33mCMake Warning at CMakeLists.txt:82 (message):
+[0.537s]   A future Abseil release will default ABSL_PROPAGATE_CXX_STD to ON for CMake
+[0.537s]   3.8 and up.  We recommend enabling this option to ensure your project still
+[0.537s]   builds correctly.
+[0.537s] 
+[0.537s] [0m
+[0.552s] -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17
+[0.636s] -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17 - Failed
+[0.636s] -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20
+[0.720s] -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20 - Failed
+[0.731s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.955s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.956s] -- Looking for pthread_create in pthreads
+[1.109s] -- Looking for pthread_create in pthreads - not found
+[1.110s] -- Looking for pthread_create in pthread
+[1.291s] -- Looking for pthread_create in pthread - found
+[1.293s] -- Found Threads: TRUE  
+[1.670s] -- Configuring done (1.6s)
+[2.256s] -- Generating done (0.5s)
+[2.294s] -- Build files have been written to: /home/terranova/uav_ws/build/absl
+[3.308s] Invoked command in '/home/terranova/uav_ws/build/absl' returned '0': /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/abseil-cpp -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/absl
+[3.313s] Invoking command in '/home/terranova/uav_ws/build/absl': /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/absl -- -j4 -l4
+[3.429s] [  0%] [32mBuilding CXX object absl/base/CMakeFiles/log_severity.dir/log_severity.cc.o[0m
+[3.457s] [  1%] [32m[1mLinking CXX static library libabsl_log_severity.a[0m
+[3.488s] [  1%] Built target log_severity
+[3.510s] [  2%] [32mBuilding CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_fixed.cc.o[0m
+[3.539s] [  2%] [32mBuilding CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_format.cc.o[0m
+[3.566s] [  3%] [32mBuilding CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_if.cc.o[0m
+[3.594s] [  3%] [32mBuilding CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_impl.cc.o[0m
+[3.624s] [  4%] [32mBuilding CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_info.cc.o[0m
+[3.655s] [  4%] [32mBuilding CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_libc.cc.o[0m
+[3.681s] [  4%] [32mBuilding CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_lookup.cc.o[0m
+[3.707s] [  5%] [32mBuilding CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_posix.cc.o[0m
+[3.730s] [  5%] [32mBuilding CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/zone_info_source.cc.o[0m
+[3.752s] [  6%] [32m[1mLinking CXX static library libabsl_time_zone.a[0m
+[3.814s] [  6%] Built target time_zone
+[3.835s] [  7%] [32mBuilding CXX object absl/numeric/CMakeFiles/int128.dir/int128.cc.o[0m
+[3.863s] [  7%] [32m[1mLinking CXX static library libabsl_int128.a[0m
+[3.906s] [  7%] Built target int128
+[3.926s] [  7%] [32mBuilding CXX object absl/profiling/CMakeFiles/exponential_biased.dir/internal/exponential_biased.cc.o[0m
+[3.946s] [  7%] [32m[1mLinking CXX static library libabsl_exponential_biased.a[0m
+[3.977s] [  7%] Built target exponential_biased
+[3.998s] [  8%] [32mBuilding CXX object absl/time/CMakeFiles/civil_time.dir/internal/cctz/src/civil_time_detail.cc.o[0m
+[4.022s] [  8%] [32m[1mLinking CXX static library libabsl_civil_time.a[0m
+[4.057s] [  8%] Built target civil_time
+[4.078s] [  9%] [32mBuilding CXX object absl/debugging/CMakeFiles/leak_check.dir/leak_check.cc.o[0m
+[4.095s] [  9%] [32m[1mLinking CXX static library libabsl_leak_check.a[0m
+[4.129s] [  9%] Built target leak_check
+[4.150s] [ 10%] [32mBuilding CXX object absl/flags/CMakeFiles/flags_commandlineflag_internal.dir/internal/commandlineflag.cc.o[0m
+[4.169s] [ 10%] [32m[1mLinking CXX static library libabsl_flags_commandlineflag_internal.a[0m
+[4.201s] [ 10%] Built target flags_commandlineflag_internal
+[4.222s] [ 11%] [32mBuilding CXX object absl/log/CMakeFiles/log_internal_nullguard.dir/internal/nullguard.cc.o[0m
+[4.244s] [ 11%] [32m[1mLinking CXX static library libabsl_log_internal_nullguard.a[0m
+[4.285s] [ 11%] Built target log_internal_nullguard
+[4.306s] [ 12%] [32mBuilding CXX object absl/profiling/CMakeFiles/periodic_sampler.dir/internal/periodic_sampler.cc.o[0m
+[4.324s] [ 12%] [32m[1mLinking CXX static library libabsl_periodic_sampler.a[0m
+[4.356s] [ 12%] Built target periodic_sampler
+[4.377s] [ 12%] [32mBuilding CXX object absl/random/CMakeFiles/random_seed_gen_exception.dir/seed_gen_exception.cc.o[0m
+[4.400s] [ 12%] [32m[1mLinking CXX static library libabsl_random_seed_gen_exception.a[0m
+[4.432s] [ 12%] Built target random_seed_gen_exception
+[4.453s] [ 12%] [32mBuilding CXX object absl/random/CMakeFiles/random_internal_platform.dir/internal/randen_round_keys.cc.o[0m
+[4.473s] [ 13%] [32m[1mLinking CXX static library libabsl_random_internal_platform.a[0m
+[4.504s] [ 13%] Built target random_internal_platform
+[4.525s] [ 14%] [32mBuilding CXX object absl/base/CMakeFiles/raw_logging_internal.dir/internal/raw_logging.cc.o[0m
+[4.552s] [ 14%] [32m[1mLinking CXX static library libabsl_raw_logging_internal.a[0m
+[4.592s] [ 14%] Built target raw_logging_internal
+[4.614s] [ 15%] [32mBuilding CXX object absl/random/CMakeFiles/random_internal_randen_hwaes_impl.dir/internal/randen_hwaes.cc.o[0m
+[4.673s] [ 15%] [32m[1mLinking CXX static library libabsl_random_internal_randen_hwaes_impl.a[0m
+[4.708s] [ 15%] Built target random_internal_randen_hwaes_impl
+[4.728s] [ 15%] [32mBuilding CXX object absl/random/CMakeFiles/random_internal_randen_slow.dir/internal/randen_slow.cc.o[0m
+[4.756s] [ 16%] [32m[1mLinking CXX static library libabsl_random_internal_randen_slow.a[0m
+[4.789s] [ 16%] Built target random_internal_randen_slow
+[4.810s] [ 16%] [32mBuilding CXX object absl/types/CMakeFiles/bad_any_cast_impl.dir/bad_any_cast.cc.o[0m
+[4.834s] [ 16%] [32m[1mLinking CXX static library libabsl_bad_any_cast_impl.a[0m
+[4.867s] [ 16%] Built target bad_any_cast_impl
+[4.888s] [ 16%] [32mBuilding CXX object absl/base/CMakeFiles/throw_delegate.dir/internal/throw_delegate.cc.o[0m
+[4.913s] [ 17%] [32m[1mLinking CXX static library libabsl_throw_delegate.a[0m
+[4.947s] [ 17%] Built target throw_delegate
+[4.967s] [ 17%] [32mBuilding CXX object absl/base/CMakeFiles/scoped_set_env.dir/internal/scoped_set_env.cc.o[0m
+[4.991s] [ 18%] [32m[1mLinking CXX static library libabsl_scoped_set_env.a[0m
+[5.022s] [ 18%] Built target scoped_set_env
+[5.043s] [ 19%] [32mBuilding CXX object absl/debugging/CMakeFiles/debugging_internal.dir/internal/address_is_readable.cc.o[0m
+[5.072s] [ 19%] [32mBuilding CXX object absl/debugging/CMakeFiles/debugging_internal.dir/internal/elf_mem_image.cc.o[0m
+[5.178s] [ 20%] [32mBuilding CXX object absl/debugging/CMakeFiles/debugging_internal.dir/internal/vdso_support.cc.o[0m
+[5.254s] [ 20%] [32m[1mLinking CXX static library libabsl_debugging_internal.a[0m
+[5.293s] [ 20%] Built target debugging_internal
+[5.318s] [ 21%] [32mBuilding CXX object absl/types/CMakeFiles/bad_variant_access.dir/bad_variant_access.cc.o[0m
+[5.341s] [ 21%] [32m[1mLinking CXX static library libabsl_bad_variant_access.a[0m
+[5.373s] [ 21%] Built target bad_variant_access
+[5.394s] [ 22%] [32mBuilding CXX object absl/types/CMakeFiles/bad_optional_access.dir/bad_optional_access.cc.o[0m
+[5.417s] [ 22%] [32m[1mLinking CXX static library libabsl_bad_optional_access.a[0m
+[5.448s] [ 22%] Built target bad_optional_access
+[5.468s] [ 22%] [32mBuilding CXX object absl/strings/CMakeFiles/cordz_functions.dir/internal/cordz_functions.cc.o[0m
+[5.501s] [ 23%] [32m[1mLinking CXX static library libabsl_cordz_functions.a[0m
+[5.529s] [ 23%] Built target cordz_functions
+[5.547s] [ 24%] [32mBuilding CXX object absl/random/CMakeFiles/random_internal_randen_hwaes.dir/internal/randen_detect.cc.o[0m
+[5.564s] [ 24%] [32m[1mLinking CXX static library libabsl_random_internal_randen_hwaes.a[0m
+[5.594s] [ 24%] Built target random_internal_randen_hwaes
+[5.616s] [ 24%] [32mBuilding CXX object absl/debugging/CMakeFiles/stacktrace.dir/stacktrace.cc.o[0m
+[5.637s] [ 25%] [32m[1mLinking CXX static library libabsl_stacktrace.a[0m
+[5.671s] [ 25%] Built target stacktrace
+[5.689s] [ 26%] [32mBuilding CXX object absl/random/CMakeFiles/random_internal_randen.dir/internal/randen.cc.o[0m
+[5.714s] [ 26%] [32m[1mLinking CXX static library libabsl_random_internal_randen.a[0m
+[5.753s] [ 26%] Built target random_internal_randen
+[5.774s] [ 26%] [32mBuilding CXX object absl/base/CMakeFiles/strerror.dir/internal/strerror.cc.o[0m
+[5.799s] [ 27%] [32m[1mLinking CXX static library libabsl_strerror.a[0m
+[5.833s] [ 27%] Built target strerror
+[5.855s] [ 27%] [32mBuilding CXX object absl/base/CMakeFiles/spinlock_wait.dir/internal/spinlock_wait.cc.o[0m
+[5.882s] [ 28%] [32m[1mLinking CXX static library libabsl_spinlock_wait.a[0m
+[5.905s] [ 28%] Built target spinlock_wait
+[5.922s] [ 28%] [32mBuilding CXX object absl/base/CMakeFiles/base.dir/internal/cycleclock.cc.o[0m
+[5.941s] [ 29%] [32mBuilding CXX object absl/base/CMakeFiles/base.dir/internal/thread_identity.cc.o[0m
+[5.977s] [ 29%] [32mBuilding CXX object absl/base/CMakeFiles/base.dir/internal/unscaledcycleclock.cc.o[0m
+[6.009s] [ 29%] [32mBuilding CXX object absl/base/CMakeFiles/base.dir/internal/sysinfo.cc.o[0m
+[6.037s] [ 30%] [32mBuilding CXX object absl/base/CMakeFiles/base.dir/internal/spinlock.cc.o[0m
+[6.063s] [ 31%] [32m[1mLinking CXX static library libabsl_base.a[0m
+[6.103s] [ 31%] Built target base
+[6.125s] [ 31%] [32mBuilding CXX object absl/base/CMakeFiles/malloc_internal.dir/internal/low_level_alloc.cc.o[0m
+[6.158s] [ 31%] [32m[1mLinking CXX static library libabsl_malloc_internal.a[0m
+[6.202s] [ 31%] Built target malloc_internal
+[6.223s] [ 31%] [32mBuilding CXX object absl/strings/CMakeFiles/string_view.dir/string_view.cc.o[0m
+[6.251s] [ 32%] [32m[1mLinking CXX static library libabsl_string_view.a[0m
+[6.280s] [ 32%] Built target string_view
+[6.297s] [ 32%] [32mBuilding CXX object absl/hash/CMakeFiles/city.dir/internal/city.cc.o[0m
+[6.356s] [ 32%] [32m[1mLinking CXX static library libabsl_city.a[0m
+[6.383s] [ 32%] Built target city
+[6.403s] [ 32%] [32mBuilding CXX object absl/hash/CMakeFiles/low_level_hash.dir/internal/low_level_hash.cc.o[0m
+[6.428s] [ 33%] [32m[1mLinking CXX static library libabsl_low_level_hash.a[0m
+[6.459s] [ 33%] Built target low_level_hash
+[6.479s] [ 34%] [32mBuilding CXX object absl/crc/CMakeFiles/crc_cpu_detect.dir/internal/cpu_detect.cc.o[0m
+[6.499s] [ 34%] [32m[1mLinking CXX static library libabsl_crc_cpu_detect.a[0m
+[6.522s] [ 34%] Built target crc_cpu_detect
+[6.538s] [ 35%] [32mBuilding CXX object absl/log/CMakeFiles/log_internal_conditions.dir/internal/conditions.cc.o[0m
+[6.559s] [ 35%] [32m[1mLinking CXX static library libabsl_log_internal_conditions.a[0m
+[6.594s] [ 35%] Built target log_internal_conditions
+[6.620s] [ 35%] [32mBuilding CXX object absl/synchronization/CMakeFiles/graphcycles_internal.dir/internal/graphcycles.cc.o[0m
+[6.647s] [ 35%] [32m[1mLinking CXX static library libabsl_graphcycles_internal.a[0m
+[6.682s] [ 35%] Built target graphcycles_internal
+[6.703s] [ 35%] [32mBuilding CXX object absl/crc/CMakeFiles/crc_internal.dir/internal/crc.cc.o[0m
+[6.731s] [ 36%] [32mBuilding CXX object absl/crc/CMakeFiles/crc_internal.dir/internal/crc_x86_arm_combined.cc.o[0m
+[6.758s] [ 36%] [32m[1mLinking CXX static library libabsl_crc_internal.a[0m
+[6.794s] [ 36%] Built target crc_internal
+[6.816s] [ 36%] [32mBuilding CXX object absl/debugging/CMakeFiles/demangle_internal.dir/internal/demangle.cc.o[0m
+[6.840s] [ 37%] [32m[1mLinking CXX static library libabsl_demangle_internal.a[0m
+[6.887s] [ 37%] Built target demangle_internal
+[6.911s] [ 37%] [32mBuilding CXX object absl/strings/CMakeFiles/strings_internal.dir/internal/ostringstream.cc.o[0m
+[6.934s] [ 37%] [32mBuilding CXX object absl/strings/CMakeFiles/strings_internal.dir/internal/escaping.cc.o[0m
+[6.962s] [ 38%] [32mBuilding CXX object absl/strings/CMakeFiles/strings_internal.dir/internal/utf8.cc.o[0m
+[6.976s] [ 39%] [32m[1mLinking CXX static library libabsl_strings_internal.a[0m
+[7.015s] [ 39%] Built target strings_internal
+[7.038s] [ 39%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/ascii.cc.o[0m
+[7.065s] [ 39%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/internal/charconv_bigint.cc.o[0m
+[7.093s] [ 40%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/internal/charconv_parse.cc.o[0m
+[7.120s] [ 40%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/internal/damerau_levenshtein_distance.cc.o[0m
+[7.146s] [ 41%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/internal/memutil.cc.o[0m
+[7.172s] [ 41%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/internal/stringify_sink.cc.o[0m
+[7.199s] [ 42%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/match.cc.o[0m
+[7.226s] [ 42%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/numbers.cc.o[0m
+[7.257s] [ 42%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/str_cat.cc.o[0m
+[7.286s] [ 43%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/str_replace.cc.o[0m
+[7.315s] [ 43%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/str_split.cc.o[0m
+[7.345s] [ 44%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/substitute.cc.o[0m
+[7.377s] [ 44%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/escaping.cc.o[0m
+[7.408s] [ 45%] [32mBuilding CXX object absl/strings/CMakeFiles/strings.dir/charconv.cc.o[0m
+[7.437s] [ 45%] [32m[1mLinking CXX static library libabsl_strings.a[0m
+[7.487s] [ 45%] Built target strings
+[7.509s] [ 45%] [32mBuilding CXX object absl/debugging/CMakeFiles/symbolize.dir/symbolize.cc.o[0m
+[7.541s] [ 46%] [32m[1mLinking CXX static library libabsl_symbolize.a[0m
+[7.574s] [ 46%] Built target symbolize
+[7.597s] [ 46%] [32mBuilding CXX object absl/strings/CMakeFiles/str_format_internal.dir/internal/str_format/arg.cc.o[0m
+[7.631s] [ 47%] [32mBuilding CXX object absl/strings/CMakeFiles/str_format_internal.dir/internal/str_format/bind.cc.o[0m
+[7.666s] [ 47%] [32mBuilding CXX object absl/strings/CMakeFiles/str_format_internal.dir/internal/str_format/extension.cc.o[0m
+[7.693s] [ 48%] [32mBuilding CXX object absl/strings/CMakeFiles/str_format_internal.dir/internal/str_format/float_conversion.cc.o[0m
+[7.736s] [ 48%] [32mBuilding CXX object absl/strings/CMakeFiles/str_format_internal.dir/internal/str_format/output.cc.o[0m
+[7.777s] [ 49%] [32mBuilding CXX object absl/strings/CMakeFiles/str_format_internal.dir/internal/str_format/parser.cc.o[0m
+[7.809s] [ 49%] [32m[1mLinking CXX static library libabsl_str_format_internal.a[0m
+[7.863s] [ 49%] Built target str_format_internal
+[7.887s] [ 50%] [32mBuilding CXX object absl/flags/CMakeFiles/flags_commandlineflag.dir/commandlineflag.cc.o[0m
+[7.917s] [ 50%] [32m[1mLinking CXX static library libabsl_flags_commandlineflag.a[0m
+[7.957s] [ 50%] Built target flags_commandlineflag
+[7.978s] [ 51%] [32mBuilding CXX object absl/log/CMakeFiles/log_internal_proto.dir/internal/proto.cc.o[0m
+[8.009s] [ 51%] [32m[1mLinking CXX static library libabsl_log_internal_proto.a[0m
+[8.042s] [ 51%] Built target log_internal_proto
+[8.063s] [ 51%] [32mBuilding CXX object absl/log/CMakeFiles/log_internal_fnmatch.dir/internal/fnmatch.cc.o[0m
+[8.091s] [ 52%] [32m[1mLinking CXX static library libabsl_log_internal_fnmatch.a[0m
+[8.123s] [ 52%] Built target log_internal_fnmatch
+[8.164s] [ 53%] [32mBuilding CXX object absl/random/CMakeFiles/random_distributions.dir/discrete_distribution.cc.o[0m
+[8.195s] [ 53%] [32mBuilding CXX object absl/random/CMakeFiles/random_distributions.dir/gaussian_distribution.cc.o[0m
+[8.221s] [ 53%] [32m[1mLinking CXX static library libabsl_random_distributions.a[0m
+[8.260s] [ 53%] Built target random_distributions
+[8.281s] [ 53%] [32mBuilding CXX object absl/random/CMakeFiles/random_internal_seed_material.dir/internal/seed_material.cc.o[0m
+[8.312s] [ 54%] [32m[1mLinking CXX static library libabsl_random_internal_seed_material.a[0m
+[8.351s] [ 54%] Built target random_internal_seed_material
+[8.372s] [ 55%] [32mBuilding CXX object absl/random/CMakeFiles/random_internal_distribution_test_util.dir/internal/chi_square.cc.o[0m
+[8.405s] [ 55%] [32mBuilding CXX object absl/random/CMakeFiles/random_internal_distribution_test_util.dir/internal/distribution_test_util.cc.o[0m
+[8.435s] [ 56%] [32m[1mLinking CXX static library libabsl_random_internal_distribution_test_util.a[0m
+[8.470s] [ 56%] Built target random_internal_distribution_test_util
+[8.493s] [ 57%] [32mBuilding CXX object absl/crc/CMakeFiles/crc32c.dir/crc32c.cc.o[0m
+[8.525s] [ 57%] [32mBuilding CXX object absl/crc/CMakeFiles/crc32c.dir/internal/crc_memcpy_fallback.cc.o[0m
+[8.554s] [ 58%] [32mBuilding CXX object absl/crc/CMakeFiles/crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o[0m
+[8.584s] [ 58%] [32mBuilding CXX object absl/crc/CMakeFiles/crc32c.dir/internal/crc_non_temporal_memcpy.cc.o[0m
+[8.618s] [ 58%] [32m[1mLinking CXX static library libabsl_crc32c.a[0m
+[8.654s] [ 58%] Built target crc32c
+[8.675s] [ 58%] [32mBuilding CXX object absl/debugging/CMakeFiles/examine_stack.dir/internal/examine_stack.cc.o[0m
+[8.704s] [ 59%] [32m[1mLinking CXX static library libabsl_examine_stack.a[0m
+[8.740s] [ 59%] Built target examine_stack
+[8.761s] [ 59%] [32mBuilding CXX object absl/flags/CMakeFiles/flags_marshalling.dir/marshalling.cc.o[0m
+[8.794s] [ 59%] [32m[1mLinking CXX static library libabsl_flags_marshalling.a[0m
+[8.839s] [ 59%] Built target flags_marshalling
+[8.860s] [ 60%] [32mBuilding CXX object absl/flags/CMakeFiles/flags_private_handle_accessor.dir/internal/private_handle_accessor.cc.o[0m
+[8.887s] [ 60%] [32m[1mLinking CXX static library libabsl_flags_private_handle_accessor.a[0m
+[8.919s] [ 60%] Built target flags_private_handle_accessor
+[8.940s] [ 60%] [32mBuilding CXX object absl/random/CMakeFiles/random_internal_pool_urbg.dir/internal/pool_urbg.cc.o[0m
+[8.969s] [ 60%] [32m[1mLinking CXX static library libabsl_random_internal_pool_urbg.a[0m
+[9.010s] [ 60%] Built target random_internal_pool_urbg
+[9.031s] [ 61%] [32mBuilding CXX object absl/crc/CMakeFiles/crc_cord_state.dir/internal/crc_cord_state.cc.o[0m
+[9.063s] [ 61%] [32m[1mLinking CXX static library libabsl_crc_cord_state.a[0m
+[9.101s] [ 61%] Built target crc_cord_state
+[9.122s] [ 62%] [32mBuilding CXX object absl/debugging/CMakeFiles/failure_signal_handler.dir/failure_signal_handler.cc.o[0m
+[9.149s] [ 62%] [32m[1mLinking CXX static library libabsl_failure_signal_handler.a[0m
+[9.188s] [ 62%] Built target failure_signal_handler
+[9.210s] [ 63%] [32mBuilding CXX object absl/random/CMakeFiles/random_seed_sequences.dir/seed_sequences.cc.o[0m
+[9.240s] [ 63%] [32m[1mLinking CXX static library libabsl_random_seed_sequences.a[0m
+[9.273s] [ 63%] Built target random_seed_sequences
+[9.295s] [ 63%] [32mBuilding CXX object absl/strings/CMakeFiles/cord_internal.dir/internal/cord_internal.cc.o[0m
+[9.328s] [ 64%] [32mBuilding CXX object absl/strings/CMakeFiles/cord_internal.dir/internal/cord_rep_btree.cc.o[0m
+[9.358s] [ 64%] [32mBuilding CXX object absl/strings/CMakeFiles/cord_internal.dir/internal/cord_rep_btree_navigator.cc.o[0m
+[9.386s] [ 65%] [32mBuilding CXX object absl/strings/CMakeFiles/cord_internal.dir/internal/cord_rep_btree_reader.cc.o[0m
+[9.414s] [ 65%] [32mBuilding CXX object absl/strings/CMakeFiles/cord_internal.dir/internal/cord_rep_crc.cc.o[0m
+[9.444s] [ 65%] [32mBuilding CXX object absl/strings/CMakeFiles/cord_internal.dir/internal/cord_rep_consume.cc.o[0m
+[9.472s] [ 66%] [32m[1mLinking CXX static library libabsl_cord_internal.a[0m
+[9.512s] [ 66%] Built target cord_internal
+[9.534s] [ 67%] [32mBuilding CXX object absl/hash/CMakeFiles/hash.dir/internal/hash.cc.o[0m
+[9.568s] [ 67%] [32m[1mLinking CXX static library libabsl_hash.a[0m
+[9.607s] [ 67%] Built target hash
+[9.628s] [ 67%] [32mBuilding CXX object absl/time/CMakeFiles/time.dir/civil_time.cc.o[0m
+[9.659s] [ 68%] [32mBuilding CXX object absl/time/CMakeFiles/time.dir/format.cc.o[0m
+[9.686s] [ 68%] [32mBuilding CXX object absl/time/CMakeFiles/time.dir/time.cc.o[0m
+[9.714s] [ 68%] [32mBuilding CXX object absl/time/CMakeFiles/time.dir/duration.cc.o[0m
+[9.743s] [ 69%] [32mBuilding CXX object absl/time/CMakeFiles/time.dir/clock.cc.o[0m
+[9.772s] [ 69%] [32m[1mLinking CXX static library libabsl_time.a[0m
+[9.817s] [ 69%] Built target time
+[9.838s] [ 70%] [32mBuilding CXX object absl/synchronization/CMakeFiles/kernel_timeout_internal.dir/internal/kernel_timeout.cc.o[0m
+[9.872s] [ 70%] [32m[1mLinking CXX static library libabsl_kernel_timeout_internal.a[0m
+[9.905s] [ 70%] Built target kernel_timeout_internal
+[9.926s] [ 70%] [32mBuilding CXX object absl/log/CMakeFiles/log_entry.dir/log_entry.cc.o[0m
+[9.956s] [ 71%] [32m[1mLinking CXX static library libabsl_log_entry.a[0m
+[9.988s] [ 71%] Built target log_entry
+[10.011s] [ 71%] [32mBuilding CXX object absl/synchronization/CMakeFiles/synchronization.dir/barrier.cc.o[0m
+[10.041s] [ 71%] [32mBuilding CXX object absl/synchronization/CMakeFiles/synchronization.dir/blocking_counter.cc.o[0m
+[10.069s] [ 72%] [32mBuilding CXX object absl/synchronization/CMakeFiles/synchronization.dir/internal/create_thread_identity.cc.o[0m
+[10.102s] [ 72%] [32mBuilding CXX object absl/synchronization/CMakeFiles/synchronization.dir/internal/futex_waiter.cc.o[0m
+[10.130s] [ 73%] [32mBuilding CXX object absl/synchronization/CMakeFiles/synchronization.dir/internal/per_thread_sem.cc.o[0m
+[10.159s] [ 73%] [32mBuilding CXX object absl/synchronization/CMakeFiles/synchronization.dir/internal/pthread_waiter.cc.o[0m
+[10.187s] [ 74%] [32mBuilding CXX object absl/synchronization/CMakeFiles/synchronization.dir/internal/sem_waiter.cc.o[0m
+[10.222s] [ 74%] [32mBuilding CXX object absl/synchronization/CMakeFiles/synchronization.dir/internal/stdcpp_waiter.cc.o[0m
+[10.251s] [ 74%] [32mBuilding CXX object absl/synchronization/CMakeFiles/synchronization.dir/internal/waiter_base.cc.o[0m
+[10.279s] [ 75%] [32mBuilding CXX object absl/synchronization/CMakeFiles/synchronization.dir/internal/win32_waiter.cc.o[0m
+[10.293s] [ 75%] [32mBuilding CXX object absl/synchronization/CMakeFiles/synchronization.dir/notification.cc.o[0m
+[10.326s] [ 76%] [32mBuilding CXX object absl/synchronization/CMakeFiles/synchronization.dir/mutex.cc.o[0m
+[10.359s] [ 76%] [32m[1mLinking CXX static library libabsl_synchronization.a[0m
+[10.401s] [ 76%] Built target synchronization
+[10.422s] [ 76%] [32mBuilding CXX object absl/log/CMakeFiles/log_sink.dir/log_sink.cc.o[0m
+[10.492s] [ 77%] [32m[1mLinking CXX static library libabsl_log_sink.a[0m
+[10.524s] [ 77%] Built target log_sink
+[10.545s] [ 78%] [32mBuilding CXX object absl/flags/CMakeFiles/flags_program_name.dir/internal/program_name.cc.o[0m
+[10.576s] [ 78%] [32m[1mLinking CXX static library libabsl_flags_program_name.a[0m
+[10.609s] [ 78%] Built target flags_program_name
+[10.630s] [ 78%] [32mBuilding CXX object absl/strings/CMakeFiles/cordz_handle.dir/internal/cordz_handle.cc.o[0m
+[10.664s] [ 79%] [32m[1mLinking CXX static library libabsl_cordz_handle.a[0m
+[10.700s] [ 79%] Built target cordz_handle
+[10.721s] [ 79%] [32mBuilding CXX object absl/log/CMakeFiles/vlog_config_internal.dir/internal/vlog_config.cc.o[0m
+[10.755s] [ 80%] [32m[1mLinking CXX static library libabsl_vlog_config_internal.a[0m
+[10.792s] [ 80%] Built target vlog_config_internal
+[10.817s] [ 80%] [32mBuilding CXX object absl/flags/CMakeFiles/flags_config.dir/usage_config.cc.o[0m
+[10.848s] [ 81%] [32m[1mLinking CXX static library libabsl_flags_config.a[0m
+[10.886s] [ 81%] Built target flags_config
+[10.906s] [ 81%] [32mBuilding CXX object absl/strings/CMakeFiles/cordz_info.dir/internal/cordz_info.cc.o[0m
+[10.942s] [ 81%] [32m[1mLinking CXX static library libabsl_cordz_info.a[0m
+[10.974s] [ 81%] Built target cordz_info
+[10.997s] [ 81%] [32mBuilding CXX object absl/log/CMakeFiles/log_globals.dir/globals.cc.o[0m
+[11.038s] [ 82%] [32m[1mLinking CXX static library libabsl_log_globals.a[0m
+[11.074s] [ 82%] Built target log_globals
+[11.096s] [ 83%] [32mBuilding CXX object absl/strings/CMakeFiles/cord.dir/cord.cc.o[0m
+[11.141s] [ 83%] [32mBuilding CXX object absl/strings/CMakeFiles/cord.dir/cord_analysis.cc.o[0m
+[11.174s] [ 84%] [32mBuilding CXX object absl/strings/CMakeFiles/cord.dir/cord_buffer.cc.o[0m
+[11.203s] [ 84%] [32m[1mLinking CXX static library libabsl_cord.a[0m
+[11.254s] [ 84%] Built target cord
+[11.274s] [ 84%] [32mBuilding CXX object absl/flags/CMakeFiles/flags_internal.dir/internal/flag.cc.o[0m
+[11.307s] [ 85%] [32m[1mLinking CXX static library libabsl_flags_internal.a[0m
+[11.345s] [ 85%] Built target flags_internal
+[11.366s] [ 86%] [32mBuilding CXX object absl/strings/CMakeFiles/cordz_sample_token.dir/internal/cordz_sample_token.cc.o[0m
+[11.397s] [ 86%] [32m[1mLinking CXX static library libabsl_cordz_sample_token.a[0m
+[11.430s] [ 86%] Built target cordz_sample_token
+[11.451s] [ 86%] [32mBuilding CXX object absl/status/CMakeFiles/status.dir/internal/status_internal.cc.o[0m
+[11.490s] [ 86%] [32mBuilding CXX object absl/status/CMakeFiles/status.dir/status.cc.o[0m
+[11.525s] [ 87%] [32mBuilding CXX object absl/status/CMakeFiles/status.dir/status_payload_printer.cc.o[0m
+[11.558s] [ 87%] [32m[1mLinking CXX static library libabsl_status.a[0m
+[11.602s] [ 87%] Built target status
+[11.623s] [ 88%] [32mBuilding CXX object absl/container/CMakeFiles/hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o[0m
+[11.653s] [ 88%] [32mBuilding CXX object absl/container/CMakeFiles/hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o[0m
+[11.681s] [ 88%] [32m[1mLinking CXX static library libabsl_hashtablez_sampler.a[0m
+[11.717s] [ 88%] Built target hashtablez_sampler
+[11.738s] [ 89%] [32mBuilding CXX object absl/status/CMakeFiles/statusor.dir/statusor.cc.o[0m
+[11.773s] [ 89%] [32m[1mLinking CXX static library libabsl_statusor.a[0m
+[11.810s] [ 89%] Built target statusor
+[11.831s] [ 90%] [32mBuilding CXX object absl/container/CMakeFiles/raw_hash_set.dir/internal/raw_hash_set.cc.o[0m
+[11.874s] [ 90%] [32m[1mLinking CXX static library libabsl_raw_hash_set.a[0m
+[11.913s] [ 90%] Built target raw_hash_set
+[11.934s] [ 90%] [32mBuilding CXX object absl/log/CMakeFiles/log_internal_globals.dir/internal/globals.cc.o[0m
+[11.964s] [ 91%] [32m[1mLinking CXX static library libabsl_log_internal_globals.a[0m
+[12.002s] [ 91%] Built target log_internal_globals
+[12.023s] [ 91%] [32mBuilding CXX object absl/flags/CMakeFiles/flags_reflection.dir/reflection.cc.o[0m
+[12.073s] [ 92%] [32m[1mLinking CXX static library libabsl_flags_reflection.a[0m
+[12.131s] [ 92%] Built target flags_reflection
+[12.152s] [ 92%] [32mBuilding CXX object absl/log/CMakeFiles/log_initialize.dir/initialize.cc.o[0m
+[12.180s] [ 92%] [32m[1mLinking CXX static library libabsl_log_initialize.a[0m
+[12.211s] [ 92%] Built target log_initialize
+[12.231s] [ 92%] [32mBuilding CXX object absl/flags/CMakeFiles/flags_usage_internal.dir/internal/usage.cc.o[0m
+[12.267s] [ 93%] [32m[1mLinking CXX static library libabsl_flags_usage_internal.a[0m
+[12.308s] [ 93%] Built target flags_usage_internal
+[12.329s] [ 93%] [32mBuilding CXX object absl/log/CMakeFiles/log_flags.dir/flags.cc.o[0m
+[12.359s] [ 94%] [32m[1mLinking CXX static library libabsl_log_flags.a[0m
+[12.399s] [ 94%] Built target log_flags
+[12.420s] [ 94%] [32mBuilding CXX object absl/flags/CMakeFiles/flags_usage.dir/usage.cc.o[0m
+[12.451s] [ 95%] [32m[1mLinking CXX static library libabsl_flags_usage.a[0m
+[12.483s] [ 95%] Built target flags_usage
+[12.503s] [ 95%] [32mBuilding CXX object absl/log/CMakeFiles/log_internal_log_sink_set.dir/internal/log_sink_set.cc.o[0m
+[12.535s] [ 95%] [32m[1mLinking CXX static library libabsl_log_internal_log_sink_set.a[0m
+[12.572s] [ 95%] Built target log_internal_log_sink_set
+[12.593s] [ 96%] [32mBuilding CXX object absl/flags/CMakeFiles/flags_parse.dir/parse.cc.o[0m
+[12.639s] [ 96%] [32m[1mLinking CXX static library libabsl_flags_parse.a[0m
+[12.689s] [ 96%] Built target flags_parse
+[12.710s] [ 96%] [32mBuilding CXX object absl/log/CMakeFiles/log_internal_format.dir/internal/log_format.cc.o[0m
+[12.741s] [ 97%] [32m[1mLinking CXX static library libabsl_log_internal_format.a[0m
+[12.778s] [ 97%] Built target log_internal_format
+[12.799s] [ 98%] [32mBuilding CXX object absl/log/CMakeFiles/log_internal_message.dir/internal/log_message.cc.o[0m
+[12.831s] [ 98%] [32m[1mLinking CXX static library libabsl_log_internal_message.a[0m
+[12.874s] [ 98%] Built target log_internal_message
+[12.895s] [ 99%] [32mBuilding CXX object absl/log/CMakeFiles/log_internal_check_op.dir/internal/check_op.cc.o[0m
+[12.926s] [ 99%] [32m[1mLinking CXX static library libabsl_log_internal_check_op.a[0m
+[12.962s] [ 99%] Built target log_internal_check_op
+[12.983s] [ 99%] [32mBuilding CXX object absl/log/CMakeFiles/die_if_null.dir/die_if_null.cc.o[0m
+[13.015s] [100%] [32m[1mLinking CXX static library libabsl_die_if_null.a[0m
+[13.047s] [100%] Built target die_if_null
+[13.073s] Invoked command in '/home/terranova/uav_ws/build/absl' returned '0': /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/absl -- -j4 -l4
+[13.420s] Invoking command in '/home/terranova/uav_ws/build/absl': /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/absl
+[13.502s] -- Install configuration: ""
+[13.503s] -- Installing: /home/terranova/uav_ws/install/absl/lib/cmake/absl/abslTargets.cmake
+[13.503s] -- Installing: /home/terranova/uav_ws/install/absl/lib/cmake/absl/abslTargets-noconfig.cmake
+[13.504s] -- Installing: /home/terranova/uav_ws/install/absl/lib/cmake/absl/abslConfig.cmake
+[13.504s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl
+[13.504s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/hash
+[13.504s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/hash/hash_testing.h
+[13.508s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/hash/internal
+[13.510s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/hash/internal/hash_test.h
+[13.510s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/hash/internal/hash.h
+[13.511s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/hash/internal/city.h
+[13.512s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/hash/internal/spy_hash_state.h
+[13.513s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/hash/internal/low_level_hash.h
+[13.513s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/hash/hash.h
+[13.514s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings
+[13.514s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/numbers.h
+[13.515s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/cord.h
+[13.516s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/str_split.h
+[13.517s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/escaping.h
+[13.517s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal
+[13.518s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/escaping_test_common.h
+[13.519s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cord_internal.h
+[13.519s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cord_rep_btree_reader.h
+[13.520s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/damerau_levenshtein_distance.h
+[13.520s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/charconv_bigint.h
+[13.521s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/numbers_test_common.h
+[13.522s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cord_rep_btree_navigator.h
+[13.523s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/escaping.h
+[13.523s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/string_constant.h
+[13.524s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cord_rep_consume.h
+[13.524s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/stl_type_traits.h
+[13.525s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/resize_uninitialized.h
+[13.526s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/stringify_sink.h
+[13.527s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cord_rep_crc.h
+[13.527s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/utf8.h
+[13.528s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/ostringstream.h
+[13.529s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/str_split_internal.h
+[13.529s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/charconv_parse.h
+[13.530s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cord_rep_flat.h
+[13.530s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cord_rep_test_util.h
+[13.531s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cordz_update_tracker.h
+[13.532s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/memutil.h
+[13.532s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cord_data_edge.h
+[13.533s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/str_join_internal.h
+[13.534s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/has_absl_stringify.h
+[13.534s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cordz_sample_token.h
+[13.535s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cordz_statistics.h
+[13.536s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/str_format
+[13.536s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/str_format/parser.h
+[13.537s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/str_format/output.h
+[13.537s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/str_format/constexpr_parser.h
+[13.538s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/str_format/extension.h
+[13.539s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/str_format/float_conversion.h
+[13.539s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/str_format/checker.h
+[13.540s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/str_format/bind.h
+[13.540s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/str_format/arg.h
+[13.541s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cord_rep_btree.h
+[13.542s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cordz_handle.h
+[13.542s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cordz_functions.h
+[13.543s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cordz_info.h
+[13.544s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cordz_update_scope.h
+[13.544s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/internal/pow10_helper.h
+[13.545s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/str_replace.h
+[13.546s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/str_join.h
+[13.546s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/str_cat.h
+[13.547s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/cord_analysis.h
+[13.547s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/cord_test_helpers.h
+[13.548s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/charset.h
+[13.549s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/cord_buffer.h
+[13.549s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/string_view.h
+[13.550s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/str_format.h
+[13.551s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/match.h
+[13.551s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/strip.h
+[13.552s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/cordz_test_helpers.h
+[13.553s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/has_ostream_operator.h
+[13.553s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/substitute.h
+[13.554s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/has_absl_stringify.h
+[13.555s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/ascii.h
+[13.555s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/strings/charconv.h
+[13.556s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types
+[13.556s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types/compare.h
+[13.558s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types/bad_any_cast.h
+[13.558s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types/span.h
+[13.559s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types/internal
+[13.559s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types/internal/span.h
+[13.560s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types/internal/optional.h
+[13.561s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types/internal/variant.h
+[13.561s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types/bad_variant_access.h
+[13.562s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types/optional.h
+[13.562s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types/variant.h
+[13.563s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types/any.h
+[13.564s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/types/bad_optional_access.h
+[13.565s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/numeric
+[13.565s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/numeric/int128_have_intrinsic.inc
+[13.566s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/numeric/internal
+[13.567s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/numeric/internal/representation.h
+[13.567s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/numeric/internal/bits.h
+[13.568s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/numeric/int128_no_intrinsic.inc
+[13.569s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/numeric/bits.h
+[13.569s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/numeric/int128.h
+[13.570s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/profiling
+[13.570s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/profiling/internal
+[13.571s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/profiling/internal/periodic_sampler.h
+[13.572s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/profiling/internal/sample_recorder.h
+[13.572s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/profiling/internal/exponential_biased.h
+[13.573s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random
+[13.573s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/beta_distribution.h
+[13.574s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/mocking_bit_gen.h
+[13.575s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/distributions.h
+[13.576s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/random.h
+[13.577s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/bernoulli_distribution.h
+[13.578s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/mock_distributions.h
+[13.579s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/uniform_real_distribution.h
+[13.580s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/seed_gen_exception.h
+[13.580s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal
+[13.581s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/iostream_state_saver.h
+[13.581s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/fast_uniform_bits.h
+[13.582s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/pool_urbg.h
+[13.583s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/randen_engine.h
+[13.584s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/randen.h
+[13.584s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/distribution_caller.h
+[13.585s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/nonsecure_base.h
+[13.586s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/mock_overload_set.h
+[13.587s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/mock_helpers.h
+[13.588s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/randen_detect.h
+[13.588s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/randen_traits.h
+[13.589s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/salted_seed_seq.h
+[13.589s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/pcg_engine.h
+[13.590s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/platform.h
+[13.591s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/randen_slow.h
+[13.591s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/traits.h
+[13.592s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/fastmath.h
+[13.593s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/randen_hwaes.h
+[13.593s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/wide_multiply.h
+[13.594s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/seed_material.h
+[13.594s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/chi_square.h
+[13.595s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/uniform_helper.h
+[13.596s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/explicit_seed_seq.h
+[13.597s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/generate_real.h
+[13.598s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/nanobenchmark.h
+[13.598s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/distribution_test_util.h
+[13.599s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/internal/sequence_urbg.h
+[13.600s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/exponential_distribution.h
+[13.601s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/bit_gen_ref.h
+[13.602s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/gaussian_distribution.h
+[13.603s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/uniform_int_distribution.h
+[13.603s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/poisson_distribution.h
+[13.604s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/seed_sequences.h
+[13.605s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/discrete_distribution.h
+[13.605s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/log_uniform_int_distribution.h
+[13.606s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/random/zipf_distribution.h
+[13.607s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time
+[13.608s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/clock.h
+[13.608s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal
+[13.610s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/get_current_time_posix.inc
+[13.610s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz
+[13.611s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/src
+[13.611s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/src/time_zone_if.h
+[13.612s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/src/time_zone_libc.h
+[13.612s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/src/tzfile.h
+[13.613s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/src/time_zone_posix.h
+[13.614s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/src/time_zone_info.h
+[13.614s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/src/time_zone_fixed.h
+[13.615s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/src/time_zone_impl.h
+[13.615s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/include
+[13.616s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/include/cctz
+[13.616s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/include/cctz/zone_info_source.h
+[13.617s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/include/cctz/time_zone.h
+[13.618s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/include/cctz/civil_time_detail.h
+[13.618s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/cctz/include/cctz/civil_time.h
+[13.619s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/get_current_time_chrono.inc
+[13.620s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/internal/test_util.h
+[13.620s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/time.h
+[13.621s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/time/civil_time.h
+[13.622s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log
+[13.622s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/check.h
+[13.623s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/log_basic_test_impl.inc
+[13.624s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/structured.h
+[13.625s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/log_streamer.h
+[13.626s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/absl_vlog_is_on.h
+[13.627s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/scoped_mock_log.h
+[13.628s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/log_entry.h
+[13.628s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal
+[13.629s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/structured.h
+[13.630s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/test_helpers.h
+[13.630s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/vlog_config.h
+[13.631s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/log_sink_set.h
+[13.632s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/log_message.h
+[13.632s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/globals.h
+[13.633s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/nullguard.h
+[13.634s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/voidify.h
+[13.634s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/log_format.h
+[13.635s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/proto.h
+[13.635s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/test_actions.h
+[13.636s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/flags.h
+[13.637s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/nullstream.h
+[13.637s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/strip.h
+[13.638s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/fnmatch.h
+[13.638s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/check_op.h
+[13.639s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/config.h
+[13.640s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/append_truncated.h
+[13.640s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/test_matchers.h
+[13.641s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/conditions.h
+[13.642s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/check_impl.h
+[13.643s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/internal/log_impl.h
+[13.643s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/die_if_null.h
+[13.644s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/globals.h
+[13.644s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/log.h
+[13.645s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/vlog_is_on.h
+[13.646s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/absl_check.h
+[13.647s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/log_sink.h
+[13.647s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/log_sink_registry.h
+[13.648s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/absl_log.h
+[13.649s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/flags.h
+[13.649s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/initialize.h
+[13.650s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/log/check_test_impl.inc
+[13.651s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base
+[13.651s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/log_severity.h
+[13.652s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/const_init.h
+[13.653s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal
+[13.653s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/low_level_scheduling.h
+[13.654s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/exception_testing.h
+[13.655s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/low_level_alloc.h
+[13.655s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/raw_logging.h
+[13.656s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/sysinfo.h
+[13.656s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/nullability_impl.h
+[13.657s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/scheduling_mode.h
+[13.658s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/fast_type_id.h
+[13.658s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/unaligned_access.h
+[13.659s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/inline_variable_testing.h
+[13.659s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/identity.h
+[13.660s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/direct_mmap.h
+[13.661s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/errno_saver.h
+[13.661s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/endian.h
+[13.662s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/throw_delegate.h
+[13.662s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/spinlock_akaros.inc
+[13.663s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/atomic_hook_test_helper.h
+[13.664s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/spinlock.h
+[13.665s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/scoped_set_env.h
+[13.665s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/spinlock_linux.inc
+[13.666s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/pretty_function.h
+[13.667s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/spinlock_wait.h
+[13.667s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/thread_identity.h
+[13.668s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/spinlock_posix.inc
+[13.669s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/atomic_hook.h
+[13.669s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/inline_variable.h
+[13.670s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/exception_safety_testing.h
+[13.671s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/invoke.h
+[13.672s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/unscaledcycleclock.h
+[13.673s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/hide_ptr.h
+[13.673s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/unscaledcycleclock_config.h
+[13.674s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/dynamic_annotations.h
+[13.674s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/cycleclock_config.h
+[13.675s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/tsan_mutex_interface.h
+[13.675s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/strerror.h
+[13.676s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/spinlock_win32.inc
+[13.677s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/cycleclock.h
+[13.677s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/internal/per_thread_tls.h
+[13.678s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/thread_annotations.h
+[13.679s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/port.h
+[13.679s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/no_destructor.h
+[13.680s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/casts.h
+[13.680s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/policy_checks.h
+[13.681s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/optimization.h
+[13.681s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/prefetch.h
+[13.682s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/call_once.h
+[13.683s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/nullability.h
+[13.683s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/config.h
+[13.684s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/macros.h
+[13.684s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/attributes.h
+[13.685s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/dynamic_annotations.h
+[13.685s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/options.h
+[13.685s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags
+[13.685s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/parse.h
+[13.686s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/internal
+[13.686s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/internal/parse.h
+[13.686s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/internal/sequence_lock.h
+[13.687s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/internal/usage.h
+[13.687s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/internal/commandlineflag.h
+[13.687s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/internal/registry.h
+[13.687s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/internal/flag.h
+[13.688s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/internal/path_util.h
+[13.688s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/internal/private_handle_accessor.h
+[13.688s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/internal/program_name.h
+[13.689s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/usage.h
+[13.689s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/commandlineflag.h
+[13.689s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/reflection.h
+[13.689s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/marshalling.h
+[13.696s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/flag.h
+[13.697s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/declare.h
+[13.698s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/config.h
+[13.698s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/flags/usage_config.h
+[13.699s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/meta
+[13.700s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/meta/type_traits.h
+[13.701s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/algorithm
+[13.701s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/algorithm/algorithm.h
+[13.702s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/algorithm/container.h
+[13.703s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/memory
+[13.703s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/memory/memory.h
+[13.704s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging
+[13.704s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/symbolize_darwin.inc
+[13.705s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/symbolize_win32.inc
+[13.706s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/symbolize_elf.inc
+[13.707s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal
+[13.707s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/symbolize.h
+[13.708s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/stack_consumption.h
+[13.711s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/stacktrace_powerpc-inl.inc
+[13.712s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/elf_mem_image.h
+[13.712s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/stacktrace_arm-inl.inc
+[13.713s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/address_is_readable.h
+[13.714s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/demangle.h
+[13.714s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/stacktrace_aarch64-inl.inc
+[13.715s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/stacktrace_win32-inl.inc
+[13.716s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/stacktrace_riscv-inl.inc
+[13.717s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/stacktrace_config.h
+[13.718s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/stacktrace_generic-inl.inc
+[13.718s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/stacktrace_x86-inl.inc
+[13.719s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/examine_stack.h
+[13.720s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/stacktrace_unimplemented-inl.inc
+[13.720s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/stacktrace_emscripten-inl.inc
+[13.721s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/internal/vdso_support.h
+[13.722s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/symbolize.h
+[13.722s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/symbolize_unimplemented.inc
+[13.723s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/symbolize_emscripten.inc
+[13.724s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/failure_signal_handler.h
+[13.724s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/stacktrace.h
+[13.725s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/debugging/leak_check.h
+[13.726s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/utility
+[13.727s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/utility/internal
+[13.727s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/utility/internal/if_constexpr.h
+[13.728s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/utility/utility.h
+[13.729s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc
+[13.730s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc/internal
+[13.730s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc/internal/non_temporal_memcpy.h
+[13.731s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc/internal/crc32c_inline.h
+[13.732s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc/internal/cpu_detect.h
+[13.732s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc/internal/non_temporal_arm_intrinsics.h
+[13.733s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc/internal/crc_internal.h
+[13.734s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc/internal/crc32_x86_arm_combined_simd.h
+[13.734s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc/internal/crc.h
+[13.735s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc/internal/crc_memcpy.h
+[13.735s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc/internal/crc_cord_state.h
+[13.736s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc/internal/crc32c.h
+[13.737s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/crc/crc32c.h
+[13.737s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/functional
+[13.738s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/functional/overload.h
+[13.739s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/functional/internal
+[13.739s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/functional/internal/front_binder.h
+[13.740s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/functional/internal/any_invocable.h
+[13.741s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/functional/internal/function_ref.h
+[13.741s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/functional/any_invocable.h
+[13.742s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/functional/function_ref.h
+[13.743s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/functional/bind_front.h
+[13.744s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/status
+[13.744s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/status/internal
+[13.745s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/status/internal/statusor_internal.h
+[13.745s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/status/internal/status_internal.h
+[13.746s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/status/statusor.h
+[13.746s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/status/status_payload_printer.h
+[13.747s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/status/status.h
+[13.748s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization
+[13.748s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/barrier.h
+[13.749s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal
+[13.750s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/win32_waiter.h
+[13.750s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/sem_waiter.h
+[13.751s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/create_thread_identity.h
+[13.751s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/stdcpp_waiter.h
+[13.752s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/pthread_waiter.h
+[13.753s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/waiter.h
+[13.753s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/waiter_base.h
+[13.754s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/thread_pool.h
+[13.755s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/futex.h
+[13.755s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/futex_waiter.h
+[13.756s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/kernel_timeout.h
+[13.757s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/per_thread_sem.h
+[13.757s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/internal/graphcycles.h
+[13.758s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/blocking_counter.h
+[13.758s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/notification.h
+[13.759s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h
+[13.760s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/cleanup
+[13.760s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/cleanup/internal
+[13.761s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/cleanup/internal/cleanup.h
+[13.761s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/cleanup/cleanup.h
+[13.762s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container
+[13.763s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/node_hash_map.h
+[13.764s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/flat_hash_map.h
+[13.765s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal
+[13.765s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/unordered_map_lookup_test.h
+[13.766s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/hash_policy_testing.h
+[13.767s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/unordered_set_members_test.h
+[13.768s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/hashtable_debug_hooks.h
+[13.768s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/hash_function_defaults.h
+[13.769s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/raw_hash_set.h
+[13.770s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/unordered_map_modifiers_test.h
+[13.771s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/layout.h
+[13.772s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/hash_policy_traits.h
+[13.773s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/inlined_vector.h
+[13.773s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/common_policy_traits.h
+[13.774s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/unordered_set_constructor_test.h
+[13.775s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/node_slot_policy.h
+[13.776s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/container_memory.h
+[13.776s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/test_instance_tracker.h
+[13.777s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/raw_hash_map.h
+[13.778s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/btree_container.h
+[13.779s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/hashtable_debug.h
+[13.780s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/compressed_tuple.h
+[13.781s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/common.h
+[13.782s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/unordered_map_constructor_test.h
+[13.783s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/unordered_set_modifiers_test.h
+[13.783s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/tracked.h
+[13.784s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/hash_generator_testing.h
+[13.785s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/unordered_map_members_test.h
+[13.786s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/btree.h
+[13.788s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/test_allocator.h
+[13.789s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/unordered_set_lookup_test.h
+[13.790s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/internal/hashtablez_sampler.h
+[13.791s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/inlined_vector.h
+[13.792s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/flat_hash_set.h
+[13.793s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/btree_set.h
+[13.794s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/fixed_array.h
+[13.795s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/btree_test.h
+[13.796s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/btree_map.h
+[13.797s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/container/node_hash_set.h
+[13.798s] -- Installing: /home/terranova/uav_ws/install/absl/include/absl/base/options.h
+[13.801s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_atomic_hook.pc
+[13.802s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_errno_saver.pc
+[13.802s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_severity.pc
+[13.803s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_severity.a
+[13.804s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_no_destructor.pc
+[13.805s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_nullability.pc
+[13.805s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_raw_logging_internal.pc
+[13.806s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_raw_logging_internal.a
+[13.807s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_spinlock_wait.pc
+[13.807s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_spinlock_wait.a
+[13.808s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_config.pc
+[13.809s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_dynamic_annotations.pc
+[13.810s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_core_headers.pc
+[13.811s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_malloc_internal.pc
+[13.811s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_malloc_internal.a
+[13.812s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_base_internal.pc
+[13.813s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_base.pc
+[13.814s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_base.a
+[13.814s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_throw_delegate.pc
+[13.815s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_throw_delegate.a
+[13.816s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_pretty_function.pc
+[13.817s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_endian.pc
+[13.817s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_scoped_set_env.pc
+[13.818s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_scoped_set_env.a
+[13.819s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_strerror.pc
+[13.819s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_strerror.a
+[13.820s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_fast_type_id.pc
+[13.821s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_prefetch.pc
+[13.822s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_algorithm.pc
+[13.822s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_algorithm_container.pc
+[13.823s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_cleanup_internal.pc
+[13.824s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_cleanup.pc
+[13.829s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_btree.pc
+[13.830s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_compressed_tuple.pc
+[13.831s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_fixed_array.pc
+[13.831s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_inlined_vector_internal.pc
+[13.832s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_inlined_vector.pc
+[13.833s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flat_hash_map.pc
+[13.834s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flat_hash_set.pc
+[13.834s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_node_hash_map.pc
+[13.835s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_node_hash_set.pc
+[13.836s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_container_memory.pc
+[13.837s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_hash_function_defaults.pc
+[13.837s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_hash_policy_traits.pc
+[13.838s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_common_policy_traits.pc
+[13.839s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_hashtablez_sampler.pc
+[13.840s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_hashtablez_sampler.a
+[13.841s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_hashtable_debug.pc
+[13.842s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_hashtable_debug_hooks.pc
+[13.842s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_node_slot_policy.pc
+[13.843s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_raw_hash_map.pc
+[13.844s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_container_common.pc
+[13.845s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_raw_hash_set.pc
+[13.845s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_raw_hash_set.a
+[13.846s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_layout.pc
+[13.848s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_crc_cpu_detect.pc
+[13.848s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_crc_cpu_detect.a
+[13.849s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_crc_internal.pc
+[13.850s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_crc_internal.a
+[13.852s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_crc32c.pc
+[13.852s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_crc32c.a
+[13.857s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_non_temporal_arm_intrinsics.pc
+[13.858s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_non_temporal_memcpy.pc
+[13.860s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_crc_cord_state.pc
+[13.861s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_crc_cord_state.a
+[13.861s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_stacktrace.pc
+[13.861s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_stacktrace.a
+[13.862s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_symbolize.pc
+[13.863s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_symbolize.a
+[13.864s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_examine_stack.pc
+[13.865s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_examine_stack.a
+[13.866s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_failure_signal_handler.pc
+[13.866s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_failure_signal_handler.a
+[13.867s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_debugging_internal.pc
+[13.868s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_debugging_internal.a
+[13.869s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_demangle_internal.pc
+[13.869s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_demangle_internal.a
+[13.870s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_leak_check.pc
+[13.871s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_leak_check.a
+[13.872s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_debugging.pc
+[13.874s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags_path_util.pc
+[13.875s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags_program_name.pc
+[13.875s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_flags_program_name.a
+[13.876s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags_config.pc
+[13.877s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_flags_config.a
+[13.878s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags_marshalling.pc
+[13.879s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_flags_marshalling.a
+[13.880s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags_commandlineflag_internal.pc
+[13.880s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_flags_commandlineflag_internal.a
+[13.881s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags_commandlineflag.pc
+[13.882s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_flags_commandlineflag.a
+[13.883s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags_private_handle_accessor.pc
+[13.883s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_flags_private_handle_accessor.a
+[13.884s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags_reflection.pc
+[13.885s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_flags_reflection.a
+[13.887s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags_internal.pc
+[13.888s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_flags_internal.a
+[13.889s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags.pc
+[13.890s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags_usage_internal.pc
+[13.890s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_flags_usage_internal.a
+[13.892s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags_usage.pc
+[13.893s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_flags_usage.a
+[13.894s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_flags_parse.pc
+[13.895s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_flags_parse.a
+[13.897s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_any_invocable.pc
+[13.898s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_bind_front.pc
+[13.899s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_function_ref.pc
+[13.900s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_overload.pc
+[13.901s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_hash.pc
+[13.902s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_hash.a
+[13.903s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_city.pc
+[13.903s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_city.a
+[13.904s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_low_level_hash.pc
+[13.905s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_low_level_hash.a
+[13.907s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_check_impl.pc
+[13.907s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_check_op.pc
+[13.908s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_internal_check_op.a
+[13.909s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_conditions.pc
+[13.911s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_internal_conditions.a
+[13.911s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_config.pc
+[13.912s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_flags.pc
+[13.913s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_format.pc
+[13.913s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_internal_format.a
+[13.914s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_globals.pc
+[13.915s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_internal_globals.a
+[13.916s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_log_impl.pc
+[13.916s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_proto.pc
+[13.917s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_internal_proto.a
+[13.918s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_message.pc
+[13.919s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_internal_message.a
+[13.920s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_log_sink_set.pc
+[13.921s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_internal_log_sink_set.a
+[13.922s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_nullguard.pc
+[13.923s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_internal_nullguard.a
+[13.924s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_nullstream.pc
+[13.924s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_strip.pc
+[13.925s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_voidify.pc
+[13.926s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_append_truncated.pc
+[13.927s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_absl_check.pc
+[13.927s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_absl_log.pc
+[13.928s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_check.pc
+[13.929s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_die_if_null.pc
+[13.930s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_die_if_null.a
+[13.930s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_flags.pc
+[13.931s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_flags.a
+[13.932s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_globals.pc
+[13.933s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_globals.a
+[13.934s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_initialize.pc
+[13.935s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_initialize.a
+[13.935s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log.pc
+[13.936s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_entry.pc
+[13.937s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_entry.a
+[13.938s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_sink.pc
+[13.938s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_sink.a
+[13.939s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_sink_registry.pc
+[13.940s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_streamer.pc
+[13.941s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_structured.pc
+[13.942s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_structured.pc
+[13.942s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_vlog_config_internal.pc
+[13.943s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_vlog_config_internal.a
+[13.944s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_absl_vlog_is_on.pc
+[13.945s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_vlog_is_on.pc
+[13.946s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_log_internal_fnmatch.pc
+[13.947s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_log_internal_fnmatch.a
+[13.948s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_memory.pc
+[13.949s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_type_traits.pc
+[13.950s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_meta.pc
+[13.951s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_bits.pc
+[13.952s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_int128.pc
+[13.953s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_int128.a
+[13.953s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_numeric.pc
+[13.954s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_numeric_representation.pc
+[13.955s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_sample_recorder.pc
+[13.956s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_exponential_biased.pc
+[13.957s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_exponential_biased.a
+[13.958s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_periodic_sampler.pc
+[13.958s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_periodic_sampler.a
+[13.960s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_random.pc
+[13.961s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_bit_gen_ref.pc
+[13.962s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_mock_helpers.pc
+[13.962s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_distributions.pc
+[13.963s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_random_distributions.a
+[13.964s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_seed_gen_exception.pc
+[13.965s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_random_seed_gen_exception.a
+[13.966s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_seed_sequences.pc
+[13.967s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_random_seed_sequences.a
+[13.968s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_traits.pc
+[13.969s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_distribution_caller.pc
+[13.970s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_fast_uniform_bits.pc
+[13.970s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_seed_material.pc
+[13.971s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_random_internal_seed_material.a
+[13.972s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_pool_urbg.pc
+[13.973s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_random_internal_pool_urbg.a
+[13.974s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_salted_seed_seq.pc
+[13.974s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_iostream_state_saver.pc
+[13.975s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_generate_real.pc
+[13.976s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_wide_multiply.pc
+[13.977s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_fastmath.pc
+[13.978s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_nonsecure_base.pc
+[13.978s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_pcg_engine.pc
+[13.979s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_randen_engine.pc
+[13.980s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_platform.pc
+[13.981s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_random_internal_platform.a
+[13.981s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_randen.pc
+[13.982s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_random_internal_randen.a
+[13.983s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_randen_slow.pc
+[13.984s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_random_internal_randen_slow.a
+[13.985s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_randen_hwaes.pc
+[13.986s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_random_internal_randen_hwaes.a
+[13.986s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_randen_hwaes_impl.pc
+[13.987s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_random_internal_randen_hwaes_impl.a
+[13.988s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_distribution_test_util.pc
+[13.989s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_random_internal_distribution_test_util.a
+[13.990s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_random_internal_uniform_helper.pc
+[13.991s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_status.pc
+[13.992s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_status.a
+[13.993s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_statusor.pc
+[13.994s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_statusor.a
+[13.996s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_string_view.pc
+[13.997s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_string_view.a
+[13.997s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_strings.pc
+[13.998s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_strings.a
+[14.001s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_charset.pc
+[14.002s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_has_ostream_operator.pc
+[14.002s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_strings_internal.pc
+[14.003s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_strings_internal.a
+[14.004s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_str_format.pc
+[14.005s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_str_format_internal.pc
+[14.006s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_str_format_internal.a
+[14.008s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_cord_internal.pc
+[14.009s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_cord_internal.a
+[14.011s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_cordz_update_tracker.pc
+[14.012s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_cordz_functions.pc
+[14.012s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_cordz_functions.a
+[14.013s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_cordz_statistics.pc
+[14.014s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_cordz_handle.pc
+[14.015s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_cordz_handle.a
+[14.016s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_cordz_info.pc
+[14.017s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_cordz_info.a
+[14.018s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_cordz_sample_token.pc
+[14.018s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_cordz_sample_token.a
+[14.019s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_cordz_update_scope.pc
+[14.020s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_cord.pc
+[14.021s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_cord.a
+[14.023s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_graphcycles_internal.pc
+[14.024s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_graphcycles_internal.a
+[14.025s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_kernel_timeout_internal.pc
+[14.026s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_kernel_timeout_internal.a
+[14.027s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_synchronization.pc
+[14.028s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_synchronization.a
+[14.030s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_time.pc
+[14.031s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_time.a
+[14.032s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_civil_time.pc
+[14.033s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_civil_time.a
+[14.034s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_time_zone.pc
+[14.035s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_time_zone.a
+[14.038s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_any.pc
+[14.039s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_bad_any_cast.pc
+[14.040s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_bad_any_cast_impl.pc
+[14.041s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_bad_any_cast_impl.a
+[14.042s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_span.pc
+[14.042s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_optional.pc
+[14.043s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_bad_optional_access.pc
+[14.044s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_bad_optional_access.a
+[14.045s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_bad_variant_access.pc
+[14.046s] -- Installing: /home/terranova/uav_ws/install/absl/lib/libabsl_bad_variant_access.a
+[14.046s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_variant.pc
+[14.047s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_compare.pc
+[14.048s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_utility.pc
+[14.049s] -- Installing: /home/terranova/uav_ws/install/absl/lib/pkgconfig/absl_if_constexpr.pc
+[14.064s] Invoked command in '/home/terranova/uav_ws/build/absl' returned '0': /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/absl

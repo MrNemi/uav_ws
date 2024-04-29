@@ -1,0 +1,32 @@
+[2.664s] Invoking command in '/home/terranova/uav_ws/src/joint_state_publisher_gui': PYTHONPATH=/home/terranova/uav_ws/build/joint_state_publisher_gui/prefix_override:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joint_state_publisher_gui build --build-base /home/terranova/uav_ws/build/joint_state_publisher_gui/build install --record /home/terranova/uav_ws/build/joint_state_publisher_gui/install.log --single-version-externally-managed install_data
+[3.431s] running egg_info
+[3.432s] creating ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info
+[3.485s] writing ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/PKG-INFO
+[3.486s] writing dependency_links to ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/dependency_links.txt
+[3.487s] writing requirements to ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/requires.txt
+[3.487s] writing top-level names to ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/top_level.txt
+[3.775s] writing manifest file '../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'
+[3.880s] reading manifest file '../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'
+[3.883s] writing manifest file '../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'
+[3.883s] running build
+[3.883s] running build_py
+[3.884s] creating /home/terranova/uav_ws/build/joint_state_publisher_gui/build
+[3.884s] creating /home/terranova/uav_ws/build/joint_state_publisher_gui/build/lib
+[3.885s] creating /home/terranova/uav_ws/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui
+[3.885s] copying joint_state_publisher_gui/__init__.py -> /home/terranova/uav_ws/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui
+[3.886s] running install
+[3.905s] running install_lib
+[3.955s] creating /home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui
+[3.955s] copying /home/terranova/uav_ws/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui/__init__.py -> /home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui
+[3.957s] byte-compiling /home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui/__init__.py to __init__.cpython-38.pyc
+[3.958s] running install_data
+[3.959s] creating /home/terranova/uav_ws/install/joint_state_publisher_gui/share/ament_index
+[3.960s] creating /home/terranova/uav_ws/install/joint_state_publisher_gui/share/ament_index/resource_index
+[3.960s] creating /home/terranova/uav_ws/install/joint_state_publisher_gui/share/ament_index/resource_index/packages
+[3.961s] copying resource/joint_state_publisher_gui -> /home/terranova/uav_ws/install/joint_state_publisher_gui/share/ament_index/resource_index/packages
+[3.962s] copying package.xml -> /home/terranova/uav_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui
+[3.962s] running install_egg_info
+[4.018s] Copying ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info to /home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages/joint_state_publisher_gui-0.0.0-py3.8.egg-info
+[4.021s] running install_scripts
+[4.164s] writing list of installed files to '/home/terranova/uav_ws/build/joint_state_publisher_gui/install.log'
+[4.240s] Invoked command in '/home/terranova/uav_ws/src/joint_state_publisher_gui' returned '0': PYTHONPATH=/home/terranova/uav_ws/build/joint_state_publisher_gui/prefix_override:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joint_state_publisher_gui build --build-base /home/terranova/uav_ws/build/joint_state_publisher_gui/build install --record /home/terranova/uav_ws/build/joint_state_publisher_gui/install.log --single-version-externally-managed install_data

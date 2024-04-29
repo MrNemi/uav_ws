@@ -7,7 +7,7 @@ events:
       - "/home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Linux - 5.15.0-101-generic - x86_64
+      The system is: Linux - 5.15.0-102-generic - x86_64
   -
     kind: "message-v1"
     backtrace:
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-sTqIKN"
-      binary: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-sTqIKN"
+      source: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yqruWo"
+      binary: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yqruWo"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -70,13 +70,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-sTqIKN'
+        Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yqruWo'
         
-        Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_780e2/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_780e2.dir/build.make CMakeFiles/cmTC_780e2.dir/build
-        make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-sTqIKN'
-        Building C object CMakeFiles/cmTC_780e2.dir/CMakeCCompilerABI.c.o
-        /usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_780e2.dir/CMakeCCompilerABI.c.o -c /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_96d11/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_96d11.dir/build.make CMakeFiles/cmTC_96d11.dir/build
+        make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yqruWo'
+        Building C object CMakeFiles/cmTC_96d11.dir/CMakeCCompilerABI.c.o
+        /usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_96d11.dir/CMakeCCompilerABI.c.o -c /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -112,9 +112,9 @@ events:
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
         COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_a9a33.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
-        Linking C executable cmTC_780e2
-        /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_780e2.dir/link.txt --verbose=1
-        /usr/lib/ccache/cc  -v CMakeFiles/cmTC_780e2.dir/CMakeCCompilerABI.c.o -o cmTC_780e2 
+        Linking C executable cmTC_96d11
+        /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96d11.dir/link.txt --verbose=1
+        /usr/lib/ccache/cc  -v CMakeFiles/cmTC_96d11.dir/CMakeCCompilerABI.c.o -o cmTC_96d11 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -126,10 +126,10 @@ events:
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_780e2' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNL9Jy9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_780e2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_780e2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_780e2' '-mtune=generic' '-march=x86-64'
-        make[1]: Leaving directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-sTqIKN'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96d11' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSUuWcg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_96d11 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_96d11.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96d11' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yqruWo'
         
       exitCode: 0
   -
@@ -163,13 +163,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-sTqIKN']
+        ignore line: [Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yqruWo']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_780e2/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_780e2.dir/build.make CMakeFiles/cmTC_780e2.dir/build]
-        ignore line: [make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-sTqIKN']
-        ignore line: [Building C object CMakeFiles/cmTC_780e2.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_780e2.dir/CMakeCCompilerABI.c.o -c /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_96d11/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_96d11.dir/build.make CMakeFiles/cmTC_96d11.dir/build]
+        ignore line: [make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yqruWo']
+        ignore line: [Building C object CMakeFiles/cmTC_96d11.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_96d11.dir/CMakeCCompilerABI.c.o -c /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
@@ -205,9 +205,9 @@ events:
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
         ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_a9a33.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking C executable cmTC_780e2]
-        ignore line: [/home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_780e2.dir/link.txt --verbose=1]
-        ignore line: [/usr/lib/ccache/cc  -v CMakeFiles/cmTC_780e2.dir/CMakeCCompilerABI.c.o -o cmTC_780e2 ]
+        ignore line: [Linking C executable cmTC_96d11]
+        ignore line: [/home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96d11.dir/link.txt --verbose=1]
+        ignore line: [/usr/lib/ccache/cc  -v CMakeFiles/cmTC_96d11.dir/CMakeCCompilerABI.c.o -o cmTC_96d11 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -219,13 +219,13 @@ events:
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_780e2' '-mtune=generic' '-march=x86-64']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNL9Jy9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_780e2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_780e2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96d11' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSUuWcg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_96d11 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_96d11.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccNL9Jy9.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccSUuWcg.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -243,7 +243,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_780e2] ==> ignore
+          arg [cmTC_96d11] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
@@ -255,7 +255,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-          arg [CMakeFiles/cmTC_780e2.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_96d11.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -295,8 +295,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-KXqHoO"
-      binary: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-KXqHoO"
+      source: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-lB2xeq"
+      binary: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-lB2xeq"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -304,13 +304,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-KXqHoO'
+        Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-lB2xeq'
         
-        Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2a564/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_2a564.dir/build.make CMakeFiles/cmTC_2a564.dir/build
-        make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-KXqHoO'
-        Building CXX object CMakeFiles/cmTC_2a564.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_2a564.dir/CMakeCXXCompilerABI.cpp.o -c /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2b1bd/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2b1bd.dir/build.make CMakeFiles/cmTC_2b1bd.dir/build
+        make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-lB2xeq'
+        Building CXX object CMakeFiles/cmTC_2b1bd.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_2b1bd.dir/CMakeCXXCompilerABI.cpp.o -c /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -350,9 +350,9 @@ events:
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
         COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_e6394.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        Linking CXX executable cmTC_2a564
-        /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a564.dir/link.txt --verbose=1
-        /usr/lib/ccache/c++  -v CMakeFiles/cmTC_2a564.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2a564 
+        Linking CXX executable cmTC_2b1bd
+        /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b1bd.dir/link.txt --verbose=1
+        /usr/lib/ccache/c++  -v CMakeFiles/cmTC_2b1bd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2b1bd 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -364,10 +364,10 @@ events:
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2a564' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9tGmwh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2a564 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_2a564.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2a564' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        make[1]: Leaving directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-KXqHoO'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b1bd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfEGxz0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2b1bd /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_2b1bd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b1bd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-lB2xeq'
         
       exitCode: 0
   -
@@ -407,13 +407,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-KXqHoO']
+        ignore line: [Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-lB2xeq']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2a564/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_2a564.dir/build.make CMakeFiles/cmTC_2a564.dir/build]
-        ignore line: [make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-KXqHoO']
-        ignore line: [Building CXX object CMakeFiles/cmTC_2a564.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_2a564.dir/CMakeCXXCompilerABI.cpp.o -c /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2b1bd/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_2b1bd.dir/build.make CMakeFiles/cmTC_2b1bd.dir/build]
+        ignore line: [make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-lB2xeq']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2b1bd.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_2b1bd.dir/CMakeCXXCompilerABI.cpp.o -c /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
@@ -453,9 +453,9 @@ events:
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
         ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_e6394.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking CXX executable cmTC_2a564]
-        ignore line: [/home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a564.dir/link.txt --verbose=1]
-        ignore line: [/usr/lib/ccache/c++  -v CMakeFiles/cmTC_2a564.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2a564 ]
+        ignore line: [Linking CXX executable cmTC_2b1bd]
+        ignore line: [/home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b1bd.dir/link.txt --verbose=1]
+        ignore line: [/usr/lib/ccache/c++  -v CMakeFiles/cmTC_2b1bd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2b1bd ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -467,13 +467,13 @@ events:
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2a564' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9tGmwh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2a564 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_2a564.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b1bd' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfEGxz0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2b1bd /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_2b1bd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc9tGmwh.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccfEGxz0.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -491,7 +491,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_2a564] ==> ignore
+          arg [cmTC_2b1bd] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
@@ -503,7 +503,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-          arg [CMakeFiles/cmTC_2a564.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_2b1bd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -549,8 +549,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yxKvjR"
-      binary: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yxKvjR"
+      source: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-R3TQtp"
+      binary: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-R3TQtp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -559,25 +559,25 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yxKvjR'
+        Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-R3TQtp'
         
-        Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7ecbe/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_7ecbe.dir/build.make CMakeFiles/cmTC_7ecbe.dir/build
-        make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yxKvjR'
-        Building C object CMakeFiles/cmTC_7ecbe.dir/src.c.o
-        /usr/lib/ccache/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7ecbe.dir/src.c.o -c /home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yxKvjR/src.c
-        Linking C executable cmTC_7ecbe
-        /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ecbe.dir/link.txt --verbose=1
-        /usr/lib/ccache/cc CMakeFiles/cmTC_7ecbe.dir/src.c.o -o cmTC_7ecbe 
-        /usr/bin/ld: CMakeFiles/cmTC_7ecbe.dir/src.c.o: in function `main':
+        Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5c9d1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5c9d1.dir/build.make CMakeFiles/cmTC_5c9d1.dir/build
+        make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-R3TQtp'
+        Building C object CMakeFiles/cmTC_5c9d1.dir/src.c.o
+        /usr/lib/ccache/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5c9d1.dir/src.c.o -c /home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-R3TQtp/src.c
+        Linking C executable cmTC_5c9d1
+        /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c9d1.dir/link.txt --verbose=1
+        /usr/lib/ccache/cc CMakeFiles/cmTC_5c9d1.dir/src.c.o -o cmTC_5c9d1 
+        /usr/bin/ld: CMakeFiles/cmTC_5c9d1.dir/src.c.o: in function `main':
         src.c:(.text+0x46): undefined reference to `pthread_create'
         /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
         /usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
         /usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
         collect2: error: ld returned 1 exit status
-        make[1]: *** [CMakeFiles/cmTC_7ecbe.dir/build.make:99: cmTC_7ecbe] Error 1
-        make[1]: Leaving directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-yxKvjR'
-        make: *** [Makefile:127: cmTC_7ecbe/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_5c9d1.dir/build.make:99: cmTC_5c9d1] Error 1
+        make[1]: Leaving directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-R3TQtp'
+        make: *** [Makefile:127: cmTC_5c9d1/fast] Error 2
         
       exitCode: 2
   -
@@ -598,8 +598,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-1aKNzR"
-      binary: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-1aKNzR"
+      source: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-j0Pcfq"
+      binary: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-j0Pcfq"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -608,21 +608,21 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-1aKNzR'
+        Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-j0Pcfq'
         
-        Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2fe62/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_2fe62.dir/build.make CMakeFiles/cmTC_2fe62.dir/build
-        make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-1aKNzR'
-        Building C object CMakeFiles/cmTC_2fe62.dir/CheckFunctionExists.c.o
-        /usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_2fe62.dir/CheckFunctionExists.c.o -c /home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-1aKNzR/CheckFunctionExists.c
-        Linking C executable cmTC_2fe62
-        /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fe62.dir/link.txt --verbose=1
-        /usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_2fe62.dir/CheckFunctionExists.c.o -o cmTC_2fe62  -lpthreads 
+        Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0f753/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0f753.dir/build.make CMakeFiles/cmTC_0f753.dir/build
+        make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-j0Pcfq'
+        Building C object CMakeFiles/cmTC_0f753.dir/CheckFunctionExists.c.o
+        /usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_0f753.dir/CheckFunctionExists.c.o -c /home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-j0Pcfq/CheckFunctionExists.c
+        Linking C executable cmTC_0f753
+        /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f753.dir/link.txt --verbose=1
+        /usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_0f753.dir/CheckFunctionExists.c.o -o cmTC_0f753  -lpthreads 
         /usr/bin/ld: cannot find -lpthreads
         collect2: error: ld returned 1 exit status
-        make[1]: *** [CMakeFiles/cmTC_2fe62.dir/build.make:99: cmTC_2fe62] Error 1
-        make[1]: Leaving directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-1aKNzR'
-        make: *** [Makefile:127: cmTC_2fe62/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_0f753.dir/build.make:99: cmTC_0f753] Error 1
+        make[1]: Leaving directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-j0Pcfq'
+        make: *** [Makefile:127: cmTC_0f753/fast] Error 2
         
       exitCode: 2
   -
@@ -643,8 +643,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-1pajfO"
-      binary: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-1pajfO"
+      source: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-qqTxwo"
+      binary: "/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-qqTxwo"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -653,17 +653,17 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-1pajfO'
+        Change Dir: '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-qqTxwo'
         
-        Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ecf45/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_ecf45.dir/build.make CMakeFiles/cmTC_ecf45.dir/build
-        make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-1pajfO'
-        Building C object CMakeFiles/cmTC_ecf45.dir/CheckFunctionExists.c.o
-        /usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ecf45.dir/CheckFunctionExists.c.o -c /home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-1pajfO/CheckFunctionExists.c
-        Linking C executable cmTC_ecf45
-        /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecf45.dir/link.txt --verbose=1
-        /usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_ecf45.dir/CheckFunctionExists.c.o -o cmTC_ecf45  -lpthread 
-        make[1]: Leaving directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-1pajfO'
+        Run Build Command(s): /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_288a7/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_288a7.dir/build.make CMakeFiles/cmTC_288a7.dir/build
+        make[1]: Entering directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-qqTxwo'
+        Building C object CMakeFiles/cmTC_288a7.dir/CheckFunctionExists.c.o
+        /usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_288a7.dir/CheckFunctionExists.c.o -c /home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-qqTxwo/CheckFunctionExists.c
+        Linking C executable cmTC_288a7
+        /home/terranova/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_288a7.dir/link.txt --verbose=1
+        /usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_288a7.dir/CheckFunctionExists.c.o -o cmTC_288a7  -lpthread 
+        make[1]: Leaving directory '/home/terranova/uav_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeScratch/TryCompile-qqTxwo'
         
       exitCode: 0
 ...

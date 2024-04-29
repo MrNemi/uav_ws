@@ -1,4 +1,0 @@
-Invoking command in '/home/terranova/uav_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/pcl_msgs -- -j4 -l4
-Invoked command in '/home/terranova/uav_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/pcl_msgs -- -j4 -l4
-Invoking command in '/home/terranova/uav_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/pcl_msgs
-Invoked command in '/home/terranova/uav_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/pcl_msgs

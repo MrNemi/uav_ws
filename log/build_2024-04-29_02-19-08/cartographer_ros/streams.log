@@ -1,0 +1,242 @@
+[0.037s] Invoking command in '/home/terranova/uav_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/terranova/uav_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl LD_LIBRARY_PATH=/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/cartographer_ros -- -j4 -l4
+[0.141s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.145s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.145s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.145s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.145s]   the cmake_policy command to set the policy and suppress this warning.
+[0.146s] 
+[0.146s] Call Stack (most recent call first):
+[0.146s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.146s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.147s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.147s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.147s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.147s]   CMakeLists.txt:20 (find_package)
+[0.147s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.148s] [0m
+[0.208s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.536s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.577s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.791s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.837s] -- Found installed version of Eigen: /usr/lib/cmake/eigen3
+[0.839s] -- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3
+[0.841s] -- Found required Ceres dependency: glog
+[0.844s] -- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags
+[0.845s] -- Detected gflags version: 2.2.2
+[0.846s] -- Found required Ceres dependency: gflags
+[0.847s] -- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+[0.848s] -- Found cartographer_ros_msgs: 2.0.9003 (/home/terranova/uav_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[1.076s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:152 (find_package):
+[1.076s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.077s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.077s]   cmake_policy command to set the policy and suppress this warning.
+[1.077s] 
+[1.077s]   CMake variable EIGEN_ROOT is set to:
+[1.077s] 
+[1.077s]     /usr/include/eigen3
+[1.078s] 
+[1.078s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.078s]   .cmake module might still use it.
+[1.078s] Call Stack (most recent call first):
+[1.078s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:316 (find_eigen)
+[1.078s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:551 (find_external_library)
+[1.079s]   CMakeLists.txt:37 (find_package)
+[1.079s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.079s] [0m
+[1.086s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.102s] -- looking for PCL_COMMON
+[1.103s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.103s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[1.103s]   does not match the name of the calling package (PCL).  This can lead to
+[1.103s]   problems in calling code that expects `find_package` result variables
+[1.104s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.104s] Call Stack (most recent call first):
+[1.104s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.104s]   CMakeLists.txt:37 (find_package)
+[1.104s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.105s] [0m
+[1.106s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.215s] -- Found pcl_conversions: 2.2.1 (/home/terranova/uav_ws/install/pcl_conversions/share/pcl_conversions/cmake)
+[1.602s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.606s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.848s] -- Found rosbag2_cpp: 0.3.11 (/opt/ros/foxy/share/rosbag2_cpp/cmake)
+[1.900s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[1.907s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.920s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[2.395s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[2.435s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[3.342s] -- Configuring done (3.2s)
+[3.646s] -- Generating done (0.2s)
+[3.651s] -- Build files have been written to: /home/terranova/uav_ws/build/cartographer_ros
+[3.737s] [  2%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o[0m
+[3.747s] [  5%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o[0m
+[3.752s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o[0m
+[3.753s] [ 11%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[8.454s] In file included from [01m[K/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/assets_writer.cpp:37[m[K:
+[8.456s] [01m[K/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/ros_map_writing_points_processor.h:25:10:[m[K [01;31m[Kfatal error: [m[Kcartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.h: No such file or directory
+[8.457s]    25 | #include [01;31m[K"cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.h"[m[K
+[8.459s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.460s] compilation terminated.
+[8.474s] make[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:76: CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o] Error 1
+[8.476s] make[2]: *** Waiting for unfinished jobs....
+[8.890s] [01m[K/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:47:10:[m[K [01;31m[Kfatal error: [m[Ktf2_eigen/tf2_eigen.hpp: No such file or directory
+[8.892s]    47 | #include [01;31m[K"tf2_eigen/tf2_eigen.hpp"[m[K
+[8.893s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.894s] compilation terminated.
+[8.904s] make[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:132: CMakeFiles/cartographer_ros.dir/src/node.cpp.o] Error 1
+[17.298s] In file included from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:17:
+[17.299s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:94:57: error: ‘TrajectoryState’ is not a member of ‘cartographer::mapping::PoseGraphInterface’
+[17.299s]    94 |            ::cartographer::mapping::PoseGraphInterface::TrajectoryState>
+[17.299s]       |                                                         ^~~~~~~~~~~~~~~
+[17.299s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:94:72: error: template argument 2 is invalid
+[17.299s]    94 |            ::cartographer::mapping::PoseGraphInterface::TrajectoryState>
+[17.299s]       |                                                                        ^
+[17.300s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:94:72: error: template argument 4 is invalid
+[17.300s] In file included from /opt/ros/foxy/include/cartographer/common/lua_parameter_dictionary.h:27,
+[17.300s]                  from /opt/ros/foxy/include/cartographer/mapping/map_builder_interface.h:25,
+[17.300s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:26,
+[17.300s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:17:
+[17.301s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp: In member function ‘void cartographer_ros::MapBuilderBridge::FinishTrajectory(int)’:
+[17.301s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:155:31: error: request for member ‘count’ in ‘((cartographer_ros::MapBuilderBridge*)this)->cartographer_ros::MapBuilderBridge::GetTrajectoryStates()’, which is of non-class type ‘int’
+[17.301s]   155 |   CHECK(GetTrajectoryStates().count(trajectory_id));
+[17.301s]       |                               ^~~~~
+[17.301s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp: In member function ‘bool cartographer_ros::MapBuilderBridge::SerializeState(const string&, bool)’:
+[17.301s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:167:24: error: ‘class cartographer::mapping::MapBuilderInterface’ has no member named ‘SerializeStateToFile’; did you mean ‘SerializeState’?
+[17.302s]   167 |   return map_builder_->SerializeStateToFile(include_unfinished_submaps,
+[17.302s]       |                        ^~~~~~~~~~~~~~~~~~~~
+[17.302s]       |                        SerializeState
+[17.302s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp: At global scope:
+[17.302s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:202:60: error: ‘TrajectoryState’ is not a member of ‘cartographer::mapping::PoseGraphInterface’
+[17.303s]   202 | std::map<int, ::cartographer::mapping::PoseGraphInterface::TrajectoryState>
+[17.303s]       |                                                            ^~~~~~~~~~~~~~~
+[17.303s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:202:75: error: template argument 2 is invalid
+[17.303s]   202 | std::map<int, ::cartographer::mapping::PoseGraphInterface::TrajectoryState>
+[17.303s]       |                                                                           ^
+[17.303s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:202:75: error: template argument 4 is invalid
+[17.304s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp: In member function ‘int cartographer_ros::MapBuilderBridge::GetTrajectoryStates()’:
+[17.304s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:204:56: error: ‘class cartographer::mapping::PoseGraphInterface’ has no member named ‘GetTrajectoryStates’; did you mean ‘GetTrajectoryNodes’?
+[17.304s]   204 |   auto trajectory_states = map_builder_->pose_graph()->GetTrajectoryStates();
+[17.304s]       |                                                        ^~~~~~~~~~~~~~~~~~~
+[17.304s]       |                                                        GetTrajectoryNodes
+[17.304s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:210:54: error: ‘cartographer::mapping::PoseGraphInterface::TrajectoryState’ has not been declared
+[17.305s]   210 |         ::cartographer::mapping::PoseGraphInterface::TrajectoryState::ACTIVE));
+[17.305s]       |                                                      ^~~~~~~~~~~~~~~
+[17.305s] make[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:90: CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o] Error 1
+[22.903s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp: In function ‘std::tuple<cartographer::sensor::PointCloudWithIntensities, std::chrono::time_point<cartographer::common::UniversalTimeScaleClock, std::chrono::duration<long int, std::ratio<1, 10000000> > > > cartographer_ros::{anonymous}::LaserScanToPointCloudWithIntensities(const LaserMessageType&)’:
+[22.903s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:150:37: error: ‘TimedRangefinderPoint’ in namespace ‘cartographer::sensor’ does not name a type
+[22.903s]   150 |         const cartographer::sensor::TimedRangefinderPoint point{
+[22.903s]       |                                     ^~~~~~~~~~~~~~~~~~~~~
+[22.904s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:153:38: error: ‘point’ was not declared in this scope
+[22.904s]   153 |         point_cloud.points.push_back(point);
+[22.904s]       |                                      ^~~~~
+[22.904s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:168:55: error: ‘__gnu_cxx::__alloc_traits<std::allocator<Eigen::Matrix<float, 4, 1> >, Eigen::Matrix<float, 4, 1> >::value_type’ {aka ‘class Eigen::Matrix<float, 4, 1>’} has no member named ‘time’
+[22.904s]   168 |     const double duration = point_cloud.points.back().time;
+[22.904s]       |                                                       ^~~~
+[22.904s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:171:13: error: ‘class Eigen::Matrix<float, 4, 1>’ has no member named ‘time’
+[22.905s]   171 |       point.time -= duration;
+[22.905s]       |             ^~~~
+[22.905s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp: In function ‘sensor_msgs::msg::PointCloud2 cartographer_ros::ToPointCloud2Message(int64_t, const string&, const TimedPointCloud&)’:
+[22.905s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:196:28: error: ‘const class Eigen::Matrix<float, 4, 1>’ has no member named ‘position’
+[22.905s]   196 |     data[offset++] = point.position.x();
+[22.905s]       |                            ^~~~~~~~
+[22.905s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:197:28: error: ‘const class Eigen::Matrix<float, 4, 1>’ has no member named ‘position’
+[22.905s]   197 |     data[offset++] = point.position.y();
+[22.905s]       |                            ^~~~~~~~
+[22.905s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:198:28: error: ‘const class Eigen::Matrix<float, 4, 1>’ has no member named ‘position’
+[22.906s]   198 |     data[offset++] = point.position.z();
+[22.906s]       |                            ^~~~~~~~
+[22.906s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp: In function ‘std::tuple<cartographer::sensor::PointCloudWithIntensities, std::chrono::time_point<cartographer::common::UniversalTimeScaleClock, std::chrono::duration<long int, std::ratio<1, 10000000> > > > cartographer_ros::ToPointCloudWithIntensities(const PointCloud2&)’:
+[22.906s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:270:55: error: ‘__gnu_cxx::__alloc_traits<std::allocator<Eigen::Matrix<float, 4, 1> >, Eigen::Matrix<float, 4, 1> >::value_type’ {aka ‘class Eigen::Matrix<float, 4, 1>’} has no member named ‘time’
+[22.906s]   270 |     const double duration = point_cloud.points.back().time;
+[22.906s]       |                                                       ^~~~
+[22.906s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:273:13: error: ‘class Eigen::Matrix<float, 4, 1>’ has no member named ‘time’
+[22.906s]   273 |       point.time -= duration;
+[22.907s]       |             ^~~~
+[22.907s] In file included from /usr/include/ceres/internal/fixed_array.h:39,
+[22.907s]                  from /usr/include/ceres/internal/autodiff.h:147,
+[22.907s]                  from /usr/include/ceres/autodiff_cost_function.h:132,
+[22.908s]                  from /usr/include/ceres/ceres.h:37,
+[22.908s]                  from /opt/ros/foxy/include/cartographer/common/math.h:25,
+[22.908s]                  from /opt/ros/foxy/include/cartographer/io/color.h:22,
+[22.908s]                  from /opt/ros/foxy/include/cartographer/io/image.h:25,
+[22.909s]                  from /opt/ros/foxy/include/cartographer/io/submap_painter.h:22,
+[22.909s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/msg_conversion.h:21,
+[22.909s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:17:
+[22.909s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:274:22: error: ‘class Eigen::Matrix<float, 4, 1>’ has no member named ‘time’
+[22.910s]   274 |       CHECK_LE(point.time, 0.f)
+[22.910s]       |                      ^~~~
+[22.910s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp: In function ‘std::unique_ptr<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::default_delete<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > > > cartographer_ros::CreateOccupancyGridMsg(const cartographer::io::PaintSubmapSlicesResult&, double, const string&, const rclcpp::Time&)’:
+[22.910s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:378:25: error: ‘absl’ has not been declared
+[22.910s]   378 |   auto occupancy_grid = absl::make_unique<nav_msgs::msg::OccupancyGrid>();
+[22.910s]       |                         ^~~~
+[22.911s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:378:71: error: expected primary-expression before ‘>’ token
+[22.911s]   378 |   auto occupancy_grid = absl::make_unique<nav_msgs::msg::OccupancyGrid>();
+[22.911s]       |                                                                       ^
+[22.911s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:378:73: error: expected primary-expression before ‘)’ token
+[22.911s]   378 |   auto occupancy_grid = absl::make_unique<nav_msgs::msg::OccupancyGrid>();
+[22.911s]       |                                                                         ^
+[22.911s] In file included from /usr/include/eigen3/Eigen/Core:458,
+[22.912s]                  from /usr/include/eigen3/Eigen/Geometry:11,
+[22.912s]                  from /opt/ros/foxy/include/cartographer/io/submap_painter.h:20,
+[22.912s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/msg_conversion.h:21,
+[22.912s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:17:
+[22.912s] /usr/include/eigen3/Eigen/src/Core/Matrix.h: In instantiation of ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float; _Scalar = float; int _Rows = 4; int _Cols = 1; int _Options = 0; int _MaxRows = 4; int _MaxCols = 1]’:
+[22.913s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:230:69:   required from here
+[22.913s] /usr/include/eigen3/Eigen/src/Core/Matrix.h:302:35: error: no matching function for call to ‘Eigen::Matrix<float, 4, 1>::_init2<Eigen::Matrix<float, 3, 1, 0, 3, 1>, float>(const Eigen::Matrix<float, 3, 1>&, const float&)’
+[22.913s]   302 |       Base::template _init2<T0,T1>(x, y);
+[22.913s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+[22.913s] In file included from /usr/include/eigen3/Eigen/Core:457,
+[22.913s]                  from /usr/include/eigen3/Eigen/Geometry:11,
+[22.914s]                  from /opt/ros/foxy/include/cartographer/io/submap_painter.h:20,
+[22.914s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/msg_conversion.h:21,
+[22.914s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:17:
+[22.914s] /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:738:30: note: candidate: ‘void Eigen::PlainObjectBase<Derived>::_init2(Eigen::Index, Eigen::Index, typename Eigen::internal::enable_if<(typename Eigen::internal::dense_xpr_base<Derived>::type::SizeAtCompileTime != 2), T0>::type*) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float; Derived = Eigen::Matrix<float, 4, 1>; Eigen::Index = long int; typename Eigen::internal::enable_if<(typename Eigen::internal::dense_xpr_base<Derived>::type::SizeAtCompileTime != 2), T0>::type = Eigen::Matrix<float, 3, 1>]’
+[22.914s]   738 |     EIGEN_STRONG_INLINE void _init2(Index rows, Index cols, typename internal::enable_if<Base::SizeAtCompileTime!=2,T0>::type* = 0)
+[22.914s]       |                              ^~~~~~
+[22.915s] /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:738:43: note:   no known conversion for argument 1 from ‘const Eigen::Matrix<float, 3, 1>’ to ‘Eigen::Index’ {aka ‘long int’}
+[22.915s]   738 |     EIGEN_STRONG_INLINE void _init2(Index rows, Index cols, typename internal::enable_if<Base::SizeAtCompileTime!=2,T0>::type* = 0)
+[22.915s]       |                                     ~~~~~~^~~~
+[22.915s] /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:748:30: note: candidate: ‘template<class T0, class T1> void Eigen::PlainObjectBase<Derived>::_init2(const T0&, const T1&, typename Eigen::internal::enable_if<(typename Eigen::internal::dense_xpr_base<Derived>::type::SizeAtCompileTime == 2), T0>::type*) [with T0 = T0; T1 = T1; Derived = Eigen::Matrix<float, 4, 1>]’
+[22.915s]   748 |     EIGEN_STRONG_INLINE void _init2(const T0& val0, const T1& val1, typename internal::enable_if<Base::SizeAtCompileTime==2,T0>::type* = 0)
+[22.916s]       |                              ^~~~~~
+[22.916s] /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:748:30: note:   template argument deduction/substitution failed:
+[22.916s] /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h: In substitution of ‘template<class T0, class T1> void Eigen::PlainObjectBase<Eigen::Matrix<float, 4, 1> >::_init2<T0, T1>(const T0&, const T1&, typename Eigen::internal::enable_if<false, T0>::type*) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float]’:
+[22.916s] /usr/include/eigen3/Eigen/src/Core/Matrix.h:302:35:   required from ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float; _Scalar = float; int _Rows = 4; int _Cols = 1; int _Options = 0; int _MaxRows = 4; int _MaxCols = 1]’
+[22.916s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:230:69:   required from here
+[22.917s] /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:748:30: error: invalid use of incomplete type ‘struct Eigen::internal::enable_if<false, Eigen::Matrix<float, 3, 1> >’
+[22.917s] In file included from /usr/include/eigen3/Eigen/Core:364,
+[22.917s]                  from /usr/include/eigen3/Eigen/Geometry:11,
+[22.917s]                  from /opt/ros/foxy/include/cartographer/io/submap_painter.h:20,
+[22.917s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/msg_conversion.h:21,
+[22.917s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:17:
+[22.918s] /usr/include/eigen3/Eigen/src/Core/util/Meta.h:184:50: note: declaration of ‘struct Eigen::internal::enable_if<false, Eigen::Matrix<float, 3, 1> >’
+[22.918s]   184 | template<bool Condition, typename T=void> struct enable_if;
+[22.918s]       |                                                  ^~~~~~~~~
+[22.918s] In file included from /usr/include/eigen3/Eigen/Core:457,
+[22.918s]                  from /usr/include/eigen3/Eigen/Geometry:11,
+[22.918s]                  from /opt/ros/foxy/include/cartographer/io/submap_painter.h:20,
+[22.919s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/msg_conversion.h:21,
+[22.919s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:17:
+[22.919s] /usr/include/eigen3/Eigen/src/Core/Matrix.h: In instantiation of ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float; _Scalar = float; int _Rows = 4; int _Cols = 1; int _Options = 0; int _MaxRows = 4; int _MaxCols = 1]’:
+[22.919s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:230:69:   required from here
+[22.919s] /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:757:30: note: candidate: ‘template<class T0, class T1> void Eigen::PlainObjectBase<Derived>::_init2(const Index&, const Index&, typename Eigen::internal::enable_if<((((! Eigen::internal::is_same<long int, typename Eigen::internal::traits<T>::Scalar>::value) && Eigen::internal::is_same<T0, long int>::value) && Eigen::internal::is_same<T1, long int>::value) && (typename Eigen::internal::dense_xpr_base<Derived>::type::SizeAtCompileTime == 2)), T1>::type*) [with T0 = T0; T1 = T1; Derived = Eigen::Matrix<float, 4, 1>]’
+[22.919s]   757 |     EIGEN_STRONG_INLINE void _init2(const Index& val0, const Index& val1,
+[22.920s]       |                              ^~~~~~
+[22.920s] /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:757:30: note:   template argument deduction/substitution failed:
+[22.921s] /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h: In substitution of ‘template<class T0, class T1> void Eigen::PlainObjectBase<Eigen::Matrix<float, 4, 1> >::_init2<T0, T1>(const Index&, const Index&, typename Eigen::internal::enable_if<((((! Eigen::internal::is_same<long int, float>::value) && Eigen::internal::is_same<T0, long int>::value) && Eigen::internal::is_same<T1, long int>::value) && (Eigen::MatrixBase<Eigen::Matrix<float, 4, 1> >::SizeAtCompileTime == 2)), T1>::type*) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float]’:
+[22.922s] /usr/include/eigen3/Eigen/src/Core/Matrix.h:302:35:   required from ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float; _Scalar = float; int _Rows = 4; int _Cols = 1; int _Options = 0; int _MaxRows = 4; int _MaxCols = 1]’
+[22.922s] /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:230:69:   required from here
+[22.922s] /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:757:30: error: invalid use of incomplete type ‘struct Eigen::internal::enable_if<false, float>’
+[22.922s] In file included from /usr/include/eigen3/Eigen/Core:364,
+[22.922s]                  from /usr/include/eigen3/Eigen/Geometry:11,
+[22.923s]                  from /opt/ros/foxy/include/cartographer/io/submap_painter.h:20,
+[22.923s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/msg_conversion.h:21,
+[22.923s]                  from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:17:
+[22.925s] /usr/include/eigen3/Eigen/src/Core/util/Meta.h:184:50: note: declaration of ‘struct Eigen::internal::enable_if<false, float>’
+[22.926s]   184 | template<bool Condition, typename T=void> struct enable_if;
+[22.927s]       |                                                  ^~~~~~~~~
+[22.928s] make[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:104: CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o] Error 1
+[22.928s] make[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/cartographer_ros.dir/all] Error 2
+[22.928s] make: *** [Makefile:146: all] Error 2
+[22.929s] Invoked command in '/home/terranova/uav_ws/build/cartographer_ros' returned '2': AMENT_PREFIX_PATH=/home/terranova/uav_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl LD_LIBRARY_PATH=/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/cartographer_ros -- -j4 -l4

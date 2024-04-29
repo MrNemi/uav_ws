@@ -1,0 +1,414 @@
+[0.000000] (-) TimerEvent: {}
+[0.000435] (-) JobUnselected: {'identifier': 'absl'}
+[0.000808] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.001028] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.001241] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001675] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001762] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001922] (-) JobUnselected: {'identifier': 'gazebo_dev'}
+[0.001975] (-) JobUnselected: {'identifier': 'gazebo_msgs'}
+[0.002007] (-) JobUnselected: {'identifier': 'gazebo_plugins'}
+[0.002034] (-) JobUnselected: {'identifier': 'gazebo_ros'}
+[0.002062] (-) JobUnselected: {'identifier': 'gazebo_ros_pkgs'}
+[0.002089] (-) JobUnselected: {'identifier': 'hls_lfcd_lds_driver'}
+[0.002116] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.002142] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.002169] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.002195] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.002221] (-) JobUnselected: {'identifier': 'pcl_conversions'}
+[0.002247] (-) JobUnselected: {'identifier': 'pcl_msgs'}
+[0.002274] (-) JobUnselected: {'identifier': 'pcl_ros'}
+[0.002308] (-) JobUnselected: {'identifier': 'perception_pcl'}
+[0.002370] (-) JobUnselected: {'identifier': 'realsense_gazebo_plugin'}
+[0.002399] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.002445] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.002491] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.002519] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002547] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.002574] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.002600] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.002735] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.002763] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.002791] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.002818] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.002844] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.002870] (-) JobUnselected: {'identifier': 'uav_cartographer'}
+[0.002895] (-) JobUnselected: {'identifier': 'uav_gazebo'}
+[0.002921] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.002952] (cartographer_ros) JobQueued: {'identifier': 'cartographer_ros', 'dependencies': OrderedDict([('cartographer_ros_msgs', '/home/terranova/uav_ws/install/cartographer_ros_msgs'), ('pcl_msgs', '/home/terranova/uav_ws/install/pcl_msgs'), ('pcl_conversions', '/home/terranova/uav_ws/install/pcl_conversions')])}
+[0.003026] (cartographer_rviz) JobQueued: {'identifier': 'cartographer_rviz', 'dependencies': OrderedDict([('cartographer_ros_msgs', '/home/terranova/uav_ws/install/cartographer_ros_msgs'), ('pcl_msgs', '/home/terranova/uav_ws/install/pcl_msgs'), ('pcl_conversions', '/home/terranova/uav_ws/install/pcl_conversions'), ('cartographer_ros', '/home/terranova/uav_ws/install/cartographer_ros')])}
+[0.003070] (cartographer_ros) JobStarted: {'identifier': 'cartographer_ros'}
+[0.031387] (cartographer_ros) JobProgress: {'identifier': 'cartographer_ros', 'progress': 'cmake'}
+[0.032793] (cartographer_ros) JobProgress: {'identifier': 'cartographer_ros', 'progress': 'build'}
+[0.033938] (cartographer_ros) Command: {'cmd': ['/home/terranova/.local/bin/cmake', '--build', '/home/terranova/uav_ws/build/cartographer_ros', '--', '-j4', '-l4'], 'cwd': '/home/terranova/uav_ws/build/cartographer_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:setup.py install is deprecated::setuptools.command.install'), ('LANGUAGE', 'en_GB:en'), ('USER', 'terranova'), ('SSH_AGENT_PID', '1516'), ('ROS_PACKAGE_PATH', '/home/terranova/uav_ws/install/realsense_gazebo_plugin/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/terranova'), ('OLDPWD', '/home/terranova'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/terranova/uav_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'terranova'), ('JOURNAL_STREAM', '8:44246'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'terranova'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/terranova/uav_ws/src/uav_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/lib/ccache:/usr/lib/ccache:/home/terranova/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/terranova/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/terranova/uav_ws/src/uav_gazebo/scripts:/home/terranova/ardupilot/Tools/autotest:/home/terranova/.local/bin'), ('SESSION_MANAGER', 'local/terranova-HP-EliteBook-Folio-1040-G1:@/tmp/.ICE-unix/1553,unix/terranova-HP-EliteBook-Folio-1040-G1:/tmp/.ICE-unix/1553'), ('INVOCATION_ID', 'f0eb78989c9e437c956666db9cd2de24'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a92a33b4_4cfe_48c7_a494_107960e00b0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.86'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/terranova/uav_ws/build/cartographer_ros'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl')]), 'shell': False}
+[0.099612] (-) TimerEvent: {}
+[0.200234] (-) TimerEvent: {}
+[0.251499] (cartographer_ros) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o\x1b[0m\n'}
+[0.260639] (cartographer_ros) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o\x1b[0m\n'}
+[0.267765] (cartographer_ros) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o\x1b[0m\n'}
+[0.269068] (cartographer_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o\x1b[0m\n'}
+[0.300372] (-) TimerEvent: {}
+[0.400943] (-) TimerEvent: {}
+[0.501498] (-) TimerEvent: {}
+[0.602153] (-) TimerEvent: {}
+[0.702763] (-) TimerEvent: {}
+[0.803327] (-) TimerEvent: {}
+[0.903921] (-) TimerEvent: {}
+[1.004461] (-) TimerEvent: {}
+[1.105015] (-) TimerEvent: {}
+[1.205558] (-) TimerEvent: {}
+[1.306393] (-) TimerEvent: {}
+[1.406950] (-) TimerEvent: {}
+[1.507532] (-) TimerEvent: {}
+[1.608117] (-) TimerEvent: {}
+[1.708712] (-) TimerEvent: {}
+[1.809295] (-) TimerEvent: {}
+[1.909847] (-) TimerEvent: {}
+[2.010251] (-) TimerEvent: {}
+[2.110663] (-) TimerEvent: {}
+[2.211082] (-) TimerEvent: {}
+[2.311490] (-) TimerEvent: {}
+[2.411915] (-) TimerEvent: {}
+[2.512541] (-) TimerEvent: {}
+[2.613035] (-) TimerEvent: {}
+[2.713473] (-) TimerEvent: {}
+[2.813905] (-) TimerEvent: {}
+[2.914346] (-) TimerEvent: {}
+[3.014939] (-) TimerEvent: {}
+[3.115677] (-) TimerEvent: {}
+[3.216459] (-) TimerEvent: {}
+[3.316959] (-) TimerEvent: {}
+[3.417533] (-) TimerEvent: {}
+[3.518124] (-) TimerEvent: {}
+[3.618665] (-) TimerEvent: {}
+[3.719213] (-) TimerEvent: {}
+[3.819793] (-) TimerEvent: {}
+[3.920365] (-) TimerEvent: {}
+[4.020906] (-) TimerEvent: {}
+[4.121467] (-) TimerEvent: {}
+[4.221926] (-) TimerEvent: {}
+[4.322387] (-) TimerEvent: {}
+[4.422840] (-) TimerEvent: {}
+[4.501664] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/assets_writer.cpp:37\x1b[m\x1b[K:\n'}
+[4.502011] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/ros_map_writing_points_processor.h:25:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.h: No such file or directory\n'}
+[4.502195] (cartographer_ros) StderrLine: {'line': b'   25 | #include \x1b[01;31m\x1b[K"cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.h"\x1b[m\x1b[K\n'}
+[4.502358] (cartographer_ros) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.502531] (cartographer_ros) StderrLine: {'line': b'compilation terminated.\n'}
+[4.520272] (cartographer_ros) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:76: CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o] Error 1\n'}
+[4.521767] (cartographer_ros) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[4.522993] (-) TimerEvent: {}
+[4.623684] (-) TimerEvent: {}
+[4.724473] (-) TimerEvent: {}
+[4.757333] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:47:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktf2_eigen/tf2_eigen.hpp: No such file or directory\n'}
+[4.760713] (cartographer_ros) StderrLine: {'line': b'   47 | #include \x1b[01;31m\x1b[K"tf2_eigen/tf2_eigen.hpp"\x1b[m\x1b[K\n'}
+[4.760913] (cartographer_ros) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.761084] (cartographer_ros) StderrLine: {'line': b'compilation terminated.\n'}
+[4.776205] (cartographer_ros) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:132: CMakeFiles/cartographer_ros.dir/src/node.cpp.o] Error 1\n'}
+[4.824654] (-) TimerEvent: {}
+[4.925454] (-) TimerEvent: {}
+[5.026307] (-) TimerEvent: {}
+[5.126753] (-) TimerEvent: {}
+[5.227188] (-) TimerEvent: {}
+[5.327653] (-) TimerEvent: {}
+[5.428100] (-) TimerEvent: {}
+[5.528532] (-) TimerEvent: {}
+[5.629008] (-) TimerEvent: {}
+[5.729612] (-) TimerEvent: {}
+[5.830070] (-) TimerEvent: {}
+[5.930659] (-) TimerEvent: {}
+[6.031285] (-) TimerEvent: {}
+[6.131873] (-) TimerEvent: {}
+[6.232482] (-) TimerEvent: {}
+[6.333055] (-) TimerEvent: {}
+[6.433563] (-) TimerEvent: {}
+[6.534456] (-) TimerEvent: {}
+[6.634896] (-) TimerEvent: {}
+[6.735325] (-) TimerEvent: {}
+[6.835788] (-) TimerEvent: {}
+[6.936304] (-) TimerEvent: {}
+[7.036829] (-) TimerEvent: {}
+[7.137444] (-) TimerEvent: {}
+[7.238100] (-) TimerEvent: {}
+[7.338688] (-) TimerEvent: {}
+[7.439276] (-) TimerEvent: {}
+[7.539866] (-) TimerEvent: {}
+[7.640424] (-) TimerEvent: {}
+[7.741188] (-) TimerEvent: {}
+[7.841778] (-) TimerEvent: {}
+[7.942377] (-) TimerEvent: {}
+[8.043040] (-) TimerEvent: {}
+[8.143759] (-) TimerEvent: {}
+[8.244444] (-) TimerEvent: {}
+[8.345073] (-) TimerEvent: {}
+[8.445614] (-) TimerEvent: {}
+[8.546203] (-) TimerEvent: {}
+[8.647052] (-) TimerEvent: {}
+[8.747650] (-) TimerEvent: {}
+[8.848303] (-) TimerEvent: {}
+[8.949032] (-) TimerEvent: {}
+[9.049914] (-) TimerEvent: {}
+[9.150870] (-) TimerEvent: {}
+[9.251453] (-) TimerEvent: {}
+[9.352242] (-) TimerEvent: {}
+[9.452922] (-) TimerEvent: {}
+[9.554096] (-) TimerEvent: {}
+[9.654717] (-) TimerEvent: {}
+[9.755215] (-) TimerEvent: {}
+[9.855612] (-) TimerEvent: {}
+[9.956106] (-) TimerEvent: {}
+[10.056555] (-) TimerEvent: {}
+[10.157011] (-) TimerEvent: {}
+[10.257425] (-) TimerEvent: {}
+[10.357872] (-) TimerEvent: {}
+[10.458294] (-) TimerEvent: {}
+[10.558710] (-) TimerEvent: {}
+[10.659133] (-) TimerEvent: {}
+[10.759577] (-) TimerEvent: {}
+[10.860006] (-) TimerEvent: {}
+[10.960397] (-) TimerEvent: {}
+[11.060818] (-) TimerEvent: {}
+[11.161398] (-) TimerEvent: {}
+[11.261901] (-) TimerEvent: {}
+[11.362360] (-) TimerEvent: {}
+[11.462877] (-) TimerEvent: {}
+[11.563408] (-) TimerEvent: {}
+[11.663937] (-) TimerEvent: {}
+[11.764389] (-) TimerEvent: {}
+[11.865708] (-) TimerEvent: {}
+[11.966422] (-) TimerEvent: {}
+[12.067080] (-) TimerEvent: {}
+[12.167569] (-) TimerEvent: {}
+[12.268119] (-) TimerEvent: {}
+[12.368762] (-) TimerEvent: {}
+[12.469617] (-) TimerEvent: {}
+[12.570077] (-) TimerEvent: {}
+[12.670763] (-) TimerEvent: {}
+[12.771499] (-) TimerEvent: {}
+[12.872188] (-) TimerEvent: {}
+[12.972578] (-) TimerEvent: {}
+[13.072990] (-) TimerEvent: {}
+[13.173426] (-) TimerEvent: {}
+[13.273860] (-) TimerEvent: {}
+[13.374286] (-) TimerEvent: {}
+[13.474712] (-) TimerEvent: {}
+[13.575091] (-) TimerEvent: {}
+[13.675549] (-) TimerEvent: {}
+[13.776020] (-) TimerEvent: {}
+[13.876483] (-) TimerEvent: {}
+[13.976913] (-) TimerEvent: {}
+[14.077463] (-) TimerEvent: {}
+[14.178047] (-) TimerEvent: {}
+[14.278624] (-) TimerEvent: {}
+[14.379221] (-) TimerEvent: {}
+[14.479695] (-) TimerEvent: {}
+[14.527451] (cartographer_ros) StderrLine: {'line': b'In file included from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:17:\n'}
+[14.527750] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:94:57: error: \xe2\x80\x98TrajectoryState\xe2\x80\x99 is not a member of \xe2\x80\x98cartographer::mapping::PoseGraphInterface\xe2\x80\x99\n'}
+[14.527925] (cartographer_ros) StderrLine: {'line': b'   94 |            ::cartographer::mapping::PoseGraphInterface::TrajectoryState>\n'}
+[14.528087] (cartographer_ros) StderrLine: {'line': b'      |                                                         ^~~~~~~~~~~~~~~\n'}
+[14.528232] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:94:72: error: template argument 2 is invalid\n'}
+[14.528384] (cartographer_ros) StderrLine: {'line': b'   94 |            ::cartographer::mapping::PoseGraphInterface::TrajectoryState>\n'}
+[14.528534] (cartographer_ros) StderrLine: {'line': b'      |                                                                        ^\n'}
+[14.528730] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:94:72: error: template argument 4 is invalid\n'}
+[14.528888] (cartographer_ros) StderrLine: {'line': b'In file included from /opt/ros/foxy/include/cartographer/common/lua_parameter_dictionary.h:27,\n'}
+[14.529037] (cartographer_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/cartographer/mapping/map_builder_interface.h:25,\n'}
+[14.529185] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:26,\n'}
+[14.529334] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:17:\n'}
+[14.529482] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp: In member function \xe2\x80\x98void cartographer_ros::MapBuilderBridge::FinishTrajectory(int)\xe2\x80\x99:\n'}
+[14.529847] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:155:31: error: request for member \xe2\x80\x98count\xe2\x80\x99 in \xe2\x80\x98((cartographer_ros::MapBuilderBridge*)this)->cartographer_ros::MapBuilderBridge::GetTrajectoryStates()\xe2\x80\x99, which is of non-class type \xe2\x80\x98int\xe2\x80\x99\n'}
+[14.530075] (cartographer_ros) StderrLine: {'line': b'  155 |   CHECK(GetTrajectoryStates().count(trajectory_id));\n'}
+[14.530253] (cartographer_ros) StderrLine: {'line': b'      |                               ^~~~~\n'}
+[14.530451] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp: In member function \xe2\x80\x98bool cartographer_ros::MapBuilderBridge::SerializeState(const string&, bool)\xe2\x80\x99:\n'}
+[14.530702] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:167:24: error: \xe2\x80\x98class cartographer::mapping::MapBuilderInterface\xe2\x80\x99 has no member named \xe2\x80\x98SerializeStateToFile\xe2\x80\x99; did you mean \xe2\x80\x98SerializeState\xe2\x80\x99?\n'}
+[14.530893] (cartographer_ros) StderrLine: {'line': b'  167 |   return map_builder_->SerializeStateToFile(include_unfinished_submaps,\n'}
+[14.531105] (cartographer_ros) StderrLine: {'line': b'      |                        ^~~~~~~~~~~~~~~~~~~~\n'}
+[14.531212] (cartographer_ros) StderrLine: {'line': b'      |                        SerializeState\n'}
+[14.531311] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp: At global scope:\n'}
+[14.531407] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:202:60: error: \xe2\x80\x98TrajectoryState\xe2\x80\x99 is not a member of \xe2\x80\x98cartographer::mapping::PoseGraphInterface\xe2\x80\x99\n'}
+[14.531515] (cartographer_ros) StderrLine: {'line': b'  202 | std::map<int, ::cartographer::mapping::PoseGraphInterface::TrajectoryState>\n'}
+[14.531612] (cartographer_ros) StderrLine: {'line': b'      |                                                            ^~~~~~~~~~~~~~~\n'}
+[14.531705] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:202:75: error: template argument 2 is invalid\n'}
+[14.531799] (cartographer_ros) StderrLine: {'line': b'  202 | std::map<int, ::cartographer::mapping::PoseGraphInterface::TrajectoryState>\n'}
+[14.531891] (cartographer_ros) StderrLine: {'line': b'      |                                                                           ^\n'}
+[14.531983] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:202:75: error: template argument 4 is invalid\n'}
+[14.532075] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp: In member function \xe2\x80\x98int cartographer_ros::MapBuilderBridge::GetTrajectoryStates()\xe2\x80\x99:\n'}
+[14.532168] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:204:56: error: \xe2\x80\x98class cartographer::mapping::PoseGraphInterface\xe2\x80\x99 has no member named \xe2\x80\x98GetTrajectoryStates\xe2\x80\x99; did you mean \xe2\x80\x98GetTrajectoryNodes\xe2\x80\x99?\n'}
+[14.532261] (cartographer_ros) StderrLine: {'line': b'  204 |   auto trajectory_states = map_builder_->pose_graph()->GetTrajectoryStates();\n'}
+[14.532354] (cartographer_ros) StderrLine: {'line': b'      |                                                        ^~~~~~~~~~~~~~~~~~~\n'}
+[14.532446] (cartographer_ros) StderrLine: {'line': b'      |                                                        GetTrajectoryNodes\n'}
+[14.532540] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:210:54: error: \xe2\x80\x98cartographer::mapping::PoseGraphInterface::TrajectoryState\xe2\x80\x99 has not been declared\n'}
+[14.532661] (cartographer_ros) StderrLine: {'line': b'  210 |         ::cartographer::mapping::PoseGraphInterface::TrajectoryState::ACTIVE));\n'}
+[14.532761] (cartographer_ros) StderrLine: {'line': b'      |                                                      ^~~~~~~~~~~~~~~\n'}
+[14.532855] (cartographer_ros) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:90: CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o] Error 1\n'}
+[14.579844] (-) TimerEvent: {}
+[14.680275] (-) TimerEvent: {}
+[14.780706] (-) TimerEvent: {}
+[14.881169] (-) TimerEvent: {}
+[14.981581] (-) TimerEvent: {}
+[15.081972] (-) TimerEvent: {}
+[15.182356] (-) TimerEvent: {}
+[15.282808] (-) TimerEvent: {}
+[15.383244] (-) TimerEvent: {}
+[15.483662] (-) TimerEvent: {}
+[15.584080] (-) TimerEvent: {}
+[15.684514] (-) TimerEvent: {}
+[15.784920] (-) TimerEvent: {}
+[15.885313] (-) TimerEvent: {}
+[15.985700] (-) TimerEvent: {}
+[16.086141] (-) TimerEvent: {}
+[16.186579] (-) TimerEvent: {}
+[16.287014] (-) TimerEvent: {}
+[16.387439] (-) TimerEvent: {}
+[16.487871] (-) TimerEvent: {}
+[16.588289] (-) TimerEvent: {}
+[16.688708] (-) TimerEvent: {}
+[16.789339] (-) TimerEvent: {}
+[16.889714] (-) TimerEvent: {}
+[16.990324] (-) TimerEvent: {}
+[17.090796] (-) TimerEvent: {}
+[17.191154] (-) TimerEvent: {}
+[17.291526] (-) TimerEvent: {}
+[17.392003] (-) TimerEvent: {}
+[17.492392] (-) TimerEvent: {}
+[17.592757] (-) TimerEvent: {}
+[17.693127] (-) TimerEvent: {}
+[17.793535] (-) TimerEvent: {}
+[17.893970] (-) TimerEvent: {}
+[17.994441] (-) TimerEvent: {}
+[18.094913] (-) TimerEvent: {}
+[18.195379] (-) TimerEvent: {}
+[18.295808] (-) TimerEvent: {}
+[18.396227] (-) TimerEvent: {}
+[18.496670] (-) TimerEvent: {}
+[18.597064] (-) TimerEvent: {}
+[18.697452] (-) TimerEvent: {}
+[18.797845] (-) TimerEvent: {}
+[18.898238] (-) TimerEvent: {}
+[18.998624] (-) TimerEvent: {}
+[19.099051] (-) TimerEvent: {}
+[19.199488] (-) TimerEvent: {}
+[19.299909] (-) TimerEvent: {}
+[19.400304] (-) TimerEvent: {}
+[19.500852] (-) TimerEvent: {}
+[19.601348] (-) TimerEvent: {}
+[19.622280] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp: In function \xe2\x80\x98std::tuple<cartographer::sensor::PointCloudWithIntensities, std::chrono::time_point<cartographer::common::UniversalTimeScaleClock, std::chrono::duration<long int, std::ratio<1, 10000000> > > > cartographer_ros::{anonymous}::LaserScanToPointCloudWithIntensities(const LaserMessageType&)\xe2\x80\x99:\n'}
+[19.623150] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:150:37: error: \xe2\x80\x98TimedRangefinderPoint\xe2\x80\x99 in namespace \xe2\x80\x98cartographer::sensor\xe2\x80\x99 does not name a type\n'}
+[19.623275] (cartographer_ros) StderrLine: {'line': b'  150 |         const cartographer::sensor::TimedRangefinderPoint point{\n'}
+[19.623381] (cartographer_ros) StderrLine: {'line': b'      |                                     ^~~~~~~~~~~~~~~~~~~~~\n'}
+[19.623479] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:153:38: error: \xe2\x80\x98point\xe2\x80\x99 was not declared in this scope\n'}
+[19.623576] (cartographer_ros) StderrLine: {'line': b'  153 |         point_cloud.points.push_back(point);\n'}
+[19.623671] (cartographer_ros) StderrLine: {'line': b'      |                                      ^~~~~\n'}
+[19.623765] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:168:55: error: \xe2\x80\x98__gnu_cxx::__alloc_traits<std::allocator<Eigen::Matrix<float, 4, 1> >, Eigen::Matrix<float, 4, 1> >::value_type\xe2\x80\x99 {aka \xe2\x80\x98class Eigen::Matrix<float, 4, 1>\xe2\x80\x99} has no member named \xe2\x80\x98time\xe2\x80\x99\n'}
+[19.623863] (cartographer_ros) StderrLine: {'line': b'  168 |     const double duration = point_cloud.points.back().time;\n'}
+[19.623957] (cartographer_ros) StderrLine: {'line': b'      |                                                       ^~~~\n'}
+[19.624049] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:171:13: error: \xe2\x80\x98class Eigen::Matrix<float, 4, 1>\xe2\x80\x99 has no member named \xe2\x80\x98time\xe2\x80\x99\n'}
+[19.624144] (cartographer_ros) StderrLine: {'line': b'  171 |       point.time -= duration;\n'}
+[19.624246] (cartographer_ros) StderrLine: {'line': b'      |             ^~~~\n'}
+[19.624340] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp: In function \xe2\x80\x98sensor_msgs::msg::PointCloud2 cartographer_ros::ToPointCloud2Message(int64_t, const string&, const TimedPointCloud&)\xe2\x80\x99:\n'}
+[19.624436] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:196:28: error: \xe2\x80\x98const class Eigen::Matrix<float, 4, 1>\xe2\x80\x99 has no member named \xe2\x80\x98position\xe2\x80\x99\n'}
+[19.624540] (cartographer_ros) StderrLine: {'line': b'  196 |     data[offset++] = point.position.x();\n'}
+[19.624663] (cartographer_ros) StderrLine: {'line': b'      |                            ^~~~~~~~\n'}
+[19.624764] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:197:28: error: \xe2\x80\x98const class Eigen::Matrix<float, 4, 1>\xe2\x80\x99 has no member named \xe2\x80\x98position\xe2\x80\x99\n'}
+[19.624867] (cartographer_ros) StderrLine: {'line': b'  197 |     data[offset++] = point.position.y();\n'}
+[19.624969] (cartographer_ros) StderrLine: {'line': b'      |                            ^~~~~~~~\n'}
+[19.625062] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:198:28: error: \xe2\x80\x98const class Eigen::Matrix<float, 4, 1>\xe2\x80\x99 has no member named \xe2\x80\x98position\xe2\x80\x99\n'}
+[19.625155] (cartographer_ros) StderrLine: {'line': b'  198 |     data[offset++] = point.position.z();\n'}
+[19.625246] (cartographer_ros) StderrLine: {'line': b'      |                            ^~~~~~~~\n'}
+[19.625336] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp: In function \xe2\x80\x98std::tuple<cartographer::sensor::PointCloudWithIntensities, std::chrono::time_point<cartographer::common::UniversalTimeScaleClock, std::chrono::duration<long int, std::ratio<1, 10000000> > > > cartographer_ros::ToPointCloudWithIntensities(const PointCloud2&)\xe2\x80\x99:\n'}
+[19.625435] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:270:55: error: \xe2\x80\x98__gnu_cxx::__alloc_traits<std::allocator<Eigen::Matrix<float, 4, 1> >, Eigen::Matrix<float, 4, 1> >::value_type\xe2\x80\x99 {aka \xe2\x80\x98class Eigen::Matrix<float, 4, 1>\xe2\x80\x99} has no member named \xe2\x80\x98time\xe2\x80\x99\n'}
+[19.625530] (cartographer_ros) StderrLine: {'line': b'  270 |     const double duration = point_cloud.points.back().time;\n'}
+[19.625621] (cartographer_ros) StderrLine: {'line': b'      |                                                       ^~~~\n'}
+[19.625714] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:273:13: error: \xe2\x80\x98class Eigen::Matrix<float, 4, 1>\xe2\x80\x99 has no member named \xe2\x80\x98time\xe2\x80\x99\n'}
+[19.625809] (cartographer_ros) StderrLine: {'line': b'  273 |       point.time -= duration;\n'}
+[19.625901] (cartographer_ros) StderrLine: {'line': b'      |             ^~~~\n'}
+[19.625993] (cartographer_ros) StderrLine: {'line': b'In file included from /usr/include/ceres/internal/fixed_array.h:39,\n'}
+[19.626139] (cartographer_ros) StderrLine: {'line': b'                 from /usr/include/ceres/internal/autodiff.h:147,\n'}
+[19.626290] (cartographer_ros) StderrLine: {'line': b'                 from /usr/include/ceres/autodiff_cost_function.h:132,\n'}
+[19.626439] (cartographer_ros) StderrLine: {'line': b'                 from /usr/include/ceres/ceres.h:37,\n'}
+[19.626588] (cartographer_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/cartographer/common/math.h:25,\n'}
+[19.626751] (cartographer_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/cartographer/io/color.h:22,\n'}
+[19.626914] (cartographer_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/cartographer/io/image.h:25,\n'}
+[19.627091] (cartographer_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/cartographer/io/submap_painter.h:22,\n'}
+[19.627304] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/msg_conversion.h:21,\n'}
+[19.627516] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:17:\n'}
+[19.627714] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:274:22: error: \xe2\x80\x98class Eigen::Matrix<float, 4, 1>\xe2\x80\x99 has no member named \xe2\x80\x98time\xe2\x80\x99\n'}
+[19.628811] (cartographer_ros) StderrLine: {'line': b'  274 |       CHECK_LE(point.time, 0.f)\n'}
+[19.629076] (cartographer_ros) StderrLine: {'line': b'      |                      ^~~~\n'}
+[19.629301] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp: In function \xe2\x80\x98std::unique_ptr<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::default_delete<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > > > cartographer_ros::CreateOccupancyGridMsg(const cartographer::io::PaintSubmapSlicesResult&, double, const string&, const rclcpp::Time&)\xe2\x80\x99:\n'}
+[19.629517] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:378:25: error: \xe2\x80\x98absl\xe2\x80\x99 has not been declared\n'}
+[19.629719] (cartographer_ros) StderrLine: {'line': b'  378 |   auto occupancy_grid = absl::make_unique<nav_msgs::msg::OccupancyGrid>();\n'}
+[19.629937] (cartographer_ros) StderrLine: {'line': b'      |                         ^~~~\n'}
+[19.630134] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:378:71: error: expected primary-expression before \xe2\x80\x98>\xe2\x80\x99 token\n'}
+[19.630310] (cartographer_ros) StderrLine: {'line': b'  378 |   auto occupancy_grid = absl::make_unique<nav_msgs::msg::OccupancyGrid>();\n'}
+[19.630475] (cartographer_ros) StderrLine: {'line': b'      |                                                                       ^\n'}
+[19.630828] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:378:73: error: expected primary-expression before \xe2\x80\x98)\xe2\x80\x99 token\n'}
+[19.631050] (cartographer_ros) StderrLine: {'line': b'  378 |   auto occupancy_grid = absl::make_unique<nav_msgs::msg::OccupancyGrid>();\n'}
+[19.631305] (cartographer_ros) StderrLine: {'line': b'      |                                                                         ^\n'}
+[19.631492] (cartographer_ros) StderrLine: {'line': b'In file included from /usr/include/eigen3/Eigen/Core:458,\n'}
+[19.631734] (cartographer_ros) StderrLine: {'line': b'                 from /usr/include/eigen3/Eigen/Geometry:11,\n'}
+[19.631844] (cartographer_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/cartographer/io/submap_painter.h:20,\n'}
+[19.631945] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/msg_conversion.h:21,\n'}
+[19.632048] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:17:\n'}
+[19.632156] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/Matrix.h: In instantiation of \xe2\x80\x98Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float; _Scalar = float; int _Rows = 4; int _Cols = 1; int _Options = 0; int _MaxRows = 4; int _MaxCols = 1]\xe2\x80\x99:\n'}
+[19.632261] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:230:69:   required from here\n'}
+[19.632358] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/Matrix.h:302:35: error: no matching function for call to \xe2\x80\x98Eigen::Matrix<float, 4, 1>::_init2<Eigen::Matrix<float, 3, 1, 0, 3, 1>, float>(const Eigen::Matrix<float, 3, 1>&, const float&)\xe2\x80\x99\n'}
+[19.632455] (cartographer_ros) StderrLine: {'line': b'  302 |       Base::template _init2<T0,T1>(x, y);\n'}
+[19.632548] (cartographer_ros) StderrLine: {'line': b'      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\n'}
+[19.632682] (cartographer_ros) StderrLine: {'line': b'In file included from /usr/include/eigen3/Eigen/Core:457,\n'}
+[19.632781] (cartographer_ros) StderrLine: {'line': b'                 from /usr/include/eigen3/Eigen/Geometry:11,\n'}
+[19.632887] (cartographer_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/cartographer/io/submap_painter.h:20,\n'}
+[19.632984] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/msg_conversion.h:21,\n'}
+[19.633102] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:17:\n'}
+[19.633199] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:738:30: note: candidate: \xe2\x80\x98void Eigen::PlainObjectBase<Derived>::_init2(Eigen::Index, Eigen::Index, typename Eigen::internal::enable_if<(typename Eigen::internal::dense_xpr_base<Derived>::type::SizeAtCompileTime != 2), T0>::type*) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float; Derived = Eigen::Matrix<float, 4, 1>; Eigen::Index = long int; typename Eigen::internal::enable_if<(typename Eigen::internal::dense_xpr_base<Derived>::type::SizeAtCompileTime != 2), T0>::type = Eigen::Matrix<float, 3, 1>]\xe2\x80\x99\n'}
+[19.633309] (cartographer_ros) StderrLine: {'line': b'  738 |     EIGEN_STRONG_INLINE void _init2(Index rows, Index cols, typename internal::enable_if<Base::SizeAtCompileTime!=2,T0>::type* = 0)\n'}
+[19.633405] (cartographer_ros) StderrLine: {'line': b'      |                              ^~~~~~\n'}
+[19.633499] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:738:43: note:   no known conversion for argument 1 from \xe2\x80\x98const Eigen::Matrix<float, 3, 1>\xe2\x80\x99 to \xe2\x80\x98Eigen::Index\xe2\x80\x99 {aka \xe2\x80\x98long int\xe2\x80\x99}\n'}
+[19.633594] (cartographer_ros) StderrLine: {'line': b'  738 |     EIGEN_STRONG_INLINE void _init2(Index rows, Index cols, typename internal::enable_if<Base::SizeAtCompileTime!=2,T0>::type* = 0)\n'}
+[19.633689] (cartographer_ros) StderrLine: {'line': b'      |                                     ~~~~~~^~~~\n'}
+[19.633782] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:748:30: note: candidate: \xe2\x80\x98template<class T0, class T1> void Eigen::PlainObjectBase<Derived>::_init2(const T0&, const T1&, typename Eigen::internal::enable_if<(typename Eigen::internal::dense_xpr_base<Derived>::type::SizeAtCompileTime == 2), T0>::type*) [with T0 = T0; T1 = T1; Derived = Eigen::Matrix<float, 4, 1>]\xe2\x80\x99\n'}
+[19.633880] (cartographer_ros) StderrLine: {'line': b'  748 |     EIGEN_STRONG_INLINE void _init2(const T0& val0, const T1& val1, typename internal::enable_if<Base::SizeAtCompileTime==2,T0>::type* = 0)\n'}
+[19.633983] (cartographer_ros) StderrLine: {'line': b'      |                              ^~~~~~\n'}
+[19.634078] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:748:30: note:   template argument deduction/substitution failed:\n'}
+[19.634173] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h: In substitution of \xe2\x80\x98template<class T0, class T1> void Eigen::PlainObjectBase<Eigen::Matrix<float, 4, 1> >::_init2<T0, T1>(const T0&, const T1&, typename Eigen::internal::enable_if<false, T0>::type*) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float]\xe2\x80\x99:\n'}
+[19.634270] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/Matrix.h:302:35:   required from \xe2\x80\x98Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float; _Scalar = float; int _Rows = 4; int _Cols = 1; int _Options = 0; int _MaxRows = 4; int _MaxCols = 1]\xe2\x80\x99\n'}
+[19.634372] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:230:69:   required from here\n'}
+[19.634476] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:748:30: error: invalid use of incomplete type \xe2\x80\x98struct Eigen::internal::enable_if<false, Eigen::Matrix<float, 3, 1> >\xe2\x80\x99\n'}
+[19.634579] (cartographer_ros) StderrLine: {'line': b'In file included from /usr/include/eigen3/Eigen/Core:364,\n'}
+[19.634673] (cartographer_ros) StderrLine: {'line': b'                 from /usr/include/eigen3/Eigen/Geometry:11,\n'}
+[19.634765] (cartographer_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/cartographer/io/submap_painter.h:20,\n'}
+[19.634868] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/msg_conversion.h:21,\n'}
+[19.634970] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:17:\n'}
+[19.635064] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/util/Meta.h:184:50: note: declaration of \xe2\x80\x98struct Eigen::internal::enable_if<false, Eigen::Matrix<float, 3, 1> >\xe2\x80\x99\n'}
+[19.635160] (cartographer_ros) StderrLine: {'line': b'  184 | template<bool Condition, typename T=void> struct enable_if;\n'}
+[19.635254] (cartographer_ros) StderrLine: {'line': b'      |                                                  ^~~~~~~~~\n'}
+[19.635350] (cartographer_ros) StderrLine: {'line': b'In file included from /usr/include/eigen3/Eigen/Core:457,\n'}
+[19.635444] (cartographer_ros) StderrLine: {'line': b'                 from /usr/include/eigen3/Eigen/Geometry:11,\n'}
+[19.635538] (cartographer_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/cartographer/io/submap_painter.h:20,\n'}
+[19.635630] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/msg_conversion.h:21,\n'}
+[19.635724] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:17:\n'}
+[19.635816] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/Matrix.h: In instantiation of \xe2\x80\x98Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float; _Scalar = float; int _Rows = 4; int _Cols = 1; int _Options = 0; int _MaxRows = 4; int _MaxCols = 1]\xe2\x80\x99:\n'}
+[19.635915] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:230:69:   required from here\n'}
+[19.636010] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:757:30: note: candidate: \xe2\x80\x98template<class T0, class T1> void Eigen::PlainObjectBase<Derived>::_init2(const Index&, const Index&, typename Eigen::internal::enable_if<((((! Eigen::internal::is_same<long int, typename Eigen::internal::traits<T>::Scalar>::value) && Eigen::internal::is_same<T0, long int>::value) && Eigen::internal::is_same<T1, long int>::value) && (typename Eigen::internal::dense_xpr_base<Derived>::type::SizeAtCompileTime == 2)), T1>::type*) [with T0 = T0; T1 = T1; Derived = Eigen::Matrix<float, 4, 1>]\xe2\x80\x99\n'}
+[19.636110] (cartographer_ros) StderrLine: {'line': b'  757 |     EIGEN_STRONG_INLINE void _init2(const Index& val0, const Index& val1,\n'}
+[19.636204] (cartographer_ros) StderrLine: {'line': b'      |                              ^~~~~~\n'}
+[19.636296] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:757:30: note:   template argument deduction/substitution failed:\n'}
+[19.636482] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h: In substitution of \xe2\x80\x98template<class T0, class T1> void Eigen::PlainObjectBase<Eigen::Matrix<float, 4, 1> >::_init2<T0, T1>(const Index&, const Index&, typename Eigen::internal::enable_if<((((! Eigen::internal::is_same<long int, float>::value) && Eigen::internal::is_same<T0, long int>::value) && Eigen::internal::is_same<T1, long int>::value) && (Eigen::MatrixBase<Eigen::Matrix<float, 4, 1> >::SizeAtCompileTime == 2)), T1>::type*) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float]\xe2\x80\x99:\n'}
+[19.637107] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/Matrix.h:302:35:   required from \xe2\x80\x98Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = Eigen::Matrix<float, 3, 1>; T1 = float; _Scalar = float; int _Rows = 4; int _Cols = 1; int _Options = 0; int _MaxRows = 4; int _MaxCols = 1]\xe2\x80\x99\n'}
+[19.637989] (cartographer_ros) StderrLine: {'line': b'/home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:230:69:   required from here\n'}
+[19.638678] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:757:30: error: invalid use of incomplete type \xe2\x80\x98struct Eigen::internal::enable_if<false, float>\xe2\x80\x99\n'}
+[19.641071] (cartographer_ros) StderrLine: {'line': b'In file included from /usr/include/eigen3/Eigen/Core:364,\n'}
+[19.641483] (cartographer_ros) StderrLine: {'line': b'                 from /usr/include/eigen3/Eigen/Geometry:11,\n'}
+[19.641658] (cartographer_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/cartographer/io/submap_painter.h:20,\n'}
+[19.641829] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/msg_conversion.h:21,\n'}
+[19.642017] (cartographer_ros) StderrLine: {'line': b'                 from /home/terranova/uav_ws/src/cartographer_ros/cartographer_ros/src/msg_conversion.cpp:17:\n'}
+[19.642227] (cartographer_ros) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/util/Meta.h:184:50: note: declaration of \xe2\x80\x98struct Eigen::internal::enable_if<false, float>\xe2\x80\x99\n'}
+[19.643849] (cartographer_ros) StderrLine: {'line': b'  184 | template<bool Condition, typename T=void> struct enable_if;\n'}
+[19.644029] (cartographer_ros) StderrLine: {'line': b'      |                                                  ^~~~~~~~~\n'}
+[19.644203] (cartographer_ros) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:104: CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o] Error 1\n'}
+[19.644364] (cartographer_ros) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/cartographer_ros.dir/all] Error 2\n'}
+[19.644519] (cartographer_ros) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[19.644747] (cartographer_ros) CommandEnded: {'returncode': 2}
+[19.701563] (-) TimerEvent: {}
+[19.802080] (-) TimerEvent: {}
+[19.838862] (cartographer_ros) JobEnded: {'identifier': 'cartographer_ros', 'rc': 2}
+[19.850347] (cartographer_rviz) JobSkipped: {'identifier': 'cartographer_rviz'}
+[19.850525] (-) EventReactorShutdown: {}

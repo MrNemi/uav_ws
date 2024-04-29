@@ -1,0 +1,1103 @@
+[  0%] [34m[1mBuilding documentation.[0m
+[  1%] Built target gtest
+[  2%] Built target gmock
+[  2%] Built target cartographer_detect_changes
+[  2%] Built target gmock_main
+[  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/testing/thread_pool_for_testing.cc.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/thread_pool.cc.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/task.cc.o[0m
+/usr/bin/sphinx-build:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import load_entry_point
+[01mRunning Sphinx v1.8.5[39;49;00m
+
+[31;01mExtension error:[39;49;00m
+Could not import extension sphinx.builders.latex (exception: cannot import name 'contextfunction' from 'jinja2' (/home/terranova/.local/lib/python3.8/site-packages/jinja2/__init__.py))
+make[2]: *** [docs/CMakeFiles/build_doc.dir/build.make:71: docs/CMakeFiles/build_doc] Error 2
+make[1]: *** [CMakeFiles/Makefile2:3028: docs/CMakeFiles/build_doc.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/time.cc.o[0m
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:24,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/task.cc:17:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:67:58: error: expected ‘;’ at end of member declaration
+   67 |   std::weak_ptr<Task> Schedule(std::unique_ptr<Task> task)
+      |                                                          ^
+      |                                                           ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:22: error: ‘mutex_’ has not been declared
+   68 |       LOCKS_EXCLUDED(mutex_) override;
+      |                      ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:30: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   68 |       LOCKS_EXCLUDED(mutex_) override;
+      |                              ^~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:46: error: expected ‘;’ at end of member declaration
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                              ^
+      |                                               ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:63: error: ‘mutex_’ has not been declared
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                                               ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:71: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                                                       ^~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:48: error: ‘int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)’
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                                ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:7: note: previous declaration ‘int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)’
+   68 |       LOCKS_EXCLUDED(mutex_) override;
+      |       ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:8: error: expected ‘;’ at end of member declaration
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |        ^~~~~~~~
+      |                ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:28: error: ‘mutex_’ is not a type
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                            ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:42: error: invalid pure specifier (only ‘= 0’ is allowed) before ‘;’ token
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                                          ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:42: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:28: error: expected ‘;’ at end of member declaration
+   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);
+      |                            ^~~~~
+      |                                 ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:45: error: ‘mutex_’ is not a type
+   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);
+      |                                             ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:51: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);
+      |                                                   ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:34: error: ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);
+      |                                  ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:37: error: expected ‘;’ at end of member declaration
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                     ^~~~~~~~~~~
+      |                                                ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:60: error: ‘mutex_’ is not a type
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                                            ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:66: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                                                  ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:49: error: ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:79:53: error: expected ‘;’ at end of member declaration
+   79 |   absl::flat_hash_map<Task*, std::shared_ptr<Task>> tasks_not_ready_
+      |                                                     ^~~~~~~~~~~~~~~~
+      |                                                                     ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:18: error: ‘mutex_’ is not a type
+   80 |       GUARDED_BY(mutex_);
+      |                  ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:24: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   80 |       GUARDED_BY(mutex_);
+      |                        ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:7: error: ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   80 |       GUARDED_BY(mutex_);
+      |       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:7: error: ‘int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)’ marked ‘override’, but does not override
+   68 |       LOCKS_EXCLUDED(mutex_) override;
+      |       ^~~~~~~~~~~~~~
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/task.cc:17:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:18: error: expected ‘;’ at end of member declaration
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                  ^
+      |                   ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:35: error: ‘mutex_’ has not been declared
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                                   ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:41: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                                         ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:45: error: expected ‘;’ at end of member declaration
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);
+      |                                             ^
+      |                                              ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:62: error: ‘mutex_’ has not been declared
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);
+      |                                                              ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:68: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);
+      |                                                                    ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:47: error: ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);
+      |                                               ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                    ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:52: error: expected ‘;’ at end of member declaration
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);
+      |                                                    ^
+      |                                                     ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:69: error: ‘mutex_’ has not been declared
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);
+      |                                                                     ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:75: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);
+      |                                                                           ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:54: error: ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);
+      |                                                      ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                    ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:16: error: expected ‘;’ at end of member declaration
+   55 |   void Execute() LOCKS_EXCLUDED(mutex_);
+      |                ^
+      |                 ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:33: error: ‘mutex_’ has not been declared
+   55 |   void Execute() LOCKS_EXCLUDED(mutex_);
+      |                                 ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:39: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   55 |   void Execute() LOCKS_EXCLUDED(mutex_);
+      |                                       ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:18: error: ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   55 |   void Execute() LOCKS_EXCLUDED(mutex_);
+      |                  ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                    ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:54: error: expected ‘;’ at end of member declaration
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);
+      |                                                      ^
+      |                                                       ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:71: error: ‘mutex_’ has not been declared
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);
+      |                                                                       ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:77: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);
+      |                                                                             ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:56: error: ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);
+      |                                                        ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                    ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:12: error: expected ‘;’ at end of member declaration
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |            ^~~~~~~~~~
+      |                      ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:34: error: ‘mutex_’ has not been declared
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                                  ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:40: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                                        ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:24: error: expected ‘;’ at end of member declaration
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;
+      |                        ^~~~~~~~~~~~~~~~~~~~~~
+      |                                              ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:58: error: ‘mutex_’ has not been declared
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;
+      |                                                          ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:75: error: invalid pure specifier (only ‘= 0’ is allowed) before ‘;’ token
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;
+      |                                                                           ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:75: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:47: error: ‘int cartographer::common::Task::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::Task::GUARDED_BY(int)’
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;
+      |                                               ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration ‘int cartographer::common::Task::GUARDED_BY(int)’
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:9: error: expected ‘;’ at end of member declaration
+   66 |   State state_ GUARDED_BY(mutex_) = NEW;
+      |         ^~~~~~
+      |               ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:27: error: ‘mutex_’ has not been declared
+   66 |   State state_ GUARDED_BY(mutex_) = NEW;
+      |                           ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:40: error: invalid pure specifier (only ‘= 0’ is allowed) before ‘;’ token
+   66 |   State state_ GUARDED_BY(mutex_) = NEW;
+      |                                        ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:40: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:16: error: ‘int cartographer::common::Task::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::Task::GUARDED_BY(int)’
+   66 |   State state_ GUARDED_BY(mutex_) = NEW;
+      |                ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration ‘int cartographer::common::Task::GUARDED_BY(int)’
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:16: error: expected ‘;’ at end of member declaration
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:53: error: ‘mutex_’ has not been declared
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;
+      |                                                     ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:63: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;
+      |                                                               ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:42: error: ‘int cartographer::common::Task::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::Task::GUARDED_BY(int)’
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;
+      |                                          ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration ‘int cartographer::common::Task::GUARDED_BY(int)’
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:19: error: expected ‘;’ at end of member declaration
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);
+      |                   ^~~~~~~~~~~~~~~~
+      |                                   ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:47: error: ‘mutex_’ has not been declared
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);
+      |                                               ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:53: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);
+      |                                                     ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:36: error: ‘int cartographer::common::Task::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::Task::GUARDED_BY(int)’
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);
+      |                                    ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration ‘int cartographer::common::Task::GUARDED_BY(int)’
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+make[2]: *** [CMakeFiles/cartographer.dir/build.make:447: CMakeFiles/cartographer.dir/cartographer/common/task.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:28,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:17:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:18: error: expected ‘;’ at end of member declaration
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                  ^
+      |                   ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:35: error: ‘mutex_’ has not been declared
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                                   ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:41: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                                         ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:45: error: expected ‘;’ at end of member declaration
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);
+      |                                             ^
+      |                                              ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:62: error: ‘mutex_’ has not been declared
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);
+      |                                                              ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:68: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);
+      |                                                                    ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:47: error: ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);
+      |                                               ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                    ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:52: error: expected ‘;’ at end of member declaration
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);
+      |                                                    ^
+      |                                                     ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:69: error: ‘mutex_’ has not been declared
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);
+      |                                                                     ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:75: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);
+      |                                                                           ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:54: error: ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);
+      |                                                      ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                    ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:16: error: expected ‘;’ at end of member declaration
+   55 |   void Execute() LOCKS_EXCLUDED(mutex_);
+      |                ^
+      |                 ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:33: error: ‘mutex_’ has not been declared
+   55 |   void Execute() LOCKS_EXCLUDED(mutex_);
+      |                                 ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:39: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   55 |   void Execute() LOCKS_EXCLUDED(mutex_);
+      |                                       ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:18: error: ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   55 |   void Execute() LOCKS_EXCLUDED(mutex_);
+      |                  ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                    ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:54: error: expected ‘;’ at end of member declaration
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);
+      |                                                      ^
+      |                                                       ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:71: error: ‘mutex_’ has not been declared
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);
+      |                                                                       ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:77: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);
+      |                                                                             ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:56: error: ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);
+      |                                                        ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                    ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:12: error: expected ‘;’ at end of member declaration
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |            ^~~~~~~~~~
+      |                      ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:34: error: ‘mutex_’ has not been declared
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                                  ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:40: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                                        ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:24: error: expected ‘;’ at end of member declaration
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;
+      |                        ^~~~~~~~~~~~~~~~~~~~~~
+      |                                              ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:58: error: ‘mutex_’ has not been declared
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;
+      |                                                          ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:75: error: invalid pure specifier (only ‘= 0’ is allowed) before ‘;’ token
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;
+      |                                                                           ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:75: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:47: error: ‘int cartographer::common::Task::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::Task::GUARDED_BY(int)’
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;
+      |                                               ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration ‘int cartographer::common::Task::GUARDED_BY(int)’
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:9: error: expected ‘;’ at end of member declaration
+   66 |   State state_ GUARDED_BY(mutex_) = NEW;
+      |         ^~~~~~
+      |               ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:27: error: ‘mutex_’ has not been declared
+   66 |   State state_ GUARDED_BY(mutex_) = NEW;
+      |                           ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:40: error: invalid pure specifier (only ‘= 0’ is allowed) before ‘;’ token
+   66 |   State state_ GUARDED_BY(mutex_) = NEW;
+      |                                        ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:40: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:16: error: ‘int cartographer::common::Task::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::Task::GUARDED_BY(int)’
+   66 |   State state_ GUARDED_BY(mutex_) = NEW;
+      |                ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration ‘int cartographer::common::Task::GUARDED_BY(int)’
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:16: error: expected ‘;’ at end of member declaration
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:53: error: ‘mutex_’ has not been declared
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;
+      |                                                     ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:63: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;
+      |                                                               ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:42: error: ‘int cartographer::common::Task::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::Task::GUARDED_BY(int)’
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;
+      |                                          ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration ‘int cartographer::common::Task::GUARDED_BY(int)’
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:19: error: expected ‘;’ at end of member declaration
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);
+      |                   ^~~~~~~~~~~~~~~~
+      |                                   ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:47: error: ‘mutex_’ has not been declared
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);
+      |                                               ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:53: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);
+      |                                                     ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:36: error: ‘int cartographer::common::Task::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::Task::GUARDED_BY(int)’
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);
+      |                                    ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration ‘int cartographer::common::Task::GUARDED_BY(int)’
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:17:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:67:58: error: expected ‘;’ at end of member declaration
+   67 |   std::weak_ptr<Task> Schedule(std::unique_ptr<Task> task)
+      |                                                          ^
+      |                                                           ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:22: error: ‘mutex_’ has not been declared
+   68 |       LOCKS_EXCLUDED(mutex_) override;
+      |                      ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:30: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   68 |       LOCKS_EXCLUDED(mutex_) override;
+      |                              ^~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:46: error: expected ‘;’ at end of member declaration
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                              ^
+      |                                               ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:63: error: ‘mutex_’ has not been declared
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                                               ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:71: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                                                       ^~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:48: error: ‘int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)’
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                                ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:7: note: previous declaration ‘int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)’
+   68 |       LOCKS_EXCLUDED(mutex_) override;
+      |       ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:8: error: expected ‘;’ at end of member declaration
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |        ^~~~~~~~
+      |                ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:28: error: ‘mutex_’ is not a type
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                            ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:42: error: invalid pure specifier (only ‘= 0’ is allowed) before ‘;’ token
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                                          ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:42: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:28: error: expected ‘;’ at end of member declaration
+   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);
+      |                            ^~~~~
+      |                                 ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:45: error: ‘mutex_’ is not a type
+   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);
+      |                                             ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:51: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);
+      |                                                   ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:34: error: ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);
+      |                                  ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:37: error: expected ‘;’ at end of member declaration
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                     ^~~~~~~~~~~
+      |                                                ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:60: error: ‘mutex_’ is not a type
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                                            ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:66: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                                                  ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:49: error: ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:79:53: error: expected ‘;’ at end of member declaration
+   79 |   absl::flat_hash_map<Task*, std::shared_ptr<Task>> tasks_not_ready_
+      |                                                     ^~~~~~~~~~~~~~~~
+      |                                                                     ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:18: error: ‘mutex_’ is not a type
+   80 |       GUARDED_BY(mutex_);
+      |                  ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:24: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   80 |       GUARDED_BY(mutex_);
+      |                        ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:7: error: ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   80 |       GUARDED_BY(mutex_);
+      |       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:7: error: ‘int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)’ marked ‘override’, but does not override
+   68 |       LOCKS_EXCLUDED(mutex_) override;
+      |       ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc: In lambda function:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:86:35: error: expected ‘{’ before ‘EXCLUSIVE_LOCKS_REQUIRED’
+   86 |   const auto predicate = [this]() EXCLUSIVE_LOCKS_REQUIRED(mutex_) {
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc: In member function ‘void cartographer::common::ThreadPool::DoWork()’:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:86:35: error: expected ‘,’ or ‘;’ before ‘EXCLUSIVE_LOCKS_REQUIRED’
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:93:46: error: no matching function for call to ‘absl::Condition::Condition(const cartographer::common::ThreadPool::DoWork()::<lambda()>*)’
+   93 |       mutex_.Await(absl::Condition(&predicate));
+      |                                              ^
+In file included from /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cordz_info.h:31,
+                 from /home/terranova/uav_ws/install/absl/include/absl/strings/cord.h:92,
+                 from /home/terranova/uav_ws/install/absl/include/absl/container/internal/hash_function_defaults.h:58,
+                 from /home/terranova/uav_ws/install/absl/include/absl/container/flat_hash_map.h:41,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:26,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:873:13: note: candidate: ‘constexpr absl::Condition::Condition()’
+  873 |   constexpr Condition() : eval_(AlwaysTrue), arg_(nullptr) {}
+      |             ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:873:13: note:   candidate expects 0 arguments, 1 provided
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:793:12: note: candidate: ‘template<class T, class E> absl::Condition::Condition(const T*)’
+  793 |   explicit Condition(const T* obj)
+      |            ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:793:12: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:791:47: error: invalid static_cast from type ‘void (cartographer::common::ThreadPool::DoWork()::<lambda()>::*)() const’ to type ‘bool (cartographer::common::ThreadPool::DoWork()::<lambda()>::*)() const’
+  791 |   template <typename T, typename E = decltype(static_cast<bool (T::*)() const>(
+      |                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  792 |                             &T::operator()))>
+      |                             ~~~~~~~~~~~~~~~    
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:764:12: note: candidate: ‘absl::Condition::Condition(const bool*)’
+  764 |   explicit Condition(const bool* cond);
+      |            ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:764:34: note:   no known conversion for argument 1 from ‘const cartographer::common::ThreadPool::DoWork()::<lambda()>*’ to ‘const bool*’
+  764 |   explicit Condition(const bool* cond);
+      |                      ~~~~~~~~~~~~^~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:760:3: note: candidate: ‘template<class T> absl::Condition::Condition(const T*, bool (absl::internal::type_identity<T>::type::*)() const)’
+  760 |   Condition(const T* object,
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:760:3: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:93:46: note:   candidate expects 2 arguments, 1 provided
+   93 |       mutex_.Await(absl::Condition(&predicate));
+      |                                              ^
+In file included from /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cordz_info.h:31,
+                 from /home/terranova/uav_ws/install/absl/include/absl/strings/cord.h:92,
+                 from /home/terranova/uav_ws/install/absl/include/absl/container/internal/hash_function_defaults.h:58,
+                 from /home/terranova/uav_ws/install/absl/include/absl/container/flat_hash_map.h:41,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:26,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:755:3: note: candidate: ‘template<class T> absl::Condition::Condition(T*, bool (absl::internal::type_identity<T>::type::*)())’
+  755 |   Condition(T* object,
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:755:3: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:93:46: note:   candidate expects 2 arguments, 1 provided
+   93 |       mutex_.Await(absl::Condition(&predicate));
+      |                                              ^
+In file included from /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cordz_info.h:31,
+                 from /home/terranova/uav_ws/install/absl/include/absl/strings/cord.h:92,
+                 from /home/terranova/uav_ws/install/absl/include/absl/container/internal/hash_function_defaults.h:58,
+                 from /home/terranova/uav_ws/install/absl/include/absl/container/flat_hash_map.h:41,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:26,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:743:3: note: candidate: ‘template<class T, class> absl::Condition::Condition(bool (*)(T*), typename absl::internal::type_identity<T>::type*)’
+  743 |   Condition(bool (*func)(T*),
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:743:3: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:93:46: note:   mismatched types ‘bool(T*)’ and ‘const cartographer::common::ThreadPool::DoWork()::<lambda()>’
+   93 |       mutex_.Await(absl::Condition(&predicate));
+      |                                              ^
+In file included from /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cordz_info.h:31,
+                 from /home/terranova/uav_ws/install/absl/include/absl/strings/cord.h:92,
+                 from /home/terranova/uav_ws/install/absl/include/absl/container/internal/hash_function_defaults.h:58,
+                 from /home/terranova/uav_ws/install/absl/include/absl/container/flat_hash_map.h:41,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:26,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:729:3: note: candidate: ‘template<class T> absl::Condition::Condition(bool (*)(T*), T*)’
+  729 |   Condition(bool (*func)(T*), T* arg);
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:729:3: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:93:46: note:   mismatched types ‘bool(T*)’ and ‘const cartographer::common::ThreadPool::DoWork()::<lambda()>’
+   93 |       mutex_.Await(absl::Condition(&predicate));
+      |                                              ^
+In file included from /home/terranova/uav_ws/install/absl/include/absl/strings/internal/cordz_info.h:31,
+                 from /home/terranova/uav_ws/install/absl/include/absl/strings/cord.h:92,
+                 from /home/terranova/uav_ws/install/absl/include/absl/container/internal/hash_function_defaults.h:58,
+                 from /home/terranova/uav_ws/install/absl/include/absl/container/flat_hash_map.h:41,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:26,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:717:3: note: candidate: ‘absl::Condition::Condition(bool (*)(void*), void*)’
+  717 |   Condition(bool (*func)(void*), void* arg);
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:717:3: note:   candidate expects 2 arguments, 1 provided
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note: candidate: ‘constexpr absl::Condition::Condition(const absl::Condition&)’
+  714 | class Condition {
+      |       ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note:   no known conversion for argument 1 from ‘const cartographer::common::ThreadPool::DoWork()::<lambda()>*’ to ‘const absl::Condition&’
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note: candidate: ‘constexpr absl::Condition::Condition(absl::Condition&&)’
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note:   no known conversion for argument 1 from ‘const cartographer::common::ThreadPool::DoWork()::<lambda()>*’ to ‘absl::Condition&&’
+make[2]: *** [CMakeFiles/cartographer.dir/build.make:461: CMakeFiles/cartographer.dir/cartographer/common/thread_pool.cc.o] Error 1
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:28,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:26,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:18: error: expected ‘;’ at end of member declaration
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                  ^
+      |                   ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:35: error: ‘mutex_’ has not been declared
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                                   ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:41: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                                         ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:45: error: expected ‘;’ at end of member declaration
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);
+      |                                             ^
+      |                                              ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:62: error: ‘mutex_’ has not been declared
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);
+      |                                                              ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:68: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);
+      |                                                                    ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:44:47: error: ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED(mutex_);
+      |                                               ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                    ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:52: error: expected ‘;’ at end of member declaration
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);
+      |                                                    ^
+      |                                                     ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:69: error: ‘mutex_’ has not been declared
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);
+      |                                                                     ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:75: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);
+      |                                                                           ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:48:54: error: ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED(mutex_);
+      |                                                      ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                    ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:16: error: expected ‘;’ at end of member declaration
+   55 |   void Execute() LOCKS_EXCLUDED(mutex_);
+      |                ^
+      |                 ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:33: error: ‘mutex_’ has not been declared
+   55 |   void Execute() LOCKS_EXCLUDED(mutex_);
+      |                                 ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:39: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   55 |   void Execute() LOCKS_EXCLUDED(mutex_);
+      |                                       ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:55:18: error: ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   55 |   void Execute() LOCKS_EXCLUDED(mutex_);
+      |                  ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                    ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:54: error: expected ‘;’ at end of member declaration
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);
+      |                                                      ^
+      |                                                       ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:71: error: ‘mutex_’ has not been declared
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);
+      |                                                                       ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:77: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);
+      |                                                                             ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:58:56: error: ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED(mutex_);
+      |                                                        ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:41:20: note: previous declaration ‘int cartographer::common::Task::LOCKS_EXCLUDED(int)’
+   41 |   State GetState() LOCKS_EXCLUDED(mutex_);
+      |                    ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:12: error: expected ‘;’ at end of member declaration
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |            ^~~~~~~~~~
+      |                      ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:34: error: ‘mutex_’ has not been declared
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                                  ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:40: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                                        ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:24: error: expected ‘;’ at end of member declaration
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;
+      |                        ^~~~~~~~~~~~~~~~~~~~~~
+      |                                              ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:58: error: ‘mutex_’ has not been declared
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;
+      |                                                          ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:75: error: invalid pure specifier (only ‘= 0’ is allowed) before ‘;’ token
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;
+      |                                                                           ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:75: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:65:47: error: ‘int cartographer::common::Task::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::Task::GUARDED_BY(int)’
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr;
+      |                                               ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration ‘int cartographer::common::Task::GUARDED_BY(int)’
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:9: error: expected ‘;’ at end of member declaration
+   66 |   State state_ GUARDED_BY(mutex_) = NEW;
+      |         ^~~~~~
+      |               ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:27: error: ‘mutex_’ has not been declared
+   66 |   State state_ GUARDED_BY(mutex_) = NEW;
+      |                           ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:40: error: invalid pure specifier (only ‘= 0’ is allowed) before ‘;’ token
+   66 |   State state_ GUARDED_BY(mutex_) = NEW;
+      |                                        ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:40: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:66:16: error: ‘int cartographer::common::Task::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::Task::GUARDED_BY(int)’
+   66 |   State state_ GUARDED_BY(mutex_) = NEW;
+      |                ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration ‘int cartographer::common::Task::GUARDED_BY(int)’
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:16: error: expected ‘;’ at end of member declaration
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:53: error: ‘mutex_’ has not been declared
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;
+      |                                                     ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:63: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;
+      |                                                               ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:67:42: error: ‘int cartographer::common::Task::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::Task::GUARDED_BY(int)’
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY(mutex_) = 0;
+      |                                          ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration ‘int cartographer::common::Task::GUARDED_BY(int)’
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:19: error: expected ‘;’ at end of member declaration
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);
+      |                   ^~~~~~~~~~~~~~~~
+      |                                   ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:47: error: ‘mutex_’ has not been declared
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);
+      |                                               ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:53: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);
+      |                                                     ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:68:36: error: ‘int cartographer::common::Task::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::Task::GUARDED_BY(int)’
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY(mutex_);
+      |                                    ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/task.h:64:23: note: previous declaration ‘int cartographer::common::Task::GUARDED_BY(int)’
+   64 |   WorkItem work_item_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:26,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:67:58: error: expected ‘;’ at end of member declaration
+   67 |   std::weak_ptr<Task> Schedule(std::unique_ptr<Task> task)
+      |                                                          ^
+      |                                                           ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:22: error: ‘mutex_’ has not been declared
+   68 |       LOCKS_EXCLUDED(mutex_) override;
+      |                      ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:30: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   68 |       LOCKS_EXCLUDED(mutex_) override;
+      |                              ^~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:46: error: expected ‘;’ at end of member declaration
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                              ^
+      |                                               ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:63: error: ‘mutex_’ has not been declared
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                                               ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:71: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                                                       ^~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:73:48: error: ‘int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)’
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                                ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:7: note: previous declaration ‘int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)’
+   68 |       LOCKS_EXCLUDED(mutex_) override;
+      |       ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:8: error: expected ‘;’ at end of member declaration
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |        ^~~~~~~~
+      |                ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:28: error: ‘mutex_’ is not a type
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                            ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:42: error: invalid pure specifier (only ‘= 0’ is allowed) before ‘;’ token
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                                          ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:42: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:28: error: expected ‘;’ at end of member declaration
+   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);
+      |                            ^~~~~
+      |                                 ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:45: error: ‘mutex_’ is not a type
+   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);
+      |                                             ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:51: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);
+      |                                                   ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:77:34: error: ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   77 |   std::vector<std::thread> pool_ GUARDED_BY(mutex_);
+      |                                  ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:37: error: expected ‘;’ at end of member declaration
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                     ^~~~~~~~~~~
+      |                                                ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:60: error: ‘mutex_’ is not a type
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                                            ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:66: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                                                  ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:78:49: error: ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:79:53: error: expected ‘;’ at end of member declaration
+   79 |   absl::flat_hash_map<Task*, std::shared_ptr<Task>> tasks_not_ready_
+      |                                                     ^~~~~~~~~~~~~~~~
+      |                                                                     ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:18: error: ‘mutex_’ is not a type
+   80 |       GUARDED_BY(mutex_);
+      |                  ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:24: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   80 |       GUARDED_BY(mutex_);
+      |                        ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:80:7: error: ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   80 |       GUARDED_BY(mutex_);
+      |       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:76:17: note: previous declaration ‘int cartographer::common::ThreadPool::GUARDED_BY(int)’
+   76 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/thread_pool.h:68:7: error: ‘int cartographer::common::ThreadPool::LOCKS_EXCLUDED(int)’ marked ‘override’, but does not override
+   68 |       LOCKS_EXCLUDED(mutex_) override;
+      |       ^~~~~~~~~~~~~~
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:37:58: error: expected ‘;’ at end of member declaration
+   37 |   std::weak_ptr<Task> Schedule(std::unique_ptr<Task> task)
+      |                                                          ^
+      |                                                           ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:38:22: error: ‘mutex_’ has not been declared
+   38 |       LOCKS_EXCLUDED(mutex_) override;
+      |                      ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:38:30: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   38 |       LOCKS_EXCLUDED(mutex_) override;
+      |                              ^~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:47:46: error: expected ‘;’ at end of member declaration
+   47 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                              ^
+      |                                               ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:47:63: error: ‘mutex_’ has not been declared
+   47 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                                               ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:47:71: error: ISO C++ forbids declaration of ‘LOCKS_EXCLUDED’ with no type [-fpermissive]
+   47 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                                                       ^~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:47:48: error: ‘int cartographer::common::testing::ThreadPoolForTesting::LOCKS_EXCLUDED(int)’ cannot be overloaded with ‘int cartographer::common::testing::ThreadPoolForTesting::LOCKS_EXCLUDED(int)’
+   47 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED(mutex_) override;
+      |                                                ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:38:7: note: previous declaration ‘int cartographer::common::testing::ThreadPoolForTesting::LOCKS_EXCLUDED(int)’
+   38 |       LOCKS_EXCLUDED(mutex_) override;
+      |       ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:8: error: expected ‘;’ at end of member declaration
+   50 |   bool running_ GUARDED_BY(mutex_) = true;
+      |        ^~~~~~~~
+      |                ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:28: error: ‘mutex_’ is not a type
+   50 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                            ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:42: error: invalid pure specifier (only ‘= 0’ is allowed) before ‘;’ token
+   50 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                                          ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:42: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:8: error: expected ‘;’ at end of member declaration
+   51 |   bool idle_ GUARDED_BY(mutex_) = true;
+      |        ^~~~~
+      |             ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:25: error: ‘mutex_’ is not a type
+   51 |   bool idle_ GUARDED_BY(mutex_) = true;
+      |                         ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:39: error: invalid pure specifier (only ‘= 0’ is allowed) before ‘;’ token
+   51 |   bool idle_ GUARDED_BY(mutex_) = true;
+      |                                       ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:39: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:14: error: ‘int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)’
+   51 |   bool idle_ GUARDED_BY(mutex_) = true;
+      |              ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17: note: previous declaration ‘int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)’
+   50 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:52:37: error: expected ‘;’ at end of member declaration
+   52 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                     ^~~~~~~~~~~
+      |                                                ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:52:60: error: ‘mutex_’ is not a type
+   52 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                                            ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:52:66: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   52 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                                                  ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:52:49: error: ‘int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)’
+   52 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY(mutex_);
+      |                                                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17: note: previous declaration ‘int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)’
+   50 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:53:42: error: expected ‘;’ at end of member declaration
+   53 |   std::map<Task*, std::shared_ptr<Task>> tasks_not_ready_ GUARDED_BY(mutex_);
+      |                                          ^~~~~~~~~~~~~~~~
+      |                                                          ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:53:70: error: ‘mutex_’ is not a type
+   53 |   std::map<Task*, std::shared_ptr<Task>> tasks_not_ready_ GUARDED_BY(mutex_);
+      |                                                                      ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:53:76: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   53 |   std::map<Task*, std::shared_ptr<Task>> tasks_not_ready_ GUARDED_BY(mutex_);
+      |                                                                            ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:53:59: error: ‘int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)’
+   53 |   std::map<Task*, std::shared_ptr<Task>> tasks_not_ready_ GUARDED_BY(mutex_);
+      |                                                           ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17: note: previous declaration ‘int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)’
+   50 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:54:15: error: expected ‘;’ at end of member declaration
+   54 |   std::thread thread_ GUARDED_BY(mutex_);
+      |               ^~~~~~~
+      |                      ;
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:54:34: error: ‘mutex_’ is not a type
+   54 |   std::thread thread_ GUARDED_BY(mutex_);
+      |                                  ^~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:54:40: error: ISO C++ forbids declaration of ‘GUARDED_BY’ with no type [-fpermissive]
+   54 |   std::thread thread_ GUARDED_BY(mutex_);
+      |                                        ^
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:54:23: error: ‘int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)’ cannot be overloaded with ‘int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)’
+   54 |   std::thread thread_ GUARDED_BY(mutex_);
+      |                       ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17: note: previous declaration ‘int cartographer::common::testing::ThreadPoolForTesting::GUARDED_BY(int)’
+   50 |   bool running_ GUARDED_BY(mutex_) = true;
+      |                 ^~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:38:7: error: ‘int cartographer::common::testing::ThreadPoolForTesting::LOCKS_EXCLUDED(int)’ marked ‘override’, but does not override
+   38 |       LOCKS_EXCLUDED(mutex_) override;
+      |       ^~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc: In lambda function:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:75:30: error: expected ‘{’ before ‘EXCLUSIVE_LOCKS_REQUIRED’
+   75 |                              EXCLUSIVE_LOCKS_REQUIRED(mutex_) { return idle_; };
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc: In member function ‘void cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()’:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:75:30: error: expected ‘,’ or ‘;’ before ‘EXCLUSIVE_LOCKS_REQUIRED’
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:79:61: error: no matching function for call to ‘absl::Condition::Condition(const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>*)’
+   79 |       if (mutex_.AwaitWithTimeout(absl::Condition(&predicate),
+      |                                                             ^
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:873:13: note: candidate: ‘constexpr absl::Condition::Condition()’
+  873 |   constexpr Condition() : eval_(AlwaysTrue), arg_(nullptr) {}
+      |             ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:873:13: note:   candidate expects 0 arguments, 1 provided
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:793:12: note: candidate: ‘template<class T, class E> absl::Condition::Condition(const T*)’
+  793 |   explicit Condition(const T* obj)
+      |            ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:793:12: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:791:47: error: invalid static_cast from type ‘void (cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>::*)() const’ to type ‘bool (cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>::*)() const’
+  791 |   template <typename T, typename E = decltype(static_cast<bool (T::*)() const>(
+      |                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  792 |                             &T::operator()))>
+      |                             ~~~~~~~~~~~~~~~    
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:764:12: note: candidate: ‘absl::Condition::Condition(const bool*)’
+  764 |   explicit Condition(const bool* cond);
+      |            ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:764:34: note:   no known conversion for argument 1 from ‘const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>*’ to ‘const bool*’
+  764 |   explicit Condition(const bool* cond);
+      |                      ~~~~~~~~~~~~^~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:760:3: note: candidate: ‘template<class T> absl::Condition::Condition(const T*, bool (absl::internal::type_identity<T>::type::*)() const)’
+  760 |   Condition(const T* object,
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:760:3: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:79:61: note:   candidate expects 2 arguments, 1 provided
+   79 |       if (mutex_.AwaitWithTimeout(absl::Condition(&predicate),
+      |                                                             ^
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:755:3: note: candidate: ‘template<class T> absl::Condition::Condition(T*, bool (absl::internal::type_identity<T>::type::*)())’
+  755 |   Condition(T* object,
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:755:3: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:79:61: note:   candidate expects 2 arguments, 1 provided
+   79 |       if (mutex_.AwaitWithTimeout(absl::Condition(&predicate),
+      |                                                             ^
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:743:3: note: candidate: ‘template<class T, class> absl::Condition::Condition(bool (*)(T*), typename absl::internal::type_identity<T>::type*)’
+  743 |   Condition(bool (*func)(T*),
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:743:3: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:79:61: note:   mismatched types ‘bool(T*)’ and ‘const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>’
+   79 |       if (mutex_.AwaitWithTimeout(absl::Condition(&predicate),
+      |                                                             ^
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:729:3: note: candidate: ‘template<class T> absl::Condition::Condition(bool (*)(T*), T*)’
+  729 |   Condition(bool (*func)(T*), T* arg);
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:729:3: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:79:61: note:   mismatched types ‘bool(T*)’ and ‘const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>’
+   79 |       if (mutex_.AwaitWithTimeout(absl::Condition(&predicate),
+      |                                                             ^
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:717:3: note: candidate: ‘absl::Condition::Condition(bool (*)(void*), void*)’
+  717 |   Condition(bool (*func)(void*), void* arg);
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:717:3: note:   candidate expects 2 arguments, 1 provided
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note: candidate: ‘constexpr absl::Condition::Condition(const absl::Condition&)’
+  714 | class Condition {
+      |       ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note:   no known conversion for argument 1 from ‘const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>*’ to ‘const absl::Condition&’
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note: candidate: ‘constexpr absl::Condition::Condition(absl::Condition&&)’
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note:   no known conversion for argument 1 from ‘const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>*’ to ‘absl::Condition&&’
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc: In lambda function:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:88:35: error: expected ‘{’ before ‘EXCLUSIVE_LOCKS_REQUIRED’
+   88 |   const auto predicate = [this]() EXCLUSIVE_LOCKS_REQUIRED(mutex_) {
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc: In member function ‘void cartographer::common::testing::ThreadPoolForTesting::DoWork()’:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:88:35: error: expected ‘,’ or ‘;’ before ‘EXCLUSIVE_LOCKS_REQUIRED’
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:95:57: error: no matching function for call to ‘absl::Condition::Condition(const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>*)’
+   95 |       mutex_.AwaitWithTimeout(absl::Condition(&predicate),
+      |                                                         ^
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:873:13: note: candidate: ‘constexpr absl::Condition::Condition()’
+  873 |   constexpr Condition() : eval_(AlwaysTrue), arg_(nullptr) {}
+      |             ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:873:13: note:   candidate expects 0 arguments, 1 provided
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:793:12: note: candidate: ‘template<class T, class E> absl::Condition::Condition(const T*)’
+  793 |   explicit Condition(const T* obj)
+      |            ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:793:12: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:791:47: error: invalid static_cast from type ‘void (cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>::*)() const’ to type ‘bool (cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>::*)() const’
+  791 |   template <typename T, typename E = decltype(static_cast<bool (T::*)() const>(
+      |                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  792 |                             &T::operator()))>
+      |                             ~~~~~~~~~~~~~~~    
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:764:12: note: candidate: ‘absl::Condition::Condition(const bool*)’
+  764 |   explicit Condition(const bool* cond);
+      |            ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:764:34: note:   no known conversion for argument 1 from ‘const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>*’ to ‘const bool*’
+  764 |   explicit Condition(const bool* cond);
+      |                      ~~~~~~~~~~~~^~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:760:3: note: candidate: ‘template<class T> absl::Condition::Condition(const T*, bool (absl::internal::type_identity<T>::type::*)() const)’
+  760 |   Condition(const T* object,
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:760:3: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:95:57: note:   candidate expects 2 arguments, 1 provided
+   95 |       mutex_.AwaitWithTimeout(absl::Condition(&predicate),
+      |                                                         ^
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:755:3: note: candidate: ‘template<class T> absl::Condition::Condition(T*, bool (absl::internal::type_identity<T>::type::*)())’
+  755 |   Condition(T* object,
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:755:3: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:95:57: note:   candidate expects 2 arguments, 1 provided
+   95 |       mutex_.AwaitWithTimeout(absl::Condition(&predicate),
+      |                                                         ^
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:743:3: note: candidate: ‘template<class T, class> absl::Condition::Condition(bool (*)(T*), typename absl::internal::type_identity<T>::type*)’
+  743 |   Condition(bool (*func)(T*),
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:743:3: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:95:57: note:   mismatched types ‘bool(T*)’ and ‘const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>’
+   95 |       mutex_.AwaitWithTimeout(absl::Condition(&predicate),
+      |                                                         ^
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:729:3: note: candidate: ‘template<class T> absl::Condition::Condition(bool (*)(T*), T*)’
+  729 |   Condition(bool (*func)(T*), T* arg);
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:729:3: note:   template argument deduction/substitution failed:
+/home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:95:57: note:   mismatched types ‘bool(T*)’ and ‘const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>’
+   95 |       mutex_.AwaitWithTimeout(absl::Condition(&predicate),
+      |                                                         ^
+In file included from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25,
+                 from /home/terranova/uav_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17:
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:717:3: note: candidate: ‘absl::Condition::Condition(bool (*)(void*), void*)’
+  717 |   Condition(bool (*func)(void*), void* arg);
+      |   ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:717:3: note:   candidate expects 2 arguments, 1 provided
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note: candidate: ‘constexpr absl::Condition::Condition(const absl::Condition&)’
+  714 | class Condition {
+      |       ^~~~~~~~~
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note:   no known conversion for argument 1 from ‘const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>*’ to ‘const absl::Condition&’
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note: candidate: ‘constexpr absl::Condition::Condition(absl::Condition&&)’
+/home/terranova/uav_ws/install/absl/include/absl/synchronization/mutex.h:714:7: note:   no known conversion for argument 1 from ‘const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>*’ to ‘absl::Condition&&’
+make[2]: *** [CMakeFiles/cartographer.dir/build.make:419: CMakeFiles/cartographer.dir/cartographer/common/internal/testing/thread_pool_for_testing.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cartographer.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

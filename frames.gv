@@ -1,11 +1,6 @@
 digraph G {
-"base_link" -> "ground_truth/odometry_sensorgt_link"[label=" Broadcaster: default_authority\nAverage rate: 10.363\nBuffer length: 2.509\nMost recent transform: 290.538\nOldest transform: 288.029\n"];
 "base_footprint" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
-"base_link" -> "imu_link"[label=" Broadcaster: default_authority\nAverage rate: 10.363\nBuffer length: 2.509\nMost recent transform: 290.538\nOldest transform: 288.029\n"];
-"base_link" -> "rotor_0"[label=" Broadcaster: default_authority\nAverage rate: 10.363\nBuffer length: 2.509\nMost recent transform: 290.538\nOldest transform: 288.029\n"];
-"base_link" -> "rotor_1"[label=" Broadcaster: default_authority\nAverage rate: 10.363\nBuffer length: 2.509\nMost recent transform: 290.538\nOldest transform: 288.029\n"];
-"base_link" -> "rotor_2"[label=" Broadcaster: default_authority\nAverage rate: 10.363\nBuffer length: 2.509\nMost recent transform: 290.538\nOldest transform: 288.029\n"];
-"base_link" -> "rotor_3"[label=" Broadcaster: default_authority\nAverage rate: 10.363\nBuffer length: 2.509\nMost recent transform: 290.538\nOldest transform: 288.029\n"];
+"odom" -> "base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
 "camera_depth_frame" -> "camera_color_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
 "camera_link" -> "camera_depth_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
 "camera_color_frame" -> "camera_color_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
@@ -17,8 +12,13 @@ digraph G {
 "camera_depth_frame" -> "camera_right_ir_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
 "camera_right_ir_frame" -> "camera_right_ir_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
 "base_link" -> "hokuyo_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "imu_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "rotor_0"[label=" Broadcaster: default_authority\nAverage rate: 15.319\nBuffer length: 1.632\nMost recent transform: 620.376\nOldest transform: 618.744\n"];
+"base_link" -> "rotor_1"[label=" Broadcaster: default_authority\nAverage rate: 15.319\nBuffer length: 1.632\nMost recent transform: 620.376\nOldest transform: 618.744\n"];
+"base_link" -> "rotor_2"[label=" Broadcaster: default_authority\nAverage rate: 15.319\nBuffer length: 1.632\nMost recent transform: 620.376\nOldest transform: 618.744\n"];
+"base_link" -> "rotor_3"[label=" Broadcaster: default_authority\nAverage rate: 15.319\nBuffer length: 1.632\nMost recent transform: 620.376\nOldest transform: 618.744\n"];
 edge [style=invis];
  subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 1712563596.6196418"[ shape=plaintext ] ;
-}->"base_footprint";
+"Recorded at time: 1714387371.4680247"[ shape=plaintext ] ;
+}->"odom";
 }

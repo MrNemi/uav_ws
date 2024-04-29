@@ -74,7 +74,7 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <ambient>0.2 0.2 0.2 1</ambient>
           </material>
         </visual>
       </link>
@@ -97,7 +97,7 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <ambient>0.6 0.6 0.6 1</ambient>
           </material>
         </visual>
       </link>
@@ -120,7 +120,10 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Green</name>
+            </script>
           </material>
         </visual>
       </link>
@@ -143,7 +146,7 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <ambient>0.1 0.1 0.1 1</ambient>
           </material>
         </visual>
       </link>
@@ -189,7 +192,7 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <ambient>0.9 0.9 0.9 1</ambient>
           </material>
         </visual>
       </link>
@@ -212,7 +215,7 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <ambient>0.4 0.4 0.4 1</ambient>
           </material>
         </visual>
       </link>
@@ -235,7 +238,7 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <ambient>0.3 0.3 0.3 1</ambient>
           </material>
         </visual>
       </link>
@@ -258,7 +261,7 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <ambient>0.1 0.1 0.1 1</ambient>
           </material>
         </visual>
       </link>
@@ -281,7 +284,7 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <ambient>0.6 0.6 0.6 1</ambient>
           </material>
         </visual>
       </link>
@@ -304,7 +307,7 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <ambient>0.2 0.2 0.2 1</ambient>
           </material>
         </visual>
       </link>
@@ -327,7 +330,7 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <ambient>0.1 0.1 0.1 1</ambient>
           </material>
         </visual>
       </link>
@@ -350,7 +353,7 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <ambient>0.3 0.3 0.3 1</ambient>
           </material>
         </visual>
       </link>
@@ -373,7 +376,7 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
+            <ambient>0.3 0.3 0.3 1</ambient>
           </material>
         </visual>
       </link>
@@ -407,16 +410,10 @@
             </plane>
           </geometry>
           <material>
-            <ambient>0.1 0.1 0.1 1</ambient>
+            <ambient>0.3 0.3 0.3 1</ambient>
           </material>
         </visual>
       </link>
     </model>
-
-    <!-- <model name="iris_sensors">
-      <include>
-        <uri>model://iris_sensors</uri>
-      </include>
-    </model> -->
   </world>
 </sdf>

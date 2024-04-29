@@ -1,0 +1,30 @@
+[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:21 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/terranova/uav_ws/build/cartographer_rviz/cartographer_rviz_autogen/ERYGTPCE25/moc_drawable_submap.cpp:9[m[K,
+                 from [01m[K/home/terranova/uav_ws/build/cartographer_rviz/cartographer_rviz_autogen/mocs_compilation.cpp:2[m[K:
+[01m[K/home/terranova/uav_ws/build/cartographer_rviz/cartographer_rviz_autogen/ERYGTPCE25/../../../../src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/drawable_submap.h:31:10:[m[K [01;31m[Kfatal error: [m[Kcartographer_ros/submap.h: No such file or directory
+   31 | #include [01;31m[K"cartographer_ros/submap.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/cartographer_rviz.dir/build.make:76: CMakeFiles/cartographer_rviz.dir/cartographer_rviz_autogen/mocs_compilation.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/terranova/uav_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:17[m[K:
+[01m[K/home/terranova/uav_ws/src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/drawable_submap.h:31:10:[m[K [01;31m[Kfatal error: [m[Kcartographer_ros/submap.h: No such file or directory
+   31 | #include [01;31m[K"cartographer_ros/submap.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/cartographer_rviz.dir/build.make:90: CMakeFiles/cartographer_rviz.dir/src/drawable_submap.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/cartographer_rviz.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,461 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/ccache/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:152 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable EIGEN_ROOT is set to:
+
+    /usr/include/eigen3
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:316 (find_eigen)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:551 (find_external_library)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:263 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:318 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:551 (find_external_library)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.23
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found libusb-1.0: /usr/include  
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:165 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable QHULL_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:320 (find_qhull)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_CORE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Could NOT find PCL_CORE (missing: PCL_CORE_LIBRARY PCL_CORE_INCLUDE_DIR) 
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_2D: /usr/include/pcl-1.10  
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:39 (find_package)
+  /opt/ros/foxy/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake:17 (find_package)
+  /opt/ros/foxy/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:19 (find_package)
+  /opt/ros/foxy/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+  CMakeLists.txt:16 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found pcl_conversions: 2.2.1 (/home/terranova/uav_ws/install/pcl_conversions/share/pcl_conversions/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/terranova/uav_ws/src/perception_pcl/pcl_ros/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (8.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/terranova/uav_ws/build/pcl_ros
+[ 50%] [32mBuilding CXX object CMakeFiles/pcl_ros_tf.dir/src/transforms.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpcl_ros_tf.so[0m
+[100%] Built target pcl_ros_tf
+-- Install configuration: ""
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/surface
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/surface/convex_hull.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/surface/moving_least_squares.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/impl
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/impl/transforms.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/segmentation
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/segmentation/extract_polygonal_prism_data.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/segmentation/segment_differences.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/segmentation/sac_segmentation.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/segmentation/extract_clusters.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/point_cloud.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/pcl_nodelet.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/io
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/io/bag_io.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/io/concatenate_data.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/io/concatenate_fields.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/io/pcd_io.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/filter.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/statistical_outlier_removal.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/voxel_grid.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/radius_outlier_removal.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/project_inliers.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/crop_box.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/passthrough.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/extract_indices.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/principal_curvatures.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/normal_3d_tbb.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/vfh.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/shot_omp.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/boundary.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/shot.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/fpfh.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/normal_3d_omp.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/normal_3d.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/pfh.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/feature.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/moment_invariants.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/fpfh_omp.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/transforms.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/publisher.hpp
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/lib/libpcl_ros_tf.so
+-- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_ros/lib/libpcl_ros_tf.so" to ""
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_features.xml
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_segmentation.xml
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_surface.xml
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_io.xml
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_filters.xml
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/data
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/data/.gitignore
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface/sample_convex_hull.launch
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation/sample_extract_clusters.launch
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io/sample_concatenate_data.launch
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_voxel_grid.launch
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/statistical_outlier_removal.rviz
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/voxel_grid.rviz
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_statistical_outlier_removal.launch
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features/sample_normal_3d.launch
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/environment/library_path.sh
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/environment/library_path.dsv
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/ament_index/resource_index/package_run_dependencies/pcl_ros
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/ament_index/resource_index/parent_prefix_path/pcl_ros
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.sh
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/environment/path.sh
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/environment/path.dsv
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/local_setup.bash
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/local_setup.sh
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/local_setup.zsh
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/local_setup.dsv
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/package.dsv
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/ament_index/resource_index/packages/pcl_ros
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport.cmake
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport-noconfig.cmake
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig.cmake
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig-version.cmake
+-- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/package.xml

@@ -124,9 +124,9 @@
 
   <!--Sensors-->
   <!--Odometry-->
-  <joint name='ground_truth/odometry_sensorgt_joint' type='revolute'>
-    <parent link="base_link"/>
-    <child link="ground_truth/odometry_sensorgt_link"/>
+  <joint name='odom_joint' type='fixed'>
+    <child link="base_footprint"/>
+    <parent link="odom"/>
     <axis xyz="0 0 1"/>
 
     <limit effort="0" velocity="0" lower="0" upper="0"/>
@@ -134,17 +134,17 @@
     <use_parent_model_frame>1</use_parent_model_frame>
   </joint>
 
-  <link name='ground_truth/odometry_sensorgt_link'>
+  <link name='odom'>
     <inertial>
       <origin xyz="0 0 0" rpy="0 -0 0"/>
-      <mass value="1.5e-01"/>
+      <mass value="1e-02"/>
       <inertia ixx="1e-04" ixy="0" ixz="0" iyy="2e-4" iyz="0" izz="2e-4" />
     </inertial>
   </link>
 
 
   <!--IMU-->
-  <joint name='imu_joint' type='revolute'>
+  <joint name='imu_joint' type='fixed'>
     <parent link="base_link"/>
     <child link="imu_link"/>
     <axis xyz="0 0 1"/>

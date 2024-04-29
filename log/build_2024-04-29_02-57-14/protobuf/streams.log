@@ -1,0 +1,43 @@
+[0.052s] Invoking command in '/home/terranova/uav_ws/build/protobuf': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/protobuf -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/protobuf
+[0.298s] -- The C compiler identification is GNU 9.4.0
+[0.565s] -- The CXX compiler identification is GNU 9.4.0
+[0.676s] -- Detecting C compiler ABI info
+[1.057s] -- Detecting C compiler ABI info - done
+[1.143s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.148s] -- Detecting C compile features
+[1.149s] -- Detecting C compile features - done
+[1.234s] -- Detecting CXX compiler ABI info
+[1.760s] -- Detecting CXX compiler ABI info - done
+[1.829s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.830s] -- Detecting CXX compile features
+[1.832s] -- Detecting CXX compile features - done
+[1.836s] -- 
+[1.836s] -- 28.0.0
+[1.840s] -- Performing Test protobuf_HAVE_LD_VERSION_SCRIPT
+[2.376s] -- Performing Test protobuf_HAVE_LD_VERSION_SCRIPT - Success
+[2.379s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.895s] -- Looking for pthread_create in pthreads
+[3.305s] -- Looking for pthread_create in pthreads - not found
+[3.305s] -- Looking for pthread_create in pthread
+[3.812s] -- Looking for pthread_create in pthread - found
+[3.815s] -- Found Threads: TRUE  
+[3.931s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[3.933s] -- Performing Test protobuf_HAVE_BUILTIN_ATOMICS
+[4.758s] [31mCMake Error at cmake/gtest.cmake:7 (message):
+[4.758s]   Cannot find third_party/googletest directory that's needed to build tests.
+[4.758s]   If you use git, make sure you have cloned submodules:
+[4.758s] 
+[4.758s]     git submodule update --init --recursive
+[4.759s] 
+[4.759s]   If instead you want to skip tests, run cmake with:
+[4.759s] 
+[4.759s]     cmake -Dprotobuf_BUILD_TESTS=OFF
+[4.759s] 
+[4.760s] Call Stack (most recent call first):
+[4.760s]   CMakeLists.txt:296 (include)
+[4.760s] 
+[4.760s] [0m
+[4.760s] -- Performing Test protobuf_HAVE_BUILTIN_ATOMICS - Success
+[4.761s] -- Configuring incomplete, errors occurred!
+[4.796s] Invoked command in '/home/terranova/uav_ws/build/protobuf' returned '1': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/protobuf -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/protobuf

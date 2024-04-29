@@ -50,7 +50,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/terranova/uav_ws/src/uav_gazebo/worlds"
     "/home/terranova/uav_ws/src/uav_gazebo/urdf"
     "/home/terranova/uav_ws/src/uav_gazebo/scripts"
-    "/home/terranova/uav_ws/src/uav_gazebo/uav_cartographer"
     )
 endif()
 
