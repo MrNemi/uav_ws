@@ -1,0 +1,467 @@
+[0.048s] Invoking command in '/home/terranova/uav_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/perception_pcl/pcl_ros -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/pcl_ros
+[0.261s] -- The C compiler identification is GNU 9.4.0
+[0.419s] -- The CXX compiler identification is GNU 9.4.0
+[0.474s] -- Detecting C compiler ABI info
+[0.664s] -- Detecting C compiler ABI info - done
+[0.698s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.699s] -- Detecting C compile features
+[0.700s] -- Detecting C compile features - done
+[0.729s] -- Detecting CXX compiler ABI info
+[0.957s] -- Detecting CXX compiler ABI info - done
+[0.996s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.998s] -- Detecting CXX compile features
+[1.000s] -- Detecting CXX compile features - done
+[1.055s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:152 (find_package):
+[1.056s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.056s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.056s]   cmake_policy command to set the policy and suppress this warning.
+[1.056s] 
+[1.057s]   CMake variable EIGEN_ROOT is set to:
+[1.057s] 
+[1.057s]     /usr/include/eigen3
+[1.058s] 
+[1.058s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.060s]   .cmake module might still use it.
+[1.060s] Call Stack (most recent call first):
+[1.060s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:316 (find_eigen)
+[1.061s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:551 (find_external_library)
+[1.061s]   CMakeLists.txt:13 (find_package)
+[1.061s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.062s] [0m
+[1.073s] -- Checking for module 'eigen3'
+[1.146s] --   Found eigen3, version 3.3.7
+[1.296s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.297s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.779s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[1.779s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.779s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.779s]   cmake_policy command to set the policy and suppress this warning.
+[1.780s] 
+[1.780s]   CMake variable FLANN_ROOT is set to:
+[1.780s] 
+[1.780s]     /usr
+[1.780s] 
+[1.780s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.781s]   .cmake module might still use it.
+[1.781s] Call Stack (most recent call first):
+[1.781s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:263 (find_package)
+[1.781s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:318 (find_flann)
+[1.781s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:551 (find_external_library)
+[1.781s]   CMakeLists.txt:13 (find_package)
+[1.782s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.782s] [0m
+[1.832s] -- Checking for module 'flann'
+[1.936s] --   Found flann, version 1.9.1
+[2.115s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.253s] -- The imported target "vtkParseOGLExt" references the file
+[2.253s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.253s] but this file does not exist.  Possible reasons include:
+[2.253s] * The file was deleted, renamed, or moved to another location.
+[2.254s] * An install or uninstall procedure did not complete successfully.
+[2.254s] * The installation package was faulty and contained
+[2.254s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.254s] but not all the files it references.
+[2.255s] 
+[2.255s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.255s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.256s] but this file does not exist.  Possible reasons include:
+[2.256s] * The file was deleted, renamed, or moved to another location.
+[2.256s] * An install or uninstall procedure did not complete successfully.
+[2.256s] * The installation package was faulty and contained
+[2.256s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.256s] but not all the files it references.
+[2.257s] 
+[2.257s] -- The imported target "vtk" references the file
+[2.257s]    "/usr/bin/vtk"
+[2.257s] but this file does not exist.  Possible reasons include:
+[2.257s] * The file was deleted, renamed, or moved to another location.
+[2.258s] * An install or uninstall procedure did not complete successfully.
+[2.258s] * The installation package was faulty and contained
+[2.258s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.258s] but not all the files it references.
+[2.258s] 
+[2.258s] -- The imported target "pvtk" references the file
+[2.259s]    "/usr/bin/pvtk"
+[2.259s] but this file does not exist.  Possible reasons include:
+[2.259s] * The file was deleted, renamed, or moved to another location.
+[2.259s] * An install or uninstall procedure did not complete successfully.
+[2.259s] * The installation package was faulty and contained
+[2.260s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.260s] but not all the files it references.
+[2.260s] 
+[2.364s] -- Checking for module 'libusb-1.0'
+[2.429s] --   Found libusb-1.0, version 1.0.23
+[2.579s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.580s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[2.580s]   does not match the name of the calling package (OpenNI).  This can lead to
+[2.580s]   problems in calling code that expects `find_package` result variables
+[2.580s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.580s] Call Stack (most recent call first):
+[2.581s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[2.581s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[2.581s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[2.581s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.581s]   CMakeLists.txt:13 (find_package)
+[2.581s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.581s] [0m
+[2.582s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.843s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.858s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.859s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[2.859s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[2.859s]   problems in calling code that expects `find_package` result variables
+[2.859s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.859s] Call Stack (most recent call first):
+[2.859s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[2.860s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[2.860s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[2.860s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.860s]   CMakeLists.txt:13 (find_package)
+[2.860s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.861s] [0m
+[3.090s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[3.136s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.136s]   The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+[3.137s]   does not match the name of the calling package (PCL).  This can lead to
+[3.137s]   problems in calling code that expects `find_package` result variables
+[3.137s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.137s] Call Stack (most recent call first):
+[3.137s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+[3.138s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+[3.138s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[3.138s]   CMakeLists.txt:13 (find_package)
+[3.138s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.138s] [0m
+[3.138s] -- Found libusb-1.0: /usr/include  
+[3.139s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:165 (find_package):
+[3.140s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[3.140s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[3.140s]   cmake_policy command to set the policy and suppress this warning.
+[3.140s] 
+[3.141s]   CMake variable QHULL_ROOT is set to:
+[3.141s] 
+[3.141s]     /usr
+[3.141s] 
+[3.142s]   For compatibility, find_package is ignoring the variable, but code in a
+[3.142s]   .cmake module might still use it.
+[3.142s] Call Stack (most recent call first):
+[3.155s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:320 (find_qhull)
+[3.156s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[3.156s]   CMakeLists.txt:13 (find_package)
+[3.156s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.156s] [0m
+[3.364s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[3.364s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[3.368s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.368s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[3.369s]   does not match the name of the calling package (PCL).  This can lead to
+[3.369s]   problems in calling code that expects `find_package` result variables
+[3.370s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.370s] Call Stack (most recent call first):
+[3.370s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[3.370s]   CMakeLists.txt:13 (find_package)
+[3.370s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.371s] [0m
+[3.371s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.373s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.374s]   The package name passed to `find_package_handle_standard_args` (PCL_CORE)
+[3.374s]   does not match the name of the calling package (PCL).  This can lead to
+[3.374s]   problems in calling code that expects `find_package` result variables
+[3.374s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.375s] Call Stack (most recent call first):
+[3.375s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[3.375s]   CMakeLists.txt:13 (find_package)
+[3.375s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.375s] [0m
+[3.375s] -- Could NOT find PCL_CORE (missing: PCL_CORE_LIBRARY PCL_CORE_INCLUDE_DIR) 
+[3.377s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.377s]   The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+[3.377s]   does not match the name of the calling package (PCL).  This can lead to
+[3.377s]   problems in calling code that expects `find_package` result variables
+[3.378s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.378s] Call Stack (most recent call first):
+[3.378s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[3.378s]   CMakeLists.txt:13 (find_package)
+[3.378s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.378s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.379s] [0m
+[3.380s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.380s]   The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+[3.380s]   does not match the name of the calling package (PCL).  This can lead to
+[3.381s]   problems in calling code that expects `find_package` result variables
+[3.381s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.381s] Call Stack (most recent call first):
+[3.381s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[3.381s]   CMakeLists.txt:13 (find_package)
+[3.381s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.382s] [0m
+[3.382s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.385s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.385s]   The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+[3.385s]   does not match the name of the calling package (PCL).  This can lead to
+[3.386s]   problems in calling code that expects `find_package` result variables
+[3.386s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.386s] Call Stack (most recent call first):
+[3.386s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[3.387s]   CMakeLists.txt:13 (find_package)
+[3.387s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.387s] [0m
+[3.387s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.387s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.388s]   The package name passed to `find_package_handle_standard_args` (PCL_2D)
+[3.388s]   does not match the name of the calling package (PCL).  This can lead to
+[3.388s]   problems in calling code that expects `find_package` result variables
+[3.388s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.388s] Call Stack (most recent call first):
+[3.388s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[3.389s]   CMakeLists.txt:13 (find_package)
+[3.389s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.389s] [0m
+[3.389s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[3.392s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.392s]   The package name passed to `find_package_handle_standard_args`
+[3.392s]   (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+[3.393s]   can lead to problems in calling code that expects `find_package` result
+[3.393s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[3.393s] Call Stack (most recent call first):
+[3.393s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[3.393s]   CMakeLists.txt:13 (find_package)
+[3.393s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.394s] [0m
+[3.394s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.397s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.398s]   The package name passed to `find_package_handle_standard_args`
+[3.398s]   (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+[3.398s]   (PCL).  This can lead to problems in calling code that expects
+[3.398s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[3.398s]   pattern.
+[3.399s] Call Stack (most recent call first):
+[3.399s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[3.399s]   CMakeLists.txt:13 (find_package)
+[3.399s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.399s] [0m
+[3.399s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.404s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.404s]   The package name passed to `find_package_handle_standard_args`
+[3.404s]   (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+[3.404s]   can lead to problems in calling code that expects `find_package` result
+[3.405s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[3.405s] Call Stack (most recent call first):
+[3.405s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[3.405s]   CMakeLists.txt:13 (find_package)
+[3.406s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.406s] [0m
+[3.407s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.413s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.413s]   The package name passed to `find_package_handle_standard_args` (PCL_IO)
+[3.413s]   does not match the name of the calling package (PCL).  This can lead to
+[3.413s]   problems in calling code that expects `find_package` result variables
+[3.414s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.414s] Call Stack (most recent call first):
+[3.414s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[3.414s]   CMakeLists.txt:13 (find_package)
+[3.414s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.414s] [0m
+[3.415s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.416s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.416s]   The package name passed to `find_package_handle_standard_args`
+[3.416s]   (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+[3.416s]   can lead to problems in calling code that expects `find_package` result
+[3.417s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[3.417s] Call Stack (most recent call first):
+[3.418s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[3.418s]   CMakeLists.txt:13 (find_package)
+[3.418s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.418s] [0m
+[3.418s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[3.422s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.423s]   The package name passed to `find_package_handle_standard_args` (PCL_ML)
+[3.423s]   does not match the name of the calling package (PCL).  This can lead to
+[3.423s]   problems in calling code that expects `find_package` result variables
+[3.423s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.424s] Call Stack (most recent call first):
+[3.424s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[3.424s]   CMakeLists.txt:13 (find_package)
+[3.424s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.426s] [0m
+[3.426s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.428s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.428s]   The package name passed to `find_package_handle_standard_args`
+[3.428s]   (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+[3.428s]   This can lead to problems in calling code that expects `find_package`
+[3.428s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[3.429s] Call Stack (most recent call first):
+[3.429s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[3.429s]   CMakeLists.txt:13 (find_package)
+[3.429s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.429s] [0m
+[3.430s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.434s] [33mCMake Warning (dev) at /home/terranova/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.434s]   The package name passed to `find_package_handle_standard_args`
+[3.435s]   (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+[3.435s]   can lead to problems in calling code that expects `find_package` result
+[3.435s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[3.435s] Call Stack (most recent call first):
+[3.435s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[3.436s]   CMakeLists.txt:13 (find_package)
+[3.436s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.436s] [0m
+[3.436s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.444s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.488s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[3.488s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.489s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.489s]   the cmake_policy command to set the policy and suppress this warning.
+[3.489s] 
+[3.489s] Call Stack (most recent call first):
+[3.489s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[3.490s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[3.490s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[3.490s]   /opt/ros/foxy/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:39 (find_package)
+[3.490s]   /opt/ros/foxy/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[3.490s]   /opt/ros/foxy/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake:17 (find_package)
+[3.490s]   /opt/ros/foxy/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake:41 (include)
+[3.491s]   /opt/ros/foxy/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:19 (find_package)
+[3.491s]   /opt/ros/foxy/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+[3.491s]   CMakeLists.txt:16 (find_package)
+[3.491s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.491s] [0m
+[3.563s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.564s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.245s] -- Found pcl_conversions: 2.2.1 (/home/terranova/uav_ws/install/pcl_conversions/share/pcl_conversions/cmake)
+[4.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.408s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.718s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.844s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.405s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.414s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.417s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.621s] -- Looking for pthread_create in pthreads
+[6.775s] -- Looking for pthread_create in pthreads - not found
+[6.776s] -- Looking for pthread_create in pthread
+[6.960s] -- Looking for pthread_create in pthread - found
+[6.964s] -- Found Threads: TRUE  
+[7.600s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[7.641s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[7.678s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[7.684s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[9.082s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.353s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.355s] -- Configured cppcheck include dirs: /home/terranova/uav_ws/src/perception_pcl/pcl_ros/include
+[9.355s] -- Configured cppcheck exclude dirs and/or files: 
+[9.384s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.384s] -- Configured cpplint exclude dirs and/or files: 
+[9.390s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.398s] -- Added test 'lint_cmake' to check CMake code style
+[9.406s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[9.436s] -- Added test 'uncrustify' to check C / C++ code style
+[9.437s] -- Configured uncrustify additional arguments: 
+[9.446s] -- Added test 'xmllint' to check XML markup files
+[9.464s] -- Configuring done (9.3s)
+[9.615s] -- Generating done (0.1s)
+[9.622s] -- Build files have been written to: /home/terranova/uav_ws/build/pcl_ros
+[9.683s] Invoked command in '/home/terranova/uav_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/perception_pcl/pcl_ros -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/pcl_ros
+[9.685s] Invoking command in '/home/terranova/uav_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/pcl_ros -- -j4 -l4
+[9.850s] [ 50%] [32mBuilding CXX object CMakeFiles/pcl_ros_tf.dir/src/transforms.cpp.o[0m
+[10.100s] [100%] [32m[1mLinking CXX shared library libpcl_ros_tf.so[0m
+[11.814s] [100%] Built target pcl_ros_tf
+[11.835s] Invoked command in '/home/terranova/uav_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/pcl_ros -- -j4 -l4
+[12.014s] Invoking command in '/home/terranova/uav_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/pcl_ros
+[12.097s] -- Install configuration: ""
+[12.098s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include
+[12.098s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros
+[12.099s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/surface
+[12.099s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/surface/convex_hull.hpp
+[12.100s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/surface/moving_least_squares.hpp
+[12.101s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/impl
+[12.102s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/impl/transforms.hpp
+[12.103s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/segmentation
+[12.103s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/segmentation/extract_polygonal_prism_data.hpp
+[12.104s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/segmentation/segment_differences.hpp
+[12.105s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/segmentation/sac_segmentation.hpp
+[12.106s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/segmentation/extract_clusters.hpp
+[12.107s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/point_cloud.hpp
+[12.108s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/pcl_nodelet.hpp
+[12.108s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/io
+[12.109s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/io/bag_io.hpp
+[12.110s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/io/concatenate_data.hpp
+[12.111s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/io/concatenate_fields.hpp
+[12.111s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/io/pcd_io.hpp
+[12.113s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters
+[12.113s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/filter.hpp
+[12.114s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/statistical_outlier_removal.hpp
+[12.115s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/voxel_grid.hpp
+[12.116s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/radius_outlier_removal.hpp
+[12.117s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/project_inliers.hpp
+[12.117s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/crop_box.hpp
+[12.118s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/passthrough.hpp
+[12.118s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/filters/extract_indices.hpp
+[12.119s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features
+[12.120s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/principal_curvatures.hpp
+[12.121s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/normal_3d_tbb.hpp
+[12.122s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/vfh.hpp
+[12.123s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/shot_omp.hpp
+[12.124s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/boundary.hpp
+[12.124s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/shot.hpp
+[12.125s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/fpfh.hpp
+[12.126s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/normal_3d_omp.hpp
+[12.126s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/normal_3d.hpp
+[12.127s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/pfh.hpp
+[12.128s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/feature.hpp
+[12.128s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/moment_invariants.hpp
+[12.129s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/features/fpfh_omp.hpp
+[12.130s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/transforms.hpp
+[12.131s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/include/pcl_ros/publisher.hpp
+[12.131s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/lib/libpcl_ros_tf.so
+[12.136s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_ros/lib/libpcl_ros_tf.so" to ""
+[12.136s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins
+[12.137s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet
+[12.137s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_features.xml
+[12.138s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_segmentation.xml
+[12.139s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_surface.xml
+[12.140s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_io.xml
+[12.141s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_filters.xml
+[12.141s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples
+[12.142s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/data
+[12.143s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/data/.gitignore
+[12.144s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros
+[12.144s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface
+[12.144s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface/sample_convex_hull.launch
+[12.144s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation
+[12.145s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation/sample_extract_clusters.launch
+[12.145s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io
+[12.145s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io/sample_concatenate_data.launch
+[12.146s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters
+[12.146s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_voxel_grid.launch
+[12.146s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config
+[12.146s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/statistical_outlier_removal.rviz
+[12.147s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/voxel_grid.rviz
+[12.147s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_statistical_outlier_removal.launch
+[12.148s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features
+[12.148s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features/sample_normal_3d.launch
+[12.149s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/environment/library_path.sh
+[12.149s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/environment/library_path.dsv
+[12.150s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/ament_index/resource_index/package_run_dependencies/pcl_ros
+[12.150s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/ament_index/resource_index/parent_prefix_path/pcl_ros
+[12.151s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.sh
+[12.151s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.dsv
+[12.152s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/environment/path.sh
+[12.152s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/environment/path.dsv
+[12.152s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/local_setup.bash
+[12.153s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/local_setup.sh
+[12.154s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/local_setup.zsh
+[12.154s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/local_setup.dsv
+[12.154s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/package.dsv
+[12.155s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/ament_index/resource_index/packages/pcl_ros
+[12.155s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport.cmake
+[12.156s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport-noconfig.cmake
+[12.157s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.157s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[12.157s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.158s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_targets-extras.cmake
+[12.158s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig.cmake
+[12.159s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig-version.cmake
+[12.159s] -- Installing: /home/terranova/uav_ws/install/pcl_ros/share/pcl_ros/package.xml
+[12.170s] Invoked command in '/home/terranova/uav_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/terranova/uav_ws/install/pcl_conversions:/home/terranova/uav_ws/install/pcl_msgs:/home/terranova/uav_ws/install/cartographer_ros_msgs:/home/terranova/uav_ws/install/vision_opencv:/home/terranova/uav_ws/install/uav_gazebo:/home/terranova/uav_ws/install/uav_cartographer:/home/terranova/uav_ws/install/turtlebot3:/home/terranova/uav_ws/install/turtlebot3_simulations:/home/terranova/uav_ws/install/turtlebot3_bringup:/home/terranova/uav_ws/install/turtlebot3_node:/home/terranova/uav_ws/install/turtlebot3_navigation2:/home/terranova/uav_ws/install/turtlebot3_fake_node:/home/terranova/uav_ws/install/turtlebot3_msgs:/home/terranova/uav_ws/install/turtlebot3_gazebo:/home/terranova/uav_ws/install/turtlebot3_description:/home/terranova/uav_ws/install/turtlebot3_cartographer:/home/terranova/uav_ws/install/realsense_gazebo_plugin:/home/terranova/uav_ws/install/perception_pcl:/home/terranova/uav_ws/install/pcl_ros:/home/terranova/uav_ws/install/image_geometry:/home/terranova/uav_ws/install/hls_lfcd_lds_driver:/home/terranova/uav_ws/install/gazebo_ros_pkgs:/home/terranova/uav_ws/install/gazebo_plugins:/home/terranova/uav_ws/install/gazebo_ros:/home/terranova/uav_ws/install/gazebo_msgs:/home/terranova/uav_ws/install/gazebo_dev:/home/terranova/uav_ws/install/dynamixel_sdk_examples:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces:/home/terranova/uav_ws/install/dynamixel_sdk:/home/terranova/uav_ws/install/cv_bridge:/home/terranova/uav_ws/install/absl:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/terranova/uav_ws/install/pcl_msgs/lib:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib:/home/terranova/uav_ws/install/turtlebot3_msgs/lib:/home/terranova/uav_ws/install/realsense_gazebo_plugin/lib:/home/terranova/uav_ws/install/pcl_ros/lib:/home/terranova/uav_ws/install/image_geometry/lib:/home/terranova/uav_ws/install/gazebo_plugins/lib:/home/terranova/uav_ws/install/gazebo_ros/lib:/home/terranova/uav_ws/install/gazebo_msgs/lib:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/terranova/uav_ws/install/dynamixel_sdk/lib:/home/terranova/uav_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/terranova/uav_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/opencv_tests/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/terranova/uav_ws/install/joint_state_publisher/lib/python3.8/site-packages:/home/terranova/uav_ws/install/image_geometry/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/terranova/uav_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/terranova/uav_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/terranova/uav_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/terranova/.local/bin /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/pcl_ros

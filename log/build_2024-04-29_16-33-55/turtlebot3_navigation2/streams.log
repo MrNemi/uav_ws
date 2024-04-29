@@ -1,0 +1,65 @@
+[0.044s] Invoking command in '/home/terranova/uav_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/turtlebot3/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/turtlebot3_navigation2
+[0.566s] -- The C compiler identification is GNU 9.4.0
+[0.946s] -- The CXX compiler identification is GNU 9.4.0
+[1.017s] -- Detecting C compiler ABI info
+[1.294s] -- Detecting C compiler ABI info - done
+[1.361s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.362s] -- Detecting C compile features
+[1.367s] -- Detecting C compile features - done
+[1.418s] -- Detecting CXX compiler ABI info
+[1.802s] -- Detecting CXX compiler ABI info - done
+[1.868s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.870s] -- Detecting CXX compile features
+[1.871s] -- Detecting CXX compile features - done
+[1.880s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.900s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.901s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.901s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.901s]   the cmake_policy command to set the policy and suppress this warning.
+[1.902s] 
+[1.902s] Call Stack (most recent call first):
+[1.902s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.902s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.903s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.903s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.904s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.904s]   CMakeLists.txt:10 (find_package)
+[1.904s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.904s] [0m
+[1.984s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.985s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.145s] -- Configuring done (2.9s)
+[3.153s] -- Generating done (0.0s)
+[3.159s] -- Build files have been written to: /home/terranova/uav_ws/build/turtlebot3_navigation2
+[3.185s] Invoked command in '/home/terranova/uav_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/turtlebot3/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/turtlebot3_navigation2
+[3.189s] Invoking command in '/home/terranova/uav_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[3.408s] Invoked command in '/home/terranova/uav_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[3.702s] Invoking command in '/home/terranova/uav_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/turtlebot3_navigation2
+[3.828s] -- Install configuration: ""
+[3.829s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[3.829s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[3.830s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[3.831s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[3.836s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[3.839s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[3.839s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[3.848s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[3.849s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[3.849s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[3.849s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[3.849s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[3.850s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[3.850s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[3.850s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[3.850s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[3.850s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[3.851s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[3.851s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[3.851s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[3.851s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[3.852s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[3.852s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[3.852s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[3.852s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[3.853s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[3.875s] Invoked command in '/home/terranova/uav_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/turtlebot3_navigation2

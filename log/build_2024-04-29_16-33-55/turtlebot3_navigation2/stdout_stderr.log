@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/ccache/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done (2.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/terranova/uav_ws/build/turtlebot3_navigation2
+-- Install configuration: ""
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+-- Installing: /home/terranova/uav_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml

@@ -1,0 +1,85 @@
+[0.049s] Invoking command in '/home/terranova/uav_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/utils/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/dynamixel_sdk
+[0.259s] -- The C compiler identification is GNU 9.4.0
+[0.419s] -- The CXX compiler identification is GNU 9.4.0
+[0.509s] -- Detecting C compiler ABI info
+[0.734s] -- Detecting C compiler ABI info - done
+[0.776s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.777s] -- Detecting C compile features
+[0.779s] -- Detecting C compile features - done
+[0.812s] -- Detecting CXX compiler ABI info
+[1.020s] -- Detecting CXX compiler ABI info - done
+[1.055s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.057s] -- Detecting CXX compile features
+[1.059s] -- Detecting CXX compile features - done
+[1.066s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.078s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.079s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.079s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.079s]   the cmake_policy command to set the policy and suppress this warning.
+[1.080s] 
+[1.080s] Call Stack (most recent call first):
+[1.080s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.081s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.082s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.082s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.083s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.083s]   CMakeLists.txt:18 (find_package)
+[1.083s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.085s] [0m
+[1.152s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.153s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.972s] -- Configuring done (1.8s)
+[1.986s] -- Generating done (0.0s)
+[1.990s] -- Build files have been written to: /home/terranova/uav_ws/build/dynamixel_sdk
+[2.013s] Invoked command in '/home/terranova/uav_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/utils/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/dynamixel_sdk
+[2.014s] Invoking command in '/home/terranova/uav_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/dynamixel_sdk -- -j4 -l4
+[2.195s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[2.204s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[2.236s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[2.239s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[2.280s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[2.290s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[2.325s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[2.351s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[2.356s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[2.413s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[2.647s] [100%] Built target dynamixel_sdk
+[2.671s] Invoked command in '/home/terranova/uav_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/dynamixel_sdk -- -j4 -l4
+[2.866s] Invoking command in '/home/terranova/uav_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/dynamixel_sdk
+[2.942s] -- Install configuration: ""
+[2.942s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include/
+[2.942s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk
+[2.943s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[2.943s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[2.946s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[2.947s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[2.947s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[2.947s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[2.947s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[2.948s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[2.949s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[2.950s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[2.950s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[2.951s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[2.951s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[2.951s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[2.952s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[2.953s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[2.953s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[2.954s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[2.954s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[2.954s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[2.956s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[2.956s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[2.957s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[2.957s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[2.957s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[2.958s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[2.958s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[2.963s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[2.963s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.964s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[2.964s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[2.965s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[2.965s] -- Installing: /home/terranova/uav_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[2.978s] Invoked command in '/home/terranova/uav_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/dynamixel_sdk

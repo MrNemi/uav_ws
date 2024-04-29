@@ -1,4 +1,0 @@
-Invoking command in '/home/terranova/uav_ws/build/absl': /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/absl -- -j4 -l4
-Invoked command in '/home/terranova/uav_ws/build/absl' returned '0': /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/absl -- -j4 -l4
-Invoking command in '/home/terranova/uav_ws/build/absl': /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/absl
-Invoked command in '/home/terranova/uav_ws/build/absl' returned '0': /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/absl

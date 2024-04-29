@@ -1,0 +1,42 @@
+[5.163s] Invoking command in '/home/terranova/uav_ws/src/turtlebot3/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/terranova/uav_ws/build/turtlebot3_teleop/prefix_override:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/terranova/uav_ws/build/turtlebot3_teleop/build install --record /home/terranova/uav_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[6.188s] running egg_info
+[6.190s] creating ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info
+[6.271s] writing ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[6.273s] writing dependency_links to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[6.274s] writing entry points to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[6.275s] writing requirements to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[6.277s] writing top-level names to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[6.882s] writing manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[7.075s] reading manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[7.085s] writing manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[7.086s] running build
+[7.086s] running build_py
+[7.086s] creating /home/terranova/uav_ws/build/turtlebot3_teleop/build
+[7.086s] creating /home/terranova/uav_ws/build/turtlebot3_teleop/build/lib
+[7.087s] creating /home/terranova/uav_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[7.087s] copying turtlebot3_teleop/__init__.py -> /home/terranova/uav_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[7.087s] creating /home/terranova/uav_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[7.090s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/terranova/uav_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[7.090s] copying turtlebot3_teleop/script/__init__.py -> /home/terranova/uav_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[7.102s] running install
+[7.139s] running install_lib
+[7.263s] creating /home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop
+[7.263s] copying /home/terranova/uav_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop
+[7.263s] creating /home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[7.263s] copying /home/terranova/uav_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[7.264s] copying /home/terranova/uav_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[7.267s] byte-compiling /home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-38.pyc
+[7.267s] byte-compiling /home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-38.pyc
+[7.271s] byte-compiling /home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-38.pyc
+[7.273s] running install_data
+[7.277s] creating /home/terranova/uav_ws/install/turtlebot3_teleop/share/ament_index
+[7.277s] creating /home/terranova/uav_ws/install/turtlebot3_teleop/share/ament_index/resource_index
+[7.277s] creating /home/terranova/uav_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[7.277s] copying resource/turtlebot3_teleop -> /home/terranova/uav_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[7.278s] copying package.xml -> /home/terranova/uav_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[7.278s] running install_egg_info
+[7.376s] Copying ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-2.1.4-py3.8.egg-info
+[7.379s] running install_scripts
+[7.624s] Installing teleop_keyboard script to /home/terranova/uav_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[7.625s] writing list of installed files to '/home/terranova/uav_ws/build/turtlebot3_teleop/install.log'
+[7.701s] Invoked command in '/home/terranova/uav_ws/src/turtlebot3/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/terranova/uav_ws/build/turtlebot3_teleop/prefix_override:/home/terranova/uav_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/terranova/uav_ws/build/turtlebot3_teleop/build install --record /home/terranova/uav_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data

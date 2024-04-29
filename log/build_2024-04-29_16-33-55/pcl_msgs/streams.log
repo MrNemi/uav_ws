@@ -1,0 +1,389 @@
+[0.057s] Invoking command in '/home/terranova/uav_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/pcl_msgs -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/pcl_msgs
+[0.784s] -- The C compiler identification is GNU 9.4.0
+[1.179s] -- The CXX compiler identification is GNU 9.4.0
+[1.312s] -- Detecting C compiler ABI info
+[1.846s] -- Detecting C compiler ABI info - done
+[1.901s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.904s] -- Detecting C compile features
+[1.906s] -- Detecting C compile features - done
+[1.986s] -- Detecting CXX compiler ABI info
+[2.497s] -- Detecting CXX compiler ABI info - done
+[2.584s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[2.585s] -- Detecting CXX compile features
+[2.586s] -- Detecting CXX compile features - done
+[2.608s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.643s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[2.643s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.643s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.643s]   the cmake_policy command to set the policy and suppress this warning.
+[2.643s] 
+[2.644s] Call Stack (most recent call first):
+[2.644s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[2.644s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[2.644s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.644s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.645s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.645s]   CMakeLists.txt:13 (find_package)
+[2.645s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.645s] [0m
+[2.788s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.788s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.522s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.678s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.493s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.700s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.537s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.734s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[7.735s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.735s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.735s]   the cmake_policy command to set the policy and suppress this warning.
+[7.735s] 
+[7.735s] Call Stack (most recent call first):
+[7.736s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[7.736s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[7.736s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.736s] [0m
+[7.886s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[9.004s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[9.020s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[9.039s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[9.049s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[10.993s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.959s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.033s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[12.033s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[12.033s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[12.034s]   the cmake_policy command to set the policy and suppress this warning.
+[12.034s] 
+[12.034s] Call Stack (most recent call first):
+[12.034s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[12.035s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[12.035s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[12.035s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[12.035s] [0m
+[12.146s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[12.160s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[12.161s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[12.161s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[12.161s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[12.161s]   the cmake_policy command to set the policy and suppress this warning.
+[12.162s] 
+[12.162s] Call Stack (most recent call first):
+[12.162s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[12.162s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[12.163s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[12.163s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[12.163s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[12.163s] [0m
+[12.267s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[12.267s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[12.267s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[12.267s]   the cmake_policy command to set the policy and suppress this warning.
+[12.268s] 
+[12.268s] Call Stack (most recent call first):
+[12.268s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[12.268s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[12.268s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[12.268s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[12.269s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[12.269s] [0m
+[12.297s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[12.298s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.298s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[12.299s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[12.446s] -- Found PythonExtra: .so  
+[13.795s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[13.803s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[13.877s] -- Configuring done (13.6s)
+[14.296s] -- Generating done (0.4s)
+[14.318s] -- Build files have been written to: /home/terranova/uav_ws/build/pcl_msgs
+[14.380s] Invoked command in '/home/terranova/uav_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/pcl_msgs -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/pcl_msgs
+[14.382s] Invoking command in '/home/terranova/uav_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/pcl_msgs -- -j4 -l4
+[14.729s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[14.762s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[17.551s] [  3%] Built target pcl_msgs__cpp
+[17.590s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.591s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.617s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.255s] [  9%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_c.dir/rosidl_generator_c/pcl_msgs/msg/detail/model_coefficients__functions.c.o[0m
+[18.312s] [ 11%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_c.dir/rosidl_generator_c/pcl_msgs/msg/detail/point_indices__functions.c.o[0m
+[18.385s] [ 12%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_c.dir/rosidl_generator_c/pcl_msgs/msg/detail/polygon_mesh__functions.c.o[0m
+[18.459s] [ 14%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_c.dir/rosidl_generator_c/pcl_msgs/msg/detail/vertices__functions.c.o[0m
+[18.546s] [ 15%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_c.dir/rosidl_generator_c/pcl_msgs/srv/detail/update_filename__functions.c.o[0m
+[18.616s] [ 17%] [32m[1mLinking C shared library libpcl_msgs__rosidl_generator_c.so[0m
+[18.823s] [ 17%] Built target pcl_msgs__rosidl_generator_c
+[18.895s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[20.451s] [ 20%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pcl_msgs/msg/model_coefficients__type_support.cpp.o[0m
+[20.559s] [ 22%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pcl_msgs/msg/point_indices__type_support.cpp.o[0m
+[20.657s] [ 23%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pcl_msgs/msg/polygon_mesh__type_support.cpp.o[0m
+[20.768s] [ 25%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pcl_msgs/msg/vertices__type_support.cpp.o[0m
+[20.781s] [ 26%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pcl_msgs/msg/detail/model_coefficients__type_support.cpp.o[0m
+[20.888s] [ 28%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pcl_msgs/srv/update_filename__type_support.cpp.o[0m
+[20.889s] [ 30%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pcl_msgs/msg/detail/point_indices__type_support.cpp.o[0m
+[20.961s] [ 31%] [32m[1mLinking CXX shared library libpcl_msgs__rosidl_typesupport_cpp.so[0m
+[20.984s] [ 33%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pcl_msgs/msg/detail/polygon_mesh__type_support.cpp.o[0m
+[21.098s] [ 34%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pcl_msgs/msg/detail/vertices__type_support.cpp.o[0m
+[21.195s] [ 36%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pcl_msgs/srv/detail/update_filename__type_support.cpp.o[0m
+[21.223s] [ 38%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pcl_msgs/msg/detail/dds_fastrtps/model_coefficients__type_support.cpp.o[0m
+[21.266s] [ 39%] [32m[1mLinking CXX shared library libpcl_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[21.306s] [ 39%] Built target pcl_msgs__rosidl_typesupport_cpp
+[21.331s] [ 41%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pcl_msgs/msg/detail/dds_fastrtps/point_indices__type_support.cpp.o[0m
+[21.479s] [ 42%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[21.637s] [ 42%] Built target pcl_msgs__rosidl_typesupport_introspection_cpp
+[21.650s] [ 44%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pcl_msgs/msg/detail/dds_fastrtps/polygon_mesh__type_support.cpp.o[0m
+[21.781s] [ 46%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pcl_msgs/msg/detail/dds_fastrtps/vertices__type_support.cpp.o[0m
+[21.893s] [ 49%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pcl_msgs/srv/detail/dds_fastrtps/update_filename__type_support.cpp.o[0m
+[21.900s] [ 50%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pcl_msgs/msg/detail/point_indices__type_support.c.o[0m
+[21.905s] [ 50%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pcl_msgs/msg/detail/model_coefficients__type_support.c.o[0m
+[21.995s] [ 52%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pcl_msgs/msg/detail/polygon_mesh__type_support.c.o[0m
+[21.998s] [ 53%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pcl_msgs/msg/detail/vertices__type_support.c.o[0m
+[22.018s] [ 55%] [32m[1mLinking CXX shared library libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.071s] [ 57%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pcl_msgs/srv/detail/update_filename__type_support.c.o[0m
+[22.134s] [ 58%] [32m[1mLinking C shared library libpcl_msgs__rosidl_typesupport_introspection_c.so[0m
+[22.387s] [ 58%] Built target pcl_msgs__rosidl_typesupport_introspection_c
+[22.658s] [ 58%] Built target pcl_msgs__rosidl_typesupport_fastrtps_cpp
+[22.727s] [ 60%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.705s] [ 61%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pcl_msgs/msg/point_indices__type_support.cpp.o[0m
+[23.751s] [ 63%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pcl_msgs/msg/model_coefficients__type_support.cpp.o[0m
+[23.759s] [ 65%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pcl_msgs/msg/polygon_mesh__type_support.cpp.o[0m
+[23.808s] [ 66%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pcl_msgs/msg/vertices__type_support.cpp.o[0m
+[23.837s] [ 68%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pcl_msgs/srv/update_filename__type_support.cpp.o[0m
+[23.959s] [ 69%] [32m[1mLinking CXX shared library libpcl_msgs__rosidl_typesupport_c.so[0m
+[24.303s] [ 69%] Built target pcl_msgs__rosidl_typesupport_c
+[25.826s] [ 71%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pcl_msgs/msg/detail/model_coefficients__type_support_c.cpp.o[0m
+[25.905s] [ 73%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pcl_msgs/msg/detail/vertices__type_support_c.cpp.o[0m
+[25.958s] [ 74%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pcl_msgs/srv/detail/update_filename__type_support_c.cpp.o[0m
+[26.079s] [ 76%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pcl_msgs/msg/detail/polygon_mesh__type_support_c.cpp.o[0m
+[26.158s] [ 77%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pcl_msgs/msg/detail/point_indices__type_support_c.cpp.o[0m
+[26.247s] [ 79%] [32m[1mLinking CXX shared library libpcl_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[26.926s] [ 79%] Built target pcl_msgs__rosidl_typesupport_fastrtps_c
+[27.013s] [ 79%] Built target pcl_msgs
+[27.099s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[32.582s] [ 80%] Built target pcl_msgs__py
+[32.699s] [ 82%] [32mBuilding C object CMakeFiles/pcl_msgs__python.dir/rosidl_generator_py/pcl_msgs/msg/_model_coefficients_s.c.o[0m
+[32.827s] [ 84%] [32mBuilding C object CMakeFiles/pcl_msgs__python.dir/rosidl_generator_py/pcl_msgs/msg/_vertices_s.c.o[0m
+[32.902s] [ 85%] [32mBuilding C object CMakeFiles/pcl_msgs__python.dir/rosidl_generator_py/pcl_msgs/srv/_update_filename_s.c.o[0m
+[32.990s] [ 87%] [32mBuilding C object CMakeFiles/pcl_msgs__python.dir/rosidl_generator_py/pcl_msgs/msg/_polygon_mesh_s.c.o[0m
+[33.082s] [ 88%] [32mBuilding C object CMakeFiles/pcl_msgs__python.dir/rosidl_generator_py/pcl_msgs/msg/_point_indices_s.c.o[0m
+[33.160s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/pcl_msgs/libpcl_msgs__python.so[0m
+[33.382s] [ 90%] Built target pcl_msgs__python
+[33.452s] [ 92%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[33.505s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/pcl_msgs/pcl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[33.775s] [ 93%] Built target pcl_msgs__rosidl_typesupport_fastrtps_c__pyext
+[33.845s] [ 95%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[33.900s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/pcl_msgs/pcl_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[34.017s] [ 96%] Built target pcl_msgs__rosidl_typesupport_c__pyext
+[34.057s] [ 98%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[34.093s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pcl_msgs/pcl_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[34.266s] [100%] Built target pcl_msgs__rosidl_typesupport_introspection_c__pyext
+[34.304s] Invoked command in '/home/terranova/uav_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/pcl_msgs -- -j4 -l4
+[35.191s] Invoking command in '/home/terranova/uav_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/pcl_msgs
+[35.342s] -- Install configuration: ""
+[35.343s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/ament_index/resource_index/rosidl_interfaces/pcl_msgs
+[35.343s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs
+[35.347s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg
+[35.348s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/rosidl_generator_c__visibility_control.h
+[35.350s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/vertices.h
+[35.354s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/polygon_mesh.h
+[35.357s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/model_coefficients.h
+[35.362s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail
+[35.364s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__type_support.h
+[35.368s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__functions.c
+[35.371s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__struct.h
+[35.374s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__type_support.h
+[35.376s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__functions.h
+[35.378s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__struct.h
+[35.380s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__functions.c
+[35.383s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__struct.h
+[35.384s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__functions.h
+[35.386s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__functions.c
+[35.388s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__type_support.h
+[35.391s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__functions.h
+[35.394s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__type_support.h
+[35.395s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__struct.h
+[35.398s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__functions.h
+[35.399s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__functions.c
+[35.399s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/point_indices.h
+[35.400s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv
+[35.405s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/update_filename.h
+[35.405s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail
+[35.406s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__functions.h
+[35.407s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__type_support.h
+[35.407s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__functions.c
+[35.409s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__struct.h
+[35.410s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/environment/library_path.sh
+[35.410s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/environment/library_path.dsv
+[35.411s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_generator_c.so
+[35.412s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_generator_c.so" to ""
+[35.412s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs
+[35.412s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg
+[35.413s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[35.413s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail
+[35.413s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_fastrtps_c.h
+[35.414s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__rosidl_typesupport_fastrtps_c.h
+[35.414s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_fastrtps_c.h
+[35.414s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_fastrtps_c.h
+[35.414s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv
+[35.414s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail
+[35.415s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_fastrtps_c.h
+[35.415s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_fastrtps_c.so
+[35.427s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[35.428s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs
+[35.428s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg
+[35.428s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[35.428s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail
+[35.429s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__rosidl_typesupport_fastrtps_cpp.hpp
+[35.429s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/dds_fastrtps
+[35.429s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_fastrtps_cpp.hpp
+[35.429s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_fastrtps_cpp.hpp
+[35.430s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[35.430s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv
+[35.430s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail
+[35.430s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/dds_fastrtps
+[35.438s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_fastrtps_cpp.hpp
+[35.439s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so
+[35.440s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[35.440s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs
+[35.441s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg
+[35.441s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail
+[35.441s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__type_support.c
+[35.441s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_introspection_c.h
+[35.442s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__rosidl_typesupport_introspection_c.h
+[35.442s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_introspection_c.h
+[35.442s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__type_support.c
+[35.442s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__type_support.c
+[35.443s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__type_support.c
+[35.443s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_introspection_c.h
+[35.450s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[35.451s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv
+[35.451s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail
+[35.451s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_introspection_c.h
+[35.451s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__type_support.c
+[35.452s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_introspection_c.so
+[35.452s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_introspection_c.so" to ""
+[35.452s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_c.so
+[35.453s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_c.so" to ""
+[35.453s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs
+[35.453s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg
+[35.454s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/polygon_mesh.hpp
+[35.454s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/model_coefficients.hpp
+[35.454s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/vertices.hpp
+[35.454s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/point_indices.hpp
+[35.455s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[35.471s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail
+[35.471s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__type_support.hpp
+[35.471s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__builder.hpp
+[35.472s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__builder.hpp
+[35.472s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__builder.hpp
+[35.472s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__type_support.hpp
+[35.472s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__struct.hpp
+[35.473s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__traits.hpp
+[35.473s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__struct.hpp
+[35.473s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__type_support.hpp
+[35.473s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__traits.hpp
+[35.474s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__traits.hpp
+[35.474s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__builder.hpp
+[35.474s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__struct.hpp
+[35.474s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__type_support.hpp
+[35.475s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__struct.hpp
+[35.475s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__traits.hpp
+[35.475s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv
+[35.475s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/update_filename.hpp
+[35.476s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail
+[35.476s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__builder.hpp
+[35.476s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__struct.hpp
+[35.476s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__traits.hpp
+[35.477s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__type_support.hpp
+[35.477s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs
+[35.477s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg
+[35.477s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail
+[35.477s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__rosidl_typesupport_introspection_cpp.hpp
+[35.491s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_introspection_cpp.hpp
+[35.491s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__type_support.cpp
+[35.492s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/point_indices__type_support.cpp
+[35.492s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__type_support.cpp
+[35.493s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/vertices__type_support.cpp
+[35.493s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_introspection_cpp.hpp
+[35.494s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_introspection_cpp.hpp
+[35.499s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv
+[35.499s] -- Up-to-date: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail
+[35.499s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__type_support.cpp
+[35.500s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/include/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_introspection_cpp.hpp
+[35.501s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_introspection_cpp.so
+[35.502s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[35.503s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_cpp.so
+[35.504s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_cpp.so" to ""
+[35.504s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/environment/pythonpath.sh
+[35.506s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/environment/pythonpath.dsv
+[35.507s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/__init__.py
+[35.640s] Compiling '/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/__init__.py'...
+[35.649s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/msg
+[35.650s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/msg/_vertices_s.c
+[35.651s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/msg/_vertices.py
+[35.652s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/msg/_point_indices.py
+[35.652s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/msg/_point_indices_s.c
+[35.653s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/msg/_model_coefficients.py
+[35.654s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/msg/_polygon_mesh_s.c
+[35.654s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/msg/_model_coefficients_s.c
+[35.655s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/msg/__init__.py
+[35.655s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/msg/_polygon_mesh.py
+[35.656s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/srv
+[35.657s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/srv/_update_filename_s.c
+[35.657s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/srv/__init__.py
+[35.658s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/srv/_update_filename.py
+[35.660s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[35.661s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[35.662s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[35.663s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[35.664s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[35.665s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_msgs/lib/python3.8/site-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[35.666s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__python.so
+[35.667s] -- Set non-toolchain portion of runtime path of "/home/terranova/uav_ws/install/pcl_msgs/lib/libpcl_msgs__python.so" to ""
+[35.668s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/msg/ModelCoefficients.idl
+[35.669s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/msg/PointIndices.idl
+[35.669s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/msg/PolygonMesh.idl
+[35.670s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/msg/Vertices.idl
+[35.671s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename.idl
+[35.672s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/msg/ModelCoefficients.msg
+[35.672s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/msg/PointIndices.msg
+[35.679s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/msg/PolygonMesh.msg
+[35.680s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/msg/Vertices.msg
+[35.681s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename.srv
+[35.682s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename_Request.msg
+[35.686s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename_Response.msg
+[35.687s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/ament_index/resource_index/package_run_dependencies/pcl_msgs
+[35.688s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/ament_index/resource_index/parent_prefix_path/pcl_msgs
+[35.689s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/environment/ament_prefix_path.sh
+[35.689s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/environment/ament_prefix_path.dsv
+[35.690s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/environment/path.sh
+[35.691s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/environment/path.dsv
+[35.692s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/local_setup.bash
+[35.692s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/local_setup.sh
+[35.693s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/local_setup.zsh
+[35.696s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/local_setup.dsv
+[35.697s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/package.dsv
+[35.698s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/ament_index/resource_index/packages/pcl_msgs
+[35.699s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_generator_cExport.cmake
+[35.701s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_generator_cExport-noconfig.cmake
+[35.701s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cExport.cmake
+[35.702s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[35.703s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cExport.cmake
+[35.703s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[35.704s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_generator_cppExport.cmake
+[35.705s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[35.705s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[35.706s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cppExport.cmake
+[35.707s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[35.708s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/rosidl_cmake-extras.cmake
+[35.709s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.710s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[35.711s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[35.712s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.712s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[35.713s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[35.714s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgsConfig.cmake
+[35.714s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgsConfig-version.cmake
+[35.715s] -- Installing: /home/terranova/uav_ws/install/pcl_msgs/share/pcl_msgs/package.xml
+[35.736s] Invoked command in '/home/terranova/uav_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/pcl_msgs

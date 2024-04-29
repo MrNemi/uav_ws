@@ -1,0 +1,76 @@
+[0.035s] Invoking command in '/home/terranova/uav_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/turtlebot3/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/turtlebot3_description
+[0.249s] -- The C compiler identification is GNU 9.4.0
+[0.506s] -- The CXX compiler identification is GNU 9.4.0
+[0.634s] -- Detecting C compiler ABI info
+[0.907s] -- Detecting C compiler ABI info - done
+[0.993s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.994s] -- Detecting C compile features
+[0.996s] -- Detecting C compile features - done
+[1.078s] -- Detecting CXX compiler ABI info
+[1.505s] -- Detecting CXX compiler ABI info - done
+[1.571s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.572s] -- Detecting CXX compile features
+[1.573s] -- Detecting CXX compile features - done
+[1.592s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.625s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.625s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.625s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.625s]   the cmake_policy command to set the policy and suppress this warning.
+[1.625s] 
+[1.626s] Call Stack (most recent call first):
+[1.626s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.626s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.626s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.626s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.627s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.627s]   CMakeLists.txt:18 (find_package)
+[1.627s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.627s] [0m
+[1.691s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.691s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.420s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[2.889s] -- Configuring done (2.8s)
+[2.925s] -- Generating done (0.0s)
+[2.936s] -- Build files have been written to: /home/terranova/uav_ws/build/turtlebot3_description
+[2.971s] Invoked command in '/home/terranova/uav_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake /home/terranova/uav_ws/src/turtlebot3/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/terranova/uav_ws/install/turtlebot3_description
+[2.972s] Invoking command in '/home/terranova/uav_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/turtlebot3_description -- -j4 -l4
+[3.087s] Invoked command in '/home/terranova/uav_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --build /home/terranova/uav_ws/build/turtlebot3_description -- -j4 -l4
+[3.451s] Invoking command in '/home/terranova/uav_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/turtlebot3_description
+[3.615s] -- Install configuration: ""
+[3.615s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes
+[3.617s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases
+[3.617s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[3.681s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[3.843s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[3.907s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors
+[3.907s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[3.914s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[3.917s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[3.990s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[3.990s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[3.991s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels
+[3.992s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[4.002s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[4.012s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/rviz
+[4.012s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[4.013s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/urdf
+[4.013s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[4.013s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[4.014s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[4.015s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[4.015s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[4.016s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[4.017s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[4.018s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[4.018s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[4.018s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[4.019s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[4.019s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[4.019s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[4.020s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[4.020s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[4.021s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[4.021s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[4.021s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[4.022s] -- Installing: /home/terranova/uav_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[4.040s] Invoked command in '/home/terranova/uav_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terranova/uav_ws/install/turtlebot3_teleop:/home/terranova/uav_ws/install/turtlebot3_example:/home/terranova/uav_ws/install/opencv_tests:/home/terranova/uav_ws/install/joint_state_publisher_gui:/home/terranova/uav_ws/install/joint_state_publisher:/opt/ros/foxy /home/terranova/.local/bin/cmake --install /home/terranova/uav_ws/build/turtlebot3_description
