@@ -1,4 +1,0 @@
-source;share/uav_cartographer/local_setup.bash
-source;share/uav_cartographer/local_setup.dsv
-source;share/uav_cartographer/local_setup.sh
-source;share/uav_cartographer/local_setup.zsh
